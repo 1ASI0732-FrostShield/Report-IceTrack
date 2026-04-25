@@ -19,17 +19,18 @@
  
 | <div style="width:500px">Alumno</div> | <div style="width:200px">Código</div> |
 | :-----------------------------------: | :-----------------------------------: |
-|   Galindo Montero, Alejandro Manuel   |              u202321264               |
+|   Quijada Magro, Jeremy Alexander     |              u202219657               |
 |     Guillen Galindo, Julio Adolfo     |              u20241a352               |
-|   La Madrid Lozano, Ivan Jeanpierre   |              u202113432               |
-|       Nanfuñay Liza, Pedro Jesus      |              u202215462               |
-|     Ramirez Cabrera, Kenyi Efrain     |              u202220138               |
+|   G, Gianmarco   |              u               |
+|       M, Marcia      |              u               |
+|     L, Javier     |              u               |
+|     L, Gabriel     |              u               |
 
 </div>
 
 <br>
 
-   <h3>Diciembre 2025</h3>
+   <h3>Abril 2026</h3>
 
 </div>
 
@@ -39,17 +40,8 @@
  
 | Versión | Fecha      | Autor             | Descripción de modificación                        	|
 | :-----: | :--------: | :---------------: | :----------------------------------------------------- |
-| 0.1     | 13/09/2025 | Kenyi Ramírez     | Elaboración de la estructura inicial del reporte   	|
-| 0.2     | 13/09/2025 | Alejandro Galindo | Desarrollo del Capitulo I                          	|
-| 0.3     | 14/09/2025 | Julio Guillen     | Desarrollo del Capitulo III                        	|
-| 0.4     | 15/09/2025 | Ivan Lozano       | Desarrollo del Capitulo II                         	|
-| 0.5     | 18/09/2025 | Pedro Nanfuñay    | Desarrollo del Capitulo IV                         	|
-| 0.6     | 11/10/2025 | FrostShield       | Desarrollo del Capitulo V, Landing Page y Frontend 	|
-| 0.7     | 16/11/2025 | Kenyi Ramírez     | Pull Request del projecto                          	|
-| 0.8     | 16/11/2025 | FrostShield       | Desarrollo del Capitulo V, Frontend y BackEnd     		|
-| 0.9     | 03/12/2025 | Kenyi Ramírez     | Desarrollo Frontend para el segundo segmento objetivo  |
-| 1.0     | 03/12/2025 | Alejandro Galindo | Desarrollo del nuevo C4 e historias de usuario 		|
 | 1.1     | 03/12/2025 | Julio Guillen     | Desarrollo BackEnd para Assets-Management y Monitoring |
+| 1.2     | 04/12/2025 | Jeremy Quijada    | Refactorizacion de la aplicación                       |
 
 </div>
 
@@ -241,8 +233,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico                                                                             | Acciones realizadas                                                      | Conclusiones                   |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | <ul><li><b>Galindo Montero, Alejandro Manuel</b> <br> <b>TB1</b>: Durante el proyecto participé de manera activa en la coordinación del equipo y la organización de tareas y la búsqueda conjunta de soluciones para cumplir con los objetivos establecidos. <br> <b>TP1</b>: Durante el desarrollo de esta entrega, apoyé a mis compañeros en la realización de diversas tareas y en la resolución de dudas. Asimismo, corregí secciones de la TB1 como User Stories y Product Backlog, y colaboré en el desarrollo del Sprint 2 y del capítulo 5, promoviendo el liderazgo compartido dentro del grupo. <br> <b>TB2</b>: A nivel backend, brindé soporte en la revisión de la estructura general de los endpoints, validando la coherencia entre controladores, servicios y modelos. Además, participé en discusiones técnicas para asegurar que el diseño de la API se mantuviera escalable y alineado con las necesidades del sistema. <br> <b>TF</b>: Participé activamente en la coordinación del despliegue del backend en el servidor seleccionado. Además, colaboré en la integración con el frontend verificando que las rutas de la API fueran consumidas correctamente desde la aplicación web. </li><li><b>Guillen Galindo, Julio Adolfo</b> <br> <b>TB1</b>: Durante el desarrollo del trabajo, he colaborado de forma continua en la parte del capitulo IV, mostrando soluciones apropiados a las especificaciones necesarias de cada parte. <br> <b>TP1</b>: Participé en la elaboración y mejora de los wireframes, optimizando la experiencia del usuario y facilitando la comunicación entre los miembros del equipo de diseño y desarrollo. <br> <b>TB2</b>: En el ámbito backend, contribuí con observaciones relacionadas a la lógica de negocio y la estructura de datos necesaria para implementar las funcionalidades propuestas. Brindé recomendaciones sobre la organización de los endpoints para mantener un backend modular y mantenible. <br> <b>TF</b>: Contribuí a la integración final entre frontend y backend revisando las solicitudes HTTP y asegurando que los datos enviados y recibidos coincidieran con lo esperado por la interfaz. Además, asistí en pruebas funcionales tras el despliegue para verificar que el frontend consumiera adecuadamente la API desplegada. </li><li><b>La Madrid Lozano, Ivan Jeanpierre</b> <br> <b>TB1</b>: He colaborado en equipo en lso principales canales de comunicación como whatsapp y discord. También estuve presente en las distintas reuniones y trabajado colaborativamente. <br> <b>TP1</b>: Organicé las tareas pendientes del equipo para definir su correcta distribución entre los integrantes, contribuyendo a mantener la eficiencia y el cumplimiento de los plazos establecidos. <br> <b>TB2</b>: Desde el enfoque backend, apoyé en la definición de las rutas principales y en la validación de los esquemas base para los controladores. También coordiné con el equipo para asegurar consistencia entre los documentos técnicos (diagramas y estructura de clases) y la implementación futura del servidor <br> <b>TF</b>: Apoyé en el despliegue del backend asegurando que el repositorio estuviera correctamente estructurado para producción, facilitando la conexión desde el frontend hacia el backend en el entorno final. </li><li><b>Nanfuñay Liza, Pedro Jesus</b> <br> <b>TB1</b>: Durante el desarrollo del presente proyecto, participé activamente en las reuniones y toma de decisiones del equipo. Así mismo, contribuí a la coordinación de tareas y propuesta de soluciones, demostrando capacidad de liderazgo de forma colaborativa y responsabilidad con el desarrollo del proyecto y del equipo. <br> <b>TP1</b>: Realicé la identificación de fallas y observaciones dentro del proyecto, asegurando la mejora continua del trabajo en equipo. <br> <b>TB2</b>: Con respecto al backend, realicé observaciones sobre la estructura del modelo de datos, proponiendo ajustes para mejorar la integridad y relación entre entidades. Además, participé en la identificación de potenciales flujos críticos donde la API debe manejar validaciones adicionales. <br> <b>TF</b>: Participé en la revisión del proceso de despliegue backend, verificando que los servicios estuvieran correctamente levantados y que la API respondiera sin errores. También realicé pruebas desde el frontend para confirmar que la comunicación cliente-servidor estuviera correctamente implementada en producción. <li><b>Ramirez Cabrera, Kenyi Efrain</b> <br> <b>TB1</b>: A lo largo del desarrollo, colaboré en la organización de las tareas y en la generación de propuestas para resolver problemas, mostrando liderazgo colaborativo y compromiso tanto con el progreso del proyecto como con el crecimiento del equipo. <br> <b>TP1</b>: Participé activamente en las reuniones de coordinación, colaborando en la toma de decisiones junto con mis compañeros y reforzando la comunicación y el liderazgo compartido del grupo. <br> <b>TB2</b>: En cuanto al backend, apoyé en la definición y actualización del diagrama de clases y la estructura de la base de datos, asegurando que el backend mantenga cohesión con los requerimientos funcionales. También facilité discusiones para definir responsabilidades entre módulos backend. <br> <b>TF</b>: Colaboré en la configuración y despliegue del backend, asegurando que la estructura de la base de datos fuera compatible con el entorno productivo. También apoyé en la conexión del frontend a la API, verificando que las rutas y respuestas se adecuaran a los requerimientos funcionales finales. </ul> | <ul><li><b>TB1</b>: Como equipo logramos identificar y desarrollar ideas de negocio; realizamos entrevistas y construimos modelos de los capitulos, con el fin de obtener una visión más precisa sobre cómo funcionará el software. <br> </li><li><b>TP1</b>: El liderazgo fue ejercido de manera colaborativa entre los miembros del equipo, promoviendo la organización, la comunicación constante y el cumplimiento de los objetivos planteados. <br> </li><li><b>TB2</b>: En el aspecto backend, el equipo demostró liderazgo compartido al coordinar decisiones técnicas relacionadas con la estructura de la API, los modelos de datos y la organización de módulos. Cada integrante aportó desde su rol para mantener coherencia en la arquitectura, promover buenas prácticas y alinear el diseño backend con los objetivos funcionales del sistema. <br> <b>TF</b>: Como equipo, logramos desplegar el backend en un entorno accesible externamente, configurando correctamente la base de datos, las variables de entorno y la API. Posteriormente, integramos el frontend conectándolo a los endpoints ya operativos, asegurando comunicación estable entre ambas partes. El equipo demostró liderazgo compartido al gestionar en conjunto pruebas, correcciones y validaciones finales para garantizar el funcionamiento completo del sistema en producción. </li></ul> |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Galindo Montero, Alejandro Manuel</b> <br> <b>TB1</b>: Empleeé una organización para estructurar y gestionar las tareas de forma colaborativa, priorizando actividades según los plazos planificados, para maximizar la eficiencia del equipo y el cumplimiento de metas. <br><b>TP1</b>: Diseñé el formato de organización en Trello y, junto con mi equipo, definí los bounded contexts de la aplicación web. Además, destaqué observaciones y puntos de mejora para optimizar la planificación del proyecto. <br> <b>TB2</b>: Para el backend, colaboré revisando la separación de responsabilidades en los contextos y asegurando que los módulos backend tuvieran límites claros y coherentes con la arquitectura planificada. <br> <b>TF</b>: Apoyé en la planificación del despliegue final, verificando que el backend funcionara correctamente en el servidor y que el frontend estuviera configurado para consumir la nueva URL base de la API. Realicé pruebas de integración asegurando una comunicación adecuada entre ambos entornos. </li><li><b>Guillen Galindo, Julio Adolfo</b> <br> <b>TB1</b>: Organize mi timepo apra realizar lapropuesta de trabajo, ademas de organizar entrevistas que eran un requerimiento en los objetivos a realizar. <br> <b>TP1</b>: Desarrollé prototipos visuales y mockups interactivos que facilitaron la comunicación entre el equipo de diseño y el desarrollo frontend, contribuyendo a la alineación de los objetivos visuales del producto. <br> <b>TB2</b>: Brindé aportes generales sobre cómo las vistas propuestas debían conectarse con los endpoints del backend, identificando qué datos serían necesarios y anticipando posibles validaciones desde la API. <br> <b>TF</b>: Revisé la interfaz para ajustar las llamadas al backend ya desplegado, asegurando que el frontend enviara correctamente los datos. También validé los flujos de usuario para verificar que la comunicación con la API fuera fluida y sin errores. </li><li><b>La Madrid Lozano, Ivan Jeanpierre</b> <br> <b>TB1</b>: Fui responsable del diseño de los wireframes de la Landing Page y de la organización de las ramas y la estructura del repositorio en GitHub. <br> <b>TB1</b>: Fui participé en las decisiones del equipo asu como su planificación y desarrollo. Mediante aplicaicones como Trello se desplego y evidenció las distintas tareas del equipo. <br> <b>TB2</b>: Aporté al backend organizando adecuadamente las ramas del repositorio, facilitando la futura integración del backend mediante una estructura clara para desarrollo conjunto y control de versiones. <br> <b>TF</b>: Contribuí a la organización y despliegue del backend y frontend, verificando la integración mediante pruebas de conexión a los endpoints productivos. Además, aseguré que la estructura del repositorio facilitara el proceso de despliegue. </li><li><b>Nanfuñay Liza, Pedro Jesus</b><br><b>TB1</b>: Trabajé activamente en el desarrollo del proyecto mediante una organización en Github, plataforma que permite realizar avances en un entorno colaborativo para cumplir con los objetivos establecidos mediante tareas asignadas en plazos previamente planificados. <br> <b>TP1</b>: Elaboré los wireflows y userflows del proyecto, aplicando principios de diseño UX para mejorar la usabilidad y experiencia del usuario. <br> <b>TB2</b>: Desde el backend, apoyé revisando los flujos para asegurar que los endpoints requeridos fueran viables y que los datos circularan correctamente entre cliente y servidor. <br> <b>TF</b>: Participé en la validación de los flujos de datos tras el despliegue, revisando que las solicitudes del frontend coincidieran con las respuestas de la API. También ayudé en la identificación de errores y ajustes post-despliegue. </li><li><b>Ramirez Cabrera, Kenyi Efrain</b> <br> <b>TB1</b>: Participé de forma activa en el desarrollo del proyecto usando una organización en GitHub, a través de ella se gestionaron los avances, se asignaron tareas y se cumplieron los objetivos dentro de los plazos previamente establecidos. <br> <b>TP1</b>: Actualicé el Database Diagram, el Class Diagram y los Lean UX Assumptions, contribuyendo a la documentación técnica y coherencia del sistema <br> <b>TB2</b>: Apoyé al backend mediante la actualización y refinamiento del modelo de datos, asegurando que las relaciones entre entidades sean adecuadas para el funcionamiento correcto del backend y sus endpoints. <br> <b>TF</b>: Apoyé en el proceso de despliegue final verificando la correcta migración y creación de tablas en la base de datos productiva. Realicé pruebas de comunicación backend–frontend para asegurar el funcionamiento completo del sistema. </li></ul> | <ul><li><b>TB1</b>: Fomentamos un ambiente de trabajo colaborativo e inclusivo, fijamos metas claras, organizamos las tareas y alcanzamos los objetivos propuestos. <br> </li><li><b>TP1</b>: Se fortaleció un entorno colaborativo e inclusivo mediante una planificación conjunta y una comunicación efectiva. Cada integrante participó activamente en la consecución de los entregables, consolidando el compromiso del equipo y el cumplimiento de los objetivos. <br> </li><li><b>TB2</b> En relación al backend, se fortaleció un entorno colaborativo mediante la planificación conjunta de la estructura del sistema, la revisión colectiva de diagramas técnicos y la validación de los flujos de datos. Esto permitió consolidar una base backend organizada, escalable y coherente, logrando una visión unificada del desarrollo y asegurando la integración futura entre los módulos del proyecto. <br> <b>TF</b>: El equipo consolidó un entorno colaborativo logrando desplegar el backend y enlazarlo exitosamente con el frontend. Esto implicó configurar servidores, bases de datos, rutas de API y ajustar las peticiones en la interfaz. Gracias a la planificación conjunta pudimos realizar pruebas, identificar fallas y corregirlas, garantizando un sistema funcional en producción y cumpliendo los objetivos planteados. </li></ul> |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | <ul><li><b>Quijada Magro, Jeremy Alexander</b> <br> <b>TB1</b>: A <br>  </li><li><b>Guillen Galindo, Julio Adolfo</b> <br> <b>TB1</b>:A </li><li><b>Javier</b> <br> <b>TB1</b>: A </li><li><b>Gianmarco</b> <br> <b>TB1</b>: A <br> <li><b>Marcia</b> <br> <b>TB1</b>: A <br> <li><b>Gabriel</b> <br> <b>TB1</b>: A</ul> | <ul><li><b>TB1</b>: B<br> </li></ul> |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander</b> <br> <b>TB1</b>: A <br>  </li><li><b>Guillen Galindo, Julio Adolfo</b> <br> <b>TB1</b>:A </li><li><b>Javier</b> <br> <b>TB1</b>: A </li><li><b>Gianmarco</b> <br> <b>TB1</b>: A <br> <li><b>Marcia</b> <br> <b>TB1</b>: A <br> <li><b>Gabriel</b> <br> <b>TB1</b>: A</ul> | <ul><li><b>TB1</b>: B <br> </li></ul> |
 
 # Capitulo 1: Introducción
 
@@ -250,7 +242,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.1.1 Descripción de la Startup
 
-Nuestra startup ofrece una aplicación web diseñada para optimizar la gestión y el mantenimiento de equipos de refrigeración en negocios que dependen de la cadena de frío. Nuestro alcance es atender a una amplia gama de clientes, incluyendo supermercados, minimarkets, laboratorios, restaurantes y empresas de los sectores alimentario y farmacéutico. Nuestra plataforma conecta de manera fluida a estos negocios con técnicos especializados y proveedores de equipos, facilitando un enfoque integral, proactivo y automatizado para la gestión de sus sistemas de refrigeración.
+Nuestra startup ofrece una plataforma SaaS de Inteligencia de Datos para optimizar la gestión y el mantenimiento de equipos de refrigeración en negocios que dependen de la cadena de frío. Nuestra plataforma se integra con los controladores y sistemas de monitoreo ya existentes en los negocios, transformando datos aislados en decisiones estratégicas.
 Las funcionalidades clave de la plataforma incluyen el monitoreo en tiempo real de temperatura, consumo energético y tiempo de uso. Además, ofrece alertas automáticas ante fallos, informes técnicos detallados, historiales de rendimiento y programación inteligente de mantenimientos. Estas herramientas permiten a empresas, técnicos y proveedores mejorar la eficiencia operativa, prevenir costosas pérdidas por fallos inesperados y mantener un registro completo del estado y uso de sus equipos.
 
 Misión: Queremos ofrecer una solución tecnológica inteligente que ayude a las empresas a proteger su inventario y a optimizar la gestión de sus equipos de refrigeración. Al mismo tiempo, proporcionamos herramientas especializadas para mejorar la eficiencia operativa de los técnicos y proveedores del sector.
@@ -260,12 +252,12 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 <div align="center">
 
-| **Integrante**            | **Galindo Montero Alejandro Manuel**        									    |
+| **Integrante**            | **Quijada Magro Jeremy Alexander**        									    |
 | :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** | u202321264                                   										|
+| **Código del Estudiante** | u202219657                                   										|
 | **Carrera**               | Ingeniería de Software                       										|
-| **Descripción**           | Mi nombre es Alejandro Manuel Galindo Montero, tengo 20 años y curso la carrera de Ingeniería de Software. Me considero una persona creativa y responsable. En mis tiempos libres me gusta aprender cosas nuevas. En este proyecto apoyaré con todos los conocimientos que he adquirido en los últimos años.   												|
-| **Foto**                  | <img src="assets/chapter01/AlejandroGalindo.jpg" alt="" width="200" height="200"> |
+| **Descripción**           | Mi nombre es Jeremy Alexander Quijada Magro, tengo 21 años y curso la carrera de Ingeniería de Software. Me considero una persona ordenada y responsable. En mis tiempos libres me gusta aprender cosas nuevas. En este proyecto apoyaré con todos los conocimientos que he adquirido en los cursos pasados con la meta de aprender a realizar pruebas de calidad sobre este proyecto  												|
+| **Foto**                  | <img src="assets/chapter01/" alt="Jeremy" width="200" height="200"> |
 
 ---
 
@@ -278,30 +270,40 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 ---
 
-| **Integrante**            | **La Madrid Lozano, Ivan Jeanpierre**                                        	  |
+| **Integrante**            | **Gianmarco**                                        	  |
 | :------------------------ | :------------------------------------------------------------------------------ |
-| **Código del Estudiante** | u202113432																	  |
+| **Código del Estudiante** | u																	  |
 | **Carrera**               | Ingeniería de Software														  |
-| **Descripción**           | Soy un estudiante de la ingeniería de software. Actualente me gusta el desarrollo de solucines innovadores meidante la tecnología. Me encanta proponer soluciones para problemas que requieran innovación y tecnología. Ne considero alguien proactivo y colaborativo. Con entusiasmo espero aportar valor al equipo y a distintos proyectos.			  |
-| **Foto**                  | <img src="assets/chapter01/ivan_logo.jpg" alt="Ivan" width="200" height="200"> |
+| **Descripción**           | Soy 	  |
+| **Foto**                  | <img src="assets/chapter01/" alt="Gianmarco" width="200" height="200"> |
 
 ---
 
-| **Integrante**  | **Nanfuñay Liza, Pedro Jesús** |
+| **Integrante**  | **Javier** |
 |-----------------|--------------------------------|
-| **Código del Estudiante** | u202215462 |
+| **Código del Estudiante** | u |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es Pedro Jesús Nanfuñay Liza, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Me considero una persona creativa, responsable, perseverante y siempre dispuesto a trabajar en equipo. Tengo conocimientos en varios lenguajes de programación como C++, Java y Python; en el desarrollo web con frameworks Angular y Primevue, y en base de datos relacionales y no relacionales como SQL y MongoDB. Espero aportar de manera positiva al equipo y cumplir con los objetivos establecidos. |
-| **Foto** | ![Perfil-PedroNanfuñay](assets/chapter01/PerfilPedroNanfuñay.jpeg) |
+| **Descripción** | Mi nombre es  |
+| **Foto** | <img src="assets/chapter01/" alt="Javier" width="200" height="200"> |
 
 ---
 
-| **Integrante**            | **Kenyi Efrain Ramirez Cabrera**                                                    |
+| **Integrante**  | **Marcia** |
+|-----------------|--------------------------------|
+| **Código del Estudiante** | u |
+| **Carrera** | Ingeniería de Software |
+| **Descripción** | Mi nombre es  |
+| **Foto** | <img src="assets/chapter01/" alt="Marcia" width="200" height="200"> |
+
+---
+
+
+| **Integrante**            | **Gabriel**                                                    |
 | :------------------------ | :---------------------------------------------------------------------------------- |
 | **Código del Estudiante** | u202220138                                                                          |
 | **Carrera**               | Ingeniería de Software                                                              |
-| **Descripción**           | Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, Python, Java y HTML, los cuales aplico para garantizar resultados efectivos en mis tareas. 														  |
-| **Foto**                  | <img src="assets/chapter01/KenyiRamirez.jpeg" alt="Kenyi" width="200" height="200"> |
+| **Descripción**           | Soy 														  |
+| **Foto**                  | <img src="assets/chapter01/" alt="Gabriel" width="200" height="200"> |
 
 </div>
 
@@ -315,16 +317,16 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 | **When: ¿Cuándo sucede este problema?**         			  | Este problema es una amenaza constante, especialmente durante la operación continua de los negocios. Se vuelve más crítico cuando no hay técnicos disponibles para una revisión inmediata o cuando se ha descuidado el seguimiento regular del estado de los equipos.																										   		   	 |
 | **Where: ¿Dónde se produce este suceso?**      			  | El problema está presente en todo el país, afectando a negocios en diversas ciudades. Sin embargo, su impacto es particularmente notable en Lima, donde la cadena de frío es vital para sectores como la alimentación y la medicina. Las empresas de servicios que atienden a estos clientes también se ven afectadas al no tener una forma centralizada de gestionar sus operaciones. 	 |
 | **Who: ¿Quiénes están involucrados?**          			  | Este problema afecta a una amplia gama de actores. Por un lado, están los dueños y administradores de negocios que sufren las consecuencias directas de las fallas. Por otro, los técnicos y empresas de servicio que se ven obligados a responder a emergencias sin las herramientas adecuadas. 																					   	 |
-| **Why: ¿Cuál es la causa del problema?**        			  | La causa principal es la falta de herramientas tecnológicas accesibles que permitan integrar el monitoreo en tiempo real, las alertas y la programación de servicios. En la mayoría de los casos, la gestión del mantenimiento aún es manual, lo que impide una respuesta preventiva y eficiente ante cualquier anomalía. 													   				 |
+| **Why: ¿Cuál es la causa del problema?**        			  | La causa principal es la fragmentación de datos técnicos en sistemas aislados. La información crítica está atrapada en controladores que no se comunican entre sí, lo que impide una visión centralizada y obliga a los negocios a operar bajo una gestión reactiva e ineficiente, actuando solo cuando la falla ya ocurrió.									   				 |
 | **How: ¿Qué llevó a la persona a llegar a esta situación?** | La situación actual es el resultado de la gestión reactiva y la falta de digitalización. Los negocios han dependido de una estrategia de "apagar incendios", esperando a que ocurra un problema crítico para actuar. Esta mentalidad ha generado un ciclo de costos elevados, tiempos de respuesta lentos y un desgaste operativo que se podría haber evitado con una planificación adecuada. |
-| **How Much: ¿Cuánto es el impacto financiero?** 			  | El impacto económico de una falla es considerable y varía. Las pérdidas por el deterioro de productos pueden ser de cientos a miles de soles. A esto se suman los costos de las reparaciones de emergencia y el daño a largo plazo en la reputación y la confianza del cliente, lo que hace que el costo total sea mucho mayor. 																 |
+| **How Much: ¿Cuánto es el impacto financiero?** 			  | El impacto económico es devastador y multidimensional. En el mercado peruano, una falla no detectada a tiempo en una cámara de frío puede generar pérdidas de inventario de entre S/ 5,000 y S/ 50,000 en una sola noche, dependiendo del sector. A esto se suman los costos de las reparaciones de emergencia y el daño a largo plazo en la reputación y la confianza del cliente, lo que hace que el costo total sea mucho mayor. 																 |
 
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1 Lean UX Problem Statements
 
-En el sector de la refrigeración, las empresas se enfrentan a un desafío recurrente: la falta de una gestión inteligente para sus equipos. Los negocios que dependen de la cadena de frío, desde supermercados hasta laboratorios farmacéuticos, operan con un alto riesgo de pérdidas económicas y desperdicio de energía, ya que su mantenimiento es reactivo, no proactivo.
-Existe un vacío en el mercado que las soluciones actuales no han logrado llenar. No hay una plataforma que unifique la gestión y ofrezca una visibilidad completa del estado de los equipos. Esta ausencia de alertas preventivas y datos históricos dificulta la respuesta ante fallas y degrada la calidad del servicio técnico.
+En el sector de la refrigeración, las empresas se enfrentan a un desafío recurrente: la falta de una gestión inteligente para sus equipos. Los negocios que dependen de la cadena de frío operan con un alto riesgo de pérdidas económicas y desperdicio de energía, ya que su mantenimiento es reactivo. Aunque muchos ya cuentan con sensores y controladores, los datos permanecen aislados y son difíciles de interpretar para una toma de decisiones rápida.
+Existe un vacío en el mercado que las soluciones actuales no han llenado: la falta de una capa de inteligencia que unifique los datos ya existentes. No hay una plataforma que centralice la información de distintos fabricantes y ofrezca una visibilidad completa. Esta ausencia de análisis predictivo y de un historial unificado dificulta la respuesta ante fallas y degrada la calidad del servicio técnico.
 FrostShield ha sido creada para superar estos obstáculos. IceTrack establece una conexión digital entre los negocios y sus equipos, permitiendo un monitoreo constante de la temperatura y el consumo energético. Esto no solo previene fallas, sino que también optimiza el rendimiento y prolonga la vida útil de los equipos. Además, proporcionamos a los técnicos una herramienta centralizada para organizar sus tareas, acceder al historial de cada equipo y responder de manera más eficiente.
 Inicialmente, nos enfocamos en los negocios de Lima que buscan una solución confiable para sus sistemas de refrigeración, así como en los proveedores de servicio que desean modernizar sus operaciones. 
 Sabremos que hemos tenido éxito cuando se reduzcan las fallas críticas, mejore la eficiencia energética y aumente en la satisfacción y lealtad de nuestros clientes, demostrando así el valor de la tecnología en el sector.
@@ -479,7 +481,7 @@ Sabremos que hemos tenido éxito cuando la gran mayoría de nuestros clientes co
 **Segmento Objetivo 1: Negocios con equipos de refrigeración**
 
 **Aspectos demográficos:**
-- **Tipo de negocio:** Pequeñas, medianas y grandes empresas.
+- **Tipo de negocio:** Pequeñas y  medianas empresas.
 - **Rubro:** Alimentario, farmacéutico, restauración y comercio minorista.
 - **Nivel de necesidad:** Alta dependencia de sistemas de refrigeración.
 
