@@ -1747,7 +1747,7 @@ URL: https://www.figma.com/proto/ssl7G9KRip9XbC0tBXqUnc/Untitled?node-id=1-2&p=f
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
-<img width="1820" height="947" alt="base de datos diseño" src="https://github.com/user-attachments/assets/63a665ca-a53c-4915-90cc-048d36065c2a" />
+<img width="1800" height="850" alt="base de datos diseño" src="assets/chapter04/Database diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Database Diagram.
   </figcaption>
