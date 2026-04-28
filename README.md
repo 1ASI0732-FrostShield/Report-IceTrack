@@ -21,7 +21,7 @@
 | :-----------------------------------: | :-----------------------------------: |
 |   Quijada Magro, Jeremy Alexander     |              u202219657               |
 |     Guillen Galindo, Julio Adolfo     |              u20241a352               |
-|   G, Gianmarco   |              u               |
+|   Jiménez Guerra, Gianmarco Fabian   |              u202123843               |
 |       Melgarejo Gomez, Marcia      |              U20231C505              |
 |     L, Javier     |              u               |
 |     Gordon Salas, Gabriel Fernando    |       U20221E229             |
