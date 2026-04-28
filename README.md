@@ -293,7 +293,7 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 | **Código del Estudiante** | U20231C505 |
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. Me caracterizo por ser una persona curiosa, persistente y colaborativa. Tengo conocimientos en C++, HTML, CSS, JS, Pyhton |
-| **Foto** | <img src="assets/chapter01/FotoMelgarejo.png" alt="Marcia"> |
+| **Foto** | <img src="assets/chapter01/FotoMelgarejo.png" alt="Marcia" width="200" height="200"> |
 
 ---
 
@@ -303,7 +303,7 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 | **Código del Estudiante** | U20221E229                                                                         |
 | **Carrera**               | Ingeniería de Software                                                              |
 | **Descripción**           | Me considero una persona responsable, me gusta ayudar a mis compañeros en los trabajos y sé organizarme bien al momento de realizar mis cosas. Con esto mi objetivo es poder dar lo mejor en un ambiente de cooperación entre todos para que el proyecto dé una muy buena presentación													  |
-| **Foto**                  | <img src="assets/chapter01/foto-gabriel.png" alt="Gabriel"> |
+| **Foto**                  | <img src="assets/chapter01/foto-gabriel.png" alt="Gabriel" width="200" height="200"> |
 
 </div>
 
