@@ -270,12 +270,12 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 ---
 
-| **Integrante**            | **Gianmarco**                                        	  |
+| **Integrante**            | **Gianmarco Fabian Jiménez Guerra**                                        	  |
 | :------------------------ | :------------------------------------------------------------------------------ |
-| **Código del Estudiante** | u																	  |
+| **Código del Estudiante** | u202123843																	  |
 | **Carrera**               | Ingeniería de Software														  |
-| **Descripción**           | Soy 	  |
-| **Foto**                  | <img src="assets/chapter01/" alt="Gianmarco" width="200" height="200"> |
+| **Descripción**           | Estudiante de Ingeniería de Software con conocimiento sobre desarrollo de aplicaciones web y análisis de datos. Estoy motivado por aprender nuevos temas relacionados a Software y por trabajar en equipo. Considero que mi conocimiento sobre las tecnologías: Java, Python, Angular y C# me permitirá desempeñarme de manera correcta para apoyar en este proyecto.|
+| **Foto**                  | <img src="assets/chapter01/gianmarco.png" alt="Gianmarco" width="200" height="200"> |
 
 ---
 
@@ -283,27 +283,27 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 |-----------------|--------------------------------|
 | **Código del Estudiante** | u |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es  |
-| **Foto** | <img src="assets/chapter01/" alt="Javier" width="200" height="200"> |
+| **Descripción** | Mi nombre es Javier Gonzales, soy estudiante de Ingeniería de Software de séptimo ciclo. Tengo conocimientos en diversos lenguajes de programación como C++, Python y JavaScript, entre otros. Además, he desarrollado proyectos de software utilizando distintos frameworks como Angular y Vue. Me considero una persona responsable, empática y analítica. Mi objetivo personal es desarrollar soluciones tecnológicas que contribuyan a mejorar la calidad de vida de las personas y aportar a la construcción de un mundo más innovador y conectado  |
+| **Foto** | <img src="assets/chapter01/fotoGonzales.jpeg" alt="Javier" width="200" height="200"> |
 
 ---
 
-| **Integrante**  | **Marcia** |
+| **Integrante**  | **Marcia Victoria Melgarejo Gomez** |
 |-----------------|--------------------------------|
-| **Código del Estudiante** | u |
+| **Código del Estudiante** | U20231C505 |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es  |
-| **Foto** | <img src="assets/chapter01/" alt="Marcia" width="200" height="200"> |
+| **Descripción** | Actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. Me caracterizo por ser una persona curiosa, persistente y colaborativa. Tengo conocimientos en C++, HTML, CSS, JS, Pyhton |
+| **Foto** | <img src="assets/chapter01/FotoMelgarejo.png" alt="Marcia" width="200" height="200"> |
 
 ---
 
 
-| **Integrante**            | **Gabriel**                                                    |
+| **Integrante**            | **Gabriel Fernando Gordon Salas**                                                    |
 | :------------------------ | :---------------------------------------------------------------------------------- |
-| **Código del Estudiante** | u202220138                                                                          |
+| **Código del Estudiante** | U20221E229                                                                         |
 | **Carrera**               | Ingeniería de Software                                                              |
-| **Descripción**           | Soy 														  |
-| **Foto**                  | <img src="assets/chapter01/" alt="Gabriel" width="200" height="200"> |
+| **Descripción**           | Me considero una persona responsable, me gusta ayudar a mis compañeros en los trabajos y sé organizarme bien al momento de realizar mis cosas. Con esto mi objetivo es poder dar lo mejor en un ambiente de cooperación entre todos para que el proyecto dé una muy buena presentación													  |
+| **Foto**                  | <img src="assets/chapter01/foto-gabriel.png" alt="Gabriel" width="200" height="200"> |
 
 </div>
 
