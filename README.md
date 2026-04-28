@@ -19,11 +19,11 @@
  
 | <div style="width:500px">Alumno</div> | <div style="width:200px">Código</div> |
 | :-----------------------------------: | :-----------------------------------: |
-|  Gonzales Alvarado, Javier Sebastian  |                             |
-|  Gordon Salas, Gabriel Fernando       |                             |
+|  Gonzales Alvarado, Javier Sebastian  |           U202312966                  |
+|  Gordon Salas, Gabriel Fernando       | U20221E229                            |
 |  Guillen Galindo, Julio Adolfo    	|              u20241a352               |
-|  Jiménez Guerra, Gianmarco Fabian     |                             |
-|  Melgarejo Gomez, Marcia Victoria     |                             |
+|  Jiménez Guerra, Gianmarco Fabian     |     u202123843                        |
+|  Melgarejo Gomez, Marcia Victoria     |U20231C505                             |
 |  Quijada Magro, Jeremy Alexander      |              u202219657               |
 
 </div>
@@ -47,24 +47,25 @@
 
 ## Project Report Collaboration Insights
 
-- **URL de la organización del proyecto:** <br>
+- **URL de la organización del proyecto:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield
-  
-- **URL del repositorio del reporte:** <br>
+  <br>
+- **URL del repositorio del reporte:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/Report
+  <br>
   
-- **URL del repositorio de la Landing Page:** <br>
+- **URL del repositorio de la Landing Page:**
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page
-  
-- **URL del repositorio del Frontend:** <br>
+  <br>
+- **URL del repositorio del Frontend:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack-Frontend
-  
-- **URL del repositorio del Backend:** <br>
+  <br>
+- **URL del repositorio del Backend:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack-Platform
 
 Durante la fase de preparación del informe, se llevaron a cabo las siguientes actividades:
 
-**TB1:** Las tareas asignadas a la TB1 han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
+**Avance 1:** Las tareas asignadas a la TB1 han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
 
 - Se redactaron y crearon los contenidos asignados a cada miembro utilizando formato Markdown, y se realizaron "Conventional Commits" para documentar el avance en el repositorio.
 - Se generaron los recursos necesarios y se añadieron las imágenes al repositorio en la carpeta "assets" correspondiente a cada rama del informe.
@@ -73,31 +74,6 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 ![InsightsTB1](assets/chapter01/Insights-TB1.png)
 
 ![NetworkGraph](assets/chapter01/NetworkGraph-TB1.png)
-
-**TP:** Las tareas asignadas a la TP han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
-
-- 
-
-![Insights-TB2](assets/chapter01/Insights-TB2.png)
-
-![NetworkGraph](assets/chapter01/NetworkGraph-TB2.png)
-
-**TB2:** Las tareas asignadas a la TB2 han sido completadas y se encuentran debidamente documentadas en el repositorio de GitHub:
-
-- Se implementaron los bounded contexts correspondientes a las aplicaciones Frontend del proyecto, y actualmente se han comenzado a desarrollar y estructurar los componentes principales del Backend, avanzando en las entidades, casos de uso y servicios necesarios.
-- Se generaron los recursos requeridos y se añadieron las imágenes al repositorio dentro de la carpeta "assets" correspondiente a cada rama del informe.
-- Además, se organizaron reuniones de coordinación para revisar el progreso tanto del informe como del Sprint 3, inicialmente centrado en el mejoramiento de los FrontEnd Applications y ahora también en la construcción y consolidación del Backend y su despliegue.
-
-![Insights-TF](assets/chapter01/Insights-TF.png)
-
-![NetworkGraph](assets/chapter01/NetworkGraph-TF.png)
-
-**TF:** Las tareas asignadas a la TF han sido completadas y se encuentran debidamente documentadas en el repositorio de GitHub.
-
-- Se añadieron los recursos gráficos necesarios al repositorio dentro de las carpetas correspondientes y se propuso una estructura más escalable para la gestión.
-- Se organizaron reuniones de planificación para evaluar el avance del informe y del sprint 4, ampliando el enfoque desde la mejora del Frontend hacia la consolidación del Backend y su despliegue.
-- Se completó la implementación del Backend al Frontend.
-- Se redactó la documentación asignada en formato Markdown y se registraron avances mediante Conventional Commits.
 
 ## Contenido
 
@@ -231,10 +207,11 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| Criterio específico                                                                             | Acciones realizadas                                                      | Conclusiones                   |
-|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | <ul><li><b>Quijada Magro, Jeremy Alexander</b> <br> <b>TB1</b>: A <br>  </li><li><b>Guillen Galindo, Julio Adolfo</b> <br> <b>TB1</b>:A </li><li><b>Javier</b> <br> <b>TB1</b>: A </li><li><b>Gianmarco</b> <br> <b>TB1</b>: A <br> <li><b>Marcia</b> <br> <b>TB1</b>: A <br> <li><b>Gabriel</b> <br> <b>TB1</b>: A</ul> | <ul><li><b>TB1</b>: B<br> </li></ul> |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander</b> <br> <b>TB1</b>: A <br>  </li><li><b>Guillen Galindo, Julio Adolfo</b> <br> <b>TB1</b>:A </li><li><b>Javier</b> <br> <b>TB1</b>: A </li><li><b>Gianmarco</b> <br> <b>TB1</b>: A <br> <li><b>Marcia</b> <br> <b>TB1</b>: A <br> <li><b>Gabriel</b> <br> <b>TB1</b>: A</ul> | <ul><li><b>TB1</b>: B <br> </li></ul> |
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Lideró la arquitectura del sistema y la fase de QA para validación de variables de monitoreo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida.</li><li><b>Gonzales Alvarado, Javier:</b> Lideró el diseño de la Landing Page y la estrategia de comunicación del producto.</li><li><b>Jiménez Guerra, Gianmarco:</b> Lideró el análisis de requerimientos y la validación de escenarios de usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas.</li></ul> | <ul><li>El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada capítulo, logrando la integración exitosa del proyecto.</li></ul> |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Desarrolló el prototipo funcional y configuró los entornos de despliegue continuo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Implementó los servicios de seguridad JWT y la lógica de negocio del servidor.</li><li><b>Gonzales Alvarado, Javier:</b> Elaboró la documentación técnica y el manual de estilo de la aplicación.</li><li><b>Jiménez Guerra, Gianmarco:</b> Definió los User Personas y realizó el mapeo de experiencias (As-Is Scenario).</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Creó los flujos de usuario y garantizó la accesibilidad en la interfaz móvil.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Gestionó el Backlog y supervisó el cumplimiento de los hitos académicos en los plazos establecidos.</li></ul> | <ul><li>Se estableció un flujo de trabajo ágil que permitió cumplir con el 100% de los objetivos planteados para el TB1 mediante el uso de herramientas colaborativas.</li></ul> |
+
 
 # Capitulo 1: Introducción
 
@@ -257,7 +234,7 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 | **Código del Estudiante** | u202219657                                   										|
 | **Carrera**               | Ingeniería de Software                       										|
 | **Descripción**           | Mi nombre es Jeremy Alexander Quijada Magro, tengo 21 años y curso la carrera de Ingeniería de Software. Me considero una persona ordenada y responsable. En mis tiempos libres me gusta aprender cosas nuevas. En este proyecto apoyaré con todos los conocimientos que he adquirido en los cursos pasados con la meta de aprender a realizar pruebas de calidad sobre este proyecto  												|
-| **Foto**                  | <img src="assets/chapter01/" alt="Jeremy" width="200" height="200"> |
+| **Foto**                  | <img src="assets/chapter01/Jeremy.jpeg" alt="Jeremy" width="150" height="200"> |
 
 ---
 
@@ -281,7 +258,7 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 | **Integrante**  | **Javier** |
 |-----------------|--------------------------------|
-| **Código del Estudiante** | u |
+| **Código del Estudiante** | U202312966 |
 | **Carrera** | Ingeniería de Software |
 | **Descripción** | Mi nombre es Javier Gonzales, soy estudiante de Ingeniería de Software de séptimo ciclo. Tengo conocimientos en diversos lenguajes de programación como C++, Python y JavaScript, entre otros. Además, he desarrollado proyectos de software utilizando distintos frameworks como Angular y Vue. Me considero una persona responsable, empática y analítica. Mi objetivo personal es desarrollar soluciones tecnológicas que contribuyan a mejorar la calidad de vida de las personas y aportar a la construcción de un mundo más innovador y conectado  |
 | **Foto** | <img src="assets/chapter01/fotoGonzales.jpeg" alt="Javier" width="200" height="200"> |
@@ -4586,22 +4563,6 @@ URL de la Versión Publicada
 - Para garantizar un rendimiento óptimo, se recomienda implementar técnicas de caché, balanceo de carga o manejo eficiente de solicitudes en caso de alto tráfico, especialmente cuando IceTrack escale a más usuarios o clientes.
 - Se debe documentar continuamente los endpoints, modelos y procesos internos a través de herramientas como Swagger, facilitando el mantenimiento del backend y permitiendo que futuros desarrolladores comprendan rápidamente la estructura del sistema.
 
-## Video About-the-Team
-
-Cada integrante cuenta su experiencia dentro del proyecto, explicando qué tareas asumió, qué dificultades aparecieron durante el proceso y de qué manera las superó. También se destacan los principales avances logrados, como la creación de una interfaz fácil de usar, la colaboración con distintos refugios y la incorporación de funciones esenciales para fomentar una adopción responsable.
-
-El video cierra con una reflexión grupal sobre todo lo aprendido, resaltando tanto el crecimiento técnico como el fortalecimiento de las habilidades sociales. Finalmente, el equipo expresa su agradecimiento y comenta de forma breve cuál fue su aporte personal al proyecto.
-
-**Imagen representativa del video:**
-
-<p align="center">
-    <img src="assets/chapter05/about_team.png" alt="about_team"/>    
-</p>
-
-**URLs de la Versión Publicada**
-
-- Link en OneDrive: https://www.youtube.com/watch?v=Au_UI13KXkM
-  
 # Bibliografía
 
 - Axios. (s.f.). *Axios: Promise based HTTP client for the browser and node.js*. https://axios-http.com/docs/intro
