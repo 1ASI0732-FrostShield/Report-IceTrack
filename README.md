@@ -270,11 +270,11 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 ---
 
-| **Integrante**            | **Gianmarco**                                        	  |
+| **Integrante**            | **Gianmarco Fabian Jiménez Guerra**                                        	  |
 | :------------------------ | :------------------------------------------------------------------------------ |
-| **Código del Estudiante** | u																	  |
+| **Código del Estudiante** | u202123843																	  |
 | **Carrera**               | Ingeniería de Software														  |
-| **Descripción**           | Soy 	  |
+| **Descripción**           | Estudiante de Ingeniería de Software con conocimiento sobre desarrollo de aplicaciones web y análisis de datos. Estoy motivado por aprender nuevos temas relacionados a Software y por trabajar en equipo. Considero que mi conocimiento sobre las tecnologías: Java, Python, Angular y C# me permitirá desempeñarme de manera correcta para apoyar en este proyecto.|
 | **Foto**                  | <img src="assets/chapter01/" alt="Gianmarco" width="200" height="200"> |
 
 ---
