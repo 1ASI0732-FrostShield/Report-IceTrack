@@ -22,9 +22,9 @@
 |   Quijada Magro, Jeremy Alexander     |              u202219657               |
 |     Guillen Galindo, Julio Adolfo     |              u20241a352               |
 |   G, Gianmarco   |              u               |
-|       M, Marcia      |              u               |
+|       Melgarejo Gomez, Marcia      |              U20231C505              |
 |     L, Javier     |              u               |
-|     L, Gabriel     |              u               |
+|     Gordon Salas, Gabriel Fernando    |       U20221E229             |
 
 </div>
 
@@ -288,22 +288,22 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 ---
 
-| **Integrante**  | **Marcia** |
+| **Integrante**  | **Marcia Victoria Melgarejo Gomez** |
 |-----------------|--------------------------------|
-| **Código del Estudiante** | u |
+| **Código del Estudiante** | U20231C505 |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es  |
-| **Foto** | <img src="assets/chapter01/" alt="Marcia" width="200" height="200"> |
+| **Descripción** | Actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. Me caracterizo por ser una persona curiosa, persistente y colaborativa. Tengo conocimientos en C++, HTML, CSS, JS, Pyhton |
+| **Foto** | <img src="assets/chapter01/FotoMelgarejo.png" alt="Marcia"> |
 
 ---
 
 
-| **Integrante**            | **Gabriel**                                                    |
+| **Integrante**            | **Gabriel Fernando Gordon Salas**                                                    |
 | :------------------------ | :---------------------------------------------------------------------------------- |
-| **Código del Estudiante** | u202220138                                                                          |
+| **Código del Estudiante** | U20221E229                                                                         |
 | **Carrera**               | Ingeniería de Software                                                              |
-| **Descripción**           | Soy 														  |
-| **Foto**                  | <img src="assets/chapter01/" alt="Gabriel" width="200" height="200"> |
+| **Descripción**           | Me considero una persona responsable, me gusta ayudar a mis compañeros en los trabajos y sé organizarme bien al momento de realizar mis cosas. Con esto mi objetivo es poder dar lo mejor en un ambiente de cooperación entre todos para que el proyecto dé una muy buena presentación													  |
+| **Foto**                  | <img src="assets/chapter01/foto-gabriel.png" alt="Gabriel"> |
 
 </div>
 
