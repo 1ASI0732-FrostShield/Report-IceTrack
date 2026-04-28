@@ -2,12 +2,12 @@
  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
  <img style="height: 200px" src="assets/chapter01/upc.png">
   <h2>Carrera: Ingeniería de Software</h2>
-  <h2>Periodo: 2025-20</h2>
+  <h2>Periodo: 2026-10</h2>
 <br>
-  <h2>Curso: Aplicaciones Web</h2>
-  <h2>Codigo del Curso: 1ASI0730</h2>
-  <h2>NRC: 7452</h2>
-  <h2>Profesor: Hugo Allan Mori Paiva</h2>
+  <h2>Curso: Diseño de Experimentos de Ingeniería de Software</h2>
+  <h2>Codigo del Curso: 1ASI0732</h2>
+  <h2>NRC: 12316</h2>
+  <h2>Profesor: Julio Manuel Noriega Melendez</h2>
 <br>
  <h1>Informe del Trabajo Final</h1>
   <h2>Startup: Frostshield </h2>
@@ -19,12 +19,12 @@
  
 | <div style="width:500px">Alumno</div> | <div style="width:200px">Código</div> |
 | :-----------------------------------: | :-----------------------------------: |
-|   Quijada Magro, Jeremy Alexander     |              u202219657               |
-|     Guillen Galindo, Julio Adolfo     |              u20241a352               |
-|   G, Gianmarco   |              u               |
-|       M, Marcia      |              u               |
-|     L, Javier     |              u               |
-|     L, Gabriel     |              u               |
+|  Gonzales Alvarado, Javier Sebastian  |                             |
+|  Gordon Salas, Gabriel Fernando       |                             |
+|  Guillen Galindo, Julio Adolfo    	|              u20241a352               |
+|  Jiménez Guerra, Gianmarco Fabian     |                             |
+|  Melgarejo Gomez, Marcia Victoria     |                             |
+|  Quijada Magro, Jeremy Alexander      |              u202219657               |
 
 </div>
 
