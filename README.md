@@ -283,8 +283,8 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 |-----------------|--------------------------------|
 | **Código del Estudiante** | u |
 | **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es  |
-| **Foto** | <img src="assets/chapter01/" alt="Javier" width="200" height="200"> |
+| **Descripción** | Mi nombre es Javier Gonzales, soy estudiante de Ingeniería de Software de séptimo ciclo. Tengo conocimientos en diversos lenguajes de programación como C++, Python y JavaScript, entre otros. Además, he desarrollado proyectos de software utilizando distintos frameworks como Angular y Vue. Me considero una persona responsable, empática y analítica. Mi objetivo personal es desarrollar soluciones tecnológicas que contribuyan a mejorar la calidad de vida de las personas y aportar a la construcción de un mundo más innovador y conectado  |
+| **Foto** | <img src="assets/chapter01/fotoGonzales.jpeg" alt="Javier" width="200" height="200"> |
 
 ---
 
