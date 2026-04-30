@@ -18,28 +18,26 @@
 <div align="center">
  
 | <div style="width:500px">Alumno</div> | <div style="width:200px">Código</div> |
-| :-----------------------------------: | :-----------------------------------: |
-|  Gonzales Alvarado, Javier Sebastian  |           U202312966                  |
-|  Gordon Salas, Gabriel Fernando       | U20221E229                            |
-|  Guillen Galindo, Julio Adolfo    	|              u20241a352               |
-|  Jiménez Guerra, Gianmarco Fabian     |     u202123843                        |
-|  Melgarejo Gomez, Marcia Victoria     |U20231C505                             |
-|  Quijada Magro, Jeremy Alexander      |              u202219657               |
+| :------------------------------------ | :-----------------------------------: |
+|  Gonzales Alvarado, Javier Sebastian  |  u202312966                           |
+|  Gordon Salas, Gabriel Fernando       |  u20221e229                           |
+|  Guillen Galindo, Julio Adolfo       	|  u20241a352                           |
+|  Jiménez Guerra, Gianmarco Fabian     |  u202123843                           |
+|  Melgarejo Gomez, Marcia Victoria     |  u20231c505                           |
+|  Quijada Magro, Jeremy Alexander      |  u202219657                           |
 
 </div>
 
 <br>
-
    <h3>Abril 2026</h3>
-
 </div>
 
 ## Registro de Versiones del Informe
 
 <div align="center">
  
-| Versión | Fecha      | Autor             | Descripción de modificación                        	|
-| :-----: | :--------: | :---------------: | :----------------------------------------------------- |
+| Versión | Fecha      | Autor             | Descripción de modificación                           	|
+| :-----: | :--------: | :---------------- | :----------------------------------------------------- |
 | 1.1     | 03/12/2025 | Julio Guillen     | Desarrollo BackEnd para Assets-Management y Monitoring |
 | 1.2     | 04/12/2025 | Jeremy Quijada    | Refactorizacion de la aplicación                       |
 
@@ -52,8 +50,7 @@
   <br>
 - **URL del repositorio del reporte:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/Report
-  <br>
-  
+  <br>  
 - **URL del repositorio de la Landing Page:**
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page
   <br>
@@ -207,7 +204,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Lideró la arquitectura del sistema y la fase de QA para validación de variables de monitoreo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida.</li><li><b>Gonzales Alvarado, Javier:</b> Lideró el diseño de la Landing Page y la estrategia de comunicación del producto.</li><li><b>Jiménez Guerra, Gianmarco:</b> Lideró el análisis de requerimientos y la validación de escenarios de usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas.</li></ul> | <ul><li>El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada capítulo, logrando la integración exitosa del proyecto.</li></ul> |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                 | Conclusiones                                                                                                                                                                 |
+| :---------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Lideró la arquitectura del sistema y la fase de QA para validación de variables de monitoreo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida.</li><li><b>Gonzales Alvarado, Javier:</b> Lideró el diseño de la Landing Page y la estrategia de comunicación del producto.</li><li><b>Jiménez Guerra, Gianmarco:</b> Lideró el análisis de requerimientos y la validación de escenarios de usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas.</li></ul>                | <ul><li>El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada capítulo, logrando la integración exitosa del proyecto.</li></ul>                    |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Desarrolló el prototipo funcional y configuró los entornos de despliegue continuo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Implementó los servicios de seguridad JWT y la lógica de negocio del servidor.</li><li><b>Gonzales Alvarado, Javier:</b> Elaboró la documentación técnica y el manual de estilo de la aplicación.</li><li><b>Jiménez Guerra, Gianmarco:</b> Definió los User Personas y realizó el mapeo de experiencias (As-Is Scenario).</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Creó los flujos de usuario y garantizó la accesibilidad en la interfaz móvil.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Gestionó el Backlog y supervisó el cumplimiento de los hitos académicos en los plazos establecidos.</li></ul> | <ul><li>Se estableció un flujo de trabajo ágil que permitió cumplir con el 100% de los objetivos planteados para el TB1 mediante el uso de herramientas colaborativas.</li></ul> |
