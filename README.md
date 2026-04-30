@@ -212,26 +212,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Lideró la arquitectura del sistema y la fase de QA para validación de variables de monitoreo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida.</li><li><b>Gonzales Alvarado, Javier:</b> Lideró el diseño de la Landing Page y la estrategia de comunicación del producto.</li><li><b>Jiménez Guerra, Gianmarco:</b> Lideró el análisis de requerimientos y la validación de escenarios de usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas.</li></ul> | <ul><li>El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada capítulo, logrando la integración exitosa del proyecto.</li></ul> |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Desarrolló el prototipo funcional y configuró los entornos de despliegue continuo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Implementó los servicios de seguridad JWT y la lógica de negocio del servidor.</li><li><b>Gonzales Alvarado, Javier:</b> Elaboró la documentación técnica y el manual de estilo de la aplicación.</li><li><b>Jiménez Guerra, Gianmarco:</b> Definió los User Personas y realizó el mapeo de experiencias (As-Is Scenario).</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Creó los flujos de usuario y garantizó la accesibilidad en la interfaz móvil.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Gestionó el Backlog y supervisó el cumplimiento de los hitos académicos en los plazos establecidos.</li></ul> | <ul><li>Se estableció un flujo de trabajo ágil que permitió cumplir con el 100% de los objetivos planteados para el TB1 mediante el uso de herramientas colaborativas.</li></ul> |
 
-## 5.4. Video About-the-Product
-
-En esta parte, el equipo ofrece una síntesis de los puntos más importantes de IceTrack. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de los sistemas de refrigeración, ya sea en entornos domésticos o comerciales.
-
-El video incluye demostraciones visuales del uso de la app, mostrando pasos esenciales como el monitoreo de temperatura y consumo energético, alertas de fallos, historial de rendimiento y reportes generales sobre los equipos registrados.
-
-La narración guía al espectador por toda la experiencia de uso, mientras que testimonios reales aportan credibilidad al compartir cómo la aplicación ha facilitado la supervisión de sistemas de refrigeración, tanto para técnicos como para usuarios sin experiencia. Estos relatos destacan la facilidad de uso y la mejora en la eficiencia y confiabilidad de los equipos.
-
-En conjunto, el video no solo presenta el producto, sino que lo posiciona como una solución digital efectiva para apoyar el mantenimiento y control responsable de la refrigeración, demostrando su utilidad, su usabilidad y su impacto positivo.
-
-**Video Explicativo**
-
-<p align="center">
-    <img src="assets/chapter05/about_product.png" alt="about_product"/>    
-</p>
-
-URL de la Versión Publicada
-
-- **Link de OneDrive:** https://www.youtube.com/watch?v=BIWXxVJlkKk
-
 # Conclusiones
 
 ## Conclusiones y recomendaciones
