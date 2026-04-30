@@ -2804,3 +2804,22 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - Para garantizar un rendimiento óptimo, se recomienda implementar técnicas de caché, balanceo de carga o manejo eficiente de solicitudes en caso de alto tráfico, especialmente cuando IceTrack escale a más usuarios o clientes.
 - Se debe documentar continuamente los endpoints, modelos y procesos internos a través de herramientas como Swagger, facilitando el mantenimiento del backend y permitiendo que futuros desarrolladores comprendan rápidamente la estructura del sistema.
 
+## 5.4. Video About-the-Product
+
+En esta parte, el equipo ofrece una síntesis de los puntos más importantes de IceTrack. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de los sistemas de refrigeración, ya sea en entornos domésticos o comerciales.
+
+El video incluye demostraciones visuales del uso de la app, mostrando pasos esenciales como el monitoreo de temperatura y consumo energético, alertas de fallos, historial de rendimiento y reportes generales sobre los equipos registrados.
+
+La narración guía al espectador por toda la experiencia de uso, mientras que testimonios reales aportan credibilidad al compartir cómo la aplicación ha facilitado la supervisión de sistemas de refrigeración, tanto para técnicos como para usuarios sin experiencia. Estos relatos destacan la facilidad de uso y la mejora en la eficiencia y confiabilidad de los equipos.
+
+En conjunto, el video no solo presenta el producto, sino que lo posiciona como una solución digital efectiva para apoyar el mantenimiento y control responsable de la refrigeración, demostrando su utilidad, su usabilidad y su impacto positivo.
+
+**Video Explicativo**
+
+<p align="center">
+    <img src="assets/chapter05/about_product.png" alt="about_product"/>    
+</p>
+
+URL de la Versión Publicada
+
+- **Link de OneDrive:** https://www.youtube.com/watch?v=BIWXxVJlkKk
