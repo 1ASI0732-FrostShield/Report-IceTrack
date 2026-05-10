@@ -77,126 +77,246 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 
 ## Contenido
 
-- [Student Outcome](#student-outcome)
-
-- [Capítulo I: Introducción](#c1)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problematica)
-        - [1.2.2 Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumption)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivos)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#c2)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-
-- [Capítulo III: Requirements Specification](#c3)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
-
-- [Capítulo IV: Product Design](#c4)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-        - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
-        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagrams](#481-database-diagrams)
-
-- [Capítulo V: Product Implementation, Validation & Deployment](#c5)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-        - [5.2.2. Sprint 2](#522-sprint-2)
-            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-        - [5.2.3. Sprint 3](#523-sprint-3)
-            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-        - [5.2.4. Sprint 4](#524-sprint-4)
-            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-            - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
-
+- [Capitulo 1: Introducción](#capitulo-1-introducción)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y Problematica](#121-antecedentes-y-problematica)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumption](#1222-lean-ux-assumption)
+- [Business Outcomes](#business-outcomes)
+- [User Outcomes](#user-outcomes)
+  - [¿Quién será nuestro usuario?](#quién-será-nuestro-usuario)
+  - [¿Dónde encaja nuestro producto en su vida?](#dónde-encaja-nuestro-producto-en-su-vida)
+  - [¿Qué problemas tiene nuestro producto y cómo se pueden resolver?](#qué-problemas-tiene-nuestro-producto-y-cómo-se-pueden-resolver)
+  - [¿Cómo y Cuándo es usado nuestro producto?](#cómo-y-cuándo-es-usado-nuestro-producto)
+  - [¿Qué características son importantes para la app?](#qué-características-son-importantes-para-la-app)
+  - [¿Cómo debe verse nuestro producto y cómo comportarse?](#cómo-debe-verse-nuestro-producto-y-cómo-comportarse)
+  - [¿Qué valor busca el cliente?](#qué-valor-busca-el-cliente)
+  - [¿Qué beneficios adicionales obtendrá el cliente?](#qué-beneficios-adicionales-obtendrá-el-cliente)
+  - [¿Cómo atraeremos usuarios?](#cómo-atraeremos-usuarios)
+  - [¿Cómo generaremos ingresos?](#cómo-generaremos-ingresos)
+  - [¿Cuál es nuestra competencia y cómo la superamos?](#cuál-es-nuestra-competencia-y-cómo-la-superamos)
+  - [¿Cuál es nuestro mayor riesgo?](#cuál-es-nuestro-mayor-riesgo)
+  - [¿Cómo lo resolveremos?](#cómo-lo-resolveremos)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivos](#13-segmentos-objetivos)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [Segmento objetivo #1: Negocios con equipos de refrigeración](#segmento-objetivo-1-negocios-con-equipos-de-refrigeración)
+    - [Entrevista 1:](#entrevista-1)
+      - [Entrevista 2:](#entrevista-2)
+      - [Entrevista 3:](#entrevista-3)
+  - [Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:](#segmento-objetivo-2---técnicos-y-empresas-de-mantenimiento)
+      - [**Entrevista 1:**](#entrevista-1-1)
+      - [**Entrevista 2:**](#entrevista-2-1)
+      - [Entrevista 3:](#entrevista-3-1)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [Segmento objetivo #1: Negocios con equipos de refrigeración](#segmento-objetivo-1-negocios-con-equipos-de-refrigeración-1)
+      - [Entrevista 3:](#entrevista-3-2)
+  - [Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:](#segmento-objetivo-2---técnicos-y-empresas-de-mantenimiento-1)
+      - [Entrevista 3:](#entrevista-3-3)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories.](#32-user-stories)
+  - [3.3. Impact Mapping.](#33-impact-mapping)
+  - [3.4. Product Backlog.](#34-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [**Beneficios de la Nomenclatura Predictiva**](#beneficios-de-la-nomenclatura-predictiva)
+    - [**Estrategia de Ramificación (Git Flow)**](#estrategia-de-ramificación-git-flow)
+    - [**Flujo de Trabajo y Herramientas**](#flujo-de-trabajo-y-herramientas)
+    - [**Convenciones de Nomenclatura**](#convenciones-de-nomenclatura)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators-1)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+  - [](#)
+  - [](#-1)
+  - [](#-2)
+  - [](#-3)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+  - [](#-4)
+  - [](#-5)
+  - [](#-6)
+  - [](#-7)
+  - [](#-8)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [](#-9)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+  - [**Objetivo de la Entrevista**](#objetivo-de-la-entrevista)
+  - [**Elementos de Validación**](#elementos-de-validación)
+  - [**Para el Segmento 1: Negocios con equipos de refrigeración**](#para-el-segmento-1-negocios-con-equipos-de-refrigeración)
+  - [**Para el Segmento 2: Técnicos y empresas de mantenimiento**](#para-el-segmento-2-técnicos-y-empresas-de-mantenimiento)
+  - [**Formato de Registro de Entrevista**](#formato-de-registro-de-entrevista)
+  - [**Preguntas para el Segmento**](#preguntas-para-el-segmento)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+  - [Segmento objetivo #1: Negocios con equipos de refrigeración](#segmento-objetivo-1-negocios-con-equipos-de-refrigeración-2)
+  - [Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:](#segmento-objetivo-2---técnicos-y-empresas-de-mantenimiento-2)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación: "IceTrack"](#evaluación-heurística-de-usabilidad-y-diseño-inclusivo-para-la-aplicación-icetrack)
+  - [TAREAS A EVALUAR:](#tareas-a-evaluar)
+  - [ESCALA DE SEVERIDAD:](#escala-de-severidad)
+  - [TABLA RESUMEN:](#tabla-resumen)
+  - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+  - [PROBLEMA #1: Ambigüedad en la terminología y las unidades de las temperaturas máximas.](#problema-1-ambigüedad-en-la-terminología-y-las-unidades-de-las-temperaturas-máximas)
+  - [PROBLEMA #2: Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.](#problema-2-falta-de-retroalimentación-visual-prominente-al-seleccionar-un-elemento-en-el-menú-lateral)
+  - [PROBLEMA #3: La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".](#problema-3-la-acción-acknowledge-ack-aparece-en-alertas-cuyo-estado-ya-es-resolved-o-closed)
+  - [PROBLEMA #4: Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.](#problema-4-etiquetado-5-puntos-en-el-filtro-del-gráfico-de-temperatura-es-poco-claro)
+  - [PROBLEMA #5: Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.](#problema-5-botones-de-acción-principal-ej-equipment-detail-están-mal-etiquetados-no-indican-la-acción-de-creación)
+  - [PROBLEMA #6: Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de activos y alertas.](#problema-6-uso-de-identificadores-internos-e1-s1-t2-en-las-tablas-principales-de-activos-y-alertas)
+  - [**PROBLEMA #7: Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.**](#problema-7-las-fechas-y-horas-en-los-detalles-de-equipos-se-muestran-en-formato-utcz-sin-conversión-a-hora-local)
+  - [**PROBLEMA #8: Confusión visual entre campos editables y no editables en la sección de información de usuario.**](#problema-8-confusión-visual-entre-campos-editables-y-no-editables-en-la-sección-de-información-de-usuario)
+  - [**PROBLEMA #9: Redundancia o falta de claridad en los filtros de la sección "My Service Requests".**](#problema-9-redundancia-o-falta-de-claridad-en-los-filtros-de-la-sección-my-service-requests)
+  - [Proceso de Evaluacion para el grupo 1"](#proceso-de-evaluacion-para-el-grupo-1)
+  - [Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación: "AgroApp"](#evaluación-heurística-de-usabilidad-y-diseño-inclusivo-para-la-aplicación-agroapp)
+  - [TAREAS A EVALUAR:](#tareas-a-evaluar-1)
+  - [ESCALA DE SEVERIDAD:](#escala-de-severidad-1)
+  - [TABLA RESUMEN:](#tabla-resumen-1)
+  - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas-1)
+  - [PROBLEMA #1: Dificultad para identificar el contenido principal y navegar desde la página inicial.](#problema-1-dificultad-para-identificar-el-contenido-principal-y-navegar-desde-la-página-inicial)
+  - [PROBLEMA #2: La visualización del campo de Cultivo no es consistente entre galería, fichas y vista detallada.](#problema-2-la-visualización-del-campo-de-cultivo-no-es-consistente-entre-galería-fichas-y-vista-detallada)
+  - [PROBLEMA #3: El flujo dentro de la sección de Cultivos no guía al usuario en los pasos a seguir.](#problema-3-el-flujo-dentro-de-la-sección-de-cultivos-no-guía-al-usuario-en-los-pasos-a-seguir)
+  - [PROBLEMA #4: El menú lateral presenta baja claridad en su estructura e iconos poco representativos.](#problema-4-el-menú-lateral-presenta-baja-claridad-en-su-estructura-e-iconos-poco-representativos)
+  - [PROBLEMA #5: Los atributos de campos y cultivos no están claramente organizados o priorizados.](#problema-5-los-atributos-de-campos-y-cultivos-no-están-claramente-organizados-o-priorizados)
+  - [PROBLEMA #6: Confusión entre las secciones “Cultivos” y “Campos”.](#problema-6-confusión-entre-las-secciones-cultivos-y-campos)
+  - [PROBLEMA #7: La vista de detalles del campo muestra información incompleta o poco jerarquizada.](#problema-7-la-vista-de-detalles-del-campo-muestra-información-incompleta-o-poco-jerarquizada)
+  - [PROBLEMA #8: El proceso de gestión de cultivos y tareas no es intuitivo, generando pérdida de control.](#problema-8-el-proceso-de-gestión-de-cultivos-y-tareas-no-es-intuitivo-generando-pérdida-de-control)
+  - [PROBLEMA #9: La iconografía y etiquetas no son claras ni coherentes con su propósito.](#problema-9-la-iconografía-y-etiquetas-no-son-claras-ni-coherentes-con-su-propósito)
+  - [PROBLEMA #10: El usuario no puede identificar fácilmente qué sección del menú está activa.](#problema-10-el-usuario-no-puede-identificar-fácilmente-qué-sección-del-menú-está-activa)
+  - [PROBLEMA #11: El formulario de registros presenta desorden visual y campos sin jerarquía clara.](#problema-11-el-formulario-de-registros-presenta-desorden-visual-y-campos-sin-jerarquía-clara)
+  - [PROBLEMA #12: El proceso de cambio de idioma no es visible o requiere demasiados pasos.](#problema-12-el-proceso-de-cambio-de-idioma-no-es-visible-o-requiere-demasiados-pasos)
+  - [PROBLEMA #13: Falta de personalización y una curva de aprendizaje elevada para nuevos usuarios.](#problema-13-falta-de-personalización-y-una-curva-de-aprendizaje-elevada-para-nuevos-usuarios)
+- [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+  - [6.1 Testing Suites \& Validation](#61-testing-suites--validation)
+    - [6.1.1 Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2 Core Integration Tests](#612-core-integration-tests)
+      - [Equipment Command Service](#equipment-command-service)
+      - [Service Request Command Service](#service-request-command-service)
+    - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4 Core System Tests](#614-core-system-tests)
+  - [6.2 Static testing \& Verification](#62-static-testing--verification)
+    - [6.2.1 Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1 Coding standard \& Code conventions](#6211-coding-standard--code-conventions)
+      - [6.2.1.2 Code Quality \& Code Security](#6212-code-quality--code-security)
+    - [6.2.2 Reviews](#622-reviews)
+  - [6.3 Validation Interviews](#63-validation-interviews)
+    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4 Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1 Auditoría realizada](#641-auditoría-realizada)
+      - [6.4.1.1 Información del grupo auditado](#6411-información-del-grupo-auditado)
+      - [6.4.1.2 Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3 Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2 Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1 Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.2 Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3 Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4 Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1 Continuous Integration](#71-continuous-integration)
+    - [7.1.1 Tools and Practices](#711-tools-and-practices)
+    - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+  - [7.2 Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1 Tools and Practices](#721-tools-and-practices)
+    - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3 Continuous deployment](#73-continuous-deployment)
+    - [7.3.1 Tools and Practices](#731-tools-and-practices)
+    - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+  - [7.4 Continuous Monitoring](#74-continuous-monitoring)
+    - [7.4.1 Tools and Practices](#741-tools-and-practices)
+    - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+    - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
+    - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
 - [Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones](#conclusiones-1)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Recursos y enlaces del proyecto](#recursos-y-enlaces-del-proyecto)
 
 ## Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -4504,6 +4624,134 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - Recomendación: Agregar un onboarding inicial, brindar tooltips explicativos y permitir que el usuario configure vistas rápidas o favoritos.
 
 **Respositorio de auditoria:** `https://docs.google.com/document/d/1yUM-z9TAOwkcqBh12h8XKnBpV6gf2EIMYIysLJnMgsc/edit?usp=sharing`
+
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1 Testing Suites & Validation
+
+### 6.1.1 Core Entities Unit Tests
+### 6.1.2 Core Integration Tests
+
+#### Equipment Command Service
+![EquipmentTest.png](assets/chapter06/US03.png)
+
+#### Service Request Command Service
+![ServiceRequestTest.png](assets/chapter06/US25.png)
+
+### 6.1.3 Core Behavior-Driven Development
+### 6.1.4 Core System Tests
+
+---
+
+![US03-ProductBacklog.png](assets/chapter06/US03-ProductBacklog.png)
+![US03-Selenium.png](assets/chapter06/Selenium%20US03.png)
+
+---
+
+![US19-ProductBacklog.png](assets/chapter06/US19-ProductBacklog.png)
+![US19-Selenium.png](assets/chapter06/Selenium%20US19.png)
+
+---
+
+![US25-ProductBacklog.png](assets/chapter06/US25-ProductBacklog.png)
+![US25-Selenium.png](assets/chapter06/Selenium%20US25.png)
+
+## 6.2 Static testing & Verification
+
+### 6.2.1 Static Code Analysis
+
+#### 6.2.1.1 Coding standard & Code conventions
+#### 6.2.1.2 Code Quality & Code Security
+
+### 6.2.2 Reviews
+
+## 6.3 Validation Interviews
+
+### 6.3.1 Diseño de Entrevistas
+### 6.3.2 Registro de Entrevistas
+### 6.3.3 Evaluaciones según heurísticas
+
+## 6.4 Auditoría de Experiencias de Usuario
+
+### 6.4.1 Auditoría realizada
+
+#### 6.4.1.1 Información del grupo auditado
+#### 6.4.1.2 Cronograma de auditoría realizada
+#### 6.4.1.3 Contenido de auditoría realizada
+
+### 6.4.2 Auditoría recibida
+
+#### 6.4.2.1 Información del grupo auditor
+#### 6.4.2.2 Cronograma de auditoría recibida
+#### 6.4.2.3 Contenido de auditoría recibida
+#### 6.4.2.4 Resumen de modificaciones para subsanar hallazgos
+
+# Capítulo VII: DevOps Practices
+
+## 7.1 Continuous Integration
+
+### 7.1.1 Tools and Practices
+### 7.1.2 Build & Test Suite Pipeline Components
+
+## 7.2 Continuous Delivery
+
+### 7.2.1 Tools and Practices
+### 7.2.2 Stages Deployment Pipeline Components
+
+## 7.3 Continuous deployment
+
+### 7.3.1 Tools and Practices
+### 7.3.2 Production Deployment Pipeline Components
+
+## 7.4 Continuous Monitoring
+
+Mediante el monitoreo continuo, se pudo supervisar el funcionamiento correcto de la aplicación durante el desarrollo y durante las pruebas. Para ello, se usaron herramientas enfocadas en pruebas automatizadas, validación de APIs, control de versiones y seguimiento de incidencias.
+Con ello, se pudo mejorar la calidad de software.
+
+### 7.4.1 Tools and Practices
+
+Las herramientas utilizadas para el monitoreo y asegurameitno de calidad de la aplicación fueron las siguientes:
+
+Selenium: utilizado para realizar pruebas automatizadas sobre la interfaz web desarrollada en Vue y la interfaz de la landing page, validando funcionalidades críticas como formularios, navegación e inicio de sesión.
+![Selenium.png](assets/chapter07/selenium.png)
+
+Swagger UI: empleado para probar y validar los endpoints del backend desarrollado en C#, verificando respuestas HTTP, parámetros y funcionamiento de las APIs REST.
+![Swagger.png](assets/chapter07/swagger-banner.png)
+
+MSTest: utilizado para desarrollar y ejecutar pruebas unitarias sobre la lógica de negocio del backend.
+![MsTest.png](assets/chapter07/MsTest.png)
+
+GitHub: utilizado para el control de versiones, administración de cambios y colaboración entre los integrantes del equipo.
+![Github.png](assets/chapter07/github.png)
+
+Jira: empleado para el seguimiento de tareas, incidencias y errores detectados durante las pruebas y el desarrollo del proyecto.
+![Jira.png](assets/chapter07/jira.png)
+
+### 7.4.2 Monitoring Pipeline Components
+
+El flujo de monitoreo estuvo conformado por diferentes componentes y etapas en las que nos encargamos de validar la calidad y funcionamiento del sistema.
+
+Las pruebas unitarias realizadas en Rider con MsTest permitieron validar el comportamiento de los componentes internos y de la lógica del backend desarrollado en C#. Asimismo, Selenium automatizó pruebas funcionales sobre la interfaz web simulando acciones reales de los usuarios para detectar errores de funcionamiento.
+
+Swagger UI permitió monitorear y validar continuamente el funcionamiento de las APIs REST, facilitando la integración entre frontend y backend mediante pruebas de endpoints y verificación de respuestas.
+
+Finalmente, GitHub permitió mantener un registro y seguimiento de cambios realizados en el proyecto y nos ayudó en el manejo de versiones, mientras que Jira facilitó la supervisión del progreso y resolución de incidencias.
+
+### 7.4.3 Alerting Pipeline Components
+
+El componente de alertas estuvo basado principalmente en la detección de errores mediante pruebas automatizadas y el seguimiento de incidencias registradas durante el desarrollo.
+
+Jira fue muy importante en la gestión de errores al realizar las pruebas unitarias automatizadas y en las mejoras del backend, permitiendo asignar responsables y realizar seguimiento hasta su resolución.
+
+Adicionalmente, GitHub permitió identificar cambios realizados en el código fuente y facilitar la revisión colaborativa para prevenir errores antes de integrar nuevas funcionalidades al sistema.
+
+### 7.4.4 Notification Pipeline Components
+
+El pipeline de notificaciones permitió mantener informado al equipo sobre el estado del proyecto, las modificaciones del mismo y los resultados de las pruebas realizadas.
+
+GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante commits, pull requests y actualizaciones del repositorio, permitiendo la colaboración continua entre los integrantes del equipo.
+
 
 # Conclusiones
 
