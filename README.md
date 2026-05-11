@@ -4661,10 +4661,67 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ### 6.2.1 Static Code Analysis
 
-#### 6.2.1.1 Coding standard & Code conventions
+Esta sección se centra en los métodos de prueba estática y verificación del código, asegurando que el software cumpla con los estándares de calidad y seguridad antes de su ejecución. Estos métodos permiten identificar defectos en una fase temprana del ciclo de vida del desarrollo.  
+
+El análisis de código estático implica la revisión del código fuente sin necesidad de ejecutarlo, utilizando herramientas automatizadas y revisiones manuales. Este enfoque ayuda a detectar errores, vulnerabilidades de seguridad y oportunidades de mejora en el código, lo que contribuye a aumentar la calidad general del software y a reducir el costo de las correcciones en etapas posteriores del desarrollo.
+
+### 6.2.1.1 Coding Standard & Code Conventions
+
+Para garantizar la calidad y sostenibilidad de **IceTrack**, el equipo aplica estándares de codificación que aseguran un código limpio y legible.
+
+#### Frontend
+
+Se siguen las guías oficiales de estilo de **Vue.js** y **ESLint**:
+
+* **Componentes:** Uso de **PascalCase** para archivos de componentes (e.g., `EquipmentCard.vue`) y **kebab-case** para su uso en plantillas HTML.
+* **Propiedades y Métodos:** Uso de **camelCase** para definir *props* y funciones internas.
+
+#### Backend
+
+Se aplican las convenciones oficiales de Microsoft:
+
+* **Nomenclatura:** **PascalCase** para clases y métodos; **camelCase** para parámetros y variables locales.
+* **Arquitectura:** Separación de responsabilidades mediante controladores, servicios y repositorios.
+
 #### 6.2.1.2 Code Quality & Code Security
 
+## Calidad y Seguridad del Código en el Proyecto Platform-IceTrack
+
+La calidad del código y la seguridad son pilares esenciales para garantizar un software confiable y mantenible.  
+
+- **Calidad del Código (Backend y Frontend):**  
+  En el backend desarrollado en C# con Rider, utilizamos SonarQube Cloud para medir métricas clave como complejidad ciclomática, duplicación y mantenibilidad. El análisis continuo nos permite detectar problemas de fiabilidad y mantener un estándar de calidad alto. En el frontend construido en Vue.js, aplicamos ESLint junto con SonarQube para validar estilo, buenas prácticas y consistencia en el código, asegurando que cada commit cumpla con las reglas establecidas.  
+
+- **Seguridad del Código:**  
+  SonarQube también nos ayuda a identificar vulnerabilidades comunes como inyecciones SQL y Cross-Site Scripting (XSS). Además, se revisan los *security hotspots* para mitigar riesgos en etapas tempranas del desarrollo. En el frontend, ESLint contribuye a reducir errores que podrían derivar en fallos de seguridad, complementando la revisión manual y las prácticas de codificación segura.  
+
+###### Prueba de SonarQube Cloud:
+![SonarQ](assets/chapter06/SonarQ-Back.png)
+
+###### Prueba de ESLint:
+![EsLint](assets/chapter06/EsLint-Front.png)
+
 ### 6.2.2 Reviews
+
+Las revisiones de código son un proceso fundamental para garantizar la calidad y la conformidad con las normas establecidas. Este proceso implica tanto revisiones manuales como automáticas y debe seguir ciertas pautas:
+
+#####  Tipos de Revisiones
+- **Revisión de Código por Pares:** Un desarrollador revisa el código de otro desarrollador para garantizar que cumpla con los estándares y sea comprensible.  
+- **Revisión de Código Formal:** Incluye una reunión estructurada donde se evalúa el código con un checklist, lo que permite detectar problemas en grupo.  
+- **Revisión Automática:** Utilización de herramientas como SonarLint, SonarQube (backend C#) y ESLint (frontend Vue/TypeScript) para detectar errores y problemas de calidad en tiempo real.  
+
+#####  Proceso de Revisión
+- **Creación de Pull Requests:** Los desarrolladores deben crear un PR que incluya una descripción clara de los cambios realizados y las pruebas asociadas.  
+- **Checklist de Revisión:** Debe existir una lista de verificación que cubra aspectos como la claridad del código, la cobertura de pruebas y el manejo de errores.  
+- **Comentarios y Feedback:** Los revisores deben proporcionar comentarios constructivos y específicos, y cualquier problema identificado debe ser abordado antes de la aprobación final.  
+- **Aprobación o Rechazo de PR:** El PR debe ser aprobado por al menos un revisor adicional antes de fusionarse en la rama principal.  
+
+#####  Criterios de Aceptación
+- **Calidad y Seguridad del Código:** El código debe cumplir con los estándares de calidad y no introducir vulnerabilidades de seguridad.  
+- **Cobertura de Pruebas:** Se requiere una cobertura mínima de pruebas (por ejemplo, 80%) para asegurar que el código nuevo esté adecuadamente probado.  
+
+##### Frecuencia de Revisiones
+Las revisiones de código deben realizarse de forma regular, preferiblemente al final de cada sprint o en intervalos definidos, para asegurar que el código no se acumule y se mantenga la calidad.  
 
 ## 6.3 Validation Interviews
 
@@ -4672,29 +4729,19 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 ### 6.3.2 Registro de Entrevistas
 ### 6.3.3 Evaluaciones según heurísticas
 
-## 6.4 Auditoría de Experiencias de Usuario
-
-### 6.4.1 Auditoría realizada
-
-#### 6.4.1.1 Información del grupo auditado
-#### 6.4.1.2 Cronograma de auditoría realizada
-#### 6.4.1.3 Contenido de auditoría realizada
-
-### 6.4.2 Auditoría recibida
-
-#### 6.4.2.1 Información del grupo auditor
-#### 6.4.2.2 Cronograma de auditoría recibida
-#### 6.4.2.3 Contenido de auditoría recibida
-#### 6.4.2.4 Resumen de modificaciones para subsanar hallazgos
-
 # Capítulo VII: DevOps Practices
 
 ## 7.1 Continuous Integration
 
+En el ámbito del desarrollo y pruebas de software, es esencial contar con herramientas y métodos que aseguren tanto la calidad del código como la productividad del equipo. En nuestro proceso de trabajo, empleamos una variedad de herramientas que optimizan tanto la creación como la validación de la funcionalidad y el comportamiento previsto de la aplicación. Estas herramientas abarcan distintas fases del ciclo de vida del software, desde la escritura del código hasta la ejecución de pruebas y la automatización de tareas. 
+Algunas de las herramientas principales que utilizamos son:
+
 ### 7.1.1 Tools and Practices
+
 ### 7.1.2 Build & Test Suite Pipeline Components
 
 ## 7.2 Continuous Delivery
+Su objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue cuando sea necesario.
 
 ### 7.2.1 Tools and Practices
 ### 7.2.2 Stages Deployment Pipeline Components
@@ -4706,26 +4753,25 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## 7.4 Continuous Monitoring
 
-Mediante el monitoreo continuo, se pudo supervisar el funcionamiento correcto de la aplicación durante el desarrollo y durante las pruebas. Para ello, se usaron herramientas enfocadas en pruebas automatizadas, validación de APIs, control de versiones y seguimiento de incidencias.
-Con ello, se pudo mejorar la calidad de software.
+Mediante el monitoreo continuo, se pudo supervisar el funcionamiento correcto de la aplicación durante el desarrollo y durante las pruebas. Para ello, se usaron herramientas enfocadas en pruebas automatizadas, validación de APIs, control de versiones y seguimiento de incidencias. Con ello, se pudo mejorar la calidad de software.
 
 ### 7.4.1 Tools and Practices
 
 Las herramientas utilizadas para el monitoreo y asegurameitno de calidad de la aplicación fueron las siguientes:
 
-Selenium: utilizado para realizar pruebas automatizadas sobre la interfaz web desarrollada en Vue y la interfaz de la landing page, validando funcionalidades críticas como formularios, navegación e inicio de sesión.
+**Selenium:** Utilizado para realizar pruebas automatizadas sobre la interfaz web desarrollada en Vue y la interfaz de la landing page, validando funcionalidades críticas como formularios, navegación e inicio de sesión.
 ![Selenium.png](assets/chapter07/selenium.png)
 
-Swagger UI: empleado para probar y validar los endpoints del backend desarrollado en C#, verificando respuestas HTTP, parámetros y funcionamiento de las APIs REST.
+**Swagger UI:** Empleado para probar y validar los endpoints del backend desarrollado en C#, verificando respuestas HTTP, parámetros y funcionamiento de las APIs REST.
 ![Swagger.png](assets/chapter07/swagger-banner.png)
 
-MSTest: utilizado para desarrollar y ejecutar pruebas unitarias sobre la lógica de negocio del backend.
+**MSTest:** Utilizado para desarrollar y ejecutar pruebas unitarias sobre la lógica de negocio del backend.
 ![MsTest.png](assets/chapter07/MsTest.png)
 
-GitHub: utilizado para el control de versiones, administración de cambios y colaboración entre los integrantes del equipo.
+**GitHub:** Utilizado para el control de versiones, administración de cambios y colaboración entre los integrantes del equipo.
 ![Github.png](assets/chapter07/github.png)
 
-Jira: empleado para el seguimiento de tareas, incidencias y errores detectados durante las pruebas y el desarrollo del proyecto.
+**Jira:** empleado para el seguimiento de tareas, incidencias y errores detectados durante las pruebas y el desarrollo del proyecto.
 ![Jira.png](assets/chapter07/jira.png)
 
 ### 7.4.2 Monitoring Pipeline Components
