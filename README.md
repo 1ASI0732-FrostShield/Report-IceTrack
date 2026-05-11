@@ -4631,15 +4631,119 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 ## 6.1 Testing Suites & Validation
 
 ### 6.1.1 Core Entities Unit Tests
+
+En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del backend del sistema IceTrack Platform. Estas pruebas fueron desarrolladas utilizando xUnit en .NET 9 y tienen como objetivo validar el correcto funcionamiento de la lógica interna de los agregados y modelos del dominio de manera aislada, sin depender de la base de datos ni de servicios externos. Se evaluaron escenarios relacionados con la creación de entidades, actualización de estados, validación de atributos y ejecución de métodos principales, garantizando así la estabilidad y confiabilidad de los componentes críticos del sistema.
+
++ IAM Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/IAM Test.png" alt="iam-test-image" width="900px"/>
+</p>
+
++ Monitoring Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Monitoring Test.png" alt="monitoring-test-image" width="900px"/>
+</p>
+
++ Service Request Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Service Request Test.png" alt="service-request-test-image" width="900px"/>
+</p>
+
++ Dashboard Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Dashboard Test.png" alt="dashboard-test-image" width="900px"/>
+</p>
+
+<br>
+
 ### 6.1.2 Core Integration Tests
 
-#### Equipment Command Service
-![EquipmentTest.png](assets/chapter06/US03.png)
+En esta sección se muestran las pruebas de integración ejecutadas para validar la interacción entre los diferentes componentes del sistema IceTrack Platform. Las pruebas se realizaron utilizando Postman y Swagger, verificando el correcto funcionamiento de los endpoints RESTful del backend, así como la comunicación entre controladores, servicios, lógica de negocio y base de datos MySQL. Se probaron operaciones principales como registro de usuarios, creación de equipos, generación de solicitudes de servicio y configuración del dashboard, asegurando que el flujo completo de información funcione correctamente entre módulos.
 
-#### Service Request Command Service
-![ServiceRequestTest.png](assets/chapter06/US25.png)
++ Sign In
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/signIn01.png" alt="sign-in" width="900px"/>
+</p>
+
++ Sign up
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/signUp01.png" alt="sign-up" width="900px"/>
+</p>
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/signUp02.png" alt="sign-up-database" width="900px"/>
+</p>
+
++ Post Dashboard
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/postDashboardConfig01.png" alt="post-dashboard" width="900px"/>
+</p>
+
++ Post Equipment
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/postEquipment01.png" alt="post-equipment" width="900px"/>
+</p>
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/postEquipment02.png" alt="post-equipment-database" width="900px"/>
+</p>
+
++ Post Service Request
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/postServiceRequest.png" alt="post-service-request" width="900px"/>
+</p>
+
++ Post Site
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/postSite01.png" alt="post-site" width="900px"/>
+</p>
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/postSite02.png" alt="post-site-database" width="900px"/>
+</p>
+
+<br>
 
 ### 6.1.3 Core Behavior-Driven Development
+
+En esta sección se aplican técnicas de Behavior-Driven Development (BDD) para describir y validar el comportamiento esperado del sistema desde la perspectiva del usuario final. Para ello, se definieron escenarios funcionales utilizando sintaxis Gherkin mediante archivos .feature, representando diferentes flujos de interacción del sistema, como el registro de usuarios, gestión de equipos, creación de solicitudes de servicio y visualización del dashboard. Estos escenarios permiten documentar de forma clara los criterios de aceptación y facilitan la comprensión del comportamiento funcional de la plataforma tanto para desarrolladores como para stakeholders del proyecto.
+
++ US01:
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/gherkin_US01.png" alt="gherkin-US01" width="900px"/>
+</p>
+
++ US03:
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/gherkin_US03.png" alt="gherkin-US03" width="900px"/>
+</p>
+
++ US04:
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/gherkin_US04.png" alt="gherkin-US04" width="900px"/>
+</p>
+
++ US25:
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/gherkin_US25.png" alt="gherkin-US25" width="900px"/>
+</p>
+
+<br>
+
 ### 6.1.4 Core System Tests
 
 ---
@@ -4649,8 +4753,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ---
 
+![US04-ProductBacklog.png](assets/chapter06/US04.png)
+![US04-Selenium.png](assets/chapter06/testSeleniumUS04.png)
+
+---
+
 ![US19-ProductBacklog.png](assets/chapter06/US19-ProductBacklog.png)
 ![US19-Selenium.png](assets/chapter06/Selenium%20US19.png)
+
+---
+
+![US21-ProductBacklog.png](assets/chapter06//US21.png)
+![US21-Selenium.png](assets/chapter06/testSeleniumUS21.png)
 
 ---
 
