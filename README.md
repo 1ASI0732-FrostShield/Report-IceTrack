@@ -4685,8 +4685,6 @@ Se aplican las convenciones oficiales de Microsoft:
 
 #### 6.2.1.2 Code Quality & Code Security
 
-## Calidad y Seguridad del Código en el Proyecto Platform-IceTrack
-
 La calidad del código y la seguridad son pilares esenciales para garantizar un software confiable y mantenible.  
 
 - **Calidad del Código (Backend y Frontend):**  
@@ -4733,10 +4731,16 @@ Las revisiones de código deben realizarse de forma regular, preferiblemente al 
 
 ## 7.1 Continuous Integration
 
+### 7.1.1 Tools and Practices
 En el ámbito del desarrollo y pruebas de software, es esencial contar con herramientas y métodos que aseguren tanto la calidad del código como la productividad del equipo. En nuestro proceso de trabajo, empleamos una variedad de herramientas que optimizan tanto la creación como la validación de la funcionalidad y el comportamiento previsto de la aplicación. Estas herramientas abarcan distintas fases del ciclo de vida del software, desde la escritura del código hasta la ejecución de pruebas y la automatización de tareas. 
 Algunas de las herramientas principales que utilizamos son:
 
-### 7.1.1 Tools and Practices
+
+| Herramienta | Tipo | Descripción | Propósito |
+|-------------|------|-------------|-----------|
+| **Cucumber** | Pruebas BDD | Framework que permite escribir escenarios de prueba en lenguaje Gherkin y vincularlos con Steps en código. | Validar funcionalidades del sistema asegurando trazabilidad con las User Stories. |
+| **Mockito** | Pruebas Unitarias (Backend C#) | Librería de mocking para simular dependencias en pruebas unitarias. | Asegurar que las clases y métodos del backend funcionen correctamente de forma aislada. |
+| **MS Test** | Framework de pruebas unitarias (Backend C#) | Herramienta nativa de .NET para crear y ejecutar pruebas unitarias y de integración. | Validar el comportamiento esperado del código backend y asegurar la cobertura mínima requerida. |
 
 ### 7.1.2 Build & Test Suite Pipeline Components
 
@@ -4744,7 +4748,40 @@ Algunas de las herramientas principales que utilizamos son:
 Su objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue cuando sea necesario.
 
 ### 7.2.1 Tools and Practices
+
+El **Continuous Delivery** se diseñó para asegurar que el software estuviera siempre listo para producción, pero con un control humano en la etapa final. Esto permitió que el equipo mantuviera calidad y coordinación, evitando despliegues automáticos no deseados.
+
+#### Tools:
+| Herramienta | Tipo | Descripción | Propósito |
+|-------------|------|-------------|-----------|
+| **GitHub Actions** | Automatización de CI/CD | Configuramos pipelines que ejecutan pruebas unitarias (MS Test, Mockito), pruebas BDD (Cucumber) y validaciones de calidad. La etapa de despliegue queda preparada pero pendiente de aprobación manual. | Garantizar que cada commit y PR pase por validaciones automáticas antes de estar listo para producción. |
+| **Jira** | Gestión de aprobación | Usado para coordinar la aprobación del despliegue. Después de que el pipeline valida el código, un responsable revisa y aprueba el paso a producción. | Asegurar que el despliegue sea revisado por al menos un miembro del equipo antes de ejecutarse. |
+
+
+#### Practices
+- **Feature Branching y Merge Requests:** Cada funcionalidad se desarrolla en ramas separadas. Tras pasar pruebas automáticas, se fusiona a la rama estable, pero el despliegue requiere aprobación manual.  
+- **Pipeline de Validación en Staging:** Los cambios se prueban en un entorno staging similar a producción, donde se ejecutan pruebas automáticas y manuales antes de aprobar el despliegue.  
+- **Despliegue Semiautomático:** El pipeline prepara la aplicación para producción, pero el despliegue final solo se realiza cuando un responsable lo aprueba.  
+- **Aprobación Manual:** Antes de desplegar, un miembro del equipo revisa los resultados de pruebas y valida que el código cumpla los criterios de calidad.  
+- **Rollback Manual:** En caso de errores, el equipo puede revertir manualmente el despliegue, asegurando control sobre la operación.  
+
+Este enfoque permitió que el equipo mantuviera un balance entre automatización y control humano, asegurando calidad en cada sprint sin perder seguridad en el paso a producción.
+
 ### 7.2.2 Stages Deployment Pipeline Components
+
+Nuestro equipose organizó en varias etapas que nos permitieron mantener control y calidad en cada despliegue. Como grupo, cada uno tuvo un rol en estas fases para asegurar que el código estuviera siempre listo, pero con supervisión antes de llegar a producción.
+
+#### Integración Continua (CI)
+Cuando hacíamos un commit en una rama de desarrollo, el pipeline ejecutaba automáticamente las pruebas unitarias (MS Test, Mockito) y las pruebas BDD (Cucumber). Esto nos garantizaba que el código estuviera en un estado “desplegable” y que no se rompiera la rama estable.
+
+#### Despliegue Manual
+Aunque el pipeline dejaba la aplicación lista para producción, el despliegue final requería aprobación manual. Un miembro del equipo revisaba los resultados y confirmaba que todo estuviera correcto. Esto nos daba mayor control y evitaba errores en producción.
+
+#### Monitoreo y Feedback
+Después de cada despliegue, utilizábamos herramientas de monitoreo para observar cómo el nuevo código afectaba el rendimiento. El feedback era compartido en Jira, donde cada integrante podía comentar y asignar tareas de corrección si era necesario.
+
+#### Aprobación del Despliegue
+El pipeline quedaba en espera hasta que uno de nosotros (desarrollador responsable o administrador) aprobaba el despliegue a producción. Esta práctica aseguraba que siempre hubiera supervisión humana y que el código cumpliera con los criterios de calidad definidos por el equipo.
 
 ## 7.3 Continuous deployment
 
