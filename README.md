@@ -271,36 +271,38 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
   - [6.1 Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1 Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2 Core Integration Tests](#612-core-integration-tests)
-      - [Equipment Command Service](#equipment-command-service)
-      - [Service Request Command Service](#service-request-command-service)
     - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4 Core System Tests](#614-core-system-tests)
   - [6.2 Static testing \& Verification](#62-static-testing--verification)
     - [6.2.1 Static Code Analysis](#621-static-code-analysis)
-      - [6.2.1.1 Coding standard \& Code conventions](#6211-coding-standard--code-conventions)
+    - [6.2.1.1 Coding Standard \& Code Conventions](#6211-coding-standard--code-conventions)
+      - [Frontend](#frontend)
+      - [Backend](#backend)
       - [6.2.1.2 Code Quality \& Code Security](#6212-code-quality--code-security)
+          - [Prueba de SonarQube Cloud:](#prueba-de-sonarqube-cloud)
+          - [Prueba de ESLint:](#prueba-de-eslint)
     - [6.2.2 Reviews](#622-reviews)
+        - [Tipos de Revisiones](#tipos-de-revisiones)
+        - [Proceso de Revisión](#proceso-de-revisión)
+        - [Criterios de Aceptación](#criterios-de-aceptación)
+        - [Frecuencia de Revisiones](#frecuencia-de-revisiones)
   - [6.3 Validation Interviews](#63-validation-interviews)
     - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-  - [6.4 Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
-    - [6.4.1 Auditoría realizada](#641-auditoría-realizada)
-      - [6.4.1.1 Información del grupo auditado](#6411-información-del-grupo-auditado)
-      - [6.4.1.2 Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
-      - [6.4.1.3 Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
-    - [6.4.2 Auditoría recibida](#642-auditoría-recibida)
-      - [6.4.2.1 Información del grupo auditor](#6421-información-del-grupo-auditor)
-      - [6.4.2.2 Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
-      - [6.4.2.3 Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
-      - [6.4.2.4 Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1 Continuous Integration](#71-continuous-integration)
     - [7.1.1 Tools and Practices](#711-tools-and-practices)
     - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2 Continuous Delivery](#72-continuous-delivery)
     - [7.2.1 Tools and Practices](#721-tools-and-practices)
+      - [Tools:](#tools)
+      - [Practices](#practices)
     - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+      - [Integración Continua (CI)](#integración-continua-ci)
+      - [Despliegue Manual](#despliegue-manual)
+      - [Monitoreo y Feedback](#monitoreo-y-feedback)
+      - [Aprobación del Despliegue](#aprobación-del-despliegue)
   - [7.3 Continuous deployment](#73-continuous-deployment)
     - [7.3.1 Tools and Practices](#731-tools-and-practices)
     - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
@@ -4913,23 +4915,40 @@ Las herramientas utilizadas para el monitoreo y asegurameitno de calidad de la a
 **Selenium:** Utilizado para realizar pruebas automatizadas sobre la interfaz web desarrollada en Vue y la interfaz de la landing page, validando funcionalidades críticas como formularios, navegación e inicio de sesión.
 ![Selenium.png](assets/chapter07/selenium.png)
 
+---
+
+
 **Swagger UI:** Empleado para probar y validar los endpoints del backend desarrollado en C#, verificando respuestas HTTP, parámetros y funcionamiento de las APIs REST.
 ![Swagger.png](assets/chapter07/swagger-banner.png)
+
+---
 
 **MSTest:** Utilizado para desarrollar y ejecutar pruebas unitarias sobre la lógica de negocio del backend.
 ![MsTest.png](assets/chapter07/MsTest.png)
 
+---
+
+
 **GitHub:** Utilizado para el control de versiones, administración de cambios y colaboración entre los integrantes del equipo.
 ![Github.png](assets/chapter07/github.png)
 
+
+---
+
+
 **Jira:** empleado para el seguimiento de tareas, incidencias y errores detectados durante las pruebas y el desarrollo del proyecto.
 ![Jira.png](assets/chapter07/jira.png)
+
+
+---
 
 ### 7.4.2 Monitoring Pipeline Components
 
 El flujo de monitoreo estuvo conformado por diferentes componentes y etapas en las que nos encargamos de validar la calidad y funcionamiento del sistema.
 
 Las pruebas unitarias realizadas en Rider con MsTest permitieron validar el comportamiento de los componentes internos y de la lógica del backend desarrollado en C#. Asimismo, Selenium automatizó pruebas funcionales sobre la interfaz web simulando acciones reales de los usuarios para detectar errores de funcionamiento.
+
+<img src="assets/chapter06/Test Diseño/Monitoring Test.png" alt="monitoring-test-image" width="900px"/>
 
 Swagger UI permitió monitorear y validar continuamente el funcionamiento de las APIs REST, facilitando la integración entre frontend y backend mediante pruebas de endpoints y verificación de respuestas.
 
@@ -4943,11 +4962,15 @@ Jira fue muy importante en la gestión de errores al realizar las pruebas unitar
 
 Adicionalmente, GitHub permitió identificar cambios realizados en el código fuente y facilitar la revisión colaborativa para prevenir errores antes de integrar nuevas funcionalidades al sistema.
 
+![JiraIceTrack.png](assets/chapter07/Jira_IceTrack.png)
+
 ### 7.4.4 Notification Pipeline Components
 
 El pipeline de notificaciones permitió mantener informado al equipo sobre el estado del proyecto, las modificaciones del mismo y los resultados de las pruebas realizadas.
 
 GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante commits, pull requests y actualizaciones del repositorio, permitiendo la colaboración continua entre los integrantes del equipo.
+
+![GithubIceTrack.png](assets/chapter07/Github_IceTrack.png)
 
 
 # Conclusiones
