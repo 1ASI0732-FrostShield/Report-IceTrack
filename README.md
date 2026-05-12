@@ -40,8 +40,11 @@
  
 | Versión | Fecha      | Autor             | Descripción de modificación                        	|
 | :-----: | :--------: | :---------------: | :----------------------------------------------------- |
-| 1.1     | 03/12/2025 | Julio Guillen     | Desarrollo BackEnd para Assets-Management y Monitoring |
-| 1.2     | 04/12/2025 | Jeremy Quijada    | Refactorizacion de la aplicación                       |
+| 1.1     | 15/04/2026 | Julio Guillen     | Desarrollo BackEnd para Assets-Management y Monitoring |
+| 1.2     | 30/04/2026 | Jeremy Quijada    | Refactorizacion de la aplicación                       |
+| 2.1     | 04/05/2026 | Julio Guillen    | Revision de los Capitulos III al V                       |
+| 2.2     | 05/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VI                       |
+| 2.2     | 12/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VII                    |
 
 </div>
 
@@ -50,18 +53,21 @@
 - **URL de la organización del proyecto:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield
   <br>
+
 - **URL del repositorio del reporte:** 
-  https://github.com/1ASI0730-2520-7452-G1-FrostShield/Report
+  https://github.com/1ASI0732-FrostShield/Report-IceTrack
   <br>
   
 - **URL del repositorio de la Landing Page:**
-  https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page
+  https://github.com/1ASI0732-FrostShield/Landing-Page-IceTrack
   <br>
+
 - **URL del repositorio del Frontend:** 
-  https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack-Frontend
+  https://github.com/1ASI0732-FrostShield/Frontend-IceTrack
   <br>
+
 - **URL del repositorio del Backend:** 
-  https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack-Platform
+  https://github.com/1ASI0732-FrostShield/Platform-IceTrack
 
 Durante la fase de preparación del informe, se llevaron a cabo las siguientes actividades:
 
@@ -74,6 +80,17 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 ![InsightsTB1](assets/chapter01/Insights-TB1.png)
 
 ![NetworkGraph](assets/chapter01/NetworkGraph-TB1.png)
+
+**TP:** Las tareas asignadas a la TP han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
+
+- Se redactaron y crearon los contenidos asignados a cada miembro utilizando formato Markdown, y se realizaron "Conventional Commits" para documentar el avance en el repositorio.
+- Se generaron los recursos necesarios y se añadieron las imágenes al repositorio en la carpeta "assets" correspondiente a cada rama del informe.
+- Se organizaron reuniones para coordinar el progreso de los componentes del informe y del Sprint 1, que estuvo enfocado en el desarrollo de la Landing Page.
+
+![InsightsTP](assets/chapter01/Pulse-TP.png)
+
+![NetworkGraphTP](assets/chapter01/Network-TP.png)
+
 
 ## Contenido
 
@@ -183,10 +200,6 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
       - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 
 - [Capítulo VI: Product Verification & Validation](#c6)
   - [6.1 Testing Suites & Validation](#61-testing-suites--validation)
@@ -240,8 +253,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Lideró la arquitectura del sistema y la fase de QA para validación de variables de monitoreo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida.</li><li><b>Gonzales Alvarado, Javier:</b> Lideró el diseño de la Landing Page y la estrategia de comunicación del producto.</li><li><b>Jiménez Guerra, Gianmarco:</b> Lideró el análisis de requerimientos y la validación de escenarios de usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas.</li></ul> | <ul><li>El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada capítulo, logrando la integración exitosa del proyecto.</li></ul> |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> Desarrolló el prototipo funcional y configuró los entornos de despliegue continuo.</li><li><b>Guillen Galindo, Julio Adolfo:</b> Implementó los servicios de seguridad JWT y la lógica de negocio del servidor.</li><li><b>Gonzales Alvarado, Javier:</b> Elaboró la documentación técnica y el manual de estilo de la aplicación.</li><li><b>Jiménez Guerra, Gianmarco:</b> Definió los User Personas y realizó el mapeo de experiencias (As-Is Scenario).</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> Creó los flujos de usuario y garantizó la accesibilidad en la interfaz móvil.</li><li><b>Gordon Salas, Gabriel Fernando:</b> Gestionó el Backlog y supervisó el cumplimiento de los hitos académicos en los plazos establecidos.</li></ul> | <ul><li>Se estableció un flujo de trabajo ágil que permitió cumplir con el 100% de los objetivos planteados para el TB1 mediante el uso de herramientas colaborativas.</li></ul> |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas.</li></ul> | <ul> **Avance 1:** El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada integrante, logrando la integración exitosa del proyecto y asegurando calidad tanto en pruebas como en automatización. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas.</ul> |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas.</li></ul>  | <ul> **Avance 1:** Se estableció un flujo de trabajo ágil y colaborativo que permitió cumplir con el 100% de los objetivos planteados para el avance inicial, integrando prácticas de validación y automatización en cada etapa. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas.</ul> |
+
 
 
 # Capitulo 1: Introducción
@@ -1801,7 +1815,7 @@ Definir convenciones de nomenclatura para ramas en Git es crucial para mantener 
 
 ---
 
-### **Beneficios de la Nomenclatura Predictiva**
+#### **Beneficios de la Nomenclatura Predictiva**
 
 Un esquema de nombres consistente ofrece múltiples ventajas:
 
@@ -1810,7 +1824,7 @@ Un esquema de nombres consistente ofrece múltiples ventajas:
 
 ---
 
-### **Estrategia de Ramificación (Git Flow)**
+#### **Estrategia de Ramificación (Git Flow)**
 
 En nuestro proyecto, aplicamos un modelo simplificado de Git Flow con las siguientes ramas principales:
 
@@ -1821,13 +1835,13 @@ Además de estas, gestionamos el progreso del desarrollo en un repositorio separ
 
 ---
 
-### **Flujo de Trabajo y Herramientas**
+#### **Flujo de Trabajo y Herramientas**
 
 Elegimos **GitHub** como nuestra plataforma de colaboración principal. Esto nos ayuda a **dar seguimiento al progreso** del equipo, **gestionar los cambios** y **visualizar las actualizaciones** del proyecto. Una de las ventajas es que las actualizaciones en el código se reflejan automáticamente en la rama `gh-pages`, lo que permite a los interesados ver los avances en tiempo real.
 
 ---
 
-### **Convenciones de Nomenclatura**
+#### **Convenciones de Nomenclatura**
 
 A continuación, se detallan las convenciones de nomenclatura para diferentes tipos de ramas que usamos en nuestro proyecto:
 
@@ -2356,26 +2370,31 @@ En este primer Sprint hemos realizado la implementación de nuestra Landing Page
 **Inicio**
 Muestra el logo de la marca, una navegación clara y un botón de "Registrarse" en un color llamativo para guiar al usuario.
 Presenta la propuesta de valor principal con una imagen atractiva y un texto impactante, capturando la atención del visitante de inmediato
+
 ![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
 ---
 
 **Beneficios**
 Detalla las principales ventajas que los usuarios obtienen al usar el producto, mostrando cómo resuelve sus problemas de manera efectiva.
+
 ![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
 ---
 
 **Sobre Nosotros**
 Explica la misión y visión de la empresa, compartiendo los valores y la historia para generar confianza.
+
 ![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
 ---
 
 **Testimonios**
 Muestra opiniones de clientes satisfechos, actuando como prueba social para validar la calidad del producto o servicio.
+
 ![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
 ---
 
 **Contacto**
 Ofrece un medio para que los usuarios se comuniquen, ya sea para pedir más información o para agendar una demostración.
+
 ![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
@@ -2385,18 +2404,24 @@ Ofrece un medio para que los usuarios se comuniquen, ya sea para pedir más info
 A continuación, se presenta las  secciones principales de la Landing Page desplegada en GitHub Pages:
 
 **Inicio**
+
 ![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
 ---
 **Beneficios**
+
 ![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
 ---
+
 **Sobre Nosotros**
+
 ![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
 ---
 **Testimonios**
+
 ![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
 ---
 **Contacto**
+
 ![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
 ---
 
@@ -4072,461 +4097,24 @@ Frontend:
 Backend:
 ![InsightsTB2BACKEND.png](assets/chapter05/InsightsTFBACKEND.png)
 
-## 5.3. Validation Interviews
 
-### 5.3.1. Diseño de Entrevistas
+## 5.3. Video About-the-Product
 
-## **Objetivo de la Entrevista**
+En esta parte, el equipo ofrece una síntesis de los puntos más importantes de IceTrack. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de los sistemas de refrigeración, ya sea en entornos domésticos o comerciales.
 
-Validar la usabilidad, efectividad y propuesta de valor de la plataforma IceTrack enfocada en el monitoreo de equipos de refrigeración para los segmentos clave. Se evaluará si las funcionalidades cubren las necesidades reales de operación, mantenimiento y supervisión, y si los flujos son intuitivos para usuarios con distintos perfiles técnicos.
+La narración guía al espectador por toda la experiencia de uso, mientras que testimonios reales aportan credibilidad al compartir cómo la aplicación ha facilitado la supervisión de sistemas de refrigeración, tanto para técnicos como para usuarios sin experiencia. Estos relatos destacan la facilidad de uso y la mejora en la eficiencia y confiabilidad de los equipos.
 
-## **Elementos de Validación**
+En conjunto, el video no solo presenta el producto, sino que lo posiciona como una solución digital efectiva para apoyar el mantenimiento y control responsable de la refrigeración, demostrando su utilidad, su usabilidad y su impacto positivo.
 
-**Landing Page**
+**Video Explicativo**
 
-- Claridad de la propuesta de valor.
-- Acceso rápido a funcionalidades clave.
+<p align="center">
+    <img src="assets/chapter05/about_product.png" alt="about_product"/>    
+</p>
 
-**Aplicación Web**
+URL de la Versión Publicada
 
-- Registro de equipos de refrigeración.
-- Configuración de sensores (temperatura, humedad, consumo). 
-- Visualización del estado en tiempo real.
-- Generación y recepción de alertas.
-- Solicitud de mantenimiento.
-- Visualización de reportes de uso, consumo y fallas.
-- Gestión de técnicos y mantenimientos programados.
-
-## **Para el Segmento 1: Negocios con equipos de refrigeración**
-
-- Agregar equipos
-- Monitoreo y alertas
-- Ver dashboards
-- Recibir alertas por alta temperatura, apertura prolongada, fallas eléctricas
-- Visualización de reportes
-- Histórico de temperatura
-- Consumo energético
-- Horas de funcionamiento
-
-## **Para el Segmento 2: Técnicos y empresas de mantenimiento**
-
-- Gestión de técnicos
-- Ver disponibilidad y ubicación
-- Intervenciones previas por equipo
-- Generación de reportes
-- Rendimiento de técnicos
-- Equipos por cliente
-- Mantenimientos programados
-
-## **Formato de Registro de Entrevista**
-
-- Nombre completo
-- Edad
-- Distrito de residencia
--  Rol en su empresa
--  Dispositivo utilizado para la prueba
-
-## **Preguntas para el Segmento**
-
-**Registro y Autenticación de Usuario**
-- ¿Los campos solicitados (nombre, email, contraseña) te parecieron apropiados para crear tu cuenta?
-- ¿El inicio de sesión fue rápido y sin errores inesperados?
-  
-**Dashboard**
-
-- Al ingresar al panel principal, ¿lograste entender rápidamente cómo navegar por las diferentes secciones?
-- ¿La información de resumen que se muestra es útil para tener una visión general?
-  
-**Sites**
-
-- ¿La información de los sitios en listas facilita su identificación y organización?
-- ¿Encontraste sin problemas la opción para ver el listado de equipos de refrigeración?
-- ¿La visualización de direcciones o IDs fue clara y coherente con lo esperado?
-  
-**Equipments**
-
-- Al visualizar los equipos, ¿la información mostrada es relevante para tus necesidades?
-- ¿Pudiste distinguir fácilmente el estado de cada equipo?
-- ¿Los botones de acción (por ejemplo, “More”, “Equipment detail”) respondieron correctamente?
-  
-**Alertas y Reportes**
-
-- ¿Te resultó fácil interpretar las alertas (colores, tipo, severidad)?
-- ¿Pudiste acceder fácilmente a los reportes generados?
-- ¿Los filtros y botones (por ejemplo, “Ver Reporte” o “View Equipment”) funcionaron como esperabas?
-
-**Servicios**
-
-- ¿Cómo fue tu experiencia solicitando un servicio?
-- ¿La opción para programar mantenimiento estaba visible y disponible?¿Qué te pareció su implementación?
-
-**Configuración y Perfil**
-
-- ¿Ubicaste la sección de Configuración sin dificultad?
-- ¿Los cambios realizados (idioma, tema) se mantuvieron al recargar la página o volver a iniciar sesión?
-
-**Experiencia General**
-
-- ¿La aplicación te pareció visualmente atractiva y coherente en todas sus secciones?
-- ¿Consideras que el flujo general (inicio, navegación, reportes) es lógico e intuitivo?
-- ¿Tuviste algún problema técnico (errores, lentitud, fallos de carga)?
-
-### 5.3.2. Registro de Entrevistas.
-
-## Segmento objetivo #1: Negocios con equipos de refrigeración
-
-**Entrevista 1:**
-
-- **Nombres y apellidos:** Henrry Aiquipa
-- **Edad:** 25
-- **Distrito:** San Martín de Porres
-
-![Interview-1-segment-1.png](assets/chapter05/entrevista-2-segmento-1.png)
-
-- **Inicio:** 0:00
-- **Duración:** 14:49 min
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQDZJDCV5rVLQJHq_pq3M0RWAZbT8M6ee7V0Eo77-ESq_0U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fUbOGP
-- **Resumen:** Henrry Aiquipa, 25 años, dueño de una bodega en San Martín de Porres, tuvo una experiencia en general positiva con la plataforma para negocios con equipos de refrigeración. Percibió el registro e inicio de sesión como simples y sin errores, y encontró el dashboard intuitivo, con un resumen útil del estado de sus equipos. Destacó que las secciones de “Sites” y “Equipments” están bien organizadas, con información relevante y estados de equipos fáciles de identificar. Valoró también la claridad de las alertas y la facilidad para acceder a reportes y solicitar servicios o programar mantenimientos. Ubicó sin problema la sección de configuración y confirmó que los cambios se guardan correctamente. En conjunto, considera que la aplicación es visualmente agradable, coherente e intuitiva, mencionando solo pequeños retrasos puntuales que no afectan su uso general.
-
-**Entrevista 2:**
-
-- **Nombres y apellidos:** Sonia Rocio
-- **Edad:** 59
-- **Distrito:** Lima
-
-![Interview-1-segment-1.png](assets/chapter05/entrevista-1-segmento-1.png)
-
-- **Inicio:** 0:00
-- **Duración:** 5:21 min
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQCK3Oq7XMaZRL7U5QnkIAKuAeHFhMJhaovEMp5L-PuTANE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5HVhkd
-- **Resumen:** La señora Rocío Galindo, comenta que la plataforma para negocios con equipos de refrigeración le resultó clara y sencilla de usar: el registro y el ingreso fueron fáciles, el panel principal le mostró de inmediato el estado de sus equipos y las secciones de “Sites” y “Equipments” le parecieron muy ordenadas. Destaca que las alertas son comprensibles, los reportes y las solicitudes de mantenimiento están al alcance y que la configuración permite hacer cambios sin dificultad. En general, afirma que la aplicación es visualmente agradable, coherente y práctica para su día a día.
-
-**Entrevista 3:**
-
-- **Nombres y apellidos:** Mauricio Mego
-- **Edad:** 22
-- **Distrito:** Lima
-
-![Interview-1-segment-1.png](assets/chapter05/entrevista-alejandro.png)
-
-- **Inicio:** 0:00
-- **Duración:** 6:02 min
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQBJ0SiZQ9aMR6QPa0IBM5jrAQxA99usZN4RQIdTMA8w49Y?e=Yl7TId&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- **Resumen:** Mauricio administra junto a su padre un minimarket que contiene varios equipos de refrigeración, por lo que depende de ellos para poder conservar alimentos. Él en la entrevista menciona que le pareció atractiva e intuitiva. El dashboard le pareció conciso y facil de entender, al igual que las alertas, servicios, equipos y sitios. Sí recomendaría utilizar la aplicación a otras personas y la utilizaría para poder tener mejor control sobre sus equipos y poder solicitar servicios por si alguno falla.
-
----
-
-## Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:
-
-**Entrevista 1:**
-
-- **Nombres y apellidos:** Alvaro Piettro Salazar Urbina
-- **Edad:** 24
-- **Distrito:** Comas
-
-![Interview-1-segment-1.png](assets/chapter05/ValidationInterview1-Segmento2.png)
-
-- **Inicio:** 0:28 min
-- **Duración:** 14:49 min
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQDZJDCV5rVLQJHq_pq3M0RWAZbT8M6ee7V0Eo77-ESq_0U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fUbOGP
-- **Resumen:** Alvaro Salazar, 24 años, técnico especializado en servicios de mantenimiento en máquinas de refrigeración. Ante su experiencia en este rubro, comparte su opinión y retroalimentación acerca de nuestra aplicación IceTrack. Tras haber hecho uso de la aplicación, comenta que la interfaz fue sencilla y fácil de entender. Así mismo, cree que el flujo de la aplicación es sencilla y no cuenta con dificultades o elementos que distraigan la atención. Considera que el tiempo de espera se encuentra en el tiempo promedio que se espera de este tipo de aplicaciones y considera apropiado la creación de reportes para mejorar su eficiencia en servicios de mantenimiento. En conclusión, Alvaro considera que nuestra aplicación cumple con el objetivo de resolver las necesidades de los usuarios con una interfaz sencilla de entender y visualmente agradable.
-
----
-
-### 5.3.3. Evaluaciones según heurísticas
-
-**Esta evaluacion fue hecho con el Grupo 4:**
-
-## Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación: "IceTrack"
-
-**UX Heuristics & Principles Evaluation**
-
-**Usability – Inclusive Design – Information Architecture**
-
-**CARRERA	: Ingeniería de Software**
-
-**CURSO	: Aplicaciones Web**
-
-**SECCIÓN	: 7452**
-
-**PROFESORES	: Todos**
-
-**AUDITOR	: Samuel Jesus Bonifacio Jaramillo**
-
-**CLIENTE(S)	:**
-
-	   **Galindo Montero, Alejandro Manuel**   
-
-	   **Guillen Galindo, Julio Adolfo**   
-
-	   **La Madrid Lozano, Ivan Jeanpierre** 
-
-	   **Nanfuñay Liza, Pedro Jesus**
-
-	   **Ramirez Cabrera, Kenyi Efrain**
-
-**SITE o APP A EVALUAR:** IceTrack
-
-## TAREAS A EVALUAR:
-
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
-
-1. Ambigüedad en la terminología y las unidades de las temperaturas máximas.
-2. Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.
-3. La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".
-4. Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.
-5. Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.
-6. Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de activos y alertas.
-7. Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.
-8. Confusión visual entre campos editables y no editables en la sección de información de usuario.
-9. Redundancia o falta de claridad en los filtros de la sección "My Service Requests".
-
-## ESCALA DE SEVERIDAD:
-
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
-
-| Nivel | Descripción                                                                                                                                                                                    |
-| :---: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
-| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
-
-## TABLA RESUMEN:
-
-| \#  | Problema                                                                                                      | Escala de severidad | Heurística/Principio violada(o)                                          |
-| :-: | :------------------------------------------------------------------------------------------------------------ | :-----------------: | :----------------------------------------------------------------------- |
-| 1   | Ambigüedad en la terminología y las unidades de las temperaturas máximas.                                     | 3                   | Visibility of System Status / Consistency and Standards                  |
-| 2   | Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.                   | 2                   | Visibility of System Status                                              |
-| 3   | La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".                     | 3                   | Error Prevention / Consistency and Standards                             |
-| 4   | Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.                                  | 2                   | Recognition Rather Than Recall / Aesthetic and Minimalist Design         |
-| 5   | Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación. | 3                   | Consistency and Standards / Match Between System and the Real World      |
-| 6   | Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de alertas.                      | 3                   | Recognition Rather Than Recall / Match Between System and the Real World |
-| 7   | Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.       | 4                   | Match Between System and the Real World                                  |
-| 8   | Confusión visual entre campos editables y no editables en la sección de información de usuario.               | 3                   | Visibility of System Status / Aesthetic and Minimalist Design            |
-| 9   | Redundancia o falta de claridad en los filtros de la sección "My Service Requests".                           | 2                   | Aesthetic and Minimalist Design / Flexibility and Efficiency of Use      |
-
-## DESCRIPCIÓN DE PROBLEMAS:
-
-## PROBLEMA \#1: Ambigüedad en la terminología y las unidades de las temperaturas máximas.
-
-- **Severidad: 3 Heurística violada: Visibility of System Status / Consistency and Standards**
-- Problema: En el Dashboard, la sección superior derecha muestra "Max: 3.8°" y "Max: 4.3°". No hay una etiqueta que explique si estos son límites preconfigurados, los máximos históricos, o los máximos registrados en las últimas 24h. Esta falta de contexto clave impide al usuario entender el significado de estas métricas. Además, la unidad de temperatura usa ° en estos máximos, mientras que el promedio usa °C, mostrando una inconsistencia.
-- Recomendación: Etiquetar claramente los valores, por ejemplo, "Límite Alto" o "Máximo Histórico". Unificar el símbolo de temperatura a °C en toda la interfaz.
-
-## PROBLEMA \#2: Falta de retroalimentación visual prominente al seleccionar un elemento en el menú lateral.
-
-- **Severidad: 2 Heurística violada: Visibility of System Status**
-- Problema: El elemento del menú lateral activo ("Equipments" en su vista) se indica con un sutil color de fondo azul que podría no ser lo suficientemente visible o contrastante para algunos usuarios. Esto dificulta la confirmación instantánea de la ubicación actual del usuario en la aplicación.
-- Recomendación: Reforzar la indicación del elemento activo. Sugerencia: Añadir un borde vertical (ej. una línea gruesa azul) al lado izquierdo del elemento seleccionado para un contraste más fuerte.
-
-## PROBLEMA \#3: La acción "Acknowledge (ACK)" aparece en alertas cuyo estado ya es "Resolved" o "Closed".
-
-- **Severidad: 3 Heurística violada: Error Prevention / Consistency and Standards**
-- Problema: En la tabla "Recent Alerts" del Dashboard, se ofrece la acción "Acknowledge (ACK)" para alertas que ya tienen un estado de "Resolved" o "Closed". Lógicamente, no se requiere o no debería ser posible "reconocer" una alerta que el sistema ya considera - - finalizada. Esto genera confusión e impulsa acciones innecesarias.
-- Recomendación: Hacer que la columna ACTION sea contextual: debe desaparecer o cambiar a una opción como "View Log" o "View Details" cuando el Status sea finalizado.
-
-## PROBLEMA \#4: Etiquetado "5 puntos" en el filtro del gráfico de temperatura es poco claro.
-
-- **Severidad: 2 Heurística violada: Recognition Rather Than Recall / Aesthetic and Minimalist Design**
-- Problema: El texto "5 pontos" sobre el gráfico de temperatura es técnico o está mal traducido/etiquetado. El usuario no puede saber fácilmente si se refiere a 5 sensores, 5 días, o la granularidad de los datos. Esto obliga al usuario a recordar su significado.
-- Recomendación: Utilizar una etiqueta clara y orientada al usuario, como "5 Sensores", "Granularidad" o el parámetro real que se esté filtrando.
-
-## PROBLEMA \#5: Botones de acción principal (ej. "Equipment detail") están mal etiquetados, no indican la acción de creación.
-
-- **Severidad: 3 Heurística violada: Consistency and Standards / Match Between System and the Real World**
-- Problema: En las vistas de listas de activos (Sites y Equipments), el botón azul global en la esquina superior derecha está etiquetado como "Site detail" o "Equipment detail". Este etiquetado sugiere que llevará al detalle de un elemento seleccionado, cuando lo más probable es que su función principal sea agregar un nuevo activo. Esto es inconsistente con el estándar de UX de usar verbos de acción.
-- Recomendación: Cambiar la etiqueta del botón por un texto que indique la acción de creación, como "+ New Site" o "+ New Equipment". Si su función es realmente ver el detalle, esta acción debe estar en la fila del activo o deshabilitada si no hay selección.
-
-## PROBLEMA \#6: Uso de identificadores internos ("e1", "s1", "t2") en las tablas principales de activos y alertas.
-
-- **Severidad: 3 Heurística violada: Recognition Rather Than Recall / Match Between System and the Real World**
-- Problema: La tabla de Alerts utiliza IDs del sistema como e1 (Equipment), s1 (Site) y t2 (Tenant). Estos IDs no son significativos para el usuario, obligándolo a recordar o consultar constantemente su significado. Esta abstracción aumenta la carga cognitiva y reduce la velocidad de comprensión del estado del sistema.
-- Recomendación: Reemplazar los IDs en las vistas de lista con los nombres reales de los activos (mostrar "Minimarket San Miguel" en lugar de s1, y el "Model" del equipo en lugar de e1).
-
-## **PROBLEMA \#7: Las fechas y horas en los detalles de equipos se muestran en formato UTC/Z sin conversión a hora local.**
-
-- **Severidad: 4 Heurística violada: Match Between System and the Real World**
-- Problema: En la vista "Equipment detail", las fechas como 2025-09-21T14:10:00Z están en formato UTC. En un sistema de monitoreo, donde el tiempo es crítico, obligar al usuario a calcular la diferencia horaria manualmente para correlacionar eventos con la hora local es un error crítico que puede llevar a errores operacionales.
-- Recomendación: Implementar la conversión automática de todas las marcas de tiempo a la zona horaria local del usuario y mostrarlas en un formato legible (ej. DD/MM/AAAA HH:MM:SS).
-
-## **PROBLEMA \#8: Confusión visual entre campos editables y no editables en la sección de información de usuario.**
-
-- **Severidad: 3 Heurística violada: Visibility of System Status / Aesthetic and Minimalist Design**
-- Problema: En la sección "User information" (Admin), la información de solo lectura (ej. Email, Register Date, Plans) se presenta dentro de cajas de texto de color gris, que visualmente son demasiado similares a los campos editables (cajas blancas). Esto añade desorden visual y hace que el usuario se pregunte qué campos puede modificar y cuáles no.
-- Recomendación: Los datos de sólo lectura deben mostrarse como texto plano (sin bordes ni sombreado de caja) para una clara diferenciación visual.
-
-## **PROBLEMA \#9: Redundancia o falta de claridad en los filtros de la sección "My Service Requests".**
-
-- **Severidad: 2 Heurística violada: Aesthetic and Minimalist Design / Flexibility and Efficiency of Use**
-- Problema: En la sección "My Service Requests", los filtros están agrupados de forma redundante ("Filter by: ALL | Pending | Assigned | In progress | Done" y luego "ALL | Repair (Corrective) | Maintenance (Preventive)"). El doble uso de "ALL" es confuso. Además, el primer conjunto de filtros parece enfocarse en el Status, y el segundo en el Type, pero la repetición de "ALL" no es eficiente.
-- Recomendación: Fusionar los filtros en un único conjunto que permita seleccionar una opción de Status Y una opción de Type, o unificar el botón "ALL" si es un reset general de ambos filtros.
-
-**Respositorio de auditoria:** `https://docs.google.com/document/d/12K22DituAE1HPKc8xQM8qvzI5G8edJ3c5FYTELsxBZM/edit?usp=sharing`
-
----
-
-## Proceso de Evaluacion para el grupo 1"
-
-## Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación: "AgroApp"
-
-**UX Heuristics & Principles Evaluation**
-
-**Usability – Inclusive Design – Information Architecture**
-
-**CARRERA:** Ingeniería de Software
-
-**CURSO:** Aplicaciones Web
-
-**SECCIÓN:** 7380  
-
-**PROFESORES:** Todos
-
-**AUDITOR:** Ramirez Cabrera, Kenyi Efrain
-
-**CLIENTE(S)	:**
-
-	   **Bonifacio Jaramillo, Samuel Jesus**   
-
-	   **Castro Pariona, Jefferson Ernesto**   
-
-	   **Morales Sosa, Arnold Gabriel** 
-
-	   **Romero Meza, Jhimy Pool**
-
-	   **Seminario Castillo, Diego Vicente**
-
-**SITE o APP A EVALUAR:** AgroApp
-
-## TAREAS A EVALUAR:
-
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
-
-1. Visualización y navegación en la página principal
-2. Visualización del campo de Cultivo (galería, fichas, presentación de información)
-3. Navegación por la sección de Cultivos (flujo, claridad de información, pasos a seguir)
-4. Accesibilidad y claridad del menú lateral (ubicación, iconos, estructura)
-5. Visualizacion de los atributos de los campos y cultivos (nombre, dimensiones, producto, estado, etc)
-6. Diferenciación entre las secciones “Cultivos” y “Campos”
-7. Visualización de detalles del campo (tareas, estado, producto)
-8. Gestión de cultivos y sus campos (tareas, recordatorios)
-9. Claridad de iconografía y etiquetas
-10. Navegación lateral y localización de sección activa
-11. Estructura y claridad del formulario de registros
-12. Proceso de cambio de idioma
-13. Personalización y curva de aprendizaje
-
-## ESCALA DE SEVERIDAD:
-
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
-
-| Nivel | Descripción                                                                                                                                                                                    |
-| :---: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
-| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
-
-## TABLA RESUMEN:
-
-| \#    | Problema                                                                                               | Escala de severidad | Heurística/Principio violada(o)                                     |
-| :---: | :----------------------------------------------------------------------------------------------------- | :-----------------: | :------------------------------------------------------------------ |
-| 1	    | Dificultad para identificar el contenido principal y navegar desde la página inicial.	                 | 3	               | Visibility of System Status / Aesthetic and Minimalist Design       |
-| 2	    | La visualización del campo de Cultivo no es consistente entre galería, fichas y vista detallada.	     | 3	               | Consistency and Standards / Match Between System and the Real World |
-| 3	    | El flujo dentro de la sección de Cultivos no guía al usuario en los pasos a seguir.                    | 3	               | User Control and Freedom / Recognition Rather Than Recall           | 
-| 4	    | El menú lateral presenta baja claridad en su estructura e iconos poco representativos.	             | 2	               | Recognition Rather Than Recall / Aesthetic and Minimalist Design    |
-| 5	    | Los atributos de campos y cultivos no están claramente organizados o priorizados.	                     | 3	               | Aesthetic and Minimalist Design / Visibility of System Status       |
-| 6	    | Confusión entre las secciones “Cultivos” y “Campos”, sin una diferenciación conceptual o visual clara. | 3	               | Match Between System and the Real World / Consistency and Standards |
-| 7	    | La vista de detalles del campo muestra información incompleta o poco jerarquizada.	                 | 3	               | Visibility of System Status / Aesthetic and Minimalist Design       |
-| 8	    | El proceso de gestión de cultivos y tareas no es intuitivo, generando pérdida de control.	             | 3	               | User Control and Freedom / Flexibility and Efficiency of Use        |
-| 9	    | La iconografía y etiquetas no son claras ni coherentes con su propósito.	                             | 2	               | Recognition Rather Than Recall / Consistency and Standards          |
-| 10	| El usuario no puede identificar fácilmente qué sección del menú está activa.	                         | 2	               | Visibility of System Status                                         |
-| 11	| El formulario de registros presenta desorden visual y campos sin jerarquía clara.	                     | 3	               | Aesthetic and Minimalist Design / Error Prevention                  |
-| 12	| El proceso de cambio de idioma no es visible o requiere demasiados pasos.	                             | 2	               | Visibility of System Status / Flexibility and Efficiency of Use     |
-| 13    | Falta de personalización y una curva de aprendizaje elevada para nuevos usuarios.	                     | 2	               | Flexibility and Efficiency of Use / Help and Documentation          |
-
-## DESCRIPCIÓN DE PROBLEMAS:
-
-## PROBLEMA #1: Dificultad para identificar el contenido principal y navegar desde la página inicial.
-
-- Severidad: 3 — Heurística violada: Visibility of System Status / Aesthetic and Minimalist Design
-- Problema: En la página principal, la información está distribuida de manera poco jerárquica, lo que dificulta identificar rápidamente el contenido más relevante. No existe un punto focal claro ni un orden visual que guíe la exploración inicial del usuario. Esto genera incertidumbre sobre qué acciones pueden realizarse desde esta vista.
-- Recomendación: Organizar el contenido siguiendo una estructura clara de prioridades (ej. “Resumen del campo”, “Acciones rápidas”, “Alertas”). Incorporar títulos visibles, secciones delimitadas y un diseño que facilite la exploración inicial.
-
-## PROBLEMA #2: La visualización del campo de Cultivo no es consistente entre galería, fichas y vista detallada.
-
-- Severidad: 3 — Heurística violada: Consistency and Standards / Match Between System and the Real World
-- Problema: Las vistas del Cultivo presentan variaciones en etiquetas, tamaños de tarjeta, iconografía y disposición del contenido. En la galería el Cultivo aparece con un estilo visual, mientras que en las fichas o vista detallada adopta otro, generando confusión y dificultando la continuidad visual.
-- Recomendación: Unificar criterios de diseño: usar la misma estructura básica, iconografía, tipografía y orden de atributos en todas las vistas relacionadas al Cultivo.
-
-## PROBLEMA #3: El flujo dentro de la sección de Cultivos no guía al usuario en los pasos a seguir.
-
-- Severidad: 3 — Heurística violada: User Control and Freedom / Recognition Rather Than Recall
-- Problema: La sección de Cultivos no ofrece una guía clara sobre qué debe hacerse primero (visualizar el campo, asignar tareas, seleccionar un cultivo, ver su detalle, etc.). El usuario debe recordar rutas previas y elementos relacionados, lo cual incrementa la carga cognitiva.
-- Recomendación: Agregar breadcrumbs, indicadores de progreso o acciones guiadas (ej. “Ver cultivos”, “Seleccionar un campo”, “Asignar tarea”). Presentar una navegación más lineal o explicar mediante subtítulos qué representa cada sección.
-
-## PROBLEMA #4: El menú lateral presenta baja claridad en su estructura e iconos poco representativos.
-
-- Severidad: 2 — Heurística violada: Recognition Rather Than Recall / Aesthetic and Minimalist Design
-- Problema: Los iconos del menú lateral no representan claramente la función de cada sección. Algunos iconos son genéricos y requieren que el usuario memorice su propósito. La estructura del menú tampoco facilita diferenciar secciones que son conceptualmente distintas.
-- Recomendación: Actualizar iconografía para que represente directamente la función (ej. “Campos”, “Cultivos”, “Tareas”). Organizar el menú en categorías o grupos visuales para mejorar la escaneabilidad.
-
-## PROBLEMA #5: Los atributos de campos y cultivos no están claramente organizados o priorizados.
-
-- Severidad: 3 — Heurística violada: Aesthetic and Minimalist Design / Visibility of System Status
-- Problema: Los atributos, como nombre del campo, dimensiones, estado del cultivo o características del producto, aparecen sin una jerarquía visual clara. Algunos datos críticos quedan en posiciones secundarias o con poca visibilidad, y datos menos relevantes aparecen más destacados.
-- Recomendación: Crear una estructura estándar: encabezado para nombre, sección para atributos clave, subsección para información secundaria. Utilizar tipografías y colores que indiquen importancia.
-
-## PROBLEMA #6: Confusión entre las secciones “Cultivos” y “Campos”.
-
-- Severidad: 3 — Heurística violada: Match Between System and the Real World / Consistency and Standards
-- Problema: Las secciones “Cultivos” y “Campos” presentan información que parece solaparse, generando confusión sobre cuál es la unidad principal que se está gestionando. No existe una distinción clara entre ambas categorías ni visual ni conceptual.
-- Recomendación: Definir de manera explícita la diferencia entre un Campo y un Cultivo y reflejarlo en los textos, iconos, títulos y estructura de navegación.
-
-## PROBLEMA #7: La vista de detalles del campo muestra información incompleta o poco jerarquizada.
-
-- Severidad: 3 — Heurística violada: Visibility of System Status / Aesthetic and Minimalist Design
-- Problema: La vista de detalles del campo combina tareas, estado del producto, información del cultivo y datos generales sin un orden claro. Esto dificulta que el usuario encuentre rápidamente lo que busca, como tareas pendientes o etapas críticas del cultivo.
-- Recomendación: Separar la información en secciones: “Información del Campo”, “Estado del Cultivo”, “Tareas asociadas”, “Historial”. Utilizar encabezados y etiquetas visualmente claras.
-
-## PROBLEMA #8: El proceso de gestión de cultivos y tareas no es intuitivo, generando pérdida de control.
-
-- Severidad: 3 — Heurística violada: User Control and Freedom / Flexibility and Efficiency of Use
-- Problema: Asignar tareas, crear recordatorios o gestionar el avance del cultivo requiere varios pasos no evidentes o difíciles de encontrar. El flujo no ofrece atajos ni una vista clara del estado actual.
-- Recomendación: Simplificar el flujo: agregar botones directos como “+ Tarea”, “Añadir recordatorio”, y resaltar el estado actual del cultivo. Permitir acciones rápidas desde la vista principal.
-
-## PROBLEMA #9: La iconografía y etiquetas no son claras ni coherentes con su propósito.
-
-- Severidad: 2 — Heurística violada: Recognition Rather Than Recall / Consistency and Standards
-- Problema: Muchas etiquetas no describen la acción real que ejecutan (ej. botones genéricos como “Details” o “Info”). Algunas iconografías no representan claramente su función, generando ambigüedad.
-- Recomendación: Usar verbos de acción (ej. “Ver campo”, “Editar cultivo”, “Registrar tarea”) y elegir iconos universales relacionados con agricultura, edición, tareas, alertas y navegación.
-
-## PROBLEMA #10: El usuario no puede identificar fácilmente qué sección del menú está activa.
-
-- Severidad: 2 — Heurística violada: Visibility of System Status
-- Problema: La sección activa del menú no presenta indicadores visuales fuertes. El contraste es insuficiente y no hay un borde resaltado o un marcador claro. El usuario debe detenerse a leer cada etiqueta para saber dónde se encuentra.
-- Recomendación: Agregar indicadores claros: un borde lateral grueso, color de fondo más intenso o iconos resaltados cuando están activos.
-
-## PROBLEMA #11: El formulario de registros presenta desorden visual y campos sin jerarquía clara.
-
-- Severidad: 3 — Heurística violada: Aesthetic and Minimalist Design / Error Prevention
-- Problema: Los formularios contienen campos sin orden lógico, sin separación entre categorías y sin ayudas visuales para evitar errores. Algunos campos obligatorios no están diferenciados y el usuario puede cometer errores fácilmente.
-- Recomendación: Agrupar campos por categorías, usar títulos (“Datos del campo”, “Características del cultivo”), indicar claramente los campos obligatorios y validar entradas en tiempo real.
-
-## PROBLEMA #12: El proceso de cambio de idioma no es visible o requiere demasiados pasos.
-
-- Severidad: 2 — Heurística violada: Visibility of System Status / Flexibility and Efficiency of Use
-- Problema: El cambio de idioma no está fácilmente accesible. Puede estar oculto en un menú profundo o no ser evidente para usuarios nuevos. Requiere varios clics o pasos innecesarios.
-- Recomendación: Colocar el selector de idioma en una ubicación visible (preferiblemente en la parte superior derecha), usar iconos de banderas y reducir el proceso a un solo clic.
-
-## PROBLEMA #13: Falta de personalización y una curva de aprendizaje elevada para nuevos usuarios.
-
-- Severidad: 2 — Heurística violada: Flexibility and Efficiency of Use / Help and Documentation
-- Problema: La plataforma no ofrece recomendaciones, guías iniciales o personalización de vistas. Los usuarios nuevos deben aprender la navegación por ensayo y error, lo cual incrementa la curva de aprendizaje y reduce la eficiencia.
-- Recomendación: Agregar un onboarding inicial, brindar tooltips explicativos y permitir que el usuario configure vistas rápidas o favoritos.
-
-**Respositorio de auditoria:** `https://docs.google.com/document/d/1yUM-z9TAOwkcqBh12h8XKnBpV6gf2EIMYIysLJnMgsc/edit?usp=sharing`
-
+- **Link de OneDrive:** https://www.youtube.com/watch?v=BIWXxVJlkKk
 
 # Capítulo VI: Product Verification & Validation
 
@@ -4778,31 +4366,30 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 ### 6.3.2 Registro de Entrevistas
 
-Segmento objetivo : Técnicos y empresas de mantenimiento
+**Segmento objetivo : Técnicos y empresas de mantenimiento**
 
-Entrevista 01
+**Entrevista 01**
 
-Nombres: Hector
+**Nombres:** Hector
 
-Apellidos: Rios 
+**Apellidos:** Rios 
 
-Edad: 22 años
+**Edad:** 22 años
 
-Distrito: San Miguel
+**Distrito:** San Miguel
 
-Evidencia de la reunión:
+**Evidencia de la reunión:**
 
 ![Entevista1](assets/chapter06/Entrevista.jpeg)
 
-Enlace de entrevista: <a href="https://1drv.ms/v/c/e3ea863cec5de463/IQAZva0qO9J9Ro5XI4Crb4pnAT_L58E45u4_zQsSNuyMjU4?e=y3aUOh">Link</a>
+**Enlace de entrevista:** <a href="https://1drv.ms/v/c/e3ea863cec5de463/IQAZva0qO9J9Ro5XI4Crb4pnAT_L58E45u4_zQsSNuyMjU4?e=y3aUOh">Link</a>
 
-Resumen de la entrevista:
+**Resumen de la entrevista:**
 
 Hector, nos comentó que no tuvo dificultades para regresar a pantallas anteriores o cancelar una
 acción en curso, como cuando editaba información sobre sus recursos y activos dentro de la aplicación. También destacó que la estructura es sumamente limpia, lo que evita la sobrecarga cognitiva y permite que un técnico se enfoque en las tareas prioritarias, como las solicitudes pendientes. 
 
 El entrevistado concluyó que IceTrack presenta una arquitectura de información sólida y un diseño minimalista que facilita la operatividad diaria. Calificó la herramienta como práctica y eficiente con las necesidades reales de un proveedor de servicios técnicos.
-
 
 ### 6.3.3 Evaluaciones según heurísticas
 
@@ -4914,6 +4501,21 @@ Algunas de las herramientas principales que utilizamos son:
 | **MS Test** | Framework de pruebas unitarias (Backend C#) | Herramienta nativa de .NET para crear y ejecutar pruebas unitarias y de integración. | Validar el comportamiento esperado del código backend y asegurar la cobertura mínima requerida. |
 
 ### 7.1.2 Build & Test Suite Pipeline Components
+
+En esta parte colocamos cómo he estructuramos y automatizado los componentes, asegurando que cada etapa del flujo de integración continua se ejecute de manera confiable y trazable.
+
+Nos enfocamos en dos aspectos principales:
+
+**Pruebas (Test Suite):** Integro pruebas unitarias, de integración y de aceptación, verificando tanto el comportamiento interno de las clases como la interacción entre servicios.
+
+**Pipeline Components:** Organizo los pasos en secuencia modular (compilación, ejecución de tests, generación de reportes, despliegue en entornos de prueba), lo que me permite detectar fallos tempranos y mantener la calidad del software.
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/IAM Test.png" alt="iam-test-image" width="900px"/>
+</p>
+
+![US23-Selenium.png](assets/chapter06/US%2023%20-%20Selenium.png)
+
 
 ## 7.2 Continuous Delivery
 Su objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue cuando sea necesario.
@@ -5106,25 +4708,6 @@ GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante com
 - Para garantizar un rendimiento óptimo, se recomienda implementar técnicas de caché, balanceo de carga o manejo eficiente de solicitudes en caso de alto tráfico, especialmente cuando IceTrack escale a más usuarios o clientes.
 - Se debe documentar continuamente los endpoints, modelos y procesos internos a través de herramientas como Swagger, facilitando el mantenimiento del backend y permitiendo que futuros desarrolladores comprendan rápidamente la estructura del sistema.
 
-## 5.4. Video About-the-Product
-
-En esta parte, el equipo ofrece una síntesis de los puntos más importantes de IceTrack. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de los sistemas de refrigeración, ya sea en entornos domésticos o comerciales.
-
-El video incluye demostraciones visuales del uso de la app, mostrando pasos esenciales como el monitoreo de temperatura y consumo energético, alertas de fallos, historial de rendimiento y reportes generales sobre los equipos registrados.
-
-La narración guía al espectador por toda la experiencia de uso, mientras que testimonios reales aportan credibilidad al compartir cómo la aplicación ha facilitado la supervisión de sistemas de refrigeración, tanto para técnicos como para usuarios sin experiencia. Estos relatos destacan la facilidad de uso y la mejora en la eficiencia y confiabilidad de los equipos.
-
-En conjunto, el video no solo presenta el producto, sino que lo posiciona como una solución digital efectiva para apoyar el mantenimiento y control responsable de la refrigeración, demostrando su utilidad, su usabilidad y su impacto positivo.
-
-**Video Explicativo**
-
-<p align="center">
-    <img src="assets/chapter05/about_product.png" alt="about_product"/>    
-</p>
-
-URL de la Versión Publicada
-
-- **Link de OneDrive:** https://www.youtube.com/watch?v=BIWXxVJlkKk
 
 # Conclusiones
 
@@ -5161,32 +4744,32 @@ URL de la Versión Publicada
 
 ## Recursos y enlaces del proyecto
   
-- **URL de la organización del proyecto:** <br>
+- **URL de la organización del proyecto:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield
-  
-- **URL del repositorio del reporte:** <br>
+  <br>
+- **URL del repositorio del reporte:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/Report
-  
-- **URL del repositorio de la Landing Page:** <br>
+  <br>
+- **URL del repositorio de la Landing Page:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page
-  
-- **URL del repositorio del Frontend:** <br>
+  <br>
+- **URL del repositorio del Frontend:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack-Frontend
-  
-- **URL del repositorio del Backend:** <br>
+  <br>
+- **URL del repositorio del Backend:** 
   https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack-Platform
-  
-- **URL del Landing Page desplegado:** <br>
+  <br>
+- **URL del Landing Page desplegado:** 
   https://1asi0730-2520-7452-g1-frostshield.github.io/IceTrack---Landing-Page/
-  
-- **URL del Frontend desplegado:** <br>
+  <br>
+- **URL del Frontend desplegado:** 
   https://ice-track-frontend.vercel.app/
-  
-- **URL del Backend desplegado:** <br>
+  <br>
+- **URL del Backend desplegado:** 
   https://icetrack-platform.onrender.com
-  
-- **Video About-The-Team:** <br>
+  <br>
+- **Video About-The-Team:** 
   - YouTube: https://www.youtube.com/watch?v=Au_UI13KXkM
-    
+  <br>
 - **Video About-The-Product:**
   - YouTube: https://www.youtube.com/watch?v=BIWXxVJlkKk
