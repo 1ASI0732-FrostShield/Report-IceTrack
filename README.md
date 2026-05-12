@@ -200,6 +200,7 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
       - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+    - [5.3. Video About-the-Product](#53-video-about-the-product-)
 
 - [Capítulo VI: Product Verification & Validation](#c6)
   - [6.1 Testing Suites & Validation](#61-testing-suites--validation)
@@ -4109,12 +4110,12 @@ En conjunto, el video no solo presenta el producto, sino que lo posiciona como u
 **Video Explicativo**
 
 <p align="center">
-    <img src="assets/chapter05/about_product.png" alt="about_product"/>    
+    <img src="assets/chapter05/about the product.png" alt="about_product"/>    
 </p>
 
 URL de la Versión Publicada
 
-- **Link de OneDrive:** https://www.youtube.com/watch?v=BIWXxVJlkKk
+- **Link:** https://youtu.be/hKL4tEhWjGE
 
 # Capítulo VI: Product Verification & Validation
 
@@ -4236,48 +4237,84 @@ En esta sección se aplican técnicas de Behavior-Driven Development (BDD) para 
 
 ### 6.1.4 Core System Tests
 
-![US03-ProductBacklog.png](assets/chapter06/US01.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-01 | Registro de usuario    | Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración. | 
+
 ![US03-Selenium.png](assets/chapter06/seleniumUS01.png)
 
 ---
 
-![US03-ProductBacklog.png](assets/chapter06/US03-ProductBacklog.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-03 | Gestionar equipos de refrigeración    | Como cliente, quiero gestionar mis equipos de refrigeración en la plataforma para mantener un registro y control detallado de cada uno. | 
+                        
 ![US03-Selenium.png](assets/chapter06/Selenium%20US03.png)
 
 ---
 
-![US04-ProductBacklog.png](assets/chapter06/US04.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-04 | Solicitar y gestionar servicios de mantenimiento y reparación    | Como cliente, quiero solicitar servicios de mantenimiento (preventivo) y reparación (correctivo) para mis equipos, para asegurar su óptimo funcionamiento y recibir confirmación de mi solicitud.| 
+
 ![US04-Selenium.png](assets/chapter06/testSeleniumUS04.png)
 
 ---
 
-![US19-ProductBacklog.png](assets/chapter06/US19-ProductBacklog.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-16 | Conocer la misión y visión      | Como visitante, quiero conocer la misión y visión de la empresa para entender su enfoque y propuesta de valor.| 
+
 ![US19-Selenium.png](assets/chapter06/Selenium%20US19.png)
 
 ---
 
-![US21-ProductBacklog.png](assets/chapter06//US21.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-17 | Acceder a la plataforma web (Call to Action)     | Como usuario registrado, quiero acceder fácilmente a la plataforma web desde la página de inicio para gestionar mis operaciones y equipos.| 
+
 ![US21-Selenium.png](assets/chapter06/testSeleniumUS21.png)
 
 ---
 
-![US25-ProductBacklog.png](assets/chapter06/US25-ProductBacklog.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-21 | Crear solicitudes de servicio     | Como cliente, quiero registrar solicitudes de servicio técnico para reportar incidencias o mantenimientos.| 
+
 ![US25-Selenium.png](assets/chapter06/Selenium%20US25.png)
 
 ---
 
-![US02-ProductBacklog.png](assets/chapter06/US%2002%20-%20ProductBacklog.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-02 | Inicio de sesión      | Como usuario, quiero iniciar sesión con mi cuenta para acceder a la plataforma.| 
+
 ![US02-Selenium.png](assets/chapter06/US%2002%20-%20Selenium.png)
 
 ---
 
-![US20-ProductBacklog.png](assets/chapter06/US%2020%20-%20ProductBacklog.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-20 |  Registrar nuevos sitios    |Como usuario, quiero registrar nuevos sitios para organizar las ubicaciones donde operan los equipos. | 
+
 ![US20-Selenium.png](assets/chapter06/US%2020%20-%20Selenium.png)
 
 ---
 
-![US23-ProductBacklog.png](assets/chapter06/US%2023%20-%20ProductBacklog.png)
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-23 |  Cambiar idioma del sistema    | Como usuario internacional, quiero cambiar el idioma del sistema para usar la plataforma en mi idioma preferido. |
+
 ![US23-Selenium.png](assets/chapter06/US%2023%20-%20Selenium.png)
+
+
+---
+
+| ID    | Nombre del caso de uso | Descripción | 
+| :---  | :--------------------- | :---------- | 
+| US-09 |  Asignar técnicos a servicios    | Como empresario, quiero asignar un técnico a una solicitud de servicio para asegurar que se realice el trabajo adecuadamente. |
+
+![US23-Selenium.png](assets/chapter06/US%20-%20Asignar%20Tecnicos.png)
 
 
 ## 6.2 Static testing & Verification
@@ -4345,8 +4382,6 @@ Las revisiones de código son un proceso fundamental para garantizar la calidad 
 Las revisiones de código deben realizarse de forma regular, preferiblemente al final de cada sprint o en intervalos definidos, para asegurar que el código no se acumule y se mantenga la calidad.  
 
 ## 6.3 Validation Interviews
-
-Segmento Tecnicos y 
 
 ### 6.3.1 Diseño de Entrevistas
 
@@ -4772,4 +4807,4 @@ GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante com
   - YouTube: https://www.youtube.com/watch?v=Au_UI13KXkM
   <br>
 - **Video About-The-Product:**
-  - YouTube: https://www.youtube.com/watch?v=BIWXxVJlkKk
+  - YouTube: https://youtu.be/hKL4tEhWjGE
