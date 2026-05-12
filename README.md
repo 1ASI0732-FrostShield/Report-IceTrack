@@ -78,132 +78,133 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 ## Contenido
 
 - [Capítulo I: Introducción](#c1)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problematica)
-        - [1.2.2 Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumption)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivos)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problematica)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumption)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivos)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#c2)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-    	- [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 - [Capítulo III: Requirements Specification](#c3)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
 
 - [Capítulo IV: Product Design](#c4)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-        - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
-        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagrams](#481-database-diagrams)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
 
 - [Capítulo V: Product Implementation, Validation & Deployment](#c5)
 	- [5.1. Software Configuration Management](#51-software-configuration-management)
-    	- [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    	- [5.2.1. Sprint 1](#521-sprint-1)
-        	- [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-        - [5.2.2. Sprint 2](#522-sprint-2)
-            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-        - [5.2.3. Sprint 3](#523-sprint-3)
-            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-        - [5.2.4. Sprint 4](#524-sprint-4)
-            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-            - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
- 	- [6.1 Testing Suites \& Validation](#61-testing-suites--validation)
-		- [6.1.1 Core Entities Unit Tests](#611-core-entities-unit-tests)
-	    - [6.1.2 Core Integration Tests](#612-core-integration-tests)
-	    - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
-	    - [6.1.4 Core System Tests](#614-core-system-tests)
-    - [6.2 Static testing \& Verification](#62-static-testing--verification)
-	    - [6.2.1 Static Code Analysis](#621-static-code-analysis)
-	    - [6.2.1.1 Coding Standard \& Code Conventions](#6211-coding-standard--code-conventions)
-	    	- [6.2.1.2 Code Quality \& Code Security](#6212-code-quality--code-security)
-	    - [6.2.2 Reviews](#622-reviews)
-    - [6.3 Validation Interviews](#63-validation-interviews)
-	    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
-	    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
-	    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+
+- [Capítulo VI: Product Verification & Validation](#c6)
+  - [6.1 Testing Suites & Validation](#61-testing-suites--validation)
+    - [6.1.1 Core Entities Unit Tests](#611-core-entities-unit-tests)
+	  - [6.1.2 Core Integration Tests](#612-core-integration-tests)
+	  - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
+	  - [6.1.4 Core System Tests](#614-core-system-tests)
+  - [6.2 Static testing & Verification](#62-static-testing--verification)
+	  - [6.2.1 Static Code Analysis](#621-static-code-analysis)
+	    - [6.2.1.1 Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)
+	    - [6.2.1.2 Code Quality & Code Security](#6212-code-quality--code-security)
+	  - [6.2.2 Reviews](#622-reviews)
+  - [6.3 Validation Interviews](#63-validation-interviews)
+	  - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+	  - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+	  - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+      
+- [Capítulo VII: DevOps Practices](#c7)
 	- [7.1 Continuous Integration](#71-continuous-integration)
 	    - [7.1.1 Tools and Practices](#711-tools-and-practices)
 	    - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
@@ -4955,8 +4956,71 @@ El pipeline quedaba en espera hasta que uno de nosotros (desarrollador responsab
 
 ## 7.3 Continuous deployment
 
+La finalidad del Continuous Deployment (CD) consiste en automatizar el envío de modificaciones validadas del software desde el entorno de desarrollo hacia producción, permitiendo publicar nuevas versiones de manera automática siempre que cumplan satisfactoriamente con todas las verificaciones y pruebas requeridas.
+
 ### 7.3.1 Tools and Practices
+
+En esta sección se describen las herramientas utilizadas para facilitar el despliegue y publicación de la aplicación.
+
+| Herramienta | Función principal       | Descripción                                                                                  |
+| :---------- | :---------------------- | :------------------------------------------------------------------------------------------- |
+| GitHub      | Control de versiones    | Permitió almacenar y gestionar el código fuente del proyecto de manera colaborativa.         |
+| Vercel      | Despliegue del frontend | Plataforma utilizada para publicar la aplicación frontend y permitir su acceso desde la web. |
+| MySQL       | Base de datos           | Sistema gestor de base de datos utilizado para almacenar la información del sistema.         |
+| Rider       | Desarrollo Backend      | IDE utilizado para el desarrollo y pruebas del backend de la aplicación.                     |
+| WebStorm    | Desarrollo Frontend     | IDE utilizado para el desarrollo del frontend y validación de la interfaz de usuario.        |
+
+Estrategias utilizadas:
+
+| Estrategia        | Descripción                                                                                               |
+| :---------------- | :-------------------------------------------------------------------------------------------------------- |
+| Feature Branching | Cada integrante desarrolló funcionalidades en ramas separadas antes de integrarlas al proyecto principal. |
+| Validación Manual | Antes de publicar cambios, el equipo realizaba pruebas funcionales y revisiones manuales.                 |
+| Despliegue Manual | La publicación de nuevas versiones se realizaba manualmente mediante Vercel.                              |
+
 ### 7.3.2 Production Deployment Pipeline Components
+
+En esta sección se describen los componentes utilizados durante el proceso de despliegue y publicación de la aplicación.
+
+**Base de Datos (MySQL)**
+
+La aplicación utilizó MySQL como sistema gestor de base de datos para almacenar y administrar la información del sistema.
+
+| Componente                  | Función                                                                                     |
+| :-------------------------- | :------------------------------------------------------------------------------------------ |
+| Almacenamiento de datos     | Permitió guardar la información utilizada por la aplicación.                                |
+| Gestión de registros        | Facilitó el manejo y consulta de los datos almacenados en el sistema.                       |
+| Persistencia de información | Garantizó que los datos permanezcan disponibles durante el funcionamiento de la aplicación. |
+
+**Backend (Rider + Backend)**
+
+El backend de la aplicación fue desarrollado y probado utilizando Rider como entorno de desarrollo.
+
+| Componente                       | Función                                                                                        |
+| :------------------------------- | :--------------------------------------------------------------------------------------------- |
+| Desarrollo del backend           | Rider permitió implementar la lógica y funcionalidades del sistema.                            |
+| Pruebas y validación             | Se realizaron pruebas funcionales y validaciones del backend antes de su publicación.          |
+| Integración con la base de datos | El backend permitió la comunicación entre la aplicación y MySQL para el manejo de información. |
+
+**Frontend (WebStorm + Vercel)**
+
+El frontend de la aplicación fue desarrollado en WebStorm y publicado mediante Vercel.
+
+| Componente                   | Función                                                                                                |
+| :--------------------------- | :----------------------------------------------------------------------------------------------------- |
+| Desarrollo del frontend      | WebStorm permitió desarrollar y organizar la interfaz de usuario de la aplicación.                     |
+| Publicación de la aplicación | Vercel facilitó el despliegue y acceso al frontend desde la web.                                       |
+| Actualización de versiones   | Las nuevas versiones de la aplicación pudieron ser publicadas de manera rápida mediante la plataforma. |
+
+**Control de Versiones y Colaboración (GitHub)**
+
+GitHub fue utilizado como plataforma principal para el almacenamiento y gestión del código fuente del proyecto, permitiendo el trabajo colaborativo entre los integrantes del equipo.
+
+| Componente           | Función                                                                                                    |
+| :------------------- | :--------------------------------------------------------------------------------------------------------- |
+| Control de versiones | Permitió registrar y administrar los cambios realizados en el código fuente.                               |
+| Trabajo colaborativo | Facilitó la integración de funcionalidades desarrolladas por los distintos integrantes del equipo.         |
+| Gestión de ramas     | Permitió organizar el desarrollo mediante ramas independientes para nuevas funcionalidades y correcciones. |
 
 ## 7.4 Continuous Monitoring
 
