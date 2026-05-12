@@ -19,12 +19,12 @@
  
 | <div style="width:500px">Alumno</div> | <div style="width:200px">Código</div> |
 | :-----------------------------------: | :-----------------------------------: |
-|  Gonzales Alvarado, Javier Sebastian  |           U202312966                  |
-|  Gordon Salas, Gabriel Fernando       | U20221E229                            |
-|  Guillen Galindo, Julio Adolfo    	|              u20241a352               |
-|  Jiménez Guerra, Gianmarco Fabian     |     u202123843                        |
-|  Melgarejo Gomez, Marcia Victoria     |U20231C505                             |
-|  Quijada Magro, Jeremy Alexander      |              u202219657               |
+|  Gonzales Alvarado, Javier Sebastian  |  U202312966                           |
+|  Gordon Salas, Gabriel Fernando       |  U20221E229                           |
+|  Guillen Galindo, Julio Adolfo    	  |  U20241a352                           |
+|  Jiménez Guerra, Gianmarco Fabian     |  U202123843                           |
+|  Melgarejo Gomez, Marcia Victoria     |  U20231C505                           |
+|  Quijada Magro, Jeremy Alexander      |  U202219657                           |
 
 </div>
 
@@ -42,16 +42,16 @@
 | :-----: | :--------: | :---------------: | :----------------------------------------------------- |
 | 1.1     | 15/04/2026 | Julio Guillen     | Desarrollo BackEnd para Assets-Management y Monitoring |
 | 1.2     | 30/04/2026 | Jeremy Quijada    | Refactorizacion de la aplicación                       |
-| 2.1     | 04/05/2026 | Julio Guillen    | Revision de los Capitulos III al V                       |
-| 2.2     | 05/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VI                       |
-| 2.2     | 12/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VII                    |
+| 2.1     | 04/05/2026 | Julio Guillen     | Revision de los Capitulos III al V                     |
+| 2.2     | 05/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VI                              |
+| 2.2     | 12/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VII                             |
 
 </div>
 
 ## Project Report Collaboration Insights
 
 - **URL de la organización del proyecto:** 
-  https://github.com/1ASI0730-2520-7452-G1-FrostShield
+  https://github.com/1ASI0732-FrostShield
   <br>
 
 - **URL del repositorio del reporte:** 
@@ -90,7 +90,6 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 ![InsightsTP](assets/chapter01/Pulse-TP.png)
 
 ![NetworkGraphTP](assets/chapter01/Network-TP.png)
-
 
 ## Contenido
 
@@ -160,9 +159,9 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 - [Capítulo V: Product Implementation, Validation & Deployment](#c5)
 	- [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-      - [5.1.2. Source Code Management](#512-source-code-management)
-      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
@@ -200,7 +199,7 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
       - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-    - [5.3. Video About-the-Product](#53-video-about-the-product-)
+  - [5.3. Video About-the-Product](#53-video-about-the-product-)
 
 - [Capítulo VI: Product Verification & Validation](#c6)
   - [6.1 Testing Suites & Validation](#61-testing-suites--validation)
@@ -220,19 +219,19 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
       
 - [Capítulo VII: DevOps Practices](#c7)
 	- [7.1 Continuous Integration](#71-continuous-integration)
-	    - [7.1.1 Tools and Practices](#711-tools-and-practices)
-	    - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
-    - [7.2 Continuous Delivery](#72-continuous-delivery)
-	    - [7.2.1 Tools and Practices](#721-tools-and-practices)
-	    - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-    - [7.3 Continuous deployment](#73-continuous-deployment)
-	    - [7.3.1 Tools and Practices](#731-tools-and-practices)
-	    - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
-    - [7.4 Continuous Monitoring](#74-continuous-monitoring)
-	    - [7.4.1 Tools and Practices](#741-tools-and-practices)
-	    - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-	    - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
-	    - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
+	  - [7.1.1 Tools and Practices](#711-tools-and-practices)
+	  - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+  - [7.2 Continuous Delivery](#72-continuous-delivery)
+	  - [7.2.1 Tools and Practices](#721-tools-and-practices)
+	  - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3 Continuous deployment](#73-continuous-deployment)
+	  - [7.3.1 Tools and Practices](#731-tools-and-practices)
+	  - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+  - [7.4 Continuous Monitoring](#74-continuous-monitoring)
+	  - [7.4.1 Tools and Practices](#741-tools-and-practices)
+	  - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+	  - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
+	  - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
 - [Conclusiones](#conclusiones)
 	- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 	- [Video App Validation](#video-app-validation)
@@ -253,11 +252,9 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
+| :------------------ | :------------------ | :----------- |
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas.</li></ul> | <ul> **Avance 1:** El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada integrante, logrando la integración exitosa del proyecto y asegurando calidad tanto en pruebas como en automatización. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas.</ul> |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas.</li></ul>  | <ul> **Avance 1:** Se estableció un flujo de trabajo ágil y colaborativo que permitió cumplir con el 100% de los objetivos planteados para el avance inicial, integrando prácticas de validación y automatización en cada etapa. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas.</ul> |
-
-
 
 # Capitulo 1: Introducción
 
@@ -275,57 +272,56 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 <div align="center">
 
-| **Integrante**            | **Quijada Magro Jeremy Alexander**        									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** | u202219657                                   										|
-| **Carrera**               | Ingeniería de Software                       										|
-| **Descripción**           | Mi nombre es Jeremy Alexander Quijada Magro, tengo 21 años y curso la carrera de Ingeniería de Software. Me considero una persona ordenada y responsable. En mis tiempos libres me gusta aprender cosas nuevas. En este proyecto apoyaré con todos los conocimientos que he adquirido en los cursos pasados con la meta de aprender a realizar pruebas de calidad sobre este proyecto  												|
+| **Integrante**            | **Quijada Magro Jeremy Alexander**        									                   |
+| :------------------------ | :----------------------------------------------------------------------------- |
+| **Código del Estudiante** | u202219657                                   									            	   |
+| **Carrera**               | Ingeniería de Software                       									                 |
+| **Descripción**           | Mi nombre es Jeremy Alexander Quijada Magro, tengo 21 años y curso la carrera de Ingeniería de Software. Me considero una persona ordenada y responsable. En mis tiempos libres me gusta aprender cosas nuevas. En este proyecto apoyaré con todos los conocimientos que he adquirido en los cursos pasados con la meta de aprender a realizar pruebas de calidad sobre este proyecto  										                                                                            		|
 | **Foto**                  | <img src="assets/chapter01/Jeremy.jpeg" alt="Jeremy" width="150" height="200"> |
 
 ---
 
-| **Integrante**            | **Guillen Galindo Julio Adolfo**                                                   														 |
-| :------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Código del Estudiante** | u20241a352                                                                          														 |
-| **Carrera**               | Ingeniería de Software                                                              														 |
-| **Descripción**           | Actualmente curso la carrera de Ingeniería de Software en la UPC. Me considero una persona discreta, pero responsable y enfocada en cumplir los proyectos dentro de los plazos establecidos. Poseo conocimientos en C++ y Python; disfruto trabajar en equipo cuando existe colaboración y apoyo mutuo. Además, me motiva aplicar lo aprendido para afrontar los desafíos que puedan surgir en los próximos ciclos. |
-| **Foto**                  | <img src="assets/chapter01/julio_logo.jpg" alt="Julio" width="200" height="200"> 															 |
+| **Integrante**            | **Guillen Galindo Julio Adolfo**                                     						 |
+| :------------------------ | :------------------------------------------------------------------------------- |
+| **Código del Estudiante** | u20241a352                       						                      				  	   |
+| **Carrera**               | Ingeniería de Software                                                           |
+| **Descripción**           | Actualmente curso la carrera de Ingeniería de Software en la UPC. Me considero una persona discreta, pero responsable y enfocada en cumplir los proyectos dentro de los plazos establecidos. Poseo conocimientos en C++ y Python; disfruto trabajar en equipo cuando existe colaboración y apoyo mutuo. Además, me motiva aplicar lo aprendido para afrontar los desafíos que puedan surgir en los próximos ciclos.                                                                          |
+| **Foto**                  | <img src="assets/chapter01/julio_logo.jpg" alt="Julio" width="200" height="200"> |
 
 ---
 
-| **Integrante**            | **Gianmarco Fabian Jiménez Guerra**                                        	  |
-| :------------------------ | :------------------------------------------------------------------------------ |
-| **Código del Estudiante** | u202123843																	  |
-| **Carrera**               | Ingeniería de Software														  |
+| **Integrante**            | **Gianmarco Fabian Jiménez Guerra**                                        	            |
+| :------------------------ | :-------------------------------------------------------------------------------------- |
+| **Código del Estudiante** | u202123843																	                                            |
+| **Carrera**               | Ingeniería de Software														                                      |
 | **Descripción**           | Estudiante de Ingeniería de Software con conocimiento sobre desarrollo de aplicaciones web y análisis de datos. Estoy motivado por aprender nuevos temas relacionados a Software y por trabajar en equipo. Considero que mi conocimiento sobre las tecnologías: Java, Python, Angular y C# me permitirá desempeñarme de manera correcta para apoyar en este proyecto.|
-| **Foto**                  | <img src="assets/chapter01/gianmarco.png" alt="Gianmarco" width="200" height="200"> |
+| **Foto**                  | <img src="assets/chapter01/gianmarco.png" alt="Gianmarco" width="200" height="200">     |
 
 ---
 
-| **Integrante**  | **Javier** |
-|-----------------|--------------------------------|
-| **Código del Estudiante** | U202312966 |
-| **Carrera** | Ingeniería de Software |
-| **Descripción** | Mi nombre es Javier Gonzales, soy estudiante de Ingeniería de Software de séptimo ciclo. Tengo conocimientos en diversos lenguajes de programación como C++, Python y JavaScript, entre otros. Además, he desarrollado proyectos de software utilizando distintos frameworks como Angular y Vue. Me considero una persona responsable, empática y analítica. Mi objetivo personal es desarrollar soluciones tecnológicas que contribuyan a mejorar la calidad de vida de las personas y aportar a la construcción de un mundo más innovador y conectado  |
-| **Foto** | <img src="assets/chapter01/fotoGonzales.jpeg" alt="Javier" width="200" height="200"> |
+| **Integrante**            | **Javier**                                  	                                       |
+| :------------------------ | :----------------------------------------------------------------------------------- |
+| **Código del Estudiante** | U202312966                                                                           |
+| **Carrera**               | Ingeniería de Software                                                               |
+| **Descripción**           | Mi nombre es Javier Gonzales, soy estudiante de Ingeniería de Software de séptimo ciclo. Tengo conocimientos en diversos lenguajes de programación como C++, Python y JavaScript, entre otros. Además, he desarrollado proyectos de software utilizando distintos frameworks como Angular y Vue. Me considero una persona responsable, empática y analítica. Mi objetivo personal es desarrollar soluciones tecnológicas que contribuyan a mejorar la calidad de vida de las personas y aportar a la construcción de un mundo más innovador y conectado                                                                              |
+| **Foto**                  | <img src="assets/chapter01/fotoGonzales.jpeg" alt="Javier" width="200" height="200"> |
 
 ---
 
-| **Integrante**  | **Marcia Victoria Melgarejo Gomez** |
-|-----------------|--------------------------------|
-| **Código del Estudiante** | U20231C505 |
-| **Carrera** | Ingeniería de Software |
-| **Descripción** | Actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. Me caracterizo por ser una persona curiosa, persistente y colaborativa. Tengo conocimientos en C++, HTML, CSS, JS, Pyhton |
-| **Foto** | <img src="assets/chapter01/FotoMelgarejo.png" alt="Marcia" width="200" height="200"> |
+| **Integrante**            | **Marcia Victoria Melgarejo Gomez**                                                  |
+| :------------------------ | :----------------------------------------------------------------------------------- |
+| **Código del Estudiante** | U20231C505                                                                           |
+| **Carrera**               | Ingeniería de Software                                                               |
+| **Descripción**           | Actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. Me caracterizo por ser una persona curiosa, persistente y colaborativa. Tengo conocimientos en C++, HTML, CSS, JS, Pyhton             |
+| **Foto**                  | <img src="assets/chapter01/FotoMelgarejo.png" alt="Marcia" width="200" height="200"> |
 
 ---
-
 
 | **Integrante**            | **Gabriel Fernando Gordon Salas**                                                    |
-| :------------------------ | :---------------------------------------------------------------------------------- |
-| **Código del Estudiante** | U20221E229                                                                         |
-| **Carrera**               | Ingeniería de Software                                                              |
-| **Descripción**           | Me considero una persona responsable, me gusta ayudar a mis compañeros en los trabajos y sé organizarme bien al momento de realizar mis cosas. Con esto mi objetivo es poder dar lo mejor en un ambiente de cooperación entre todos para que el proyecto dé una muy buena presentación													  |
+| :------------------------ | :----------------------------------------------------------------------------------- |
+| **Código del Estudiante** | U20221E229                                                                           |
+| **Carrera**               | Ingeniería de Software                                                               |
+| **Descripción**           | Me considero una persona responsable, me gusta ayudar a mis compañeros en los trabajos y sé organizarme bien al momento de realizar mis cosas. Con esto mi objetivo es poder dar lo mejor en un ambiente de cooperación entre todos para que el proyecto dé una muy buena presentación													                                                   |
 | **Foto**                  | <img src="assets/chapter01/foto-gabriel.png" alt="Gabriel" width="200" height="200"> |
 
 </div>
@@ -334,24 +330,27 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 ### 1.2.1 Antecedentes y Problematica
 
-| **5W & 2H**                                     | **Descripcion**                                                                                                                                                                                                                                                                                                                                                                                           |
-| :---------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **What: ¿Cuál es el problema?**                 			  | Los negocios que dependen de la refrigeración se enfrentan a una vulnerabilidad operativa significativa. La falta de control en sus equipos de congelación lleva a fallas inesperadas, alto consumo energético y falta de un mantenimiento proactivo. Como resultado, sufren grandes pérdidas económicas, tanto por productos dañados como por la interrupción de su servicio. 	   	 |
-| **When: ¿Cuándo sucede este problema?**         			  | Este problema es una amenaza constante, especialmente durante la operación continua de los negocios. Se vuelve más crítico cuando no hay técnicos disponibles para una revisión inmediata o cuando se ha descuidado el seguimiento regular del estado de los equipos.																										   		   	 |
-| **Where: ¿Dónde se produce este suceso?**      			  | El problema está presente en todo el país, afectando a negocios en diversas ciudades. Sin embargo, su impacto es particularmente notable en Lima, donde la cadena de frío es vital para sectores como la alimentación y la medicina. Las empresas de servicios que atienden a estos clientes también se ven afectadas al no tener una forma centralizada de gestionar sus operaciones. 	 |
-| **Who: ¿Quiénes están involucrados?**          			  | Este problema afecta a una amplia gama de actores. Por un lado, están los dueños y administradores de negocios que sufren las consecuencias directas de las fallas. Por otro, los técnicos y empresas de servicio que se ven obligados a responder a emergencias sin las herramientas adecuadas. 																					   	 |
-| **Why: ¿Cuál es la causa del problema?**        			  | La causa principal es la fragmentación de datos técnicos en sistemas aislados. La información crítica está atrapada en controladores que no se comunican entre sí, lo que impide una visión centralizada y obliga a los negocios a operar bajo una gestión reactiva e ineficiente, actuando solo cuando la falla ya ocurrió.									   				 |
-| **How: ¿Qué llevó a la persona a llegar a esta situación?** | La situación actual es el resultado de la gestión reactiva y la falta de digitalización. Los negocios han dependido de una estrategia de "apagar incendios", esperando a que ocurra un problema crítico para actuar. Esta mentalidad ha generado un ciclo de costos elevados, tiempos de respuesta lentos y un desgaste operativo que se podría haber evitado con una planificación adecuada. |
-| **How Much: ¿Cuánto es el impacto financiero?** 			  | El impacto económico es devastador y multidimensional. En el mercado peruano, una falla no detectada a tiempo en una cámara de frío puede generar pérdidas de inventario de entre S/ 5,000 y S/ 50,000 en una sola noche, dependiendo del sector. A esto se suman los costos de las reparaciones de emergencia y el daño a largo plazo en la reputación y la confianza del cliente, lo que hace que el costo total sea mucho mayor. 																 |
+| **5W & 2H**                                                 | **Descripcion**                                                                 |
+| :---------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **What: ¿Cuál es el problema?**                 			      | Los negocios que dependen de la refrigeración se enfrentan a una vulnerabilidad operativa significativa. La falta de control en sus equipos de congelación lleva a fallas inesperadas, alto consumo energético y falta de un mantenimiento proactivo. Como resultado, sufren grandes pérdidas económicas, tanto por productos dañados como por la interrupción de su servicio. 	   	                                                 |
+| **When: ¿Cuándo sucede este problema?**         			      | Este problema es una amenaza constante, especialmente durante la operación continua de los negocios. Se vuelve más crítico cuando no hay técnicos disponibles para una revisión inmediata o cuando se ha descuidado el seguimiento regular del estado de los equipos.																										   		   	                                                                           |
+| **Where: ¿Dónde se produce este suceso?**      			        | El problema está presente en todo el país, afectando a negocios en diversas ciudades. Sin embargo, su impacto es particularmente notable en Lima, donde la cadena de frío es vital para sectores como la alimentación y la medicina. Las empresas de servicios que atienden a estos clientes también se ven afectadas al no tener una forma centralizada de gestionar sus operaciones.                                                       |
+| **Who: ¿Quiénes están involucrados?**          			        | Este problema afecta a una amplia gama de actores. Por un lado, están los dueños y administradores de negocios que sufren las consecuencias directas de las fallas. Por otro, los técnicos y empresas de servicio que se ven obligados a responder a emergencias sin las herramientas adecuadas. 																					   	                                                                                        |
+| **Why: ¿Cuál es la causa del problema?**        			      | La causa principal es la fragmentación de datos técnicos en sistemas aislados. La información crítica está atrapada en controladores que no se comunican entre sí, lo que impide una visión centralizada y obliga a los negocios a operar bajo una gestión reactiva e ineficiente, actuando solo cuando la falla ya ocurrió.									   				                                                                           |
+| **How: ¿Qué llevó a la persona a llegar a esta situación?** | La situación actual es el resultado de la gestión reactiva y la falta de digitalización. Los negocios han dependido de una estrategia de "apagar incendios", esperando a que ocurra un problema crítico para actuar. Esta mentalidad ha generado un ciclo de costos elevados, tiempos de respuesta lentos y un desgaste operativo que se podría haber evitado con una planificación adecuada.                                            |
+| **How Much: ¿Cuánto es el impacto financiero?** 			      | El impacto económico es devastador y multidimensional. En el mercado peruano, una falla no detectada a tiempo en una cámara de frío puede generar pérdidas de inventario de entre S/ 5,000 y S/ 50,000 en una sola noche, dependiendo del sector. A esto se suman los costos de las reparaciones de emergencia y el daño a largo plazo en la reputación y la confianza del cliente, lo que hace que el costo total sea mucho mayor. |
 
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1 Lean UX Problem Statements
 
 En el sector de la refrigeración, las empresas se enfrentan a un desafío recurrente: la falta de una gestión inteligente para sus equipos. Los negocios que dependen de la cadena de frío operan con un alto riesgo de pérdidas económicas y desperdicio de energía, ya que su mantenimiento es reactivo. Aunque muchos ya cuentan con sensores y controladores, los datos permanecen aislados y son difíciles de interpretar para una toma de decisiones rápida.
+
 Existe un vacío en el mercado que las soluciones actuales no han llenado: la falta de una capa de inteligencia que unifique los datos ya existentes. No hay una plataforma que centralice la información de distintos fabricantes y ofrezca una visibilidad completa. Esta ausencia de análisis predictivo y de un historial unificado dificulta la respuesta ante fallas y degrada la calidad del servicio técnico.
+
 FrostShield ha sido creada para superar estos obstáculos. IceTrack establece una conexión digital entre los negocios y sus equipos, permitiendo un monitoreo constante de la temperatura y el consumo energético. Esto no solo previene fallas, sino que también optimiza el rendimiento y prolonga la vida útil de los equipos. Además, proporcionamos a los técnicos una herramienta centralizada para organizar sus tareas, acceder al historial de cada equipo y responder de manera más eficiente.
 Inicialmente, nos enfocamos en los negocios de Lima que buscan una solución confiable para sus sistemas de refrigeración, así como en los proveedores de servicio que desean modernizar sus operaciones. 
+
 Sabremos que hemos tenido éxito cuando se reduzcan las fallas críticas, mejore la eficiencia energética y aumente en la satisfacción y lealtad de nuestros clientes, demostrando así el valor de la tecnología en el sector.
 
 #### 1.2.2.2 Lean UX Assumption
@@ -840,8 +839,6 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 - **URL:** [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113432_upc_edu_pe/EUqpD1FJnrVBl_2lPPv7VxABpUfMZLpoH4j3E9gqqiWldg?e=s0QAJN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113432_upc_edu_pe/EUqpD1FJnrVBl_2lPPv7VxABpUfMZLpoH4j3E9gqqiWldg?e=s0QAJN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - **Resumen:** Raúl Mendoza, técnico con 12 años de experiencia en aire acondicionado y refrigeración comercial en Lima, atiende 25–30 clientes al mes. Organiza visitas con Google Calendar/WhatsApp y lleva historiales en Excel y fotos, lo que le genera desorden y reprocesos (cambios de horario, falta de info previa, planificación manual de rutas). Considera muy útil una app móvil, simple y en español para ver equipos por cliente, recibir alertas en tiempo real, capturar fotos, registrar intervenciones y generar reportes automáticos; abandonó antes una plataforma por compleja, en otro idioma y costosa.
 
----
-
 ### 2.2.3. Análisis de entrevistas
 
 ## Segmento objetivo #1: Negocios con equipos de refrigeración
@@ -1091,44 +1088,44 @@ Para mantener la organización, las historias se agruparon en épicas según sus
 
 Para facilitar la planificación, el seguimiento y la priorización de las tareas, el equipo utilizó la plataforma Trello.
 
-| **Epic / Story ID** | **Título**                                                    | **Descripción**                                                                                                                                                                                                                    | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | **Relacionado con (Epic ID)** |
-|---------------------|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| US-01               | Registro de usuario                                           | Como nuevo usuario, quiero registrarme para acceder a la plataforma y sus funcionalidades según mi perfil                                                                                                                            | **Escenario 1: Crear cuenta exitosamente**<br/>Como nuevo usuario, quiero crear una cuenta indicando mi rol mediante un nombre de usuario y contraseña, para acceder a la plataforma y sus funcionalidades según mi perfil.<br/><br/>**Escenario 2: Intento de registro con nombre de usuario ya existente**<br/>Dado que el usuario intenta registrarse con un nombre de usuario que ya está registrado en el sistema,<br/>Cuando envía el formulario,<br/>Entonces el sistema muestra un mensaje de error indicando que el nombre de usuario no está disponible.<br/><br/>**Escenario 3: Validación de formato de contraseña**<br/>Dado que el usuario ingresa una contraseña que no cumple con las políticas de seguridad requeridas,<br/>Cuando intenta registrarse,<br/>Entonces el sistema muestra un mensaje de advertencia indicando los requisitos mínimos.                                                                                                               | EP-01      |
-| US-02               | Inicio de sesión                                              | Como usuario, quiero acceder a mi cuenta en la plataforma para utilizar sus funcionalidades.                                                                                                                                       | **Escenario 1: Iniciar sesión correctamente** <br/> Dado que el usuario tiene una cuenta activa,<br/> Cuando ingresa sus datos correctamente,<br/> Entonces accede a su panel de control.<br/> **Escenario 2: Intento de iniciar sesión con datos incorrectos**<br/> Dado que el usuario ingresa datos incorrectos,<br/> Cuando intenta iniciar sesión,<br/> Entonces el sistema muestra un mensaje de error.                                                                                                                                                                                            | EP-01      |
-| US-03               | Gestionar equipos de refrigeración                            | Como cliente, quiero gestionar mis equipos de refrigeración en la plataforma para mantener un registro y control detallado de cada uno.                                                                                            | **Escenario 1: Registro de un nuevo equipo**<br/> Dado que el cliente tiene los detalles de un nuevo equipo,<br/> Cuando los ingresa,<br/> Entonces el equipo se registra correctamente.<br/><br/>**Escenario 2: Actualización de la información de un equipo**<br/> Dado que el cliente desea modificar los datos de un equipo ya registrado,<br/> Cuando realiza los cambios,<br/> Entonces la información del equipo se actualiza.                                                                                                                                                                         | EP-02       |
-| US-04               | Solicitar y gestionar servicios de mantenimiento y reparación | Como cliente, quiero solicitar servicios de mantenimiento (preventivo) y reparación (correctivo) para mis equipos, para asegurar su óptimo funcionamiento y recibir confirmación de mi solicitud.                                  | **Escenario 1: Solicitud de servicio exitosa** <br/>Dado que el cliente requiere un servicio para uno de sus equipos, <br/>Cuando el sistema le permite seleccionar el tipo de servicio y detallar la solicitud, <br/>Entonces la solicitud se registra en el sistema y se le notifica al cliente.<br/><br/> **Escenario 2: Recepción de confirmación**<br/>Dado que la solicitud del cliente ha sido enviada, <br/>Cuando el sistema procesa la solicitud, <br/>Entonces el cliente recibe una confirmación de la recepción de su solicitud con un resumen de los detalles.                  | EP-03       |
-| US-05               | Dar seguimiento al progreso del servicio                      | Como cliente, quiero seguir el avance de mi servicio solicitado para saber en qué etapa se encuentra y cuándo estará completado.                                                                                                   | **Escenario 1: Visualización del estado del servicio** <br/> Dado que el cliente tiene una solicitud de servicio activa, <br/>Cuando accede a su información de servicios, <br/>Entonces se le presenta el estado actualizado de su solicitud.<br/><br/> **Escenario 2: Actualización de estado del servicio**<br/> Dado que una solicitud de servicio está en curso, cuando su estado cambia (por ejemplo, de "En espera" a "En progreso"), entonces el sistema refleja el nuevo estado para el cliente.                                                                                                     | EP-03       |
-| US-06               | Realizar seguimiento a solicitudes de servicio                | Como empresario, quiero realizar un seguimiento detallado a las solicitudes de servicio de mis técnicos, para saber cómo van.                                                                                                      | **Escenario 1: Ver estado de la solicitud de servicio**<br/> Dado que el empresario tiene acceso a solicitudes<br/> Cuando ingresa al sistema,<br/> Entonces puede ver el estado actualizado de cada solicitud de servicio. <br/>**Escenario 2: Actualización del estado de la solicitud**<br/>Dado que el empresario quiere seguir el progreso,<br/> Cuando un técnico actualiza el estado de la solicitud,<br/> Entonces el sistema muestra el estado en tiempo real.                                                                                                                                     | EP-03       |
-| US-07               | Registrar y gestionar técnicos                                | Como empresario, quiero registrar técnicos en la plataforma para incluirlos en mi equipo de trabajo y gestionar sus perfiles.                                                                                                      | **Escenario 1: Registro exitoso de un técnico**<br/> Dado que el empresario completa todos los datos requeridos de un técnico,<br/> Cuando guarda la información,<br/> Entonces el técnico queda registrado exitosamente.<br/><br/>**Escenario 2: Intento de registro con datos faltantes**<br/> Dado que el empresario intenta registrar un técnico sin completar todos los campos obligatorios,<br/> Cuando intenta guardar el registro,<br/> Entonces no se permite la operación hasta que se completen los campos requeridos.                                                                            | EP-01       |
-| US-08               | Consultar el perfil de un técnico                             | Como empresario, quiero ver el perfil de cada técnico, incluyendo sus datos y métricas de rendimiento, para poder evaluar su desempeño.                                                                                            | **Escenario 1: Acceso a la información completa de un técnico**<br/> Dado que el empresario selecciona un técnico,<br/> Cuando accede a su perfil,<br/> Entonces puede visualizar sus datos personales, historial de servicios y calificaciones.<br/><br/>**Escenario 2: Visualización de perfil sin evaluaciones**<br/> Dado que un técnico no ha recibido evaluaciones,<br/> Cuando se consulta su perfil,<br/> Entonces las métricas de desempeño no son visibles.                                                                                                                                          | EP-01       |
-| US-09              | Asignar técnicos a servicios                                  | Como empresario, quiero asignar un técnico a una solicitud de servicio para asegurar que se realice el trabajo adecuadamente.                                                                                                      | **Escenario 1: Asignación de técnico**<br/> Dado que el empresario ha recibido una solicitud de servicio,<br/> Cuando selecciona un técnico,<br/> Entonces el técnico es asignado a la solicitud.<br/><br/>**Escenario 2: Notificación de asignación**<br/> Dado que un técnico ha sido asignado a un servicio,<br/> Cuando el empresario confirma la asignación,<br/> Entonces el técnico recibe una notificación con los detalles.                                                                                                                                                                      | EP-03       |
-| US-10               | Visualizar clientes y servicios asociados                     | Como empresario, quiero ver un listado de clientes y los servicios que han solicitado para organizar de manera eficaz el trabajo de los técnicos.                                                                                  | **Escenario 1: Acceso a la información de clientes**<br/> Dado que el empresario necesita ver los clientes con servicios pendientes,<br/> Cuando accede a la funcionalidad de clientes,<br/> Entonces puede visualizar a los clientes y sus servicios relacionados.<br/><br/>**Escenario 2: Filtrado de servicios por estado**<br/> Dado que el empresario quiere enfocarse en servicios específicos,<br/> Cuando aplica un filtro por el estado del servicio,<br/> Entonces la lista se actualiza mostrando solo los servicios que coinciden con el filtro.                                         | EP-04       |
-| US-11               | Visualizar equipos asignados a clientes                       | Como empresario, quiero ver un listado de los equipos que han sido entregados a los clientes para darles un seguimiento adecuado.                                                                                                  | **Escenario 1: Acceso a la lista de equipos por cliente**<br/> Dado que el empresario quiere consultar los equipos de sus clientes,<br/> Cuando accede al listado de equipos,<br/> Entonces puede visualizar los equipos asignados a cada cliente.<br/><br/>**Escenario 2: Filtrado de equipos**<br/> Dado que el empresario necesita encontrar equipos específicos,<br/> Cuando aplica filtros por estado o tipo de equipo,<br/> Entonces la lista de equipos se actualiza mostrando los resultados correspondientes a los filtros aplicados.                                                         | EP-02       |
-| US-12               | Evaluar un servicio completado                                | Como cliente, quiero evaluar un servicio una vez que ha finalizado para expresar mi satisfacción con el trabajo realizado.                                                                                                         | **Escenario 1: Envío de la evaluación**<br/> Dado que el cliente ha recibido un servicio,<br/> Cuando envía una calificación,<br/> Entonces la evaluación es registrada.<br/><br/>**Escenario 2: Modificación de la evaluación**<br/> Dado que el cliente desea cambiar una evaluación ya enviada,<br/> Cuando actualiza la calificación dentro del plazo establecido,<br/> Entonces la nueva calificación reemplaza a la anterior.                                                                                                                                                                 | EP-05       |
-| US-13               | Visualizar la propuesta de valor principal                    | Como visitante, quiero conocer la propuesta de valor de la plataforma para entender si se ajusta a mis necesidades.                                                                                                                | **Escenario 1: Propuesta visible al ingresar**<br/> Dado que un visitante llega a la página principal,<br/> Cuando la página carga,<br/> Entonces se le presenta una frase que explica claramente la propuesta de valor.<br/><br/>**Escenario 2: Contenido orientado a la gestión de refrigeración**<br/> Dado que el visitante pertenece al segmento de gestión de equipos,<br/> Cuando revisa la propuesta de valor,<br/> Entonces encuentra conceptos relacionados con gestión inteligente y monitoreo de equipos.                                                                                       | EP-06       |
-| US-14               | Explorar soluciones específicas para mi rubro                 | Como visitante, quiero conocer las soluciones que ofrece la plataforma para mi tipo de negocio para saber si se ajusta a mis necesidades.                                                                                          | **Escenario 1: Información para negocios de refrigeración**<br/> Dado que un visitante explora las soluciones ofrecidas,<br/> Cuando revisa el contenido disponible,<br/> Entonces encuentra descripciones dirigidas a negocios que utilizan o gestionan equipos de refrigeración.<br/><br/>**Escenario 2: Información para empresas proveedoras de servicios**<br/> Dado que un visitante explora las soluciones ofrecidas,<br/> Cuando revisa el contenido disponible,<br/> Entonces encuentra información dirigida a empresas proveedoras de equipos o servicios de mantenimiento.              | EP-06       |
-| US-15               | Comprender las funcionalidades clave                          | Como visitante, quiero entender las funcionalidades principales de la plataforma para evaluar si se adaptan a mi operación.                                                                                                        | **Escenario 1: Acceso a funcionalidades principales**<br/> Dado que un visitante consulta las características de la plataforma,<br/> Cuando revisa la lista de funcionalidades,<br/> Entonces puede identificar opciones clave como monitoreo en tiempo real, automatización de alertas y gestión remota.<br/><br/>**Escenario 2: Descripciones orientadas al valor**<br/> Dado que un visitante lee las descripciones de las funcionalidades,<br/> Cuando evalúa cada una,<br/> Entonces comprende el beneficio que aporta para su operación de refrigeración o mantenimiento.                          | EP-06       |
-| US-16               | Conocer la misión y visión                                    | Como visitante, quiero conocer la misión y visión de la empresa para entender su enfoque y propuesta de valor.                                                                                                                     | **Escenario 1: Acceso a la misión de la empresa**<br/> Dado que un visitante accede a la información institucional,<br/> Cuando revisa el contenido corporativo,<br/> Entonces encuentra una descripción clara de la misión.<br/><br/>**Escenario 2: Acceso a la visión de la empresa**<br/> Dado que un visitante accede a la información institucional,<br/> Cuando revisa el contenido estratégico,<br/> Entonces encuentra una descripción clara de la visión a futuro.                                                                                                                                 | EP-06       |
-| US-17               | Acceder a la plataforma web (Call to Action)                  | Como usuario registrado, quiero acceder fácilmente a la plataforma web desde la página de inicio para gestionar mis operaciones y equipos.                                                                                         | **Escenario 1: Visibilidad del acceso a la plataforma**<br/> Dado que un usuario registrado visita la página principal,<br/> Cuando busca cómo ingresar a su cuenta,<br/> Entonces encuentra una opción clara para acceder a la plataforma.<br/><br/>**Escenario 2: Redirección a la plataforma web**<br/> Dado que el usuario selecciona la opción para acceder a la plataforma,<br/> Cuando es redirigido,<br/> Entonces llega a la página de inicio de sesión de la plataforma web.                        | EP-06       |
-| US-18               | Consultar equipos registrados                                                                                   | Como usuario operador, quiero visualizar los equipos registrados para monitorear su estado operativo.                                                    | **Escenario 1: Listado de equipos**<br/>Dado que el usuario accede al módulo Equipments,<br/>Cuando carga la pantalla,<br/>Entonces visualiza modelo, tipo, serial y estado de cada equipo.<br/><br/>**Escenario 2: Ver detalle**<br/>Dado que existe un equipo registrado,<br/>Cuando selecciona "Equipment Detail",<br/>Entonces el sistema muestra la información detallada del equipo.                                                                                           | EP-06       |
-| US-19               | Visualizar dashboard principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                                                     | **Escenario 1: Visualización de métricas**<br/>Dado que el usuario ingresa al dashboard,<br/>Cuando carga la pantalla principal,<br/>Entonces visualiza la cantidad de equipos monitoreados, alertas abiertas, temperatura promedio y reportes recientes.<br/><br/>**Escenario 2: Actualización de datos**<br/>Dado que el usuario necesita información reciente,<br/>Cuando selecciona el botón "Refresh Dashboard",<br/>Entonces el sistema actualiza los indicadores mostrados.       | EP-04       |                                                               | EP-01 |
-| US-20               | Registrar nuevos sitios                                       | Como usuario, quiero registrar nuevos sitios para organizar las ubicaciones donde operan los equipos.                                                                                                                                    | **Escenario 1: Registro de sitio**<br/>Dado que el administrador desea crear una nueva sede,<br/>Cuando selecciona "Register New Site" e ingresa los datos requeridos,<br/>Entonces el sistema registra el sitio exitosamente.<br/><br/>**Escenario 2: Visualización de sitios**<br/>Dado que existen sitios registrados,<br/>Cuando accede al módulo Sites,<br/>Entonces visualiza nombre, dirección, contacto y teléfono.                                                         | EP-02       |
-| US-21               | Crear solicitudes de servicio                                 | Como cliente, quiero registrar solicitudes de servicio técnico para reportar incidencias o mantenimientos.                                                                                                                                 | **Escenario 1: Nueva solicitud**<br/>Dado que el usuario necesita soporte técnico,<br/>Cuando selecciona "New Request" e ingresa la información requerida,<br/>Entonces el sistema registra la solicitud correctamente.<br/><br/>**Escenario 2: Visualización de solicitudes**<br/>Dado que existen solicitudes registradas,<br/>Cuando accede al módulo Services,<br/>Entonces visualiza número de orden, fecha, equipo, sede, proveedor, tipo y estado.                         | EP-03       |
-| US-22               | Buscar reportes por filtros                                   | Como administrador, quiero buscar reportes por nombre, tipo o estado para localizar información rápidamente.                                                                                                                        | **Escenario 1: Buscar por nombre**<br/>Dado que existen múltiples reportes,<br/>Cuando escribe un nombre en el buscador,<br/>Entonces el sistema muestra coincidencias relacionadas.<br/><br/>**Escenario 2: Filtrar por tipo o estado**<br/>Dado que el usuario necesita segmentar información,<br/>Cuando selecciona filtros de tipo o estado,<br/>Entonces se actualiza el listado con los resultados correctos.                                                                   | EP-01       |
-| US-23               | Cambiar idioma del sistema                                    | Como usuario internacional, quiero cambiar el idioma del sistema para usar la plataforma en mi idioma preferido.                                                                                                                            | **Escenario 1: Cambio a español**<br/>Dado que el usuario selecciona ES,<br/>Cuando confirma la acción,<br/>Entonces la interfaz se muestra en español.<br/><br/>**Escenario 2: Cambio a inglés**<br/>Dado que el usuario selecciona EN,<br/>Cuando confirma la acción,<br/>Entonces la interfaz se muestra en inglés.                                                                                 | EP-01       |
-| US-24               | Ver reporte de servicio realizado                             | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.                                                                                                                   		   | **Escenario 1: Generación del reporte de servicio**<br/> Dado que el servicio ha sido completado,<br/> Cuando el técnico termina,<br/> Entonces el sistema genera un reporte detallado. <br/>**Escenario 2: Enviar reporte al cliente por correo** Dado que el reporte ha sido generado,<br/> Cuando se ha finalizado el servicio,<br/> Entonces el sistema envía el reporte al cliente			           | EP-04       |
-| US-25               | Visualizar dashboard principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                                               | **Escenario 1: Visualización de métricas**<br/>Dado que el usuario ingresa al dashboard,<br/>Cuando carga la pantalla principal,<br/>Entonces visualiza la cantidad de sitios, equipos monitoreados y servicios recientes.<br/><br/>**Escenario 2: Actualización de datos**<br/>Dado que el usuario necesita información reciente,<br/>Cuando selecciona el botón "Refresh Dashboard",<br/>Entonces el sistema actualiza los indicadores mostrados. | EP-04       |     
-| TS-01               | Creación de solicitudes de mantenimiento (API)                | Como desarrollador, quiero implementar una API que me permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.                                                                    | **Escenario 1: Creación exitosa de solicitud**<br/> Dado que se envía una solicitud POST a `/api/v1/service-requests` con los datos del equipo y la descripción del problema, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 201 y se guarda la solicitud en el sistema.<br/><br/>**Escenario 2: Datos incompletos en la solicitud**<br/> Dado que se envía una solicitud a `/api/v1/service-requests` sin un campo obligatorio, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 400 con el mensaje "Invalid data".                         | EP-03       |
-| TS-02               | Registro de intervenciones técnicas por API RESTful           | Como desarrollador, quiero registrar las intervenciones técnicas realizadas a través de la API para llevar un seguimiento detallado del mantenimiento.                                                                             | **Escenario 1: Registro exitoso** <br/> Dado que se envía una solicitud POST a `/api/v1/interventions` con los datos del técnico y equipo, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 201 y el registro se almacena.<br/><br/>Escenario 2: Registro con técnico no existente<br/> Dado que el ID del técnico no existe, <br/> Cuando se realiza la solicitud POST a `/api/v1/interventions`, <br/> Entonces se recibe una respuesta 404 con el mensaje "Technician not found".                                                                                           | EP-03       |
-| TS-03               | Gestión de evaluaciones de servicio vía API                   | Como desarrollador, mi objetivo es implementar un endpoint que permita a los clientes registrar y actualizar una evaluación de servicio para reflejar su experiencia.                                                              | **Escenario 1: Evaluación inicial del servicio**<br/> Dado que el cliente ha recibido un servicio, <br/> Cuando se envía una solicitud POST a `/api/v1/reviews` con la puntuación (1-5), <br/> Entonces se recibe una respuesta 201 y se almacena la evaluación asociada al servicio.<br/><br/>**Escenario 2: Edición dentro del plazo permitido**<br/> Dado que el cliente ya evaluó un servicio y han pasado menos de 48 horas, <br/> Cuando realiza una solicitud PUT a `/api/v1/reviews/{id}` con una nueva puntuación, <br/> Entonces se recibe una respuesta 200 y la evaluación anterior se actualiza. | EP-05       |
-| TS-04               | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso seguro de nuevos usuarios.                      | **Escenario 1: Registro exitoso**<br/>Dado que el endpoint `/api/v1/users` está disponible, cuando se envía una solicitud POST con datos válidos (nombre, email único, contraseña válida), entonces el sistema responde con 201 y devuelve el usuario registrado.<br/>**Escenario 2: Registro con email existente**<br/>Dado un correo ya registrado, <br/> Cuando se intenta registrar nuevamente, <br/> Entonces se devuelve un 400 con mensaje "Email already registered".                                                                                                                               | EP-01       |
-| TS-05               | Consulta de estado de servicios por API                       | Como desarrollador, mi objetivo es crear un endpoint para que clientes y empresarios puedan consultar el estado de una solicitud de servicio en tiempo real.                                                                       | **Escenario 1: Consulta exitosa del estado**<br/> Dado que se envía una solicitud GET a `/api/v1/requests/{id}` con un ID válido, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 200 y se devuelve el estado actual de la solicitud.<br/><br/>**Escenario 2: Consulta con ID existente**<br/> Dado que el ID de la solicitud no existe,<br/> Cuando se realiza la consulta, <br/> Entonces se recibe una respuesta 404 con el mensaje "Request not found".                                                                                                                | EP-03       |
-| EP-01               | Gestión de Cuentas de Usuario                                 | Esta epic se centra en todo lo necesario para que los usuarios puedan crear, acceder y administrar sus perfiles de forma segura en la plataforma. | | |
-| EP-02               | Gestión y Monitoreo de Equipos                                | Esta epic abarca la funcionalidad para que los clientes agreguen, editen y monitoreen sus equipos de refrigeración, facilitando su control. | | |
-| EP-03               | Proceso de Solicitudes de Servicio                            | Esta epic cubre el ciclo completo de las solicitudes de servicio, desde que un cliente pide una reparación o mantenimiento hasta que el trabajo se completa y se le da seguimiento. | | |
-| EP-04               | Análisis e Informes de Datos                                  | Esta epic se encarga de la generación de reportes clave sobre el rendimiento de los equipos, el consumo energético y la eficiencia de los servicios, permitiendo un análisis detallado. | | |
-| EP-05               | Mecanismo de Evaluación del Servicio                          | Esta epic se enfoca en la funcionalidad que permite a los clientes calificar los servicios recibidos, proporcionando retroalimentación valiosa para el equipo. | | |
-| EP-06               | Página de Aterrizaje y Experiencia Inicial                    | Esta epic cubre el desarrollo de la página de aterrizaje (landing page), asegurando que los visitantes entiendan rápidamente la propuesta de valor y puedan contactar al equipo comercial con facilidad. | | |
+| **Epic / Story ID** | **Título**                                                    | **Descripción**          | **Criterios de Aceptación**               | **Relacionado con (Epic ID)** |
+| :-----------------: | :------------------------------------------------------------ | :----------------------- | :---------------------------------------- | :---------------------------- |
+| US-01               | Registro de usuario                                           | Como nuevo usuario, quiero registrarme para acceder a la plataforma y sus funcionalidades según mi perfil                                                                                | **Escenario 1: Crear cuenta exitosamente**<br/>Como nuevo usuario, quiero crear una cuenta indicando mi rol mediante un nombre de usuario y contraseña, para acceder a la plataforma y sus funcionalidades según mi perfil.<br/><br/>**Escenario 2: Intento de registro con nombre de usuario ya existente**<br/>Dado que el usuario intenta registrarse con un nombre de usuario que ya está registrado en el sistema,<br/>Cuando envía el formulario,<br/>Entonces el sistema muestra un mensaje de error indicando que el nombre de usuario no está disponible.<br/><br/>**Escenario 3: Validación de formato de contraseña**<br/>Dado que el usuario ingresa una contraseña que no cumple con las políticas de seguridad requeridas,<br/>Cuando intenta registrarse,<br/>Entonces el sistema muestra un mensaje de advertencia indicando los requisitos mínimos.           | EP-01       |
+| US-02               | Inicio de sesión                                              | Como usuario, quiero acceder a mi cuenta en la plataforma para utilizar sus funcionalidades.                                                                      | **Escenario 1: Iniciar sesión correctamente** <br/> Dado que el usuario tiene una cuenta activa,<br/> Cuando ingresa sus datos correctamente,<br/> Entonces accede a su panel de control.<br/> **Escenario 2: Intento de iniciar sesión con datos incorrectos**<br/> Dado que el usuario ingresa datos incorrectos,<br/> Cuando intenta iniciar sesión,<br/> Entonces el sistema muestra un mensaje de error.                         | EP-01       |
+| US-03               | Gestionar equipos de refrigeración                            | Como cliente, quiero gestionar mis equipos de refrigeración en la plataforma para mantener un registro y control detallado de cada uno.                                                                             | **Escenario 1: Registro de un nuevo equipo**<br/> Dado que el cliente tiene los detalles de un nuevo equipo,<br/> Cuando los ingresa,<br/> Entonces el equipo se registra correctamente.<br/><br/>**Escenario 2: Actualización de la información de un equipo**<br/> Dado que el cliente desea modificar los datos de un equipo ya registrado,<br/> Cuando realiza los cambios,<br/> Entonces la información del equipo se actualiza.     | EP-02       |
+| US-04               | Solicitar y gestionar servicios de mantenimiento y reparación | Como cliente, quiero solicitar servicios de mantenimiento (preventivo) y reparación (correctivo) para mis equipos, para asegurar su óptimo funcionamiento y recibir confirmación de mi solicitud.             | **Escenario 1: Solicitud de servicio exitosa** <br/>Dado que el cliente requiere un servicio para uno de sus equipos, <br/>Cuando el sistema le permite seleccionar el tipo de servicio y detallar la solicitud, <br/>Entonces la solicitud se registra en el sistema y se le notifica al cliente.<br/><br/> **Escenario 2: Recepción de confirmación**<br/>Dado que la solicitud del cliente ha sido enviada, <br/>Cuando el sistema procesa la solicitud, <br/>Entonces el cliente recibe una confirmación de la recepción de su solicitud con un resumen de los detalles.                                                                         | EP-03       |
+| US-05               | Dar seguimiento al progreso del servicio                      | Como cliente, quiero seguir el avance de mi servicio solicitado para saber en qué etapa se encuentra y cuándo estará completado.                                                                           | **Escenario 1: Visualización del estado del servicio** <br/> Dado que el cliente tiene una solicitud de servicio activa, <br/>Cuando accede a su información de servicios, <br/>Entonces se le presenta el estado actualizado de su solicitud.<br/><br/> **Escenario 2: Actualización de estado del servicio**<br/> Dado que una solicitud de servicio está en curso, cuando su estado cambia (por ejemplo, de "En espera" a "En progreso"), entonces el sistema refleja el nuevo estado para el cliente.                                                                              | EP-03       |
+| US-06               | Realizar seguimiento a solicitudes de servicio                | Como empresario, quiero realizar un seguimiento detallado a las solicitudes de servicio de mis técnicos, para saber cómo van.                                                                                  | **Escenario 1: Ver estado de la solicitud de servicio**<br/> Dado que el empresario tiene acceso a solicitudes<br/> Cuando ingresa al sistema,<br/> Entonces puede ver el estado actualizado de cada solicitud de servicio. <br/>**Escenario 2: Actualización del estado de la solicitud**<br/>Dado que el empresario quiere seguir el progreso,<br/> Cuando un técnico actualiza el estado de la solicitud,<br/> Entonces el sistema muestra el estado en tiempo real. | EP-03       |
+| US-07               | Registrar y gestionar técnicos                                | Como empresario, quiero registrar técnicos en la plataforma para incluirlos en mi equipo de trabajo y gestionar sus perfiles.                                                                             | **Escenario 1: Registro exitoso de un técnico**<br/> Dado que el empresario completa todos los datos requeridos de un técnico,<br/> Cuando guarda la información,<br/> Entonces el técnico queda registrado exitosamente.<br/><br/>**Escenario 2: Intento de registro con datos faltantes**<br/> Dado que el empresario intenta registrar un técnico sin completar todos los campos obligatorios,<br/> Cuando intenta guardar el registro,<br/> Entonces no se permite la operación hasta que se completen los campos requeridos.                                                                           | EP-01       |
+| US-08               | Consultar el perfil de un técnico                             | Como empresario, quiero ver el perfil de cada técnico, incluyendo sus datos y métricas de rendimiento, para poder evaluar su desempeño.                                                                            | **Escenario 1: Acceso a la información completa de un técnico**<br/> Dado que el empresario selecciona un técnico,<br/> Cuando accede a su perfil,<br/> Entonces puede visualizar sus datos personales, historial de servicios y calificaciones.<br/><br/>**Escenario 2: Visualización de perfil sin evaluaciones**<br/> Dado que un técnico no ha recibido evaluaciones,<br/> Cuando se consulta su perfil,<br/> Entonces las métricas de desempeño no son visibles. | EP-01       |
+| US-09              | Asignar técnicos a servicios                                   | Como empresario, quiero asignar un técnico a una solicitud de servicio para asegurar que se realice el trabajo adecuadamente.                                                                        | **Escenario 1: Asignación de técnico**<br/> Dado que el empresario ha recibido una solicitud de servicio,<br/> Cuando selecciona un técnico,<br/> Entonces el técnico es asignado a la solicitud.<br/><br/>**Escenario 2: Notificación de asignación**<br/> Dado que un técnico ha sido asignado a un servicio,<br/> Cuando el empresario confirma la asignación,<br/> Entonces el técnico recibe una notificación con los detalles. | EP-03       |
+| US-10               | Visualizar clientes y servicios asociados                     | Como empresario, quiero ver un listado de clientes y los servicios que han solicitado para organizar de manera eficaz el trabajo de los técnicos.                                                              | **Escenario 1: Acceso a la información de clientes**<br/> Dado que el empresario necesita ver los clientes con servicios pendientes,<br/> Cuando accede a la funcionalidad de clientes,<br/> Entonces puede visualizar a los clientes y sus servicios relacionados.<br/><br/>**Escenario 2: Filtrado de servicios por estado**<br/> Dado que el empresario quiere enfocarse en servicios específicos,<br/> Cuando aplica un filtro por el estado del servicio,<br/> Entonces la lista se actualiza mostrando solo los servicios que coinciden con el filtro.                                                                               | EP-04       |
+| US-11               | Visualizar equipos asignados a clientes                       | Como empresario, quiero ver un listado de los equipos que han sido entregados a los clientes para darles un seguimiento adecuado.                                                                             | **Escenario 1: Acceso a la lista de equipos por cliente**<br/> Dado que el empresario quiere consultar los equipos de sus clientes,<br/> Cuando accede al listado de equipos,<br/> Entonces puede visualizar los equipos asignados a cada cliente.<br/><br/>**Escenario 2: Filtrado de equipos**<br/> Dado que el empresario necesita encontrar equipos específicos,<br/> Cuando aplica filtros por estado o tipo de equipo,<br/> Entonces la lista de equipos se actualiza mostrando los resultados correspondientes a los filtros aplicados.                                                                            | EP-02       |
+| US-12               | Evaluar un servicio completado                                | Como cliente, quiero evaluar un servicio una vez que ha finalizado para expresar mi satisfacción con el trabajo realizado.                                                                            | **Escenario 1: Envío de la evaluación**<br/> Dado que el cliente ha recibido un servicio,<br/> Cuando envía una calificación,<br/> Entonces la evaluación es registrada.<br/><br/>**Escenario 2: Modificación de la evaluación**<br/> Dado que el cliente desea cambiar una evaluación ya enviada,<br/> Cuando actualiza la calificación dentro del plazo establecido,<br/> Entonces la nueva calificación reemplaza a la anterior.       | EP-05       |
+| US-13               | Visualizar la propuesta de valor principal                    | Como visitante, quiero conocer la propuesta de valor de la plataforma para entender si se ajusta a mis necesidades.                                                                          | **Escenario 1: Propuesta visible al ingresar**<br/> Dado que un visitante llega a la página principal,<br/> Cuando la página carga,<br/> Entonces se le presenta una frase que explica claramente la propuesta de valor.<br/><br/>**Escenario 2: Contenido orientado a la gestión de refrigeración**<br/> Dado que el visitante pertenece al segmento de gestión de equipos,<br/> Cuando revisa la propuesta de valor,<br/> Entonces encuentra conceptos relacionados con gestión inteligente y monitoreo de equipos.                                                                              | EP-06       |
+| US-14               | Explorar soluciones específicas para mi rubro                 | Como visitante, quiero conocer las soluciones que ofrece la plataforma para mi tipo de negocio para saber si se ajusta a mis necesidades.                                                                          | **Escenario 1: Información para negocios de refrigeración**<br/> Dado que un visitante explora las soluciones ofrecidas,<br/> Cuando revisa el contenido disponible,<br/> Entonces encuentra descripciones dirigidas a negocios que utilizan o gestionan equipos de refrigeración.<br/><br/>**Escenario 2: Información para empresas proveedoras de servicios**<br/> Dado que un visitante explora las soluciones ofrecidas,<br/> Cuando revisa el contenido disponible,<br/> Entonces encuentra información dirigida a empresas proveedoras de equipos o servicios de mantenimiento.                                                                        | EP-06       |
+| US-15               | Comprender las funcionalidades clave                          | Como visitante, quiero entender las funcionalidades principales de la plataforma para evaluar si se adaptan a mi operación.                                                                            | **Escenario 1: Acceso a funcionalidades principales**<br/> Dado que un visitante consulta las características de la plataforma,<br/> Cuando revisa la lista de funcionalidades,<br/> Entonces puede identificar opciones clave como monitoreo en tiempo real, automatización de alertas y gestión remota.<br/><br/>**Escenario 2: Descripciones orientadas al valor**<br/> Dado que un visitante lee las descripciones de las funcionalidades,<br/> Cuando evalúa cada una,<br/> Entonces comprende el beneficio que aporta para su operación de refrigeración o mantenimiento.                                                                        | EP-06       |
+| US-16               | Conocer la misión y visión                                    | Como visitante, quiero conocer la misión y visión de la empresa para entender su enfoque y propuesta de valor.                                                                                | **Escenario 1: Acceso a la misión de la empresa**<br/> Dado que un visitante accede a la información institucional,<br/> Cuando revisa el contenido corporativo,<br/> Entonces encuentra una descripción clara de la misión.<br/><br/>**Escenario 2: Acceso a la visión de la empresa**<br/> Dado que un visitante accede a la información institucional,<br/> Cuando revisa el contenido estratégico,<br/> Entonces encuentra una descripción clara de la visión a futuro. | EP-06       |
+| US-17               | Acceder a la plataforma web (Call to Action)                  | Como usuario registrado, quiero acceder fácilmente a la plataforma web desde la página de inicio para gestionar mis operaciones y equipos.                                                                | **Escenario 1: Visibilidad del acceso a la plataforma**<br/> Dado que un usuario registrado visita la página principal,<br/> Cuando busca cómo ingresar a su cuenta,<br/> Entonces encuentra una opción clara para acceder a la plataforma.<br/><br/>**Escenario 2: Redirección a la plataforma web**<br/> Dado que el usuario selecciona la opción para acceder a la plataforma,<br/> Cuando es redirigido,<br/> Entonces llega a la página de inicio de sesión de la plataforma web. | EP-06       |
+| US-18               | Consultar equipos registrados                                 | Como usuario operador, quiero visualizar los equipos registrados para monitorear su estado operativo.                                                                            | **Escenario 1: Listado de equipos**<br/>Dado que el usuario accede al módulo Equipments,<br/>Cuando carga la pantalla,<br/>Entonces visualiza modelo, tipo, serial y estado de cada equipo.<br/><br/>**Escenario 2: Ver detalle**<br/>Dado que existe un equipo registrado,<br/>Cuando selecciona "Equipment Detail",<br/>Entonces el sistema muestra la información detallada del equipo.                                          | EP-06       |
+| US-19               | Visualizar dashboard principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                              | **Escenario 1: Visualización de métricas**<br/>Dado que el usuario ingresa al dashboard,<br/>Cuando carga la pantalla principal,<br/>Entonces visualiza la cantidad de equipos monitoreados, alertas abiertas, temperatura promedio y reportes recientes.<br/><br/>**Escenario 2: Actualización de datos**<br/>Dado que el usuario necesita información reciente,<br/>Cuando selecciona el botón "Refresh Dashboard",<br/>Entonces el sistema actualiza los indicadores mostrados. | EP-04       |
+| US-20               | Registrar nuevos sitios                                       | Como usuario, quiero registrar nuevos sitios para organizar las ubicaciones donde operan los equipos.                                                                              | **Escenario 1: Registro de sitio**<br/>Dado que el administrador desea crear una nueva sede,<br/>Cuando selecciona "Register New Site" e ingresa los datos requeridos,<br/>Entonces el sistema registra el sitio exitosamente.<br/><br/>**Escenario 2: Visualización de sitios**<br/>Dado que existen sitios registrados,<br/>Cuando accede al módulo Sites,<br/>Entonces visualiza nombre, dirección, contacto y teléfono.          | EP-02       |
+| US-21               | Crear solicitudes de servicio                                 | Como cliente, quiero registrar solicitudes de servicio técnico para reportar incidencias o mantenimientos.                                                                       | **Escenario 1: Nueva solicitud**<br/>Dado que el usuario necesita soporte técnico,<br/>Cuando selecciona "New Request" e ingresa la información requerida,<br/>Entonces el sistema registra la solicitud correctamente.<br/><br/>**Escenario 2: Visualización de solicitudes**<br/>Dado que existen solicitudes registradas,<br/>Cuando accede al módulo Services,<br/>Entonces visualiza número de orden, fecha, equipo, sede, proveedor, tipo y estado. | EP-03       |
+| US-22               | Buscar reportes por filtros                                   | Como administrador, quiero buscar reportes por nombre, tipo o estado para localizar información rápidamente.                                                                          | **Escenario 1: Buscar por nombre**<br/>Dado que existen múltiples reportes,<br/>Cuando escribe un nombre en el buscador,<br/>Entonces el sistema muestra coincidencias relacionadas.<br/><br/>**Escenario 2: Filtrar por tipo o estado**<br/>Dado que el usuario necesita segmentar información,<br/>Cuando selecciona filtros de tipo o estado,<br/>Entonces se actualiza el listado con los resultados correctos.                   | EP-01       |
+| US-23               | Cambiar idioma del sistema                                    | Como usuario internacional, quiero cambiar el idioma del sistema para usar la plataforma en mi idioma preferido.                                                                            | **Escenario 1: Cambio a español**<br/>Dado que el usuario selecciona ES,<br/>Cuando confirma la acción,<br/>Entonces la interfaz se muestra en español.<br/><br/>**Escenario 2: Cambio a inglés**<br/>Dado que el usuario selecciona EN,<br/>Cuando confirma la acción,<br/>Entonces la interfaz se muestra en inglés.                                                                               | EP-01       |
+| US-24               | Ver reporte de servicio realizado                             | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.                                                                               | **Escenario 1: Generación del reporte de servicio**<br/> Dado que el servicio ha sido completado,<br/> Cuando el técnico termina,<br/> Entonces el sistema genera un reporte detallado. <br/>**Escenario 2: Enviar reporte al cliente por correo** Dado que el reporte ha sido generado,<br/> Cuando se ha finalizado el servicio,<br/> Entonces el sistema envía el reporte al cliente			                                  | EP-04       |
+| US-25               | Visualizar dashboard principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                              | **Escenario 1: Visualización de métricas**<br/>Dado que el usuario ingresa al dashboard,<br/>Cuando carga la pantalla principal,<br/>Entonces visualiza la cantidad de sitios, equipos monitoreados y servicios recientes.<br/><br/>**Escenario 2: Actualización de datos**<br/>Dado que el usuario necesita información reciente,<br/>Cuando selecciona el botón "Refresh Dashboard",<br/>Entonces el sistema actualiza los indicadores mostrados. | EP-04       |     
+| TS-01               | Creación de solicitudes de mantenimiento (API)                | Como desarrollador, quiero implementar una API que me permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.                                              | **Escenario 1: Creación exitosa de solicitud**<br/> Dado que se envía una solicitud POST a `/api/v1/service-requests` con los datos del equipo y la descripción del problema, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 201 y se guarda la solicitud en el sistema.<br/><br/>**Escenario 2: Datos incompletos en la solicitud**<br/> Dado que se envía una solicitud a `/api/v1/service-requests` sin un campo obligatorio, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 400 con el mensaje "Invalid data".                                                                       | EP-03       |
+| TS-02               | Registro de intervenciones técnicas por API RESTful           | Como desarrollador, quiero registrar las intervenciones técnicas realizadas a través de la API para llevar un seguimiento detallado del mantenimiento.                                                          | **Escenario 1: Registro exitoso** <br/> Dado que se envía una solicitud POST a `/api/v1/interventions` con los datos del técnico y equipo, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 201 y el registro se almacena.<br/><br/>Escenario 2: Registro con técnico no existente<br/> Dado que el ID del técnico no existe, <br/> Cuando se realiza la solicitud POST a `/api/v1/interventions`, <br/> Entonces se recibe una respuesta 404 con el mensaje "Technician not found".                                                                               | EP-03       |
+| TS-03               | Gestión de evaluaciones de servicio vía API                   | Como desarrollador, mi objetivo es implementar un endpoint que permita a los clientes registrar y actualizar una evaluación de servicio para reflejar su experiencia.                                                | **Escenario 1: Evaluación inicial del servicio**<br/> Dado que el cliente ha recibido un servicio, <br/> Cuando se envía una solicitud POST a `/api/v1/reviews` con la puntuación (1-5), <br/> Entonces se recibe una respuesta 201 y se almacena la evaluación asociada al servicio.<br/><br/>**Escenario 2: Edición dentro del plazo permitido**<br/> Dado que el cliente ya evaluó un servicio y han pasado menos de 48 horas, <br/> Cuando realiza una solicitud PUT a `/api/v1/reviews/{id}` con una nueva puntuación, <br/> Entonces se recibe una respuesta 200 y la evaluación anterior se actualiza.                                  | EP-05       |
+| TS-04               | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso seguro de nuevos usuarios.     | **Escenario 1: Registro exitoso**<br/>Dado que el endpoint `/api/v1/users` está disponible, cuando se envía una solicitud POST con datos válidos (nombre, email único, contraseña válida), entonces el sistema responde con 201 y devuelve el usuario registrado.<br/>**Escenario 2: Registro con email existente**<br/>Dado un correo ya registrado, <br/> Cuando se intenta registrar nuevamente, <br/> Entonces se devuelve un 400 con mensaje "Email already registered". | EP-01       |
+| TS-05               | Consulta de estado de servicios por API                       | Como desarrollador, mi objetivo es crear un endpoint para que clientes y empresarios puedan consultar el estado de una solicitud de servicio en tiempo real.                                                 | **Escenario 1: Consulta exitosa del estado**<br/> Dado que se envía una solicitud GET a `/api/v1/requests/{id}` con un ID válido, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 200 y se devuelve el estado actual de la solicitud.<br/><br/>**Escenario 2: Consulta con ID existente**<br/> Dado que el ID de la solicitud no existe,<br/> Cuando se realiza la consulta, <br/> Entonces se recibe una respuesta 404 con el mensaje "Request not found".                                                                               | EP-03       |
+| EP-01               | Gestión de Cuentas de Usuario                                 | Esta epic se centra en todo lo necesario para que los usuarios puedan crear, acceder y administrar sus perfiles de forma segura en la plataforma.                                                              | |
+| EP-02               | Gestión y Monitoreo de Equipos                                | Esta epic abarca la funcionalidad para que los clientes agreguen, editen y monitoreen sus equipos de refrigeración, facilitando su control.                                                               | |
+| EP-03               | Proceso de Solicitudes de Servicio                            | Esta epic cubre el ciclo completo de las solicitudes de servicio, desde que un cliente pide una reparación o mantenimiento hasta que el trabajo se completa y se le da seguimiento.                              | |
+| EP-04               | Análisis e Informes de Datos                                  | Esta epic se encarga de la generación de reportes clave sobre el rendimiento de los equipos, el consumo energético y la eficiencia de los servicios, permitiendo un análisis detallado.                       | |
+| EP-05               | Mecanismo de Evaluación del Servicio                          | Esta epic se enfoca en la funcionalidad que permite a los clientes calificar los servicios recibidos, proporcionando retroalimentación valiosa para el equipo.                                             | |
+| EP-06               | Página de Aterrizaje y Experiencia Inicial                    | Esta epic cubre el desarrollo de la página de aterrizaje (landing page), asegurando que los visitantes entiendan rápidamente la propuesta de valor y puedan contactar al equipo comercial con facilidad.           | |
 
 ## 3.3. Impact Mapping.
 El equipo desarrolló un Impact Mapping en colaboración utilizando la herramienta UXPressia. Este mapa se creó para conectar los objetivos de negocio directamente con los requisitos funcionales de la plataforma.
@@ -1162,28 +1159,26 @@ Para mantener el proyecto organizado, usamos la escala de Fibonacci (1, 2, 3, 5,
   </figcaption>
 </figure>
 
-
-| Orden | User Story ID | Titulo                                                        | Descripcion                                                                                                                                                                                                   | Story Points |
-| :---: | :-----------: | :------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------: |
-| 01    | US-16         | Conocer la misión y visión                                    | Como visitante, quiero conocer la misión y visión de la empresa para entender su enfoque y propuesta de valor.                                                                                                | 2            |
-| 02    | US-17         | Acceder a la plataforma web (Call to Action)                  | Como usuario registrado, quiero acceder fácilmente a la plataforma web desde la página de inicio para gestionar mis operaciones y equipos.                                                                   | 2            |
-| 03    | US-04         | Solicitar y gestionar servicios de mantenimiento y reparación | Como cliente, quiero solicitar servicios de mantenimiento (preventivo) y reparación (correctivo) para mis equipos, para asegurar su óptimo funcionamiento y recibir confirmación de mi solicitud.           | 5            |                                                                           | 3            |
-| 04    | US-24         | Ver reporte de servicio realizado                             | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.                                                                                               | 3            |
-| 05    | US-03         | Gestionar equipos de refrigeración                            | Como cliente, quiero gestionar mis equipos de refrigeración en la plataforma para mantener un registro y control detallado de cada uno.                                                                       | 5            |                                                                       | 8            |
-| 06    | US-09         | Asignar técnicos a servicios                                  | Como empresario, quiero asignar un técnico a una solicitud de servicio para asegurar que se realice el trabajo adecuadamente.                                                                                 | 8            |
-| 07    | US-12         | Evaluar un servicio completado		                        | Como cliente, quiero evaluar un servicio una vez que ha finalizado para expresar mi satisfacción con el trabajo realizado.                                                                                    | 5            |
-| 08    | US-01         | Registro de usuario                                           | Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración.                                                                                       | 5            |
-| 09    | US-02         | Inicio de sesión                                              | Como usuario, quiero iniciar sesión con mi cuenta para acceder a la plataforma.                                                                                                                               | 3            |
-| 10    | US-25         | Visualizar desaborad principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                   | 8            |
-| 11    | US-20         | Registrar nuevos sitios                       				| Como usuario, quiero registrar nuevos sitios para organizar las ubicaciones donde operan los equipos.					                                                                                        | 5            |
-| 12    | US-21         | Crear solicitudes de servicio                                 | Como cliente, quiero registrar solicitudes de servicio técnico para reportar incidencias o mantenimientos.                                                                                     			   | 5            |
-| 13    | US-23         | Cambiar idioma del sistema                                    | Como usuario internacional, quiero cambiar el idioma del sistema para usar la plataforma en mi idioma preferido.                                                                                              | 2            |
-| 14    | TS-01         | Creación de solicitudes de mantenimiento (API)                | Como desarrollador, quiero implementar una API que me permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.                                            | 8            |
-| 15    | TS-02         | Registro de intervenciones técnicas por API RESTful           | Como desarrollador, quiero registrar las intervenciones técnicas realizadas a través de la API para llevar un seguimiento detallado del mantenimiento.                                               | 5            |
-| 16    | TS-03         | Gestión de evaluaciones de servicio vía API                   | Como desarrollador, mi objetivo es implementar un endpoint que permita a los clientes registrar y actualizar una evaluación de servicio para reflejar su experiencia.                                     | 5            |
-| 17    | TS-04         | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso de nuevos usuarios.	   | 5            |
-| 18    | TS-05         | Consulta de estado de servicios por API                       | Como desarrollador, mi objetivo es crear un endpoint para que clientes y empresarios puedan consultar el estado de una solicitud de servicio en tiempo real.                                                | 8            |
-
+| Orden | User Story ID | Titulo                                                        | Descripcion                                                                             | Story Points |
+| :---: | :-----------: | :------------------------------------------------------------ | :-------------------------------------------------------------------------------------- | :----------: |
+| 01    | US-16         | Conocer la misión y visión                                    | Como visitante, quiero conocer la misión y visión de la empresa para entender su enfoque y propuesta de valor.                                                                                  | 2            |
+| 02    | US-17         | Acceder a la plataforma web (Call to Action)                  | Como usuario registrado, quiero acceder fácilmente a la plataforma web desde la página de inicio para gestionar mis operaciones y equipos.                                                                  | 2            |
+| 03    | US-04         | Solicitar y gestionar servicios de mantenimiento y reparación | Como cliente, quiero solicitar servicios de mantenimiento (preventivo) y reparación (correctivo) para mis equipos, para asegurar su óptimo funcionamiento y recibir confirmación de mi solicitud.               | 5            |
+| 04    | US-24         | Ver reporte de servicio realizado                             | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.                                                                                 | 3            |
+| 05    | US-03         | Gestionar equipos de refrigeración                            | Como cliente, quiero gestionar mis equipos de refrigeración en la plataforma para mantener un registro y control detallado de cada uno.                                                                            | 5            |
+| 06    | US-09         | Asignar técnicos a servicios                                  | Como empresario, quiero asignar un técnico a una solicitud de servicio para asegurar que se realice el trabajo adecuadamente.                                                                          | 8            |
+| 07    | US-12         | Evaluar un servicio completado		                            | Como cliente, quiero evaluar un servicio una vez que ha finalizado para expresar mi satisfacción con el trabajo realizado.                                                                              | 5            |
+| 08    | US-01         | Registro de usuario                                           | Como nuevo usuario, quiero registrarme para acceder a la plataforma y empezar a gestionar mis equipos de refrigeración.                                                                          | 5            |
+| 09    | US-02         | Inicio de sesión                                              | Como usuario, quiero iniciar sesión con mi cuenta para acceder a la plataforma.                                                                             | 3            |
+| 10    | US-25         | Visualizar desaborad principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                         | 8            |
+| 11    | US-20         | Registrar nuevos sitios                       			        	| Como usuario, quiero registrar nuevos sitios para organizar las ubicaciones donde operan los equipos.					                                                                       | 5            |
+| 12    | US-21         | Crear solicitudes de servicio                                 | Como cliente, quiero registrar solicitudes de servicio técnico para reportar incidencias o mantenimientos.                                                                         | 5            |
+| 13    | US-23         | Cambiar idioma del sistema                                    | Como usuario internacional, quiero cambiar el idioma del sistema para usar la plataforma en mi idioma preferido.                                                                              | 2            |
+| 14    | TS-01         | Creación de solicitudes de mantenimiento (API)                | Como desarrollador, quiero implementar una API que me permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.                                                | 8            |
+| 15    | TS-02         | Registro de intervenciones técnicas por API RESTful           | Como desarrollador, quiero registrar las intervenciones técnicas realizadas a través de la API para llevar un seguimiento detallado del mantenimiento.                                                            | 5            |
+| 16    | TS-03         | Gestión de evaluaciones de servicio vía API                   | Como desarrollador, mi objetivo es implementar un endpoint que permita a los clientes registrar y actualizar una evaluación de servicio para reflejar su experiencia.                                               | 5            |
+| 17    | TS-04         | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso de nuevos usuarios.	            | 5            |
+| 18    | TS-05         | Consulta de estado de servicios por API                       | Como desarrollador, mi objetivo es crear un endpoint para que clientes y empresarios puedan consultar el estado de una solicitud de servicio en tiempo real.                                                   | 8            |
 
 # Capítulo IV: Product Design
 
@@ -1563,28 +1558,6 @@ Los wireframes de las aplicaciones web de IceTrack muestran cómo se estructuran
   </figcaption>
 </figure>
 
----
-
-<figure style="page-break-inside: avoid; text-align: center;">
-  <div align="center">
-    <img src="assets/chapter04/WebWireframe7.png" alt="WebWireframe7.png">
-  </div>
-  <figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 7:</strong> Wireframe Reportes.
-  </figcaption>
-</figure>
-
----
-
-<figure style="page-break-inside: avoid; text-align: center;">
- <div align="center">
-    <img src="assets/chapter04/WebWireframe8.png" alt="WebWireframe8.png">
-  </div>
-  <figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 8:</strong> Wireframe Administración.
-  </figcaption>
-</figure>
-
 ### 4.4.2. Web Applications Wireflow Diagrams
 <img width="2576" height="916" alt="Web Applications Wireflow Diagram" src="https://github.com/user-attachments/assets/4d5247bc-d766-4593-ba97-cc59d411e93e" />
 
@@ -1620,16 +1593,6 @@ Esta sección es para gestionar los servicios técnicos. Se pueden crear, asigna
 
 ---
 
-**Reportes**
-Aquí los usuarios pueden generar informes detallados. Estos reportes analizan el rendimiento de los equipos, el historial de mantenimiento y la eficiencia de los servicios, lo cual es vital para la toma de decisiones estratégicas.
-
-<img width="1600" height="1000" alt="screen" src="https://github.com/user-attachments/assets/e8f13a84-bb00-4868-8f5a-49b1f955b3a3" />
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 4:</strong> Register Mockup.
-  </figcaption>
-
----
-
 **Sitios y Equipos**
 Esta sección funciona como un inventario centralizado. Aquí se listan y gestionan todos los sitios (ubicaciones físicas) y los equipos de refrigeración que tienen asignados.
 
@@ -1654,16 +1617,6 @@ Al seleccionar un equipo en particular, se accede a esta sección. Aquí se pued
 <img width="1600" height="1460" alt="screen" src="https://github.com/user-attachments/assets/5faadadd-f97d-41f5-b089-dc97c797a5fc" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 7:</strong> Dashboard Mockup.
-  </figcaption>
-
----
-
-**Alertas**
-Aquí se notifican y gestionan todas las incidencias importantes. Por ejemplo, si un equipo de refrigeración presenta una falla, una alerta automática aparece en esta sección, permitiendo una respuesta inmediata.
-
-<img width="1600" height="1000" alt="screen" src="https://github.com/user-attachments/assets/62f6fa99-9b06-4268-a299-fecb636f753f" />
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 8:</strong> Alerts Mockup.
   </figcaption>
 
 ---
@@ -1761,35 +1714,35 @@ URL: https://www.figma.com/proto/ssl7G9KRip9XbC0tBXqUnc/Untitled?node-id=1-2&p=f
 
 Para la administración del proyecto, se utilizaron varias herramientas para la comunicación, la planificación y el control de versiones.
 
-| Plataforma                   | Descripción                                                                                                                                                                                             | Enlace               |
-| :--------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------- |
-| Trello                       | Esta plataforma de gestión de proyectos ofrece el seguimiento detallado del progreso de cada tarea, además de permitir la designación de responsables para cada actividad dentro del equipo de trabajo. | https://trello.com   |
-| Herramientas de Comunicación | La comunicación interna del equipo se gestionó a través de Discord y WhatsApp para reuniones y mensajes rápidos, respectivamente.                                                                       | https://discord.com/ |
-| GitHub                       | Se creó una organización para centralizar el código fuente y su versionado, lo que permitió un control de versiones eficiente y una gestión ordenada.                                                   | https://github.com   |
+| Plataforma                   | Descripción                                                                                                                       | Enlace               |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
+| Trello                       | Esta plataforma de gestión de proyectos ofrece el seguimiento detallado del progreso de cada tarea, además de permitir la designación de responsables para cada actividad dentro del equipo de trabajo.                                                                                                                                                 | https://trello.com   |
+| Herramientas de Comunicación | La comunicación interna del equipo se gestionó a través de Discord y WhatsApp para reuniones y mensajes rápidos, respectivamente. | https://discord.com/ |
+| GitHub                       | Se creó una organización para centralizar el código fuente y su versionado, lo que permitió un control de versiones eficiente y una gestión ordenada.                                                                                                                                                          | https://github.com   |
 
 **Requirement Management**
 
 En la fase inicial, se emplearon herramientas para la recolección y organización de los requisitos del proyecto, lo que aseguró una base sólida para el desarrollo.
 
-| Plataforma | Descripción                                                                                                                                                                                                     | Enlace                 |
-| :--------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------- |
-| UXPressia  | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo.  | https://uxpressia.com/ |
-| Miro       | Esta herramienta se usó para visualizar y desarrollar los escenarios "As-Is" (estado actual) y "To-Be" (estado futuro), lo que ayudó a planificar la evolución del proyecto.                                    | https://miro.com/es/   |
+| Plataforma | Descripción                                                                                                                                                                  | Enlace                 |
+| :--------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------- |
+| UXPressia  | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo.                                                                                                                                                                                  | https://uxpressia.com/ |
+| Miro       | Esta herramienta se usó para visualizar y desarrollar los escenarios "As-Is" (estado actual) y "To-Be" (estado futuro), lo que ayudó a planificar la evolución del proyecto. | https://miro.com/es/   |
 
 **Product UX/UI Desing**
 
 Para el diseño de la experiencia y la interfaz de usuario, se usó una plataforma colaborativa que simplificó el flujo de trabajo.
 
-| Plataforma | Descripción        																																															  |						  |
-| :--------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
-| Figma      | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo. | https://www.figma.com |
+| Plataforma | Descripción        																																															                        |						            |
+| :--------: | :--------------------------------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| Figma      | Fue la herramienta principal para el diseño. Permitió al equipo crear y validar propuestas de diseño con wireframes, mockups y prototipos interactivos, lo que aseguró un producto final efectivo y atractivo.   | https://www.figma.com |
 
 **Software Development**
 
 El desarrollo se realizó utilizando un conjunto de lenguajes y entornos de programación que garantizan la estructura, el estilo y la interactividad del producto.
 
 | Plataforma          | Descripción                                                                                                                                    | Link                                       |
-|---------------------| :--------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
 | HTML                | Sirve para definir la estructura y el contenido de una página web.                                                                             | https://www.w3schools.com/html/default.asp |
 | CSS                 | Se encarga de la presentación visual y el estilo de la página web.                                                                             | https://www.w3schools.com/css/default.asp  |
 | JS                  | Añade interactividad y dinamismo a la página web.                                                                                              | https://www.w3schools.com/js/default.asp   |
@@ -1800,10 +1753,10 @@ El desarrollo se realizó utilizando un conjunto de lenguajes y entornos de prog
 
 La documentación y la publicación del proyecto se manejaron con herramientas que optimizan la colaboración y el despliegue final.
 
-| Plataforma | Descripción                                             | Link                                                              |
-|------------|---------------------------------------------------------|-------------------------------------------------------------------|
-| GitHub     | Gestión de la documentación en función a repositorios y organizaciones | `https://github.com`          |
-| Markdown   | Formato base para la presentación y documentación del proyecto | `https://markdown.es/  `                   |
+| Plataforma | Descripción                                                            | Link                   |
+| :--------- | :--------------------------------------------------------------------- | :--------------------- |
+| GitHub     | Gestión de la documentación en función a repositorios y organizaciones | `https://github.com`   |
+| Markdown   | Formato base para la presentación y documentación del proyecto         | `https://markdown.es/` |
 
 Se utilizó la estrategia GitHub Flow para la colaboración y el control de versiones, usando ramas específicas para cada funcionalidad. Esto mantuvo el proyecto organizado. También sirvió como repositorio central para toda la documentación.
 Para el despliegue de la Landing Page se utilizó GitHub Pages, una herramienta perfecta para publicar sitios web estáticos.
@@ -1870,11 +1823,9 @@ A continuación, se detallan las convenciones de nomenclatura para diferentes ti
 ---
 
 **Repositorio de Github:**
-- Enlace para acceder a la organizacion en Github: `https://github.com/1ASI0730-2520-7452-G1-FrostShield`
-- Enlace para acceder al repositorio de la Landing Page: `https://github.com/1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page`
-- Enlace para acceder al repositorio del Informe: `https://github.com/1ASI0730-2520-7452-G1-FrostShield/Report`
-
----
+- Enlace para acceder a la organizacion en Github: `https://github.com/1ASI0732-FrostShield`
+- Enlace para acceder al repositorio de la Landing Page: `https://github.com/1ASI0732-FrostShield/Landing-Page-IceTrack`
+- Enlace para acceder al repositorio del Informe: `https://github.com/1ASI0732-FrostShield/Report-IceTrack`
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -2837,22 +2788,6 @@ En el Sprint 2 se desplegó la primera versión de la Web Application de IceTrac
 
 ![NewServiceRequestFrontv1](./assets/chapter05/NewServiceRequestFrontv1.png)
 
-<br>
-
-**Alerts:**
-
-![AlertsFrontv1](./assets/chapter05/AlertsFrontv1.png)
-
-<br>
-
-**Reports:**
-
-![ReportsFrontv1](./assets/chapter05/ReportsFrontv1.png)
-
-![EditReportFrontv1](./assets/chapter05/EditReportFrontv1.png)
-
-**Url del frontend:** [`https://ice-track-frontend.vercel.app/`](https://ice-track-frontend.vercel.app/)
-
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
@@ -3379,20 +3314,6 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 
 <br>
 
-**Alerts:**
-
-![AlertsFrontV2](./assets/chapter05/AlertsFrontV2.png)
-
-<br>
-
-**Reports:**
-
-![ReportsFrontV2](./assets/chapter05/ReportsFrontV2.png)
-![CreateReportFrontV2](./assets/chapter05/CreateReportFrontV2.png)
-![EditReportFrontV2](./assets/chapter05/EditReportFrontV2.png)
-
-<br>
-
 **Profile:**
 
 ![ProfileFrontV2](./assets/chapter05/ProfileFrontV2.png)
@@ -3402,23 +3323,13 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 
 **Dashboard**
 
-| Verbo HTTP | Endpoint 		 					    | Descripción 				   |
+| Verbo HTTP | Endpoint 		 					                  | Descripción 				         |
 | :--------: | :--------------------------------------- | :--------------------------- |
-| GET		 | /api/v1/dashboard-config/{id}     		| Obtener ID				   |
-| PUT		 | /api/v1/dashboard-config/{id}  	  	    | Actualizar ID 			   |
-| DELETE 	 | /api/v1/dashboard-config/{id}			| Eliminar ID 				   |
-| GET 		 | /api/v1/dashboard-config/user/{userId}   | Obtener configuracion por ID |
-| POST 		 | /api/v1/dashboard-config					| Crea configuracion		   |
-| POST 		 | /api/v1/dashboard-config/{id}/cards 		| Añade cartas				   |
-| GET 		 | /api/v1/dashboard-config/available-cards | Obtener cartas disponible	   |
-
-**ReportController**
-
-| Verbo HTTP | Endpoint 		   | Descripción 										 |
-| :--------: | :------------------ | :-------------------------------------------------- |
-| POST		 | /api/v1/report      | Crear un nuevo reporte 							 |
-| GET		 | /api/v1/report 	   | Obtener un reporte por el ID de un equipo o empresa |
-| GET 		 | /api/v1/report/{id} | Obtener un reporte por su ID 						 |
+| GET		     | /api/v1/dashboard-config/{id}     	     	| Obtener ID				           |
+| GET 		   | /api/v1/dashboard-config/user/{userId}   | Obtener configuracion por ID |
+| POST 		   | /api/v1/dashboard-config				        	| Crea configuracion		       |
+| POST 		   | /api/v1/dashboard-config/{id}/cards 		  | Añade cartas				         |
+| GET 		   | /api/v1/dashboard-config/available-cards | Obtener cartas disponible	   |
 
 **Equipment**
 
@@ -3436,14 +3347,6 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 | GET		 | /api/v1/site 	 | Tener todos los sitios |
 | GET		 | /api/v1/site/{id} | Tener sitio por ID     |
 
-**Report**
-
-| Verbo HTTP | Endpoint      	   | Descripción	   	  |
-| :--------: | :------------------ | :------------------- |
-| POST		 | /api/v1/report 	   | Crear reporte   	  |
-| GET		 | /api/v1/report 	   | Tener reportes    	  |
-| GET		 | /api/v1/report/{id} | Tener reporte por ID |
-
 **User**
 
 | Verbo HTTP | Endpoint      	   | Descripción	   |
@@ -3453,18 +3356,10 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 
 **Authentication**
 
-| Verbo HTTP | Endpoint 		  			  | Descripción	   |
+| Verbo HTTP | Endpoint 		  			          | Descripción	   |
 | :--------: | :----------------------------- | :------------- |
-| POST		 | /api/v1/authentication/sign-in | Iniciar sesión |
-| POST		 | /api/v1/authentication/sign-up | Registrarse    |
-
-**Alerts**
-
-| Verbo HTTP | Endpoint 		  			  | Descripción	                                 |
-| :--------: | :----------------------------- | :--------------------------------------------|                          
-| POST		 | /api/v1/authentication/sign-in | Crear alerta                                 |
-| GET		 | /api/v1/alert                  | Tener alerta por equipmentid y tenantid      |
-| GET		 | /api/v1/alert/{id}             | Tener alerta por Id                          |
+| POST		   | /api/v1/authentication/sign-in | Iniciar sesión |
+| POST		   | /api/v1/authentication/sign-up | Registrarse    |
 
 ---
 
@@ -3478,13 +3373,6 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 ![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_5.jpeg)
 ![GetReportByIdBackendV1](./assets/chapter05/dashboard_6.jpeg)
 ![PostReportBackendV1](./assets/chapter05/dashboard_7.jpeg)
-
-**ReportController**
-
-![ReportEndpointsBackendV1](./assets/chapter05/ReportEndpointsBackendV1.png)
-![PostReportBackendV1](./assets/chapter05/PostReportBackendV1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/GetReportByEquipmentOrTenantIdBackendV1.png)
-![GetReportByIdBackendV1](./assets/chapter05/GetReportByIdBackendV1.png)
 
 **Equipment**
 
@@ -3500,13 +3388,6 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 ![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/site_2.png)
 ![GetReportByIdBackendV1](./assets/chapter05/site_3.png)
 
-**Report**
-
-![ReportEndpointsBackendV1](./assets/chapter05/report_0.png)
-![PostReportBackendV1](./assets/chapter05/report_1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/report_2.png)
-![GetReportByIdBackendV1](./assets/chapter05/report_3.png)
-
 **User**
 
 ![ReportEndpointsBackendV1](./assets/chapter05/users_0.png)
@@ -3518,10 +3399,6 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 ![ReportEndpointsBackendV1](./assets/chapter05/authentication_0.png)
 ![PostReportBackendV1](./assets/chapter05/authentication_1.png)
 ![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/authentication_2.png)
-
-**Alerts**
-![ReportEndpointsBackendV1](./assets/chapter05/metodos-alertas.png)
-![ReportEndpointsBackendV1](./assets/chapter05/post-alertas.png)
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -3908,17 +3785,6 @@ En el Sprint 4 se desplegó la última versión de la Web Application de IceTrac
 ![ServicesFrontVF](assets/chapter05/ServicesFrontVF.png)
 ![AddServicesFrontVF](assets/chapter05/AddServiceRequestFrontVF.png)
 
-**Alerts:**
-
-![AlertsFrontVF](assets/chapter05/AlertsFrontVF.png)
-
-**Reports:**
-
-![ReportsFrontVF](assets/chapter05/ReportsFrontVF.png)
-![AddReportFrontVF](assets/chapter05/AddReportFrontVF.png)
-![ReportsDetailFrontVF](assets/chapter05/ReportDetailFrontVF.png)
-![EditReportFrontVF](assets/chapter05/EditReportFrontVF.png)
-
 <br>
 
 *Service Provider View:*
@@ -3936,110 +3802,90 @@ En el Sprint 4 se desplegó la última versión de la Web Application de IceTrac
 
 ![TechnicianManagementFrontVF](assets/chapter05/TechnicianManagementFrontVF.png)
 
-
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 **DashboardConfigs**
 
-| Verbo HTTP | Endpoint 		 					    | Descripción 				   |
-| :--------: | :--------------------------------------- | :--------------------------- |
-| GET		 | /api/v1/dashboard-configs/{id}     		| Obtener ID				   |
-| PUT		 | /api/v1/dashboard-configs/{id}  	  	    | Actualizar ID 			   |
-| DELETE 	 | /api/v1/dashboard-configs/{id}			| Eliminar ID 				   |
-| GET 		 | /api/v1/dashboard-configs/user/{userId}   | Obtener configuracion por ID |
-| POST 		 | /api/v1/dashboard-configs					| Crea configuracion		   |
-| POST 		 | /api/v1/dashboard-configs/{id}/cards 		| Añade cartas				   |
-| GET 		 | /api/v1/dashboard-configs/available-cards | Obtener cartas disponible	   |
-| PATCH		 | /api/v1/dashboard-configs/{id}/cards/{cardId}/visibility | Actualizar visibilidad	   |
-
-**Report**
-
-| Verbo HTTP | Endpoint 		   | Descripción 										 |
-| :--------: | :------------------ | :-------------------------------------------------- |
-| POST		 | /api/v1/reports     | Crear un nuevo reporte 							 |
-| GET		 | /api/v1/reports 	   | Obtener un reporte por el ID de un equipo o empresa |
-| GET 		 | /api/v1/report/{id} | Obtener un reporte por su ID 						 |
-| PUT		 | /api/v1/report/{id} | Actualizar un reporte por su ID 						 |
-| DELETE 		 | /api/v1/report/{id} | Eliminar un reporte por su ID 						 |
+| Verbo HTTP | Endpoint 		 					                                  | Descripción 				         |
+| :--------: | :------------------------------------------------------- | :--------------------------- |
+| GET		     | /api/v1/dashboard-configs/{id}     		                  | Obtener ID			        	   |
+| PUT		     | /api/v1/dashboard-configs/{id}  	  	                    | Actualizar ID 			         |
+| DELETE   	 | /api/v1/dashboard-configs/{id}			                      | Eliminar ID 				         |
+| GET 		   | /api/v1/dashboard-configs/user/{userId}                  | Obtener configuracion por ID |
+| POST 		   | /api/v1/dashboard-configs				                      	| Crea configuracion		       |
+| POST 		   | /api/v1/dashboard-configs/{id}/cards 	                 	| Añade cartas				         |
+| GET 		   | /api/v1/dashboard-configs/available-cards                | Obtener cartas disponible	   |
+| PATCH		   | /api/v1/dashboard-configs/{id}/cards/{cardId}/visibility | Actualizar visibilidad	     |
 
 **Equipment**
 
-| Verbo HTTP | Endpoint 		  	  | Descripción	 			|
+| Verbo HTTP | Endpoint 		  	      | Descripción	 			      |
 | :--------: | :--------------------- | :---------------------- |
-| POST		 | /api/v1/equipment	  | Crear equipo 			|
-| GET		 | /api/v1/equipment 	  | Tener todos los equipos |
-| GET		 | /api/v1/equipment/{id} | Tener equipo por ID     |
+| POST		   | /api/v1/equipment	    | Crear equipo 			      |
+| GET		     | /api/v1/equipment 	    | Tener todos los equipos |
+| GET		     | /api/v1/equipment/{id} | Tener equipo por ID     |
 
 **Site**
 
-| Verbo HTTP | Endpoint 	     | Descripción	 		  |
+| Verbo HTTP | Endpoint 	       | Descripción	 		      |
 | :--------: | :---------------- | :--------------------- |
-| POST		 | /api/v1/site	  	 | Crear site 			  |
-| GET		 | /api/v1/site 	 | Tener todos los sitios |
-| GET		 | /api/v1/site/{id} | Tener sitio por ID     |
-| DELETE		 | /api/v1/site/{id} | Eliminar sitio por ID     |
-
+| POST	  	 | /api/v1/site	  	 | Crear site 			      |
+| GET		     | /api/v1/site 	   | Tener todos los sitios |
+| GET		     | /api/v1/site/{id} | Tener sitio por ID     |
+| DELETE		 | /api/v1/site/{id} | Eliminar sitio por ID  |
 
 **User**
 
-| Verbo HTTP | Endpoint      	   | Descripción	   |
-| :--------: | :------------------ | :---------------- |
-| GET		 | /api/v1/report/{id} | Tener user por ID |
-| GET		 | /api/v1/users 	   | Tener usuarios    |
-| GET		 | /api/v1/users/role/{role} 	   | Tener usuarios por rol    |
+| Verbo HTTP | Endpoint      	           | Descripción	          |
+| :--------: | :------------------------ | :--------------------- |
+| GET		     | /api/v1/report/{id}       | Tener user por ID      |
+| GET		     | /api/v1/users 	           | Tener usuarios         |
+| GET		     | /api/v1/users/role/{role} | Tener usuarios por rol |
 
 **Authentication**
 
-| Verbo HTTP | Endpoint 		  			  | Descripción	   |
+| Verbo HTTP | Endpoint 		  			          | Descripción	   |
 | :--------: | :----------------------------- | :------------- |
-| POST		 | /api/v1/authentication/sign-in | Iniciar sesión |
-| POST		 | /api/v1/authentication/sign-up | Registrarse    |
-
-**Alerts**
-
-| Verbo HTTP | Endpoint 		  			  | Descripción	                                 |
-| :--------: | :----------------------------- | :--------------------------------------------|                          
-| POST		 | /api/v1/authentication/sign-in | Crear alerta                                 |
-| GET		 | /api/v1/alert                  | Tener alerta por equipmentid y tenantid      |
-| GET		 | /api/v1/alert/{id}             | Tener alerta por Id                          |
+| POST		   | /api/v1/authentication/sign-in | Iniciar sesión |
+| POST		   | /api/v1/authentication/sign-up | Registrarse    |
 
 **Reviews**
 
-| Verbo HTTP | Endpoint 	     | Descripción	 		  |
-| :--------: | :---------------- | :--------------------- |
-| POST		 | /api/v1/reviews	  	 | Crear reseña 			  |
-| GET		 | /api/v1/reviews 	 | Tener todas los reseñas |
-| GET		 | /api/v1/site/{id} | Tener reseña por ID     |
+| Verbo HTTP | Endpoint 	       | Descripción	 		       |
+| :--------: | :---------------- | :---------------------- |
+| POST		   | /api/v1/reviews	 | Crear reseña 			     |
+| GET		     | /api/v1/reviews 	 | Tener todas los reseñas |
+| GET		     | /api/v1/site/{id} | Tener reseña por ID     |
 
 **ServiceRequests**
 
-| Verbo HTTP | Endpoint 	     | Descripción	 		  |
-| :--------: | :---------------- | :--------------------- |
-| POST		 | /api/v1/service-requests	  	 | Crear request 			  |
-| GET		 | /api/v1/service-requests/{serviceRequestId}		 | Tener todos los requests |
-| GET		 | /api/v1/service-requests/requester/{requesterId} | Tener request por requester ID     |
-| PATCH		 | /api/v1/service-requests/{serviceRequestId}/accept | aceptar request por requester ID     |
-| PATCH		 | /api/v1/service-requests/{serviceRequestId}/reject | Denegar request por requester ID     |
-| PATCH		 | /api/v1/service-requests/{serviceRequestId}/cancel | cancelar request por requester ID     |
-| PATCH		 | /api/v1/service-requests/{serviceRequestId}/assign-technician | asignar tecnico a request   |
+| Verbo HTTP | Endpoint 	                                                   | Descripción	 		                 |
+| :--------: | :------------------------------------------------------------ | :-------------------------------- |
+| POST		   | /api/v1/service-requests	  	                                 | Crear request 			               |
+| GET		     | /api/v1/service-requests/{serviceRequestId}		               | Tener todos los requests          |
+| GET		     | /api/v1/service-requests/requester/{requesterId}              | Tener request por requester ID    |
+| PATCH		   | /api/v1/service-requests/{serviceRequestId}/accept            | aceptar request por requester ID  |
+| PATCH		   | /api/v1/service-requests/{serviceRequestId}/reject            | Denegar request por requester ID  |
+| PATCH		   | /api/v1/service-requests/{serviceRequestId}/cancel            | cancelar request por requester ID |
+| PATCH		   | /api/v1/service-requests/{serviceRequestId}/assign-technician | asignar tecnico a request         |
 
 **Interventions**
 
-| Verbo HTTP | Endpoint 	     | Descripción	 		  |
-| :--------: | :---------------- | :--------------------- |
-| POST		 | /api/v1/interventions	  	 | Crear intervencion 			  |
-| GET		 | /api/v1/interventions/{interventionId} 	 | Tener intervenciones por Id |
+| Verbo HTTP | Endpoint 	                            | Descripción	 		            |
+| :--------: | :------------------------------------- | :-------------------------- |
+| POST		   | /api/v1/interventions	  	            | Crear intervencion 			    |
+| GET		     | /api/v1/interventions/{interventionId} | Tener intervenciones por Id |
 
 
 **Technicians**
 
-| Verbo HTTP | Endpoint 		   | Descripción 										 |
-| :--------: | :------------------ | :-------------------------------------------------- |
-| POST		 | /api/v1/reports     | Crear un nuevo tecnico 							 |
-| GET		 | /api/v1/reports 	   | Obtener un tecnico por el ID de un proveedor |
-| GET 		 | /api/v1/report/{id} | Obtener un tecnico por su ID 						 |
-| PUT		 | /api/v1/report/{id} | Actualizar un tecnico por su ID 						 |
-| DELETE 		 | /api/v1/report/{id} | Eliminar un tecnico por su ID 	
+| Verbo HTTP | Endpoint 		       | Descripción 										              |
+| :--------: | :------------------ | :------------------------------------------- |
+| POST		   | /api/v1/reports     | Crear un nuevo tecnico 						          |
+| GET		     | /api/v1/reports 	   | Obtener un tecnico por el ID de un proveedor |
+| GET 		   | /api/v1/report/{id} | Obtener un tecnico por su ID 					      |
+| PUT		     | /api/v1/report/{id} | Actualizar un tecnico por su ID 						  |
+| DELETE 		 | /api/v1/report/{id} | Eliminar un tecnico por su ID 	              |
 
 
 **Technicians**
@@ -4063,19 +3909,11 @@ En el Sprint 4 se desplegó la última versión de la Web Application de IceTrac
 **DashboardConfigs**
 ![dashboard-configs-swagger](./assets/chapter05/dashboard-configs-swagger.png)
 
-**Alert**
-![alert-swagger](./assets/chapter05/alert-swagger.png)
-
 **Equipment**
 ![equipment-swagger](./assets/chapter05/equipment-swagger.png)
 
-**Report**
-![report-swagger](./assets/chapter05/report-swagger.png)
-
 **Site**
 ![site-swagger](./assets/chapter05/site-swagger.png)
-
----
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
@@ -4097,7 +3935,6 @@ Frontend:
 
 Backend:
 ![InsightsTB2BACKEND.png](assets/chapter05/InsightsTFBACKEND.png)
-
 
 ## 5.3. Video About-the-Product
 
@@ -4233,8 +4070,6 @@ En esta sección se aplican técnicas de Behavior-Driven Development (BDD) para 
     <img src="assets/chapter06/Test Diseño/gherkin_US25.png" alt="gherkin-US25" width="900px"/>
 </p>
 
-<br>
-
 ### 6.1.4 Core System Tests
 
 | ID    | Nombre del caso de uso | Descripción | 
@@ -4315,7 +4150,6 @@ En esta sección se aplican técnicas de Behavior-Driven Development (BDD) para 
 | US-09 |  Asignar técnicos a servicios    | Como empresario, quiero asignar un técnico a una solicitud de servicio para asegurar que se realice el trabajo adecuadamente. |
 
 ![US23-Selenium.png](assets/chapter06/US%20-%20Asignar%20Tecnicos.png)
-
 
 ## 6.2 Static testing & Verification
 
@@ -4529,11 +4363,11 @@ En el ámbito del desarrollo y pruebas de software, es esencial contar con herra
 Algunas de las herramientas principales que utilizamos son:
 
 
-| Herramienta | Tipo | Descripción | Propósito |
-|-------------|------|-------------|-----------|
-| **Cucumber** | Pruebas BDD | Framework que permite escribir escenarios de prueba en lenguaje Gherkin y vincularlos con Steps en código. | Validar funcionalidades del sistema asegurando trazabilidad con las User Stories. |
-| **Mockito** | Pruebas Unitarias (Backend C#) | Librería de mocking para simular dependencias en pruebas unitarias. | Asegurar que las clases y métodos del backend funcionen correctamente de forma aislada. |
-| **MS Test** | Framework de pruebas unitarias (Backend C#) | Herramienta nativa de .NET para crear y ejecutar pruebas unitarias y de integración. | Validar el comportamiento esperado del código backend y asegurar la cobertura mínima requerida. |
+| Herramienta  | Tipo                                        | Descripción                                                                                                | Propósito    |
+| :----------- | :------------------------------------------ | :--------------------------------------------------------------------------------------------------------- | :----------- |
+| **Cucumber** | Pruebas BDD                                 | Framework que permite escribir escenarios de prueba en lenguaje Gherkin y vincularlos con Steps en código. | Validar funcionalidades del sistema asegurando trazabilidad con las User Stories.                |
+| **Mockito**  | Pruebas Unitarias (Backend C#)              | Librería de mocking para simular dependencias en pruebas unitarias.                                        | Asegurar que las clases y métodos del backend funcionen correctamente de forma aislada.            |
+| **MS Test**  | Framework de pruebas unitarias (Backend C#) | Herramienta nativa de .NET para crear y ejecutar pruebas unitarias y de integración.                       | Validar el comportamiento esperado del código backend y asegurar la cobertura mínima requerida.     |
 
 ### 7.1.2 Build & Test Suite Pipeline Components
 
@@ -4560,11 +4394,10 @@ Su objetivo es el de automatizar la integración y pruebas del código, mantenie
 El **Continuous Delivery** se diseñó para asegurar que el software estuviera siempre listo para producción, pero con un control humano en la etapa final. Esto permitió que el equipo mantuviera calidad y coordinación, evitando despliegues automáticos no deseados.
 
 #### Tools:
-| Herramienta | Tipo | Descripción | Propósito |
-|-------------|------|-------------|-----------|
-| **GitHub Actions** | Automatización de CI/CD | Configuramos pipelines que ejecutan pruebas unitarias (MS Test, Mockito), pruebas BDD (Cucumber) y validaciones de calidad. La etapa de despliegue queda preparada pero pendiente de aprobación manual. | Garantizar que cada commit y PR pase por validaciones automáticas antes de estar listo para producción. |
-| **Jira** | Gestión de aprobación | Usado para coordinar la aprobación del despliegue. Después de que el pipeline valida el código, un responsable revisa y aprueba el paso a producción. | Asegurar que el despliegue sea revisado por al menos un miembro del equipo antes de ejecutarse. |
-
+| Herramienta        | Tipo                    | Descripción                                 | Propósito    |
+| :----------------- | :---------------------- | :------------------------------------------ | :----------- |
+| **GitHub Actions** | Automatización de CI/CD | Configuramos pipelines que ejecutan pruebas unitarias (MS Test, Mockito), pruebas BDD (Cucumber) y validaciones de calidad. La etapa de despliegue queda preparada pero pendiente de aprobación manual.           | Garantizar que cada commit y PR pase por validaciones automáticas antes de estar listo para producción. |
+| **Jira**           | Gestión de aprobación   | Usado para coordinar la aprobación del despliegue. Después de que el pipeline valida el código, un responsable revisa y aprueba el paso a producción.                                    | Asegurar que el despliegue sea revisado por al menos un miembro del equipo antes de ejecutarse.         |
 
 #### Practices
 - **Feature Branching y Merge Requests:** Cada funcionalidad se desarrolla en ramas separadas. Tras pasar pruebas automáticas, se fusiona a la rama estable, pero el despliegue requiere aprobación manual.  
@@ -4672,7 +4505,6 @@ Las herramientas utilizadas para el monitoreo y asegurameitno de calidad de la a
 
 ---
 
-
 **Swagger UI:** Empleado para probar y validar los endpoints del backend desarrollado en C#, verificando respuestas HTTP, parámetros y funcionamiento de las APIs REST.
 ![Swagger.png](assets/chapter07/swagger-banner.png)
 
@@ -4683,19 +4515,13 @@ Las herramientas utilizadas para el monitoreo y asegurameitno de calidad de la a
 
 ---
 
-
 **GitHub:** Utilizado para el control de versiones, administración de cambios y colaboración entre los integrantes del equipo.
 ![Github.png](assets/chapter07/github.png)
 
-
 ---
-
 
 **Jira:** empleado para el seguimiento de tareas, incidencias y errores detectados durante las pruebas y el desarrollo del proyecto.
 ![Jira.png](assets/chapter07/jira.png)
-
-
----
 
 ### 7.4.2 Monitoring Pipeline Components
 
@@ -4726,7 +4552,6 @@ El pipeline de notificaciones permitió mantener informado al equipo sobre el es
 GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante commits, pull requests y actualizaciones del repositorio, permitiendo la colaboración continua entre los integrantes del equipo.
 
 ![GithubIceTrack.png](assets/chapter07/Github_IceTrack.png)
-
 
 # Conclusiones
 
