@@ -4757,7 +4757,7 @@ Las revisiones de código deben realizarse de forma regular, preferiblemente al 
 
 ## 6.3 Validation Interviews
 
-
+Segmento Tecnicos y 
 
 ### 6.3.1 Diseño de Entrevistas
 
@@ -4777,6 +4777,30 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 ### 6.3.2 Registro de Entrevistas
 
+Segmento objetivo : Técnicos y empresas de mantenimiento
+
+Entrevista 01
+
+Nombres: Hector
+
+Apellidos: Rios 
+
+Edad: 22 años
+
+Distrito: San Miguel
+
+Evidencia de la reunión:
+
+![Entevista1](assets/chapter06/Entrevista.jpeg)
+
+Enlace de entrevista: <a href="https://1drv.ms/v/c/e3ea863cec5de463/IQAZva0qO9J9Ro5XI4Crb4pnAT_L58E45u4_zQsSNuyMjU4?e=y3aUOh">Link</a>
+
+Resumen de la entrevista:
+
+Hector, nos comentó que no tuvo dificultades para regresar a pantallas anteriores o cancelar una
+acción en curso, como cuando editaba información sobre sus recursos y activos dentro de la aplicación. También destacó que la estructura es sumamente limpia, lo que evita la sobrecarga cognitiva y permite que un técnico se enfoque en las tareas prioritarias, como las solicitudes pendientes. 
+
+El entrevistado concluyó que IceTrack presenta una arquitectura de información sólida y un diseño minimalista que facilita la operatividad diaria. Calificó la herramienta como práctica y eficiente con las necesidades reales de un proveedor de servicios técnicos.
 
 
 ### 6.3.3 Evaluaciones según heurísticas
