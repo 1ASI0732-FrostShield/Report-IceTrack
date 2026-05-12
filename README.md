@@ -4675,6 +4675,22 @@ En esta sección se aplican técnicas de Behavior-Driven Development (BDD) para 
 ![US25-ProductBacklog.png](assets/chapter06/US25-ProductBacklog.png)
 ![US25-Selenium.png](assets/chapter06/Selenium%20US25.png)
 
+---
+
+![US02-ProductBacklog.png](assets/chapter06/US%2002%20-%20ProductBacklog.png)
+![US02-Selenium.png](assets/chapter06/US%2002%20-%20Selenium.png)
+
+---
+
+![US20-ProductBacklog.png](assets/chapter06/US%2020%20-%20ProductBacklog.png)
+![US20-Selenium.png](assets/chapter06/US%2020%20-%20Selenium.png)
+
+---
+
+![US23-ProductBacklog.png](assets/chapter06/US%2023%20-%20ProductBacklog.png)
+![US23-Selenium.png](assets/chapter06/US%2023%20-%20Selenium.png)
+
+
 ## 6.2 Static testing & Verification
 
 ### 6.2.1 Static Code Analysis
@@ -4741,8 +4757,28 @@ Las revisiones de código deben realizarse de forma regular, preferiblemente al 
 
 ## 6.3 Validation Interviews
 
+
+
 ### 6.3.1 Diseño de Entrevistas
+
+A continuación, se presentan las preguntas que se utilizarán en las entrevistas de validación para evaluar la usabilidad de la aplicación. Estas están diseñadas para explorar las heurísticas de usabilia y obtener información sobre las experiencas del usuario. 
+
+1. ¿La aplicación proporciona información clara sobre lo que está sucediendo en cada momento?
+2. ¿Hubo algún término, icono o frase que te resultara extraño o difícil de entender? ¿Cuál?
+3. Si cometieras un error o quisieras retroceder, ¿qué tan fácil o difícil te resultó encontrar la salida?
+4. ¿Las palabras, frases y conceptos en la aplicación son comprensibles y familiares para ti?
+5. ¿Notaste cambios en los colores, botones o palabras que te hicieran dudar si seguías en la misma sección de la aplicación?
+6. ¿Hay alguna pantalla que sientas que tiene demasiada información o elementos que te distraen de tu objetivo?
+7. Si pudieras cambiar una sola cosa para que la app sea más fácil de usar, ¿qué sería?
+8.  ¿Sientes que la aplicación tiene un diseño limpio y sin desorden?
+9. ¿Te resulta fácil encontrar características y funciones en la aplicación sin tener que recordarlas?
+10. ¿Consideras que el tamaño de los textos y los botones es adecuado para una interacción rápida, o sentiste alguna dificultad física al navegar?"
+
+
 ### 6.3.2 Registro de Entrevistas
+
+
+
 ### 6.3.3 Evaluaciones según heurísticas
 
 #### UX Heuristics & Principles Evaluation
