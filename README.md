@@ -4745,6 +4745,98 @@ Las revisiones de código deben realizarse de forma regular, preferiblemente al 
 ### 6.3.2 Registro de Entrevistas
 ### 6.3.3 Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+#### Usability - Inclusive Design - Information Architecture
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Diseño de Experimentos  
+**NRC**: 12316 
+**PROFESORES**: Julio Manuel Noriega Melendez
+**AUDITOR**: FrostShield
+
+**CLIENTE(S)**:
+
+* Gonzales Alvarado, Javier Sebastian
+* Gordon Salas, Gabriel Fernando
+* Guillen Galindo, Julio Adolfo
+* Jiménez Guerra, Gianmarco Fabian
+* Melgarejo Gomez, Marcia Victoria
+* Quijada Magro, Jeremy Alexander
+
+**SITE O APP A EVALUAR**: IceTrack Platform
+
+**TAREAS A EVALUAR**:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas basadas en los módulos de Frontend implementados:
+
+* Pantallas de Inicio de sesión y Registro 
+* Dashboard Principal
+* Gestión de Sedes
+* Gestión y Monitoreo de Equipos 
+* Gestión de Solicitudes de Servicio 
+* Registro y Detalle de Intervenciones Técnicas 
+* Configuración de Notificaciones y Ajustes de Administrador
+
+**ESCALA DE SEVERIDAD**:
+Los errores han sido puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| :---- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | **Problema superficial**: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+#### TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :- | :---------------------------------------------------------------------------------------------- | :------------------ | :------------------------------------ |
+| 1 | Transición inmediata tras el registro sin confirmación visual persistente. | 3 | Visibilidad del estado del sistema |
+| 2 | Duplicidad de lógica de validación de campos (teléfono/texto) en múltiples formularios. | 2 | Consistencia y estándares |
+| 3 | El Dashboard no prioriza visualmente las alertas críticas sobre los KPIs generales. | 2 | Estética y diseño minimalista |
+| 4 | Falta de retroalimentación inmediata al intentar registrar un equipo en una sede sin conexión. | 3 | Prevención de errores |
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+#### PROBLEMA #1:
+
+* **Severidad**: 3
+* **Heurística violada**: Visibilidad del estado del sistema (#1)
+* **Problema**: Al completar el registro de un nuevo usuario, el sistema redirige casi instantáneamente a la pantalla de inicio de sesión. Aunque aparece un mensaje de éxito, la velocidad de la redirección impide que el usuario confirme con seguridad que su cuenta fue creada correctamente o que lea instrucciones adicionales.
+
+**Recomendación**: Implementar una pantalla de confirmación intermedia o un "toast" de éxito con una duración de al menos 3 segundos antes de la redirección automática, permitiendo que el usuario procese el resultado de su acción.
+
+<br>
+
+#### PROBLEMA #2:
+
+* **Severidad**: 2
+* **Heurística violada**: Consistencia y estándares (#4)
+* **Problema**: Se observa que las validaciones de entrada para teléfonos y nombres están codificadas de forma independiente en cada componente (`sites-list`, `technician-list`). Esto puede generar comportamientos divergentes si se actualiza la regla en un lugar y no en otro (ej. permitir 9 dígitos en uno y no validar longitud en otro).
+
+**Recomendación**: Centralizar las funciones de validación (como `onPhoneInput` y `onTextInput`) en un archivo de utilitarios compartido para asegurar que todos los formularios de la plataforma IceTrack se comporten de manera idéntica.
+
+<br>
+
+#### PROBLEMA #3:
+
+* **Severidad**: 2
+* **Heurística violada**: Estética y diseño minimalista (#8)
+* **Problema**: El Dashboard presenta múltiples tarjetas de KPI y gráficos de rosca con el mismo peso visual. Para un negocio que depende de la cadena de frío, la información sobre "Alertas Abiertas" debería tener una jerarquía visual superior a la cantidad total de sedes, ya que requiere acción inmediata.
+
+**Recomendación**: Utilizar colores de contraste (como rojos o naranjas intensos) o un tamaño mayor para la tarjeta de alertas críticas en el Dashboard para que el usuario identifique lo urgente de un solo vistazo.
+
+<br>
+
+#### PROBLEMA #4:
+
+* **Severidad**: 3
+* **Heurística violada**: Prevención de errores (#5)
+* **Problema**: En el formulario de "Nueva Solicitud de Servicio", el sistema permite seleccionar equipos que ya tienen una solicitud activa o en progreso. Esto puede causar duplicidad de órdenes y confusión tanto para el cliente como para el proveedor técnico.
+
+**Recomendación**: Deshabilitar o filtrar los equipos que ya tienen un estado "In Progress" o "Accepted" en el desplegable de selección del formulario de nueva solicitud, evitando que el usuario cometa el error de duplicar el reporte.
+
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1 Continuous Integration
