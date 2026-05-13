@@ -9,7 +9,7 @@
   <h2>NRC: 12316</h2>
   <h2>Profesor: Julio Manuel Noriega Melendez</h2>
 <br>
- <h1>Informe del Trabajo Final</h1>
+ <h1>Informe del Trabajo Parcial</h1>
   <h2>Startup: Frostshield </h2>
   <h2>Producto: IceTrack </h2>
 <br>
@@ -199,7 +199,8 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
       - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-  - [5.3. Video About-the-Product](#53-video-about-the-product-)
+  - [5.3. Acuerdo de Servicio - SaaS](#53-acuerdo-de-servicio---saas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product-)
 
 - [Capítulo VI: Product Verification & Validation](#c6)
   - [6.1 Testing Suites & Validation](#61-testing-suites--validation)
@@ -1173,12 +1174,11 @@ Para mantener el proyecto organizado, usamos la escala de Fibonacci (1, 2, 3, 5,
 | 10    | US-25         | Visualizar desaborad principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                         | 8            |
 | 11    | US-20         | Registrar nuevos sitios                       			        	| Como usuario, quiero registrar nuevos sitios para organizar las ubicaciones donde operan los equipos.					                                                                       | 5            |
 | 12    | US-21         | Crear solicitudes de servicio                                 | Como cliente, quiero registrar solicitudes de servicio técnico para reportar incidencias o mantenimientos.                                                                         | 5            |
-| 13    | US-23         | Cambiar idioma del sistema                                    | Como usuario internacional, quiero cambiar el idioma del sistema para usar la plataforma en mi idioma preferido.                                                                              | 2            |
-| 14    | TS-01         | Creación de solicitudes de mantenimiento (API)                | Como desarrollador, quiero implementar una API que me permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.                                                | 8            |
-| 15    | TS-02         | Registro de intervenciones técnicas por API RESTful           | Como desarrollador, quiero registrar las intervenciones técnicas realizadas a través de la API para llevar un seguimiento detallado del mantenimiento.                                                            | 5            |
-| 16    | TS-03         | Gestión de evaluaciones de servicio vía API                   | Como desarrollador, mi objetivo es implementar un endpoint que permita a los clientes registrar y actualizar una evaluación de servicio para reflejar su experiencia.                                               | 5            |
-| 17    | TS-04         | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso de nuevos usuarios.	            | 5            |
-| 18    | TS-05         | Consulta de estado de servicios por API                       | Como desarrollador, mi objetivo es crear un endpoint para que clientes y empresarios puedan consultar el estado de una solicitud de servicio en tiempo real.                                                   | 8            |
+| 13    | TS-01         | Creación de solicitudes de mantenimiento (API)                | Como desarrollador, quiero implementar una API que me permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.                                                | 8            |
+| 14    | TS-02         | Registro de intervenciones técnicas por API RESTful           | Como desarrollador, quiero registrar las intervenciones técnicas realizadas a través de la API para llevar un seguimiento detallado del mantenimiento.                                                            | 5            |
+| 15    | TS-03         | Gestión de evaluaciones de servicio vía API                   | Como desarrollador, mi objetivo es implementar un endpoint que permita a los clientes registrar y actualizar una evaluación de servicio para reflejar su experiencia.                                               | 5            |
+| 16    | TS-04         | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso de nuevos usuarios.	            | 5            |
+| 17    | TS-05         | Consulta de estado de servicios por API                       | Como desarrollador, mi objetivo es crear un endpoint para que clientes y empresarios puedan consultar el estado de una solicitud de servicio en tiempo real.                                                   | 8            |
 
 # Capítulo IV: Product Design
 
@@ -3936,7 +3936,35 @@ Frontend:
 Backend:
 ![InsightsTB2BACKEND.png](assets/chapter05/InsightsTFBACKEND.png)
 
-## 5.3. Video About-the-Product
+## 5.3. Acuerdo de Servicio - SaaS 
+
+El presente documento establece los términos legales que rigen el uso de la plataforma **IceTrack**, operada por **FrostShield.** Este acuerdo garantiza la transparencia y define las responsabilidades entre el proveedor del software y el cliente final (Dueños de negocios y Proveedores de servicios).
+
+#### 1. Definiciones Clave
+* **Servicio SaaS:** El acceso a la plataforma en la nube IceTrack, incluyendo monitoreo, alertas y gestión de mantenimiento.
+* **Usuario:** Cualquier persona autorizada por el Cliente para utilizar los módulos de la plataforma (Administradores, Técnicos u Operadores).
+* **Datos del Cliente:** Información técnica recolectada de los equipos de refrigeración (temperatura, energía, logs de falla).
+
+#### 2. Alcance de la Licencia
+FrostShield otorga una licencia de uso bajo suscripción, no exclusiva y limitada. El Cliente acepta que el software se proporciona "tal cual" y se compromete a no realizar ingeniería inversa ni intentar vulnerar la seguridad del backend desarrollado para la gestión de la cadena de frío.
+
+#### 3. Niveles de Servicio (SLA)
+FrostShield garantiza un **Uptime del 90%**. El soporte técnico responderá a incidencias críticas en un tiempo no mayor a 4 horas laborales. Los periodos de mantenimiento programado se notificarán con 48 horas de antelación a través del Dashboard principal.
+
+#### 4. Responsabilidades del Usuario
+* **Hardware y Conectividad:** El Cliente es responsable de asegurar que sus controladores locales sean compatibles con los protocolos de comunicación de IceTrack.
+* **Seguridad de Cuenta:** El usuario debe proteger sus credenciales de acceso, siendo responsable de cualquier acción realizada bajo su perfil.
+
+#### 5. Propiedad Intelectual y Datos
+Todos los derechos sobre la arquitectura de software, diseños (Mockups) y algoritmos de monitoreo pertenecen a FrostShield. El Cliente mantiene la propiedad de sus datos históricos, aunque FrostShield podrá utilizar métricas anonimizadas para optimizar los modelos predictivos de la plataforma.
+
+#### 6. Política de Pagos y Suspensión
+El servicio se factura de forma mensual según el plan elegido. El impago de la suscripción tras 15 días del vencimiento facultará a FrostShield a suspender el acceso a los módulos de alertas y reportes históricos hasta la regularización del pago.
+
+#### 7. Protección de Datos y Privacidad
+En cumplimiento con la normativa de protección de datos, FrostShield asegura que la información técnica y personal se almacena bajo estándares de cifrado SSL/TLS, garantizando que no será compartida con terceros sin consentimiento explícito.
+
+## 5.4. Video About-the-Product
 
 En esta parte, el equipo ofrece una síntesis de los puntos más importantes de IceTrack. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de los sistemas de refrigeración, ya sea en entornos domésticos o comerciales.
 
