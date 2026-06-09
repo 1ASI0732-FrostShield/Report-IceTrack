@@ -4648,7 +4648,67 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? | 6 - Las encuestas automatizadas suelen incrementar la recolección de feedback, pero dependen de la participación del usuario. | 3 - Implementación relativamente sencilla dentro del flujo existente. | 7 - Permite obtener información valiosa para evaluar y mejorar la calidad del servicio. | 8 - Los usuarios pueden mostrar interés en expresar su nivel de satisfacción cuando el proceso es breve. | 24 |
 ### 8.1.4. Question Backlog. 
 
+| Prioridad (1,2,3,5,8) | Pregunta |
+|------------|-----------|
+| 1 | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+| 2 | Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+| 3 | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?  |
+| 5 | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+| 8 | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+
 ### 8.1.5. Experiment Cards. 
+### Experiment Card 1
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+| **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento de los equipos de refrigeración. Si los usuarios olvidan realizar mantenimientos programados, aumenta el riesgo de fallas y costos de reparación. Un sistema de alertas automáticas podría ayudar a los dueños a gestionar mejor sus actividades de mantenimiento y reducir los descuidos. |
+| **What** | Implementar un sistema de alertas automáticas que notifique a los dueños cuando se acerque la fecha de mantenimiento de sus equipos mediante notificaciones dentro de la plataforma y correo electrónico. |
+| **Hypothesis** | Se espera que, al implementar alertas automáticas, al menos el 70% de los usuarios realice sus mantenimientos preventivos dentro de las fechas programadas y que los retrasos en mantenimientos disminuyan en un 30%. |
+
+---
+
+### Experiment Card 2
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? |
+| **Why** | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos. Una vista geográfica podría facilitar la supervisión de equipos distribuidos y mejorar la identificación de sitios que requieren atención. |
+| **What** | Incorporar una vista geográfica interactiva que muestre los sitios registrados mediante marcadores geolocalizados e indicadores visuales relacionados con el estado de los equipos. |
+| **Hypothesis** | Se espera que, al incorporar una vista geográfica, al menos el 65% de los usuarios considere más sencilla la gestión de sus sitios y que el tiempo necesario para localizar información sobre equipos se reduzca en un 25%. |
+
+---
+
+### Experiment Card 3
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? |
+| **Why** | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios realizados, mantenimientos e intervenciones con otras personas. La posibilidad de generar reportes descargables podría facilitar esta tarea y aumentar el valor percibido de la plataforma. |
+| **What** | Implementar una funcionalidad que permita generar y descargar reportes en formato PDF con información sobre historial de servicios, intervenciones técnicas y estado de los equipos. |
+| **Hypothesis** | Se espera que, al habilitar la exportación de reportes en PDF, al menos el 60% de los usuarios utilice la funcionalidad durante el primer mes y que el valor percibido de la plataforma aumente en un 20%. |
+
+---
+
+### Experiment Card 4
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+| **Why** | La retroalimentación de los usuarios permite evaluar la calidad de los servicios realizados e identificar oportunidades de mejora. Automatizar el proceso de recolección de opiniones puede incrementar la participación de los usuarios y proporcionar información más consistente para la toma de decisiones. |
+| **What** | Incorporar un módulo de encuestas de satisfacción que se active automáticamente al finalizar una intervención, permitiendo registrar calificaciones y comentarios de los dueños. |
+| **Hypothesis** | Se espera que, al automatizar las encuestas, al menos el 50% de los usuarios complete la evaluación después de una intervención y que la cantidad de retroalimentación recopilada aumente en un 40%. |
+
+---
+
+### Experiment Card 5
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+| **Why** | La personalización visual permite que los usuarios adapten la interfaz a sus preferencias y condiciones de trabajo. Esto puede mejorar la comodidad durante el uso prolongado de la plataforma y aumentar la satisfacción general con la experiencia de usuario. |
+| **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración de la plataforma. |
+| **Hypothesis** | Se espera que, al incorporar opciones de personalización visual, al menos el 60% de los usuarios manifieste una mejora en su experiencia de uso y que la satisfacción general aumente en un 15%. |
 
 ## 8.2. Experiment Design 
 
