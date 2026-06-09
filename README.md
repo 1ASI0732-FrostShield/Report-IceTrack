@@ -4590,9 +4590,53 @@ GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante com
 
 ### 8.1.1. As-Is Summary. 
 
-La aplicación IceTrack se centra en la gestión de sitios y equipos de refrigeración, la creación y seguimiento de solicitudes de servicio, el registro de intervenciones técnicas, la gestión de técnicos, la calificación de servicios mediante reviews, y la visualización de dashboards con KPIs. Sin embargo, se identificaron limitaciones en áreas como la ausencia de un mapa interactivo que permita visualizar geográficamente los sitios y equipos registrados, la falta de exportación de reportes a PDF para generar documentación descargable del historial de servicios, la carencia de un sistema de alertas programadas para mantenimiento preventivo que notifique automáticamente cuando un equipo se acerca a su fecha de servicio, la inexistencia de opciones de personalización visual como modo oscuro o temas configurables, y la ausencia de un módulo automatizado de encuestas de satisfacción post-servicio que permita recolectar retroalimentación estructurada de los dueños después de cada intervención.
+La aplicación actual se centra en ofrecer una plataforma para la gestión de sitios y equipos de refrigeración, proporcionando funcionalidades básicas como la creación y seguimiento de solicitudes de servicio, el registro de intervenciones técnicas, la gestión de técnicos, la calificación de servicios mediante reviews y la visualización de dashboards con KPIs. Sin embargo, la plataforma carece de ciertas capacidades que limitan su valor percibido y la experiencia del usuario. La interfaz no ofrece opciones de personalización visual, y las funcionalidades de visualización geográfica y generación de documentos no están presentes, lo que restringe su utilidad en escenarios de campo y toma de decisiones.
+
+**Problemas identificados:**
+- **Visualización geográfica limitada:** La aplicación no cuenta con un mapa interactivo que permita a los usuarios ubicar geográficamente sus sitios y equipos registrados, dificultando la gestión visual de activos distribuidos en múltiples ubicaciones.
+- **Ausencia de exportación de reportes:** No es posible generar documentación descargable en formatos como PDF del historial de servicios e intervenciones, lo que limita la capacidad de los dueños de compartir informes.
+- **Falta de alertas de mantenimiento preventivo:** La plataforma no cuenta con un sistema de recordatorios automáticos programados que notifique a los dueños cuando un equipo se aproxima a su fecha de mantenimiento, dependiendo completamente de la acción manual del usuario.
+- **Personalización visual insuficiente:** La interfaz carece de un modo oscuro y opciones de personalización de temas, lo que afecta la comodidad visual de los usuarios que trabajan en entornos con diferentes condiciones de luz.
+- **Retroalimentación post-servicio no estructurada:** No existe un módulo automatizado de encuestas de satisfacción que se active al completar un servicio, perdiendo la oportunidad de recolectar retroalimentación sistemática y medible de los dueños.
+
+**Objetivos de mejora:**
+Para abordar los problemas identificados y mejorar la aplicación, se establecen los siguientes objetivos:
+
+- **Implementación de mapa interactivo:** Integrar una vista geográfica con  que permita visualizar todos los sitios y equipos registrados en un mapa.
+- **Exportación de reportes a PDF:** Desarrollar un módulo de generación de reportes descargables que incluya el historial de servicios, intervenciones y estado de equipos por sitio.
+- **Sistema de alertas de mantenimiento preventivo:** Implementar un mecanismo de notificaciones automáticas programadas que recuerde a los dueños las fechas próximas de mantenimiento de sus equipos.
+- **Personalización visual:** Agregar un modo oscuro y opciones de personalización de tema (colores) que permitan al usuario adaptar la interfaz a sus preferencias visuales y condiciones de entorno.
+- **Módulo de encuestas de satisfacción post-servicio:** Incorporar un cuestionario automatizado que se active al completar una intervención, permitiendo recolectar calificaciones y comentarios estructurados de los dueños para medir la calidad del servicio.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims. 
+
+**Assumptions:**
+* Se asume que los dueños de equipos de refrigeración se beneficiarían de una vista geográfica para gestionar sitios y equipos distribuidos en múltiples ubicaciones.
+* Se asume que la posibilidad de exportar reportes en formato PDF aporta valor a los dueños al facilitar el intercambio de información con otros stakeholders.
+* Se asume que una parte significativa de los dueños puede olvidar las fechas de mantenimiento preventivo cuando no dispone de recordatorios automáticos.
+* Se asume que la incorporación de un modo oscuro mejoraría la experiencia de uso para usuarios que utilizan la plataforma durante períodos prolongados o en entornos con poca iluminación.
+* Se asume que los dueños estarían dispuestos a proporcionar retroalimentación después de una intervención si el proceso de evaluación es simple y rápido.
+
+**Knowledge Gaps:**
+* Se desconoce si los dueños prefieren una vista geográfica, una vista de lista o una combinación de ambas para gestionar sitios y equipos.
+* Se desconoce qué tan importante es para los dueños la exportación de reportes en PDF en comparación con la consulta directa de información dentro de la plataforma.
+* Se desconoce con qué frecuencia los dueños programan mantenimientos preventivos y qué dificultades encuentran para realizar su seguimiento.
+* Se desconoce si la ausencia de un modo oscuro representa una necesidad relevante para los usuarios de la plataforma.
+* Se desconoce qué porcentaje de usuarios estaría dispuesto a responder encuestas post-servicio y cuál es la longitud de encuesta que consideran aceptable.
+
+**Ideas:**
+* Incorporar una vista geográfica interactiva que permita visualizar los sitios registrados mediante marcadores geolocalizados y representar el estado de los equipos utilizando indicadores visuales.
+* Implementar una funcionalidad de exportación de reportes en formato PDF que incluya información sobre servicios realizados, intervenciones técnicas y estado de equipos.
+* Desarrollar un sistema de alertas de mantenimiento preventivo que notifique automáticamente a los dueños antes de las fechas programadas de mantenimiento.
+* Agregar opciones de personalización visual, incluyendo modo oscuro y configuración de temas de color.
+* Incorporar un módulo de encuestas de satisfacción automatizadas que se active al finalizar una intervención y permita recopilar calificaciones y comentarios de los dueños.
+
+**Claims:**
+* Una vista geográfica interactiva permitirá a los dueños localizar y supervisar sus sitios y equipos de manera más eficiente que utilizando únicamente listas tradicionales.
+* La disponibilidad de reportes descargables en formato PDF facilitará la distribución y presentación de información relacionada con los servicios e intervenciones realizadas.
+* Las alertas automáticas de mantenimiento preventivo contribuirán a que los usuarios realicen mantenimientos programados con mayor regularidad.
+* La incorporación de opciones de personalización visual mejorará la experiencia de uso y la satisfacción de los usuarios.
+* Las encuestas de satisfacción automatizadas aumentarán la cantidad de retroalimentación recopilada después de cada intervención.
 
 ### 8.1.3. Experiment-Ready Questions. 
 
