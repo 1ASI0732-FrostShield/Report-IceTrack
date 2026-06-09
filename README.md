@@ -4639,12 +4639,19 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 * Las encuestas de satisfacción automatizadas aumentarán la cantidad de retroalimentación recopilada después de cada intervención.
 
 ### 8.1.3. Experiment-Ready Questions. 
-
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|-----------|------------|------|--------|----------|------------|
+| ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? | 8 - Los sistemas de gestión de activos suelen beneficiarse de la visualización geográfica, aunque no se ha validado con los usuarios actuales. | 5 - Requiere integración con servicios de mapas y gestión de ubicaciones geográficas. | 9 - Puede mejorar significativamente la supervisión y gestión de activos distribuidos en múltiples ubicaciones. | 8 - Los dueños podrían encontrar más intuitiva la gestión visual de sus sitios y equipos. | 30 |
+| ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? | 7 - La generación de reportes es una necesidad común en aplicaciones empresariales. | 3 - La implementación técnica es relativamente sencilla y de bajo riesgo. | 8 - Facilita la distribución y presentación de información a terceros. | 7 - Los usuarios pueden estar interesados en compartir información fuera de la plataforma. | 25 |
+| ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? | 8 - Los recordatorios suelen mejorar el cumplimiento de tareas programadas. | 4 - Requiere mecanismos de programación y envío de notificaciones confiables. | 10 - Puede contribuir directamente a mejorar el mantenimiento de los equipos y reducir incidencias. | 9 - Los usuarios suelen valorar las herramientas que les ayudan a evitar olvidos. | 31 |
+| ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? | 7 - Es una funcionalidad ampliamente adoptada en aplicaciones modernas. | 2 - Bajo riesgo técnico debido a que existen patrones de implementación consolidados. | 6 - Mejora la comodidad visual, aunque no afecta directamente los procesos de negocio. | 6 - Interés moderado, especialmente entre usuarios frecuentes. | 21 |
+| ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? | 6 - Las encuestas automatizadas suelen incrementar la recolección de feedback, pero dependen de la participación del usuario. | 3 - Implementación relativamente sencilla dentro del flujo existente. | 7 - Permite obtener información valiosa para evaluar y mejorar la calidad del servicio. | 8 - Los usuarios pueden mostrar interés en expresar su nivel de satisfacción cuando el proceso es breve. | 24 |
 ### 8.1.4. Question Backlog. 
 
 ### 8.1.5. Experiment Cards. 
 
 ## 8.2. Experiment Design 
+
 ### 8.2.1. Hypotheses. 
 ### 8.2.2. Domain Business Metrics 
 ### 8.2.3. Measures. 
