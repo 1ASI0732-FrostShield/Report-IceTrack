@@ -4657,7 +4657,6 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | 8 | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
 
 ### 8.1.5. Experiment Cards. 
-### Experiment Card 1
 
 | Campo | Descripción |
 |---------|---------|
@@ -4668,7 +4667,6 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 
 ---
 
-### Experiment Card 2
 
 | Campo | Descripción |
 |---------|---------|
@@ -4679,7 +4677,6 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 
 ---
 
-### Experiment Card 3
 
 | Campo | Descripción |
 |---------|---------|
@@ -4690,7 +4687,6 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 
 ---
 
-### Experiment Card 4
 
 | Campo | Descripción |
 |---------|---------|
@@ -4700,8 +4696,6 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | **Hypothesis** | Se espera que, al automatizar las encuestas, al menos el 50% de los usuarios complete la evaluación después de una intervención y que la cantidad de retroalimentación recopilada aumente en un 40%. |
 
 ---
-
-### Experiment Card 5
 
 | Campo | Descripción |
 |---------|---------|
