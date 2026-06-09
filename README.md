@@ -4587,10 +4587,17 @@ GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante com
 
 # Capítulo VIII: Experiment-Driven Development 
 ## 8.1. Experiment Planning 
+
 ### 8.1.1. As-Is Summary. 
+
+La aplicación IceTrack se centra en la gestión de sitios y equipos de refrigeración, la creación y seguimiento de solicitudes de servicio, el registro de intervenciones técnicas, la gestión de técnicos, la calificación de servicios mediante reviews, y la visualización de dashboards con KPIs. Sin embargo, se identificaron limitaciones en áreas como la ausencia de un mapa interactivo que permita visualizar geográficamente los sitios y equipos registrados, la falta de exportación de reportes a PDF para generar documentación descargable del historial de servicios, la carencia de un sistema de alertas programadas para mantenimiento preventivo que notifique automáticamente cuando un equipo se acerca a su fecha de servicio, la inexistencia de opciones de personalización visual como modo oscuro o temas configurables, y la ausencia de un módulo automatizado de encuestas de satisfacción post-servicio que permita recolectar retroalimentación estructurada de los dueños después de cada intervención.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims. 
+
 ### 8.1.3. Experiment-Ready Questions. 
+
 ### 8.1.4. Question Backlog. 
+
 ### 8.1.5. Experiment Cards. 
 
 ## 8.2. Experiment Design 
