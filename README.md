@@ -4707,9 +4707,113 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 ## 8.2. Experiment Design 
 
 ### 8.2.1. Hypotheses. 
+
++ Hypothesis 1
+
+| Field               | Description                                                                                                                                                                                                                                                                                                           |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la capacidad de respuesta de los usuarios ante incidencias críticas mediante la implementación de notificaciones automáticas en tiempo real?                                                                                                                                                                |
+| **Belief**          | Los usuarios suelen tardar en detectar incidencias relacionadas con equipos de refrigeración debido a la falta de alertas inmediatas. La incorporación de notificaciones automáticas permitirá reaccionar más rápidamente ante eventos críticos, reduciendo tiempos de atención y mejorando la continuidad operativa. |
+| **Hypothesis**      | La implementación de notificaciones automáticas en tiempo real reducirá el tiempo promedio de respuesta ante incidencias en al menos un 25% y aumentará en un 20% la cantidad de incidencias atendidas dentro del tiempo objetivo durante los primeros tres meses de uso.                                             |
+| **Null Hypothesis** | La implementación de notificaciones automáticas en tiempo real no generará una reducción significativa en el tiempo de respuesta ante incidencias ni aumentará la cantidad de incidencias atendidas dentro del tiempo objetivo.                                                                                       |
+
+<br>
+
++ Hypothesis 2
+
+| Field               | Description                                                                                                                                                                                                                     |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la gestión de mantenimiento preventivo la incorporación de recordatorios automáticos para intervenciones programadas?                                                                                                 |
+| **Belief**          | Muchos mantenimientos preventivos se realizan fuera de plazo debido a la falta de seguimiento y recordatorios oportunos. Las notificaciones programadas ayudarán a los usuarios a cumplir con sus cronogramas de mantenimiento. |
+| **Hypothesis**      | La incorporación de recordatorios automáticos aumentará en un 30% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada durante los primeros tres meses de uso.                                    |
+| **Null Hypothesis** | La incorporación de recordatorios automáticos no tendrá un efecto significativo sobre la cantidad de mantenimientos preventivos realizados dentro de la fecha programada.                                                       |
+
+<br>
+
++ Hypothesis 3
+
+| Field               | Description                                                                                                                                                                                                                 |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Aumentará el nivel de satisfacción de los usuarios mediante la implementación de dashboards con indicadores y reportes visuales del estado de los equipos?                                                                 |
+| **Belief**          | Los usuarios necesitan acceder rápidamente al estado de sus equipos para tomar decisiones oportunas. Una visualización clara mediante dashboards facilitará el monitoreo y mejorará la experiencia de uso de la plataforma. |
+| **Hypothesis**      | La implementación de dashboards con indicadores visuales aumentará en un 20% la satisfacción general de los usuarios y reducirá en un 15% el tiempo necesario para identificar incidencias críticas.                        |
+| **Null Hypothesis** | La implementación de dashboards con indicadores visuales no generará mejoras significativas en la satisfacción de los usuarios ni en el tiempo requerido para identificar incidencias críticas.                             |
+
 ### 8.2.2. Domain Business Metrics 
+
+Con el fin de asegurar que los experimentos realizados en IceTrack estén alineados con los objetivos del negocio, se definieron las siguientes métricas de dominio. Estas métricas permitirán evaluar de manera objetiva el impacto de las funcionalidades implementadas y servirán como referencia para validar las hipótesis planteadas. Cada métrica incluye su descripción, fórmula de cálculo, técnica de recolección y meta esperada.
+
+| Métrica                                           | Descripción                                                                                             | Fórmula                                                                                | Técnica de Recolección                                                          | Meta                                              |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Tiempo Promedio de Respuesta a Incidencias (TPRI) | Mide el tiempo promedio que tarda un usuario en responder a una alerta crítica generada por el sistema. | Tiempo total de respuesta / Número de incidencias                                      | Registros de eventos, alertas y notificaciones almacenados en la base de datos. | Reducir en al menos 25% respecto a la línea base. |
+| Tasa de Cumplimiento de SLA                       | Porcentaje de incidencias atendidas dentro del tiempo objetivo definido por el servicio.                | (Incidencias atendidas dentro del SLA / Total de incidencias) × 100                    | Historial de incidencias y registros de atención.                               | ≥ 80%                                             |
+| Tasa de Cumplimiento de Mantenimiento Preventivo  | Mide el porcentaje de mantenimientos preventivos realizados dentro de la fecha programada.              | (Mantenimientos realizados a tiempo / Mantenimientos programados) × 100                | Registros de programación y ejecución de mantenimientos.                        | ≥ 85%                                             |
+| Tasa de Reconocimiento de Alertas                 | Mide el porcentaje de alertas que son visualizadas o reconocidas por los usuarios.                      | (Alertas reconocidas / Total de alertas generadas) × 100                               | Historial de notificaciones y actividad de usuarios.                            | ≥ 90%                                             |
+| Índice de Satisfacción del Usuario                | Evalúa el nivel de satisfacción general de los usuarios respecto al uso de la plataforma.               | Suma de puntuaciones obtenidas / Total de respuestas                                   | Encuestas de satisfacción y entrevistas de validación.                          | ≥ 4.0 / 5.0                                       |
+| Tasa de Uso del Dashboard                         | Mide la frecuencia con la que los usuarios acceden a los paneles de monitoreo y reportes.               | (Usuarios que acceden al dashboard / Total de usuarios activos) × 100                  | Herramientas de analítica y registros de actividad.                             | ≥ 70%                                             |
+| Eficiencia en la Detección de Incidencias         | Mide el tiempo promedio necesario para identificar una incidencia crítica en un equipo.                 | Tiempo total de detección / Número de incidencias                                      | Registros de monitoreo y eventos del sistema.                                   | Mejorar en al menos 15% respecto a la línea base. |
+| Tasa de Efectividad de Notificaciones             | Mide el porcentaje de incidencias resueltas después de que el sistema envió una notificación.           | (Incidencias resueltas tras una notificación / Total de notificaciones enviadas) × 100 | Historial de notificaciones y resolución de incidencias.                        | ≥ 75%                                             |
+
+Las métricas definidas constituyen la base para la evaluación de los experimentos planteados en IceTrack. Todas las hipótesis y experimentos posteriores deberán utilizar exclusivamente estas métricas para garantizar consistencia, objetividad y trazabilidad en la medición de resultados.
+
 ### 8.2.3. Measures. 
+
++ Measure 1
+
+| Field        | Description                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará la capacidad de respuesta de los usuarios ante incidencias críticas mediante la implementación de notificaciones automáticas en tiempo real?                                                                                                                                                                                                                                                                       |
+| **Measure**  | Medir el tiempo promedio de respuesta a incidencias antes y después de la implementación de las notificaciones automáticas. Se utilizarán los registros de eventos generados por la plataforma para identificar el momento en que se genera una alerta y el momento en que el usuario responde a ella. Asimismo, se analizará el porcentaje de incidencias atendidas dentro del tiempo objetivo establecido por el servicio. |
+
+<br>
+
++ Measure 2
+
+| Field        | Description                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará la gestión de mantenimiento preventivo la incorporación de recordatorios automáticos para intervenciones programadas?                                                                                                                                                                                                                                                                               |
+| **Measure**  | Analizar la cantidad de mantenimientos preventivos completados dentro de la fecha programada antes y después de implementar los recordatorios automáticos. La información será obtenida a partir de los registros de programación y ejecución almacenados en la plataforma. Los resultados permitirán determinar si la funcionalidad contribuye al cumplimiento oportuno de las actividades de mantenimiento. |
+
+<br>
+
++ Measure 3
+
+| Field        | Description                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Aumentará el nivel de satisfacción de los usuarios mediante la implementación de dashboards con indicadores y reportes visuales del estado de los equipos?                                                                                                                                                                                                                                                                   |
+| **Measure**  | Evaluar la satisfacción de los usuarios mediante encuestas realizadas después del uso de la plataforma y analizar la frecuencia de acceso a los dashboards de monitoreo. También se comparará el tiempo requerido para identificar incidencias antes y después de la incorporación de los paneles visuales, con el fin de determinar si la nueva funcionalidad mejora la experiencia de uso y facilita la toma de decisiones. |
+
 ### 8.2.4. Conditions. 
+
++ Condition 1
+
+| Field                      | Description                                                                                                                                                                                                                                         |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Mejorará la capacidad de respuesta de los usuarios ante incidencias críticas mediante la implementación de notificaciones automáticas en tiempo real?                                                                                              |
+| **Condición Experimental** | Se espera que el tiempo promedio de respuesta ante incidencias críticas disminuya en al menos un 25% y que aumente en un 20% la cantidad de incidencias atendidas dentro del tiempo objetivo después de implementar las notificaciones automáticas. |
+| **Condición de Control**   | No habrá una reducción significativa en el tiempo promedio de respuesta ni un incremento relevante en la cantidad de incidencias atendidas dentro del tiempo objetivo tras la implementación de las notificaciones automáticas.                     |
+
+<br>
+
++ Condition 2
+
+| Field                      | Description                                                                                                                                                                      |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Mejorará la gestión de mantenimiento preventivo la incorporación de recordatorios automáticos para intervenciones programadas?                                                  |
+| **Condición Experimental** | Se espera que la cantidad de mantenimientos preventivos realizados dentro de la fecha programada aumente en un 30% después de implementar los recordatorios automáticos.         |
+| **Condición de Control**   | No habrá un aumento significativo en la cantidad de mantenimientos preventivos realizados dentro de la fecha programada tras la implementación de los recordatorios automáticos. |
+
+<br>
+
++ Condition 3
+
+| Field                      | Description                                                                                                                                                                                                                |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Aumentará el nivel de satisfacción de los usuarios mediante la implementación de dashboards con indicadores y reportes visuales del estado de los equipos?                                                                |
+| **Condición Experimental** | Se espera que la satisfacción general de los usuarios aumente en un 20% y que el tiempo requerido para identificar incidencias críticas se reduzca en un 15% después de implementar los dashboards y reportes visuales.    |
+| **Condición de Control**   | No habrá un aumento significativo en la satisfacción de los usuarios ni una reducción relevante en el tiempo requerido para identificar incidencias críticas tras la implementación de los dashboards y reportes visuales. |
+
+
 ### 8.2.5. Scale Calculations and Decisions. 
 ### 8.2.6. Methods Selection. 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection. 
