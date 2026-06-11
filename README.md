@@ -4710,108 +4710,167 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 
 + Hypothesis 1
 
-| Field               | Description                                                                                                                                                                                                                                                                                                           |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Mejorará la capacidad de respuesta de los usuarios ante incidencias críticas mediante la implementación de notificaciones automáticas en tiempo real?                                                                                                                                                                |
-| **Belief**          | Los usuarios suelen tardar en detectar incidencias relacionadas con equipos de refrigeración debido a la falta de alertas inmediatas. La incorporación de notificaciones automáticas permitirá reaccionar más rápidamente ante eventos críticos, reduciendo tiempos de atención y mejorando la continuidad operativa. |
-| **Hypothesis**      | La implementación de notificaciones automáticas en tiempo real reducirá el tiempo promedio de respuesta ante incidencias en al menos un 25% y aumentará en un 20% la cantidad de incidencias atendidas dentro del tiempo objetivo durante los primeros tres meses de uso.                                             |
-| **Null Hypothesis** | La implementación de notificaciones automáticas en tiempo real no generará una reducción significativa en el tiempo de respuesta ante incidencias ni aumentará la cantidad de incidencias atendidas dentro del tiempo objetivo.                                                                                       |
-
-<br>
+| Field | Description |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?                                                                                                                     |
+| **Belief**          | Los usuarios suelen olvidar o postergar actividades de mantenimiento preventivo debido a la falta de recordatorios oportunos. La implementación de alertas automáticas permitirá una mejor planificación y seguimiento de estas actividades. |
+| **Hypothesis**      | La implementación de alertas automáticas aumentará en un 10% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en un 8%.                                                            |
+| **Null Hypothesis** | La implementación de alertas automáticas no generará un aumento significativo en los mantenimientos realizados dentro de la fecha programada ni reducirá los retrasos en los mantenimientos preventivos.                                     |
 
 + Hypothesis 2
 
-| Field               | Description                                                                                                                                                                                                                     |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Mejorará la gestión de mantenimiento preventivo la incorporación de recordatorios automáticos para intervenciones programadas?                                                                                                 |
-| **Belief**          | Muchos mantenimientos preventivos se realizan fuera de plazo debido a la falta de seguimiento y recordatorios oportunos. Las notificaciones programadas ayudarán a los usuarios a cumplir con sus cronogramas de mantenimiento. |
-| **Hypothesis**      | La incorporación de recordatorios automáticos aumentará en un 30% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada durante los primeros tres meses de uso.                                    |
-| **Null Hypothesis** | La incorporación de recordatorios automáticos no tendrá un efecto significativo sobre la cantidad de mantenimientos preventivos realizados dentro de la fecha programada.                                                       |
-
-<br>
+| Field | Description  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                                        |
+| **Belief**          | Una representación visual de los sitios y equipos permitirá a los usuarios identificar rápidamente la ubicación de sus activos y facilitará la supervisión de múltiples instalaciones.                        |
+| **Hypothesis**      | La incorporación de una vista geográfica interactiva reducirá en un 10% el tiempo necesario para localizar información sobre equipos y aumentará en un 8% la percepción de facilidad de uso de la plataforma. |
+| **Null Hypothesis** | La incorporación de una vista geográfica interactiva no reducirá significativamente el tiempo necesario para localizar información ni mejorará la percepción de facilidad de uso de la plataforma.            |
 
 + Hypothesis 3
 
-| Field               | Description                                                                                                                                                                                                                 |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Aumentará el nivel de satisfacción de los usuarios mediante la implementación de dashboards con indicadores y reportes visuales del estado de los equipos?                                                                 |
-| **Belief**          | Los usuarios necesitan acceder rápidamente al estado de sus equipos para tomar decisiones oportunas. Una visualización clara mediante dashboards facilitará el monitoreo y mejorará la experiencia de uso de la plataforma. |
-| **Hypothesis**      | La implementación de dashboards con indicadores visuales aumentará en un 20% la satisfacción general de los usuarios y reducirá en un 15% el tiempo necesario para identificar incidencias críticas.                        |
-| **Null Hypothesis** | La implementación de dashboards con indicadores visuales no generará mejoras significativas en la satisfacción de los usuarios ni en el tiempo requerido para identificar incidencias críticas.                             |
+| Field | Description |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                                                                                                 |
+| **Belief**          | La posibilidad de descargar y compartir reportes facilitará la gestión de la información relacionada con mantenimientos e intervenciones, generando una mayor percepción de utilidad de la plataforma.                |
+| **Hypothesis**      | La incorporación de la exportación de reportes en PDF aumentará en un 10% la percepción de utilidad de la plataforma y al menos el 20% de los usuarios utilizará esta funcionalidad durante el período de evaluación. |
+| **Null Hypothesis** | La incorporación de la exportación de reportes en PDF no generará un aumento significativo en la percepción de utilidad de la plataforma ni una adopción relevante de la funcionalidad.                               |
+
++ Hypothesis 4
+
+| Field | Description |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?                                                |
+| **Belief**          | Automatizar la recolección de opiniones facilitará la participación de los usuarios y permitirá obtener información más consistente sobre la calidad del servicio brindado.                     |
+| **Hypothesis**      | La implementación de encuestas automatizadas incrementará en un 10% la participación de los usuarios en procesos de retroalimentación y aumentará en un 8% la cantidad de respuestas recibidas. |
+| **Null Hypothesis** | La implementación de encuestas automatizadas no generará un incremento significativo en la participación de los usuarios ni en la cantidad de respuestas obtenidas.                             |
+
++ Hypothesis 5
+
+| Field | Description |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                              |
+| **Belief**          | Permitir que los usuarios adapten la apariencia de la plataforma a sus preferencias personales mejorará la comodidad de uso y la satisfacción general durante sesiones prolongadas de trabajo.             |
+| **Hypothesis**      | La incorporación de opciones de personalización visual aumentará en un 8% la satisfacción general de los usuarios y al menos el 15% de los usuarios utilizará alguna opción de personalización disponible. |
+| **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios ni una adopción relevante de las opciones de personalización.                 |
+
 
 ### 8.2.2. Domain Business Metrics 
 
-Con el fin de asegurar que los experimentos realizados en IceTrack estén alineados con los objetivos del negocio, se definieron las siguientes métricas de dominio. Estas métricas permitirán evaluar de manera objetiva el impacto de las funcionalidades implementadas y servirán como referencia para validar las hipótesis planteadas. Cada métrica incluye su descripción, fórmula de cálculo, técnica de recolección y meta esperada.
+## 8.2.2. Domain Business Metrics
 
-| Métrica                                           | Descripción                                                                                             | Fórmula                                                                                | Técnica de Recolección                                                          | Meta                                              |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Tiempo Promedio de Respuesta a Incidencias (TPRI) | Mide el tiempo promedio que tarda un usuario en responder a una alerta crítica generada por el sistema. | Tiempo total de respuesta / Número de incidencias                                      | Registros de eventos, alertas y notificaciones almacenados en la base de datos. | Reducir en al menos 25% respecto a la línea base. |
-| Tasa de Cumplimiento de SLA                       | Porcentaje de incidencias atendidas dentro del tiempo objetivo definido por el servicio.                | (Incidencias atendidas dentro del SLA / Total de incidencias) × 100                    | Historial de incidencias y registros de atención.                               | ≥ 80%                                             |
-| Tasa de Cumplimiento de Mantenimiento Preventivo  | Mide el porcentaje de mantenimientos preventivos realizados dentro de la fecha programada.              | (Mantenimientos realizados a tiempo / Mantenimientos programados) × 100                | Registros de programación y ejecución de mantenimientos.                        | ≥ 85%                                             |
-| Tasa de Reconocimiento de Alertas                 | Mide el porcentaje de alertas que son visualizadas o reconocidas por los usuarios.                      | (Alertas reconocidas / Total de alertas generadas) × 100                               | Historial de notificaciones y actividad de usuarios.                            | ≥ 90%                                             |
-| Índice de Satisfacción del Usuario                | Evalúa el nivel de satisfacción general de los usuarios respecto al uso de la plataforma.               | Suma de puntuaciones obtenidas / Total de respuestas                                   | Encuestas de satisfacción y entrevistas de validación.                          | ≥ 4.0 / 5.0                                       |
-| Tasa de Uso del Dashboard                         | Mide la frecuencia con la que los usuarios acceden a los paneles de monitoreo y reportes.               | (Usuarios que acceden al dashboard / Total de usuarios activos) × 100                  | Herramientas de analítica y registros de actividad.                             | ≥ 70%                                             |
-| Eficiencia en la Detección de Incidencias         | Mide el tiempo promedio necesario para identificar una incidencia crítica en un equipo.                 | Tiempo total de detección / Número de incidencias                                      | Registros de monitoreo y eventos del sistema.                                   | Mejorar en al menos 15% respecto a la línea base. |
-| Tasa de Efectividad de Notificaciones             | Mide el porcentaje de incidencias resueltas después de que el sistema envió una notificación.           | (Incidencias resueltas tras una notificación / Total de notificaciones enviadas) × 100 | Historial de notificaciones y resolución de incidencias.                        | ≥ 75%                                             |
+Con el objetivo de asegurar que los experimentos realizados en IceTrack generen evidencia objetiva y alineada con los objetivos del negocio, se definieron las siguientes métricas de dominio. Estas métricas serán utilizadas para evaluar el impacto de cada experimento y servirán como base para la toma de decisiones durante el proceso de validación.
 
-Las métricas definidas constituyen la base para la evaluación de los experimentos planteados en IceTrack. Todas las hipótesis y experimentos posteriores deberán utilizar exclusivamente estas métricas para garantizar consistencia, objetividad y trazabilidad en la medición de resultados.
+| Métrica | Descripción | Fórmula | Técnica de Recolección | Meta |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------ |
+| **Maintenance Compliance Rate (MCR)**  | Mide el porcentaje de mantenimientos preventivos realizados dentro de la fecha programada.               | (Mantenimientos realizados a tiempo / Mantenimientos programados) × 100           | Registros de mantenimiento almacenados en la plataforma.          | Incrementar en 10%.                        |
+| **System Usability Score (SUS)**       | Evalúa la facilidad de uso percibida por los usuarios al interactuar con la plataforma.                  | Puntaje SUS obtenido en encuesta estandarizada (0-100).                           | Encuesta SUS aplicada después del uso de la funcionalidad.        | Incrementar en 5%.                         |
+| **Feature Adoption Rate (FAR)**        | Mide el porcentaje de usuarios activos que utilizan una nueva funcionalidad implementada.                | (Usuarios que utilizan la funcionalidad / Usuarios activos) × 100                 | Registros de actividad y eventos del sistema.                     | Alcanzar al menos 20%.                     |
+| **Survey Participation Rate (SPR)**    | Mide el porcentaje de usuarios que completan una encuesta de satisfacción después de una intervención.   | (Encuestas respondidas / Encuestas enviadas) × 100                                | Registros de encuestas y respuestas almacenadas.                  | Incrementar en 10%.                        |
+| **Customer Satisfaction Score (CSAT)** | Mide el nivel de satisfacción general de los usuarios respecto a la experiencia de uso de la plataforma. | Promedio de las puntuaciones obtenidas en encuestas de satisfacción (escala 1-5). | Encuestas de satisfacción aplicadas a los usuarios.               | Incrementar en 8%.                         |
+| **Lighthouse Performance Score (LPS)** | Evalúa el rendimiento técnico de la aplicación web mediante auditorías Lighthouse.                       | Puntaje obtenido en Lighthouse Performance.                                       | Auditorías realizadas con Google Lighthouse y PageSpeed Insights. | Mantener un puntaje igual o superior a 95. |
+
+Las métricas descritas constituyen la referencia oficial para la evaluación de los experimentos planteados en IceTrack. Todas las hipótesis, medidas y condiciones definidas posteriormente deberán estar asociadas a una o más de estas métricas para garantizar consistencia y trazabilidad en el proceso de experimentación.
+
 
 ### 8.2.3. Measures. 
 
+## 8.2.3. Measures
+
 + Measure 1
 
-| Field        | Description                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Mejorará la capacidad de respuesta de los usuarios ante incidencias críticas mediante la implementación de notificaciones automáticas en tiempo real?                                                                                                                                                                                                                                                                       |
-| **Measure**  | Medir el tiempo promedio de respuesta a incidencias antes y después de la implementación de las notificaciones automáticas. Se utilizarán los registros de eventos generados por la plataforma para identificar el momento en que se genera una alerta y el momento en que el usuario responde a ella. Asimismo, se analizará el porcentaje de incidencias atendidas dentro del tiempo objetivo establecido por el servicio. |
+| Field  | Description |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?  |
+| **Measure**  | Medir la tasa de cumplimiento de mantenimiento preventivo antes y después de implementar las alertas automáticas. Se analizarán los registros de mantenimientos programados y completados para determinar si los usuarios realizan las actividades dentro de las fechas establecidas. |
 
 <br>
 
 + Measure 2
 
-| Field        | Description                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Mejorará la gestión de mantenimiento preventivo la incorporación de recordatorios automáticos para intervenciones programadas?                                                                                                                                                                                                                                                                               |
-| **Measure**  | Analizar la cantidad de mantenimientos preventivos completados dentro de la fecha programada antes y después de implementar los recordatorios automáticos. La información será obtenida a partir de los registros de programación y ejecución almacenados en la plataforma. Los resultados permitirán determinar si la funcionalidad contribuye al cumplimiento oportuno de las actividades de mantenimiento. |
+| Field | Description |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                                                                                                                              |
+| **Measure**  | Aplicar la encuesta System Usability Scale (SUS) a los usuarios después de utilizar la vista geográfica interactiva y comparar los resultados con los obtenidos antes de la implementación. Esto permitirá evaluar si la nueva funcionalidad mejora la facilidad de uso percibida de la plataforma. |
 
 <br>
 
 + Measure 3
 
-| Field        | Description                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Aumentará el nivel de satisfacción de los usuarios mediante la implementación de dashboards con indicadores y reportes visuales del estado de los equipos?                                                                                                                                                                                                                                                                   |
-| **Measure**  | Evaluar la satisfacción de los usuarios mediante encuestas realizadas después del uso de la plataforma y analizar la frecuencia de acceso a los dashboards de monitoreo. También se comparará el tiempo requerido para identificar incidencias antes y después de la incorporación de los paneles visuales, con el fin de determinar si la nueva funcionalidad mejora la experiencia de uso y facilita la toma de decisiones. |
+| Field  | Description  |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Question** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                                                                                                                            |
+| **Measure**  | Analizar la cantidad de usuarios que utilizan la funcionalidad de exportación de reportes en PDF durante el período de evaluación. Se utilizarán registros de actividad del sistema para calcular la tasa de adopción de la nueva funcionalidad. |
+
+<br>
+
++ Measure 4
+
+| Field  | Description |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?                                                                                                                             |
+| **Measure**  | Medir el porcentaje de usuarios que completan las encuestas de satisfacción enviadas automáticamente después de una intervención. Además, se analizará la cantidad de respuestas recibidas para determinar si la automatización incrementa la participación de los usuarios. |
+
+<br>
+
++ Measure 5
+
+| Field | Description|
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+| **Measure**  | Evaluar la satisfacción de los usuarios mediante encuestas CSAT después de utilizar las opciones de personalización visual. Como medida complementaria, se verificará que la funcionalidad mantenga niveles adecuados de rendimiento y accesibilidad mediante auditorías Lighthouse realizadas sobre la aplicación web. |
+
 
 ### 8.2.4. Conditions. 
 
+## 8.2.4. Conditions
+
 + Condition 1
 
-| Field                      | Description                                                                                                                                                                                                                                         |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**               | ¿Mejorará la capacidad de respuesta de los usuarios ante incidencias críticas mediante la implementación de notificaciones automáticas en tiempo real?                                                                                              |
-| **Condición Experimental** | Se espera que el tiempo promedio de respuesta ante incidencias críticas disminuya en al menos un 25% y que aumente en un 20% la cantidad de incidencias atendidas dentro del tiempo objetivo después de implementar las notificaciones automáticas. |
-| **Condición de Control**   | No habrá una reducción significativa en el tiempo promedio de respuesta ni un incremento relevante en la cantidad de incidencias atendidas dentro del tiempo objetivo tras la implementación de las notificaciones automáticas.                     |
+| Field | Description |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?                                                                                                          |
+| **Condición Experimental** | Se espera que la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y que los usuarios realicen más actividades de mantenimiento dentro de las fechas programadas. |
+| **Condición de Control**   | No habrá un incremento significativo en la tasa de cumplimiento de mantenimiento preventivo después de implementar las alertas automáticas.                                                                                       |
 
 <br>
 
 + Condition 2
 
-| Field                      | Description                                                                                                                                                                      |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**               | ¿Mejorará la gestión de mantenimiento preventivo la incorporación de recordatorios automáticos para intervenciones programadas?                                                  |
-| **Condición Experimental** | Se espera que la cantidad de mantenimientos preventivos realizados dentro de la fecha programada aumente en un 30% después de implementar los recordatorios automáticos.         |
-| **Condición de Control**   | No habrá un aumento significativo en la cantidad de mantenimientos preventivos realizados dentro de la fecha programada tras la implementación de los recordatorios automáticos. |
+| Field | Description |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Question**               | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                     |
+| **Condición Experimental** | Se espera que el puntaje de usabilidad (SUS) aumente en al menos un 5% y que los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. |
+| **Condición de Control**   | No habrá una mejora significativa en el puntaje de usabilidad ni en la percepción de facilidad de uso después de implementar la vista geográfica interactiva.                              |
 
 <br>
 
 + Condition 3
 
-| Field                      | Description                                                                                                                                                                                                                |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**               | ¿Aumentará el nivel de satisfacción de los usuarios mediante la implementación de dashboards con indicadores y reportes visuales del estado de los equipos?                                                                |
-| **Condición Experimental** | Se espera que la satisfacción general de los usuarios aumente en un 20% y que el tiempo requerido para identificar incidencias críticas se reduzca en un 15% después de implementar los dashboards y reportes visuales.    |
-| **Condición de Control**   | No habrá un aumento significativo en la satisfacción de los usuarios ni una reducción relevante en el tiempo requerido para identificar incidencias críticas tras la implementación de los dashboards y reportes visuales. |
+| Field | Description |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                              |
+| **Condición Experimental** | Se espera que al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. |
+| **Condición de Control**   | La funcionalidad de exportación de reportes en PDF no alcanzará una adopción significativa por parte de los usuarios activos.                      |
+
+<br>
+
++ Condition 4
+
+| Field  | Description |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?          |
+| **Condición Experimental** | Se espera que la tasa de participación en encuestas aumente en un 10% después de implementar el sistema automatizado de recolección de retroalimentación. |
+| **Condición de Control**   | No habrá un incremento significativo en la cantidad de usuarios que completen las encuestas de satisfacción.                                              |
+
+<br>
+
++ Condition 5
+
+| Field | Description |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                             |
+| **Condición Experimental** | Se espera que el nivel de satisfacción de los usuarios (CSAT) aumente en un 8% y que la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. |
+| **Condición de Control**   | No habrá una mejora significativa en la satisfacción de los usuarios ni cambios relevantes en los indicadores evaluados mediante Lighthouse.                                                              |
 
 
 ### 8.2.5. Scale Calculations and Decisions. 
