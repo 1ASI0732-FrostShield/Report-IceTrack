@@ -93,41 +93,66 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 
 ## Contenido
 
-- [Capítulo I: Introducción](#c1)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problematica)
+- [Capitulo 1: Introducción](#capitulo-1-introducción)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y Problematica](#121-antecedentes-y-problematica)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumption)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivos)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#c2)
+      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumption](#1222-lean-ux-assumption)
+- [Business Outcomes](#business-outcomes)
+- [User Outcomes](#user-outcomes)
+  - [¿Quién será nuestro usuario?](#quién-será-nuestro-usuario)
+  - [¿Dónde encaja nuestro producto en su vida?](#dónde-encaja-nuestro-producto-en-su-vida)
+  - [¿Qué problemas tiene nuestro producto y cómo se pueden resolver?](#qué-problemas-tiene-nuestro-producto-y-cómo-se-pueden-resolver)
+  - [¿Cómo y Cuándo es usado nuestro producto?](#cómo-y-cuándo-es-usado-nuestro-producto)
+  - [¿Qué características son importantes para la app?](#qué-características-son-importantes-para-la-app)
+  - [¿Cómo debe verse nuestro producto y cómo comportarse?](#cómo-debe-verse-nuestro-producto-y-cómo-comportarse)
+  - [¿Qué valor busca el cliente?](#qué-valor-busca-el-cliente)
+  - [¿Qué beneficios adicionales obtendrá el cliente?](#qué-beneficios-adicionales-obtendrá-el-cliente)
+  - [¿Cómo atraeremos usuarios?](#cómo-atraeremos-usuarios)
+  - [¿Cómo generaremos ingresos?](#cómo-generaremos-ingresos)
+  - [¿Cuál es nuestra competencia y cómo la superamos?](#cuál-es-nuestra-competencia-y-cómo-la-superamos)
+  - [¿Cuál es nuestro mayor riesgo?](#cuál-es-nuestro-mayor-riesgo)
+  - [¿Cómo lo resolveremos?](#cómo-lo-resolveremos)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivos](#13-segmentos-objetivos)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [Segmento objetivo #1: Negocios con equipos de refrigeración](#segmento-objetivo-1-negocios-con-equipos-de-refrigeración)
+    - [Entrevista 1:](#entrevista-1)
+      - [Entrevista 2:](#entrevista-2)
+      - [Entrevista 3:](#entrevista-3)
+  - [Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:](#segmento-objetivo-2---técnicos-y-empresas-de-mantenimiento)
+      - [**Entrevista 1:**](#entrevista-1-1)
+      - [**Entrevista 2:**](#entrevista-2-1)
+      - [Entrevista 3:](#entrevista-3-1)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [Segmento objetivo #1: Negocios con equipos de refrigeración](#segmento-objetivo-1-negocios-con-equipos-de-refrigeración-1)
+      - [Entrevista 3:](#entrevista-3-2)
+  - [Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:](#segmento-objetivo-2---técnicos-y-empresas-de-mantenimiento-1)
+      - [Entrevista 3:](#entrevista-3-3)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-- [Capítulo III: Requirements Specification](#c3)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-
-- [Capítulo IV: Product Design](#c4)
+  - [3.2. User Stories.](#32-user-stories)
+  - [3.3. Impact Mapping.](#33-impact-mapping)
+  - [3.4. Product Backlog.](#34-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -155,23 +180,37 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagrams](#481-database-diagrams)
-
-- [Capítulo V: Product Implementation, Validation & Deployment](#c5)
-	- [5.1. Software Configuration Management](#51-software-configuration-management)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [**Beneficios de la Nomenclatura Predictiva**](#beneficios-de-la-nomenclatura-predictiva)
+      - [**Estrategia de Ramificación (Git Flow)**](#estrategia-de-ramificación-git-flow)
+      - [**Flujo de Trabajo y Herramientas**](#flujo-de-trabajo-y-herramientas)
+      - [**Convenciones de Nomenclatura**](#convenciones-de-nomenclatura)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators-1)
       - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+  - [](#)
+  - [](#-1)
+  - [](#-2)
+  - [](#-3)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+  - [](#-4)
+  - [](#-5)
+  - [](#-6)
+  - [](#-7)
+  - [](#-8)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [](#-9)
     - [5.2.2. Sprint 2](#522-sprint-2)
       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
@@ -192,7 +231,7 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
     - [5.2.4. Sprint 4](#524-sprint-4)
       - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
       - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
       - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
       - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
@@ -200,50 +239,111 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
       - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Acuerdo de Servicio - SaaS](#53-acuerdo-de-servicio---saas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product-)
-
-- [Capítulo VI: Product Verification & Validation](#c6)
-  - [6.1 Testing Suites & Validation](#61-testing-suites--validation)
+      - [1. Definiciones Clave](#1-definiciones-clave)
+      - [2. Alcance de la Licencia](#2-alcance-de-la-licencia)
+      - [3. Niveles de Servicio (SLA)](#3-niveles-de-servicio-sla)
+      - [4. Responsabilidades del Usuario](#4-responsabilidades-del-usuario)
+      - [5. Propiedad Intelectual y Datos](#5-propiedad-intelectual-y-datos)
+      - [6. Política de Pagos y Suspensión](#6-política-de-pagos-y-suspensión)
+      - [7. Protección de Datos y Privacidad](#7-protección-de-datos-y-privacidad)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+  - [6.1 Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1 Core Entities Unit Tests](#611-core-entities-unit-tests)
-	  - [6.1.2 Core Integration Tests](#612-core-integration-tests)
-	  - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
-	  - [6.1.4 Core System Tests](#614-core-system-tests)
-  - [6.2 Static testing & Verification](#62-static-testing--verification)
-	  - [6.2.1 Static Code Analysis](#621-static-code-analysis)
-	    - [6.2.1.1 Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)
-	    - [6.2.1.2 Code Quality & Code Security](#6212-code-quality--code-security)
-	  - [6.2.2 Reviews](#622-reviews)
+    - [6.1.2 Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4 Core System Tests](#614-core-system-tests)
+  - [6.2 Static testing \& Verification](#62-static-testing--verification)
+    - [6.2.1 Static Code Analysis](#621-static-code-analysis)
+    - [6.2.1.1 Coding Standard \& Code Conventions](#6211-coding-standard--code-conventions)
+      - [Frontend](#frontend)
+      - [Backend](#backend)
+      - [6.2.1.2 Code Quality \& Code Security](#6212-code-quality--code-security)
+          - [Prueba de SonarQube Cloud:](#prueba-de-sonarqube-cloud)
+          - [Prueba de ESLint:](#prueba-de-eslint)
+    - [6.2.2 Reviews](#622-reviews)
+        - [Tipos de Revisiones](#tipos-de-revisiones)
+        - [Proceso de Revisión](#proceso-de-revisión)
+        - [Criterios de Aceptación](#criterios-de-aceptación)
+        - [Frecuencia de Revisiones](#frecuencia-de-revisiones)
   - [6.3 Validation Interviews](#63-validation-interviews)
-	  - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
-	  - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
-	  - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-      
-- [Capítulo VII: DevOps Practices](#c7)
-	- [7.1 Continuous Integration](#71-continuous-integration)
-	  - [7.1.1 Tools and Practices](#711-tools-and-practices)
-	  - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
+      - [Usability - Inclusive Design - Information Architecture](#usability---inclusive-design---information-architecture)
+      - [TABLA RESUMEN:](#tabla-resumen)
+      - [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
+      - [PROBLEMA #1:](#problema-1)
+      - [PROBLEMA #2:](#problema-2)
+      - [PROBLEMA #3:](#problema-3)
+      - [PROBLEMA #4:](#problema-4)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1 Continuous Integration](#71-continuous-integration)
+    - [7.1.1 Tools and Practices](#711-tools-and-practices)
+    - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2 Continuous Delivery](#72-continuous-delivery)
-	  - [7.2.1 Tools and Practices](#721-tools-and-practices)
-	  - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+    - [7.2.1 Tools and Practices](#721-tools-and-practices)
+      - [Tools:](#tools)
+      - [Practices](#practices)
+    - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+      - [Integración Continua (CI)](#integración-continua-ci)
+      - [Despliegue Manual](#despliegue-manual)
+      - [Monitoreo y Feedback](#monitoreo-y-feedback)
+      - [Aprobación del Despliegue](#aprobación-del-despliegue)
   - [7.3 Continuous deployment](#73-continuous-deployment)
-	  - [7.3.1 Tools and Practices](#731-tools-and-practices)
-	  - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+    - [7.3.1 Tools and Practices](#731-tools-and-practices)
+    - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
   - [7.4 Continuous Monitoring](#74-continuous-monitoring)
-	  - [7.4.1 Tools and Practices](#741-tools-and-practices)
-	  - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-	  - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
-	  - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
-- [Capítulo VIII: Experiment-Driven Development](#c8)
-  - [8.1 Experiment Planning ](#81-experiment-planning)
+    - [7.4.1 Tools and Practices](#741-tools-and-practices)
+    - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+    - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
+    - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary.](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+    - [8.1.3. Experiment-Ready Questions.](#813-experiment-ready-questions)
+    - [8.1.4. Question Backlog.](#814-question-backlog)
+    - [8.1.5. Experiment Cards.](#815-experiment-cards)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses.](#821-hypotheses)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics-1)
+    - [8.2.3. Measures.](#823-measures)
+  - [8.2.3. Measures](#823-measures-1)
+    - [8.2.4. Conditions.](#824-conditions)
+  - [8.2.4. Conditions](#824-conditions-1)
+    - [8.2.5. Scale Calculations and Decisions.](#825-scale-calculations-and-decisions)
+    - [8.2.6. Methods Selection.](#826-methods-selection)
+    - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.](#827-data-analytics-goals-kpis-and-metrics-selection)
+    - [8.2.8. Web and Mobile Tracking Plan.](#828-web-and-mobile-tracking-plan)
+      - [1. Implementación Inicial](#1-implementación-inicial)
+      - [2. Seguimiento Continuo](#2-seguimiento-continuo)
+  - [8.3. Experimentation](#83-experimentation)
+    - [8.3.1. To-Be User Stories.](#831-to-be-user-stories)
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+      - [8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8334-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+      - [8.3.3.5. Team Collaboration Insights](#8335-team-collaboration-insights)
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+  - [8.4. Experiment Aftermath \& Analysis](#84-experiment-aftermath--analysis)
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+  - [8.5. Continuous Learning](#85-continuous-learning)
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+    - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 - [Conclusiones](#conclusiones)
-	- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-	- [Video App Validation](#video-app-validation)
-	- [Video About the Team](#video-about-the-team)
-- [Conclusiones](#conclusiones-1)
-  	- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
+  - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-  	- [Recursos y enlaces del proyecto](#recursos-y-enlaces-del-proyecto)
+  - [Recursos y enlaces del proyecto](#recursos-y-enlaces-del-proyecto)
 
 ## Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -4873,10 +4973,115 @@ Las métricas descritas constituyen la referencia oficial para la evaluación de
 | **Condición de Control**   | No habrá una mejora significativa en la satisfacción de los usuarios ni cambios relevantes en los indicadores evaluados mediante Lighthouse.                                                              |
 
 
-### 8.2.5. Scale Calculations and Decisions. 
-### 8.2.6. Methods Selection. 
-### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection. 
+### 8.2.5. Scale Calculations and Decisions.
+
+Para evaluar las hipótesis planteadas en IceTrack, se utilizará una escala de decisión sencilla que permita interpretar los resultados obtenidos durante las pruebas y validaciones del proyecto.
+
+
+| Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| Creemos que la implementación de alertas automáticas aumentará la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en los mantenimientos. Sabremos que esto es cierto cuando la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y los usuarios realicen más actividades dentro de las fechas programadas. | Implementar alertas automáticas de mantenimiento preventivo que notifiquen oportunamente a los usuarios antes de las fechas programadas. |  |  | X |  |
+| Creemos que la incorporación de una vista geográfica interactiva reducirá el tiempo necesario para localizar información sobre equipos y aumentará la percepción de facilidad de uso de la plataforma. Sabremos que esto es cierto cuando el puntaje de usabilidad SUS aumente en al menos un 5% y los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. | Implementar una vista geográfica interactiva que permita ubicar sitios, equipos y activos dentro de la plataforma. |  |  | X |  |
+| Creemos que la incorporación de la exportación de reportes en PDF aumentará la percepción de utilidad de la plataforma y será utilizada por los usuarios durante el período de evaluación. Sabremos que esto es cierto cuando al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. | Implementar la opción de exportar reportes técnicos en formato PDF para compartir información sobre servicios, equipos e intervenciones. |  |  | X |  |
+| Creemos que la implementación de encuestas automatizadas incrementará la participación de los usuarios en procesos de retroalimentación y aumentará la cantidad de respuestas recibidas. Sabremos que esto es cierto cuando la participación de los usuarios en las encuestas aumente en un 10% y la cantidad de respuestas recibidas se incremente en un 8% después de automatizar el envío de encuestas de satisfacción. | Incorporar encuestas automáticas de satisfacción después de cada intervención técnica realizada. |  |  | X |  |
+| Creemos que la incorporación de opciones de personalización visual aumentará la satisfacción general de los usuarios y será adoptada por parte de ellos. Sabremos que esto es cierto cuando el nivel de satisfacción de los usuarios CSAT aumente en un 8% y la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. | Implementar opciones visuales como modo oscuro y temas de color dentro de la configuración de la plataforma. |  |  | X |  |
+
+A partir de esta escala, las funcionalidades que alcancen los niveles **Ideal** o **Excelente** serán consideradas satisfactorias para el avance del proyecto. Las que se ubiquen en el nivel **Aceptable** deberán ser ajustadas antes de una nueva evaluación. Finalmente, los resultados **Desfavorables** indicarán la necesidad de replantear la funcionalidad, mejorar su diseño o revisar su implementación técnica.
+
+
+
+
+
+### 8.2.6. Methods Selection.
+
+Para seleccionar la herramienta más adecuada para la evaluación de IceTrack, se compararon cuatro alternativas orientadas al análisis de rendimiento, monitoreo y experiencia de usuario: Google Analytics, Catchpoint, RedLine13 y Lighthouse.
+
+| Herramienta | Google Analytics | Catchpoint | RedLine13 | Lighthouse |
+| :--- | :--- | :--- | :--- | :--- |
+| **Precio** | Cuenta con un plan gratuito suficiente para analizar tráfico, sesiones y comportamiento general de usuarios. | Basado principalmente en suscripción, orientado a empresas con necesidades avanzadas de monitoreo. | Cuenta con opciones gratuitas o de bajo costo, aunque algunas funciones avanzadas pueden requerir pago. | Gratuito y disponible desde Chrome DevTools, PageSpeed Insights o ejecución local. |
+| **Capacidad de análisis** | Permite analizar usuarios, sesiones, eventos, rutas de navegación y conversiones. | Permite monitorear rendimiento y experiencia de usuario desde múltiples ubicaciones y dispositivos. | Está orientado a pruebas de carga, estrés y rendimiento bajo concurrencia. | Evalúa rendimiento, accesibilidad, buenas prácticas y SEO de aplicaciones web. |
+| **Sencillez** | Requiere configuración inicial y definición de eventos para obtener resultados útiles. | Tiene una interfaz más avanzada, por lo que requiere mayor curva de aprendizaje. | Requiere conocimientos técnicos sobre pruebas de carga y configuración de escenarios. | Es sencillo de ejecutar y ofrece resultados visuales fáciles de interpretar. |
+| **Ventajas** | Útil para analizar comportamiento real de usuarios y evolución del tráfico. | Adecuado para monitoreo empresarial continuo y análisis desde diferentes regiones. | Permite simular múltiples usuarios y analizar el comportamiento del sistema bajo carga. | Entrega reportes claros con puntajes y recomendaciones concretas para mejorar la aplicación. |
+| **Limitaciones** | No evalúa directamente aspectos técnicos como accesibilidad o buenas prácticas del frontend. | Puede ser excesivo para un proyecto universitario por su orientación empresarial. | Su enfoque en carga puede no ser prioritario para el alcance actual del proyecto. | No mide comportamiento real de usuarios, sino resultados de auditoría técnica. |
+| **Aplicación en IceTrack** | Podría utilizarse en una fase posterior para medir usuarios activos y navegación. | No se considera necesario para el alcance actual del proyecto. | Podría ser útil si se desea evaluar carga en backend, pero no será la prioridad. | Se utilizará como herramienta principal para evaluar rendimiento, accesibilidad, buenas prácticas y SEO. |
+
+Después de comparar las herramientas, se decide utilizar **Lighthouse** como herramienta principal de evaluación. Esta decisión se justifica porque IceTrack requiere una herramienta gratuita, accesible, sencilla de ejecutar y capaz de entregar resultados claros sobre la calidad técnica del frontend.
+
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
+
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse. A continuación, se mostrarán ejemplos del uso de IceTrack en ambos segmentos objetivos:
+
+Vista inicial:
+![LightHousepng](assets/chapter08/LightHouse.png)
+
+Vista de registro:
+![LightHouseRegisterpng](assets/chapter08/LightHouseRegister.png)
+
+Vista de login:
+![LightHouseLoginpng](assets/chapter08/LightHouseLogin.png)
+
+Vista de dashboard:
+![LightHouseDashboardpng](assets/chapter08/LightHouseDashboard.png)
+
+Vista de equipos:
+![LightHouseEquipmentpng](assets/chapter08/LightHouseEquipment.png)
+
+Vista de sitios:
+![LightHouseSitespng](assets/chapter08/LightHouseSites.png)
+
+Vista de servicios completados:
+![LightHouseServicesCompeltedpng](assets/chapter08/LightHouseServicesCompleted.png)
+
+Para la organización y distribución de estas pruebas, se utilizó Jira:
+![LightHouseJira](assets/chapter08/PruebasJira.png)
+
+Luego se realizó un análiiss en base a las pruebas con los resultados obtenidos en cada una de ellas:
+![LightHouseExcelpng](assets/chapter08/LightHouseExcel.png)
+
+Con estos datos, pudimos graficar las tendencias del rendimiento, accesibilidad, recomendaciones y SEO de la plataforma:
+
+![LightHouseRendimientopng](assets/chapter08/RendimientoExcel.png)
+
+![LightHouseAccesibilidadpng](assets/chapter08/AccesibilidadExcel.png)
+
+![LightHouseRecomendacionespng](assets/chapter08/RecomendacionesExcel.png)
+
+![LightHouseSEOpng](/assets/chapter08/SEOExcel.png)
+
+
+
 ### 8.2.8. Web and Mobile Tracking Plan. 
+Para IceTrack, el plan de seguimiento web y móvil tiene como finalidad monitorear el comportamiento general de la aplicación y evaluar el impacto de las mejoras implementadas durante el desarrollo del proyecto. Este seguimiento permitirá obtener información útil sobre el rendimiento, la accesibilidad, la experiencia de usuario y la estabilidad de las funcionalidades principales.
+
+A diferencia de un monitoreo centrado únicamente en métricas generales, en IceTrack se priorizará el seguimiento de las vistas y flujos más importantes para los dos segmentos objetivo del proyecto. De esta manera, el análisis permitirá observar si la plataforma responde adecuadamente a las necesidades de ambos perfiles.
+
+El monitoreo se desarrollará en dos etapas principales: Implementación Inicial y Seguimiento Continuo.
+
+#### 1. Implementación Inicial
+
+Durante esta primera fase, se realizará la evaluación inicial de las vistas principales de IceTrack. El objetivo será obtener una línea base que permita conocer el estado actual de la aplicación antes de aplicar mejoras o ajustes finales.
+
+En esta etapa se recopilarán datos relacionados con:
+
+- Rendimiento de carga de las principales vistas web.
+- Accesibilidad de la interfaz.
+- Buenas prácticas de desarrollo frontend.
+- SEO básico de las páginas evaluadas.
+- Observaciones visuales sobre navegación, estructura y consistencia de la interfaz.
+- Claridad de la información presentada en dashboards, reportes y módulos de equipos.
+
+#### 2. Seguimiento Continuo
+
+Después de la evaluación inicial, se realizará un seguimiento continuo durante el avance del proyecto. Esta etapa permitirá comparar los resultados obtenidos después de aplicar cambios o mejoras en la aplicación.
+
+El seguimiento continuo se enfocará en:
+
+- Comparar los puntajes iniciales y finales de Lighthouse.
+- Revisar si las optimizaciones aplicadas mejoran el rendimiento de las vistas.
+- Identificar si los cambios visuales afectan la accesibilidad.
+- Verificar que las buenas prácticas y el SEO no disminuyan después de nuevas modificaciones.
+- Registrar observaciones sobre errores, lentitud o problemas visuales detectados durante las pruebas.
+- Analizar si las vistas críticas mantienen una experiencia consistente después de cada cambio.
 
 ## 8.3. Experimentation 
 ### 8.3.1. To-Be User Stories.
