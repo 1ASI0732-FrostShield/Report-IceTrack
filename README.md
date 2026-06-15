@@ -102,24 +102,10 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2 Lean UX Assumption](#1222-lean-ux-assumption)
-- [Business Outcomes](#business-outcomes)
-- [User Outcomes](#user-outcomes)
-  - [¿Quién será nuestro usuario?](#quién-será-nuestro-usuario)
-  - [¿Dónde encaja nuestro producto en su vida?](#dónde-encaja-nuestro-producto-en-su-vida)
-  - [¿Qué problemas tiene nuestro producto y cómo se pueden resolver?](#qué-problemas-tiene-nuestro-producto-y-cómo-se-pueden-resolver)
-  - [¿Cómo y Cuándo es usado nuestro producto?](#cómo-y-cuándo-es-usado-nuestro-producto)
-  - [¿Qué características son importantes para la app?](#qué-características-son-importantes-para-la-app)
-  - [¿Cómo debe verse nuestro producto y cómo comportarse?](#cómo-debe-verse-nuestro-producto-y-cómo-comportarse)
-  - [¿Qué valor busca el cliente?](#qué-valor-busca-el-cliente)
-  - [¿Qué beneficios adicionales obtendrá el cliente?](#qué-beneficios-adicionales-obtendrá-el-cliente)
-  - [¿Cómo atraeremos usuarios?](#cómo-atraeremos-usuarios)
-  - [¿Cómo generaremos ingresos?](#cómo-generaremos-ingresos)
-  - [¿Cuál es nuestra competencia y cómo la superamos?](#cuál-es-nuestra-competencia-y-cómo-la-superamos)
-  - [¿Cuál es nuestro mayor riesgo?](#cuál-es-nuestro-mayor-riesgo)
-  - [¿Cómo lo resolveremos?](#cómo-lo-resolveremos)
       - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3 Segmentos objetivos](#13-segmentos-objetivos)
+
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -127,31 +113,20 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [Segmento objetivo #1: Negocios con equipos de refrigeración](#segmento-objetivo-1-negocios-con-equipos-de-refrigeración)
-    - [Entrevista 1:](#entrevista-1)
-      - [Entrevista 2:](#entrevista-2)
-      - [Entrevista 3:](#entrevista-3)
-  - [Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:](#segmento-objetivo-2---técnicos-y-empresas-de-mantenimiento)
-      - [**Entrevista 1:**](#entrevista-1-1)
-      - [**Entrevista 2:**](#entrevista-2-1)
-      - [Entrevista 3:](#entrevista-3-1)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [Segmento objetivo #1: Negocios con equipos de refrigeración](#segmento-objetivo-1-negocios-con-equipos-de-refrigeración-1)
-      - [Entrevista 3:](#entrevista-3-2)
-  - [Segmento Objetivo 2 - Técnicos y empresas de mantenimiento:](#segmento-objetivo-2---técnicos-y-empresas-de-mantenimiento-1)
-      - [Entrevista 3:](#entrevista-3-3)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories.](#32-user-stories)
   - [3.3. Impact Mapping.](#33-impact-mapping)
   - [3.4. Product Backlog.](#34-product-backlog)
+
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -170,7 +145,6 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
     - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
@@ -178,65 +152,26 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
+    - [4.8.1. Relational/Non-Relational Database Diagram](#481-relational-non-relational-database-diagram)
+
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-      - [**Beneficios de la Nomenclatura Predictiva**](#beneficios-de-la-nomenclatura-predictiva)
-      - [**Estrategia de Ramificación (Git Flow)**](#estrategia-de-ramificación-git-flow)
-      - [**Flujo de Trabajo y Herramientas**](#flujo-de-trabajo-y-herramientas)
-      - [**Convenciones de Nomenclatura**](#convenciones-de-nomenclatura)
     - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators-1)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    - [5.2.4. Sprint 4](#524-sprint-4)
-      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-  - [5.3. Acuerdo de Servicio - SaaS](#53-acuerdo-de-servicio---saas)
-      - [1. Definiciones Clave](#1-definiciones-clave)
-      - [2. Alcance de la Licencia](#2-alcance-de-la-licencia)
-      - [3. Niveles de Servicio (SLA)](#3-niveles-de-servicio-sla)
-      - [4. Responsabilidades del Usuario](#4-responsabilidades-del-usuario)
-      - [5. Propiedad Intelectual y Datos](#5-propiedad-intelectual-y-datos)
-      - [6. Política de Pagos y Suspensión](#6-política-de-pagos-y-suspensión)
-      - [7. Protección de Datos y Privacidad](#7-protección-de-datos-y-privacidad)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
+    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Acuerdo de Servicio SaaS](#524-acuerdo-de-servicio-saas)
+    - [5.2.5. Implemented RESTful API and Serverless Backend Evidence](#525-implemented-restful-api-and-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.3. Video About-the-Product](#53-video-about-the-product)
+
 - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
   - [6.1 Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1 Core Entities Unit Tests](#611-core-entities-unit-tests)
@@ -245,42 +180,21 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [6.1.4 Core System Tests](#614-core-system-tests)
   - [6.2 Static testing \& Verification](#62-static-testing--verification)
     - [6.2.1 Static Code Analysis](#621-static-code-analysis)
-    - [6.2.1.1 Coding Standard \& Code Conventions](#6211-coding-standard--code-conventions)
-      - [Frontend](#frontend)
-      - [Backend](#backend)
+      - [6.2.1.1 Coding Standard \& Code Conventions](#6211-coding-standard--code-conventions)
       - [6.2.1.2 Code Quality \& Code Security](#6212-code-quality--code-security)
-          - [Prueba de SonarQube Cloud:](#prueba-de-sonarqube-cloud)
-          - [Prueba de ESLint:](#prueba-de-eslint)
     - [6.2.2 Reviews](#622-reviews)
-        - [Tipos de Revisiones](#tipos-de-revisiones)
-        - [Proceso de Revisión](#proceso-de-revisión)
-        - [Criterios de Aceptación](#criterios-de-aceptación)
-        - [Frecuencia de Revisiones](#frecuencia-de-revisiones)
   - [6.3 Validation Interviews](#63-validation-interviews)
     - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
-      - [Usability - Inclusive Design - Information Architecture](#usability---inclusive-design---information-architecture)
-      - [TABLA RESUMEN:](#tabla-resumen)
-      - [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
-      - [PROBLEMA #1:](#problema-1)
-      - [PROBLEMA #2:](#problema-2)
-      - [PROBLEMA #3:](#problema-3)
-      - [PROBLEMA #4:](#problema-4)
+
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1 Continuous Integration](#71-continuous-integration)
     - [7.1.1 Tools and Practices](#711-tools-and-practices)
     - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2 Continuous Delivery](#72-continuous-delivery)
     - [7.2.1 Tools and Practices](#721-tools-and-practices)
-      - [Tools:](#tools)
-      - [Practices](#practices)
     - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-      - [Integración Continua (CI)](#integración-continua-ci)
-      - [Despliegue Manual](#despliegue-manual)
-      - [Monitoreo y Feedback](#monitoreo-y-feedback)
-      - [Aprobación del Despliegue](#aprobación-del-despliegue)
   - [7.3 Continuous deployment](#73-continuous-deployment)
     - [7.3.1 Tools and Practices](#731-tools-and-practices)
     - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
@@ -289,6 +203,7 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
     - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
     - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
+
 - [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
   - [8.1. Experiment Planning](#81-experiment-planning)
     - [8.1.1. As-Is Summary.](#811-as-is-summary)
@@ -299,17 +214,15 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
   - [8.2. Experiment Design](#82-experiment-design)
     - [8.2.1. Hypotheses.](#821-hypotheses)
     - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
-  - [8.2.2. Domain Business Metrics](#822-domain-business-metrics-1)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics-1)
     - [8.2.3. Measures.](#823-measures)
-  - [8.2.3. Measures](#823-measures-1)
+    - [8.2.3. Measures](#823-measures-1)
     - [8.2.4. Conditions.](#824-conditions)
-  - [8.2.4. Conditions](#824-conditions-1)
+    - [8.2.4. Conditions](#824-conditions-1)
     - [8.2.5. Scale Calculations and Decisions.](#825-scale-calculations-and-decisions)
     - [8.2.6. Methods Selection.](#826-methods-selection)
     - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.](#827-data-analytics-goals-kpis-and-metrics-selection)
     - [8.2.8. Web and Mobile Tracking Plan.](#828-web-and-mobile-tracking-plan)
-      - [1. Implementación Inicial](#1-implementación-inicial)
-      - [2. Seguimiento Continuo](#2-seguimiento-continuo)
   - [8.3. Experimentation](#83-experimentation)
     - [8.3.1. To-Be User Stories.](#831-to-be-user-stories)
     - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
@@ -329,6 +242,7 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
   - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
     - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
@@ -1743,58 +1657,92 @@ URL: https://www.figma.com/proto/ssl7G9KRip9XbC0tBXqUnc/Untitled?node-id=1-2&p=f
 <img width="1297" height="591" alt="4 6 2  Software Architecture Context Diagram" src="assets/chapter05/context-diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Context Diagram.
-  </figcaption>
+</figcaption>
 
 ### 4.6.3. Software Architecture Container Diagrams
 <img width="1170" height="579" alt="4 6 3  Software Architecture Container Diagrams" src="assets/chapter05/containers-diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Container Diagrams.
-  </figcaption>
+</figcaption>
 
 ### 4.6.4. Software Architecture Components Diagrams
 <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/apirest-diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> API REST Component Diagrams.
-  </figcaption>
+</figcaption>
 
   <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/assetsmanagement-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 2:</strong> Assets Management BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
   <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/dashboard-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 3:</strong> Dashboard BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
    <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/monitoring-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 4:</strong> Monitoring BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
   <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/reporting-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 5:</strong> Reporting BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
    <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/services-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 6:</strong> Services BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 <img width="2669" height="1621" alt="Diagrama de Clases" src="https://github.com/user-attachments/assets/96c0cbb8-7cf3-4527-98c7-6384ad68307e" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Class Diagram.
-  </figcaption>
+</figcaption>
+
+### 4.7.2. Class Dictionary
+
+El modelo de base de datos propuesto tiene como finalidad gestionar y monitorear equipos industriales mediante un sistema de mantenimiento predictivo y administración de activos. La estructura permite almacenar información relacionada con organizaciones, usuarios, sitios y equipos. Todas estas entidades se encuentran relacionadas entre sí para garantizar un control eficiente de los activos y facilitar la detección temprana de incidencias dentro de la plataforma.
+
+### User
+
+La entidad **User** almacena la información de los usuarios que acceden al sistema. Entre los datos registrados se encuentran el correo electrónico, nombre completo, contraseña cifrada, estado de la cuenta y fecha de creación. El atributo **id** funciona como llave primaria (PK), permitiendo identificar de manera única a cada usuario dentro de la plataforma.
+
+### Organization
+
+La entidad **Organization** representa las empresas o entidades que utilizan el sistema para gestionar sus activos y operaciones de mantenimiento. Dentro de sus atributos se encuentran el nombre de la organización y la fecha de creación. El campo **id** corresponde a la llave primaria (PK).
+
+### Site
+
+La entidad **Site** almacena la información de las ubicaciones físicas pertenecientes a una organización. Cada sitio cuenta con datos como nombre, dirección y fecha de creación. El atributo **id** representa la llave primaria (PK), mientras que **org_id** funciona como llave foránea (FK) que vincula el sitio con la organización propietaria.
+
+### Equipment
+
+La tabla **Equipment** registra los equipos o activos monitoreados dentro de cada sitio. Entre sus atributos se incluyen nombre, estado operativo, temperatura mínima permitida, temperatura máxima permitida y fecha de creación. La llave primaria es **id**, mientras que **org_id** y **site_id** permiten relacionar el equipo con una organización y un sitio específico.
+
+### WorkOrder
+
+La entidad **WorkOrder** representa las órdenes de trabajo generadas para atender incidencias detectadas en los equipos. Dentro de sus atributos se incluyen estado de la orden, prioridad, título, descripción, fecha de programación, fecha de inicio, fecha de finalización y fecha de creación. El atributo **id** funciona como llave primaria (PK), mientras que **org_id**, **site_id**, **equipment_id**, **created_by** y **assigned_to** permiten relacionar la orden con la organización, ubicación, equipo y usuarios involucrados.
+
+## Relaciones del Modelo
+
+. **Organización**: Una organización puede poseer múltiples sitios, mientras que cada sitio pertenece únicamente a una organización.
+
+. **Sitio**: Un sitio puede albergar múltiples equipos, mientras que cada equipo se encuentra asociado a un único sitio.
+
+. **Equipo**: Un equipo puede tener varios sensores instalados para monitorear diferentes variables operativas. Cada sensor pertenece únicamente a un equipo.
+
+. **Usuario**: Los usuarios pueden crear y ser asignados a órdenes de trabajo. Esto facilita la gestión de responsabilidades y el seguimiento de las actividades de mantenimiento.
 
 ## 4.8. Database Design
-### 4.8.1. Database Diagrams
+### 4.8.1. Relational Non-Relational Database Diagram
 <img width="1800" height="850" alt="base de datos diseño" src="assets/chapter04/Database diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Database Diagram.
-  </figcaption>
+</figcaption>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2021,572 +1969,8 @@ URL de la Landing Page desplegada en Github Pages:
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1
+### 5.2.1. Sprint Backlogs
 
-#### 5.2.1.1. Sprint Planning 1
-
-<table border="1">
-<tr>
-    <th colspan="5">Sprint 1</th>
-    <th colspan="9">Sprint 1</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-10-6</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">1:00 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Presencial (Universidad Peruana de Ciencias Aplicadas sede San Miguel)</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Kenyi Ramirez</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandro Galindo, Julio Guillen, Ivan La Madrid, Pedro Nanfuñay</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Review Summary</td>
-    <td colspan="8"></td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Retrospective Summary</td>
-    <td colspan="8">Durante este sprint, todos los integrantes compartieron sus ideas respecto a la plataforma web, tales como el rubro, los segmentos objetivos, beneficios, funcionalidades. Tuvimos tareas bien organizadas y realizadas, que se puede verificar en los avances del informe y del Landing Page</td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Goal</td>
-       <td colspan="8">Nuestro enfoque está en implementar la landing page de nuestra plataforma, asegurando su adaptabilidad a diferentes dispositivos, coherencia visual y funcionalidad multilingüe. Creemos que esto ofrece una experiencia de navegación más clara, atractiva y accesible a los usuarios potenciales de nuestra solución. Esto se confirmará cuando los usuarios puedan cambiar el idioma fácilmente desde la interfaz, navegar la página sin errores visuales desde cualquier dispositivo, y se valide que imágenes y textos estén correctamente integrados y espaciados. </td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Velocity</td>
-    <td colspan="8">15</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">10</td>
-</tr>
-</table>
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
-##### 5.2.1.2. Aspect Leaders and Collaborators
-
-Durante este primer Sprint, el equipo se enfocó principalmente en el desarrollo, la mejora estructural y visual de la Landing Page, asegurando su visualización en distintos dispositivos (diseño responsive), la integración armoniosa de imágenes y textos, y la implementación de un cambio de idioma dinámico mediante un botón.
-Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint.
-
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Diseño visual y maquetación web (Landing Page)<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Responsividad y pruebas en distintos dispositivos<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Implementación técnica del cambio de idioma (Multilenguaje funcional)<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>C</td>
-    <td>L</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-</table>
-
-#### 5.2.1.3. Sprint Backlog 1
-
-El objetivo principal de este Sprint es elaborar la Landing Page de nuestra plataforma. Para ello, dividimos el desarrollo de esta según las User Stories pertenecientes a la Epic enfocada en Landing Page. La plataforma elegida para ser la herramienta de control de tareas fue Trello, el cuál se presenta una captura de pantalla de nuestro tablero y su enlace público.
-
-Enlace: https://trello.com/b/sUPp1a6b/sprints
-
-![Sprint1-Trello.png](assets/chapter05/Sprint1-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 1.
-  </figcaption>
-
----
-<table border="1">
-<tr>
-    <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 1</th>
-</tr>
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status (To do/ In-Process/ To-Review/ Done)</td>
-</tr>
-<tr>
-    <td colspan="1">US-23</td>
-    <td colspan="2">Visualizar propuesta de valor principal</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección 'Hero'</td>
-    <td colspan="3">Añadir la sección donde se muestra nuestra propuesta de valor principal</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-24</td>
-    <td colspan="2">Explorar soluciones específicas para mi rubro</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección 'Beneficios'</td>
-    <td colspan="3">Añadir la sección donde se visualizan las soluciones específicas al segmento Dueño de negocio </td>
-    <td colspan="1">1</td>
-    <td colspan="2">Ivan La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-24</td>
-    <td colspan="2">Explorar soluciones específicas para mi rubro</td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2">Crear la sección 'Beneficios'</td>
-    <td colspan="3">Añadir la sección donde se visualizan las soluciones específicas al segmento Proveedor de Servicios </td>
-    <td colspan="1">1</td>
-    <td colspan="2">Ivan La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-28</td>
-    <td colspan="2">Acceder a la plataforma web (Call to Action)</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear el elemento Call to Action</td>
-    <td colspan="3">Añadir el elemento que redirecciona a la página de la aplicación web</td>
-    <td colspan="1">0.5</td>
-    <td colspan="2">Kenyi Ramírez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-27</td>
-    <td colspan="2">Contactar con el equipo de ventas</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección "Contacto"</td>
-    <td colspan="3">Agregar un formulario para contactar con los responsables de la plataforma</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Julio Guillen</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-26</td>
-    <td colspan="2">Conocer misión y visión</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección 'Nosotros'</td>
-    <td colspan="3">Añadir la sección donde se visualiza la misión y visión de nuestra startup</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-00</td>
-    <td colspan="2">-</td>
-    <td colspan="1">UT-01/td>
-    <td colspan="2">Implementar cambio de idioma</td>
-    <td colspan="3">Implementar la funcionalidad de cambio de idioma en la landing page</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-00</td>
-    <td colspan="2">-</td>
-    <td colspan="1">UT-02/td>
-    <td colspan="2">Añadir la sección de testimonios</td>
-    <td colspan="3">Crear la sección "Testimonios" y asignar los comentarios más favorables respecto a nuestra plataforma</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Pedro Nanfuñay</td>
-    <td colspan="1">Done</td>
-</tr>
-
-</table>
-
-##### 5.2.1.4. Development Evidence for Sprint Review
-
-En este primer Sprint hemos realizado la implementación de nuestra Landing Page, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados.
-
-<table>
-    <tr>
-        <th colspan="2">Repository</th>
-        <th colspan="2">Branch</th>
-        <th colspan="2">Commit Id</th>
-        <th colspan="2">Commit Message</th>
-        <th colspan="2">Commit Message Body</th>
-        <th colspan="2">Committed on (Date)</th>
-    </tr>
-        <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge pull request #2 from 1ASI0730-2520-7452-G1-FrostShield/develop</td>
-        <td colspan="2">Merge pull request #2 from 1ASI0730-2520-7452-G1-FrostShield/develop</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-        <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add images</td>
-        <td colspan="2">add images</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-        <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add testimonials section</td>
-        <td colspan="2">add testimonials section</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Update script.js</td>
-        <td colspan="2">Update script.js</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Update style.css</td>
-        <td colspan="2">Update style.css</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Update index.html</td>
-        <td colspan="2">Update index.html</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: update script to about us section</td>
-        <td colspan="2">update script to about us section</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge pull request #1 from 1ASI0730-2520-7452-G1-FrostShield/feature/benefits</td>
-        <td colspan="2">Merge pull request #1 from 1ASI0730-2520-7452-G1-FrostShield/feature/benefits</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge branch 'develop' into feature/benefits</td>
-        <td colspan="2">Merge branch 'develop' into feature/benefits</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">update index.html</td>
-        <td colspan="2">update index.html</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(landing-page): add styles for benefits section</td>
-        <td colspan="2">add styles for benefits section</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(landing-page): add benefits section</td>
-        <td colspan="2">add benefits section</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Add about us section in style.css</td>
-        <td colspan="2">Add about us section in style.css</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Add about us section in HTML</td>
-        <td colspan="2">Add about us section in HTML</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">style: add color palette and responsive layout for landing page</td>
-        <td colspan="2">add color palette and responsive layout for landing page</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add language switching functionality and translations for ES/EN</td>
-        <td colspan="2">add language switching functionality and translations for ES/EN</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add JavaScript for mobile menu toggle, smooth scroll, and CTA button functionality</td>
-        <td colspan="2">add JavaScript for mobile menu toggle, smooth scroll, and CTA button functionality</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: added Header, Hero and Footer Section Structure</td>
-        <td colspan="2">added Header, Hero and Footer Section Structure</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: initialize basic landing page structure with HTML</td>
-        <td colspan="2">initialize basic landing page structure with HTML</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-</table>
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-**Inicio**
-Muestra el logo de la marca, una navegación clara y un botón de "Registrarse" en un color llamativo para guiar al usuario.
-Presenta la propuesta de valor principal con una imagen atractiva y un texto impactante, capturando la atención del visitante de inmediato
-
-![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
----
-
-**Beneficios**
-Detalla las principales ventajas que los usuarios obtienen al usar el producto, mostrando cómo resuelve sus problemas de manera efectiva.
-
-![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
----
-
-**Sobre Nosotros**
-Explica la misión y visión de la empresa, compartiendo los valores y la historia para generar confianza.
-
-![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
----
-
-**Testimonios**
-Muestra opiniones de clientes satisfechos, actuando como prueba social para validar la calidad del producto o servicio.
-
-![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
----
-
-**Contacto**
-Ofrece un medio para que los usuarios se comuniquen, ya sea para pedir más información o para agendar una demostración.
-
-![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-A continuación, se presenta las  secciones principales de la Landing Page desplegada en GitHub Pages:
-
-**Inicio**
-
-![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
----
-**Beneficios**
-
-![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
----
-
-**Sobre Nosotros**
-
-![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
----
-**Testimonios**
-
-![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
----
-**Contacto**
-
-![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
----
-
-URL del Landing Page desplegado: https://1asi0730-2520-7452-g1-frostshield.github.io/IceTrack---Landing-Page/
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-![Insights-LP.png](assets/chapter05/Insights-LP.png)
----
-
-![Contributors.png](assets/chapter05/Contributors.png)
-
-### 5.2.2. Sprint 2
-
-#### 5.2.2.1. Sprint Planning 2
-
-<table>
-<tr>
-    <th colspan="5">Sprint 2</th>
-    <th colspan="9">Sprint 2</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-09-27</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">15:00 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Via Discord</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Kenyi Ramirez</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandro Galindo, Julio Guillen, Ivan Lozano, Pedro Nanfuñay, Pedro Jesús</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8">En este sprint, nos enfocamos en desarrollar el front-end y en realizar la implementación inicial de la plataforma IceTrack. Completamos las funciones principales de la página, ofreciendo a los usuarios una primera experiencia de navegación y exploración del servicio de refrigeración. El equipo cumplió con los objetivos de entrega dentro del plazo previsto, estableciendo además los cimientos de la interfaz gráfica para futuras iteraciones.
-</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8">Durante el sprint, a pesar de estar enfocado en el desarrollo técnico, permitió identificar oportunidades para mejorar nuestra dinámica de trabajo en equipo. En la retrospectiva, se destacó la necesidad de ajustar la duración de las reuniones diarias, redistribuir las tareas de acuerdo con las especialidades del equipo e incorporar una planificación individual con hitos verificables. Estas medidas tienen como objetivo incrementar la eficiencia en las próximas iteraciones.
- </td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Goal</td>
-       <td colspan="8">Nuestro enfoque de desarrollo se centra en la creación e implementación de la interfaz front-end de IceTrack, con el objetivo de proporcionar una experiencia de navegación fluida e intuitiva, mostrar las principales funcionalidades de la plataforma y disponer de una página de inicio funcional que comunique de manera efectiva el valor diferencial del servicio.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Velocity</td>
-    <td colspan="8">35</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">30</td>
-</tr>
-</table>
-
-#### 5.2.2.2. Aspect Leaders and Collaborators
-
-Durante este segundo sprint, el equipo se enfocó principalmente en el desarrollo, mejora estructural y visual de las aplicaciones del Frontend, asegurando su correcto funcionamiento en distintos dispositivos (diseño responsive), la integración coherente de componentes visuales e interactivos, así como la implementación de funcionalidades dinámicas que mejoran la experiencia del usuario.
-
-Con el objetivo de optimizar la organización y la colaboración del equipo, se elaboró la matriz de Liderazgo y Colaboración (LACX), la cual asigna responsabilidades y roles específicos a cada miembro del equipo en relación con los aspectos clave abordados durante el Sprint.
-
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Implementacion de la gestión de equipos de refrigeracion (Frontend Applications)<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Responsividad y pruebas en distintos dispositivos<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Despliegue de la aplicación web<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>C</td>
-    <td>L</td>
-    <td>L</td>
-  </tr>
-</table>
-
-#### 5.2.2.3. Sprint Backlog 2
 El objetivo principal de este Sprint es elaborar el Frontend de nuestra plataforma. Para ello, dividimos el desarrollo de esta según las User Stories pertenecientes a la Epic enfocada en la aplicacion web. La plataforma elegida para ser la herramienta de control de tareas fue Trello, el cuál se presenta una captura de pantalla de nuestro tablero y su enlace público.
 
 Enlace: https://trello.com/b/mLKlTDIY/frontend
@@ -2738,120 +2122,45 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
 </tr>
 </table>
 
-#### 5.2.2.4. Development Evidence for Sprint Review
+### 5.2.2. Implemented Landing Page Evidence
 
-En este segundo Sprint hemos realizado la implementación de nuestra Frontend, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados.
+**Inicio**
+Muestra el logo de la marca, una navegación clara y un botón de "Registrarse" en un color llamativo para guiar al usuario.
+Presenta la propuesta de valor principal con una imagen atractiva y un texto impactante, capturando la atención del visitante de inmediato
 
-<table>
-    <tr>
-        <th colspan="2">Repository</th>
-        <th colspan="2">Branch</th>
-        <th colspan="2">Commit Id</th>
-        <th colspan="2">Commit Message</th>
-        <th colspan="2">Commit Message Body</th>
-        <th colspan="2">Committed on (Date)</th>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(auth): add user registration form</td>
-        <td colspan="2">Implemented registration form with fields: name and confirmation.</td>
-        <td colspan="2">02/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(validation): add email and password validation</td>
-        <td colspan="2">Added real-time validation for password strength.</td>
-        <td colspan="2">02/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(api): integrate user registration API</td>
-        <td colspan="2">Linked registration form to frontend endpoint.</td>
-        <td colspan="2">01/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(ui): design login screen</td>
-        <td colspan="2">Created login view with inputs for name and password link.</td>
-        <td colspan="2">01/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(auth): integrate login API with JWT</td>
-        <td colspan="2">Implemented user authentication, managing tokens and session storage.</td>
-        <td colspan="2">01/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(technicians): add technician registration view</td>
-        <td colspan="2">Developed form for registering new technicians.</td>
-        <td colspan="2">05/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(technicians): add technicians table with edit/delete options</td>
-        <td colspan="2">Implemented dynamic table for managing technicians.</td>
-        <td colspan="2">07/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(equipment): list registered refrigeration units</td>
-        <td colspan="2">Created view displaying equipment data: name, model, state and installation date.</td>
-        <td colspan="2">03/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(equipment): add form for new equipment registration</td>
-        <td colspan="2">Implemented new equipment registration form for refrigeration systems.</td>
-        <td colspan="2">07/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(api): integrate equipment API</td>
-        <td colspan="2">Connected frontend views with `/api/v1/` for operations.</td>
-        <td colspan="2">08/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">fix(ui): fix login redirection from landing page</td>
-        <td colspan="2">Linked “Iniciar sesión” button correctly to the web portal login page.</td>
-        <td colspan="2">09/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge branch 'develop' into feature/frontend-sprint2</td>
-        <td colspan="2">Final merge after completing Sprint 2 frontend tasks.</td>
-        <td colspan="2">09/10/2025</td>
-    </tr>
-</table>
+![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
+---
 
-#### 5.2.2.5. Execution Evidence for Sprint Review
+**Beneficios**
+Detalla las principales ventajas que los usuarios obtienen al usar el producto, mostrando cómo resuelve sus problemas de manera efectiva.
 
-En el Sprint 2 se desplegó la primera versión de la Web Application de IceTrack, implementando funcionalidades esenciales como el dashboard del usuario, lugares, equipos que posee el usuario, las solicitudes de servicio de mantenimiento, las alertas y los reportes generados. Estas funcionalidades permiten a los usuarios hacer uso de herramientas que permitan mejorar la gestión de equipos de refrigeración para su posterior mantenimiento y seguimiento. A continuación, se presentan las evidencias:
+![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
+---
+
+**Sobre Nosotros**
+Explica la misión y visión de la empresa, compartiendo los valores y la historia para generar confianza.
+
+![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
+---
+
+**Testimonios**
+Muestra opiniones de clientes satisfechos, actuando como prueba social para validar la calidad del producto o servicio.
+
+![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
+---
+
+**Contacto**
+Ofrece un medio para que los usuarios se comuniquen, ya sea para pedir más información o para agendar una demostración.
+
+![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
+
+### 5.2.3. Implemented Frontend Web Application Evidence
+
+**Login:**
+
+![LoginFrontV2](./assets/chapter05/LoginFrontV2.png)
+
+<br>
 
 **Dashboard:**
 
@@ -2880,538 +2189,74 @@ En el Sprint 2 se desplegó la primera versión de la Web Application de IceTrac
 
 ![NewServiceRequestFrontv1](./assets/chapter05/NewServiceRequestFrontv1.png)
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+### 5.2.4. Acuerdo de Servicio SaaS 
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+El presente documento establece los términos legales que rigen el uso de la plataforma **IceTrack**, operada por **FrostShield.** Este acuerdo garantiza la transparencia y define las responsabilidades entre el proveedor del software y el cliente final (Dueños de negocios y Proveedores de servicios).
 
-Para el presente sprint, se realizó el proceso de despliegue para la primera versión del Web Application, así como la Fake API. A continuación, se presentan las evidencias del despliegue:
+#### 1. Definiciones Clave
+* **Servicio SaaS:** El acceso a la plataforma en la nube IceTrack, incluyendo monitoreo, alertas y gestión de mantenimiento.
+* **Usuario:** Cualquier persona autorizada por el Cliente para utilizar los módulos de la plataforma (Administradores, Técnicos u Operadores).
+* **Datos del Cliente:** Información técnica recolectada de los equipos de refrigeración (temperatura, energía, logs de falla).
 
-**Fake API:** Para el despliegue del Fake API, se creó un nuevo repositorio que contiene el db.json para su posterior despliegue en Render.
+#### 2. Alcance de la Licencia
+FrostShield otorga una licencia de uso bajo suscripción, no exclusiva y limitada. El Cliente acepta que el software se proporciona "tal cual" y se compromete a no realizar ingeniería inversa ni intentar vulnerar la seguridad del backend desarrollado para la gestión de la cadena de frío.
 
-![EvidenceDeployFakeAPI](./assets/chapter05/EvidenceDeployFakeAPI.png)
+#### 3. Niveles de Servicio (SLA)
+FrostShield garantiza un **Uptime del 90%**. El soporte técnico responderá a incidencias críticas en un tiempo no mayor a 4 horas laborales. Los periodos de mantenimiento programado se notificarán con 48 horas de antelación a través del Dashboard principal.
 
-**Web Application:** Para el despliegue del Web Application se hizo el despliegue en Vercel a partir del repositorio creado en la organización.
+#### 4. Responsabilidades del Usuario
+* **Hardware y Conectividad:** El Cliente es responsable de asegurar que sus controladores locales sean compatibles con los protocolos de comunicación de IceTrack.
+* **Seguridad de Cuenta:** El usuario debe proteger sus credenciales de acceso, siendo responsable de cualquier acción realizada bajo su perfil.
 
-![EvidenceDeployFrontend](./assets/chapter05/EvidenceDeployFrontend.jpg)
+#### 5. Propiedad Intelectual y Datos
+Todos los derechos sobre la arquitectura de software, diseños (Mockups) y algoritmos de monitoreo pertenecen a FrostShield. El Cliente mantiene la propiedad de sus datos históricos, aunque FrostShield podrá utilizar métricas anonimizadas para optimizar los modelos predictivos de la plataforma.
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+#### 6. Política de Pagos y Suspensión
+El servicio se factura de forma mensual según el plan elegido. El impago de la suscripción tras 15 días del vencimiento facultará a FrostShield a suspender el acceso a los módulos de alertas y reportes históricos hasta la regularización del pago.
 
-![insights-frontend.png](assets/chapter05/insights-frontend.png)
+#### 7. Protección de Datos y Privacidad
+En cumplimiento con la normativa de protección de datos, FrostShield asegura que la información técnica y personal se almacena bajo estándares de cifrado SSL/TLS, garantizando que no será compartida con terceros sin consentimiento explícito.
 
-![insights2-landingpage.png](assets/chapter05/insights2-landingpage.png)
+### 5.2.5. Implemented RESTful API and Serverless Backend Evidence
 
-### 5.2.3. Sprint 3
+**Dashboard**
 
-#### 5.2.3.1. Sprint Planning 3
+![ReportEndpointsBackendV1](./assets/chapter05/dashboard_0.jpeg)
+![PostReportBackendV1](./assets/chapter05/dashboard_1.jpeg)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_2.jpeg)
+![GetReportByIdBackendV1](./assets/chapter05/dashboard_3.jpeg)
+![PostReportBackendV1](./assets/chapter05/dashboard_4.jpeg)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_5.jpeg)
+![GetReportByIdBackendV1](./assets/chapter05/dashboard_6.jpeg)
+![PostReportBackendV1](./assets/chapter05/dashboard_7.jpeg)
 
-<table>
-<tr>
-    <th colspan="5">Sprint 3</th>
-    <th colspan="9">Sprint 3</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-11-02</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">2:30 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Via Discord</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Pedro Nanfuñay</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandr Galindo, Julio Guillen, Ivan La Madrid, Kenyi Ramírez</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8">Se realizó el primer despliegue de la web application, implementando funcionalidades orientadas al primer segmento objetivo.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8">El equipo se comprometió a cumplir sus partes asignadas, así también como colaborar con otras secciones del trabajo para cumplir nuestro objetivo.</td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Goal</td>
-       <td colspan="8">El enfoque para este sprint es establecer el núcleo integrado de la plataforma IceTrack. Esto implica conectar la página de inicio pública con la aplicación de usuario funcional (frontend) y un sistema de gestión de datos fundamental (backend). Se espera que esta unificación asegure un punto de entrada sencillo para los usuarios a nuestra aplicación y posibilite la gestión de información esencial, elevando la calidad de la experiencia inicial del usuario y proveyendo al equipo de un cimiento estable para el desarrollo futuro. El resultado exitoso se verificará cuando los usuarios puedan entrar y navegar por la aplicación web central sin obstáculos desde la página de aterrizaje; el sistema de gestión de datos respalde las operaciones para entidades críticas como equipos, solicitudes de servicio, técnicos, reportes y alertas; y la interfaz de usuario logre comunicarse con el sistema de gestión de datos para presentar y manejar dichas entidades principales, probando una conexión operativa entre todos los niveles del sistema.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8">100</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">97</td>
-</tr>
-</table>
+**Equipment**
 
-#### 5.2.3.2. Aspect Leaders and Collaborators
+![ReportEndpointsBackendV1](./assets/chapter05/equipment_0.png)
+![PostReportBackendV1](./assets/chapter05/equipment_1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/equipment_2.png)
+![GetReportByIdBackendV1](./assets/chapter05/equipment_3.png)
 
-Durante este tercer Sprint, el equipo se enfocó principalmente en el desarrollo, la mejora estructural y visual del frontend y en más de l% de los endpoints asociados al alcance de nuestro proyecto en el backend asegurando la integración entre ellas.
-Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint.
+**Site**
 
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Implementacion de la gestión de equipos de refrigeracion (Frontend Applications)<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Responsividad y pruebas en distintos dispositivos<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Despliegue de la aplicación web<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>C</td>
-    <td>L</td>
-    <td>L</td>
-  </tr>
-</table>
+![ReportEndpointsBackendV1](./assets/chapter05/site_0.png)
+![PostReportBackendV1](./assets/chapter05/site_1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/site_2.png)
+![GetReportByIdBackendV1](./assets/chapter05/site_3.png)
 
-#### 5.2.3.3. Sprint Backlog 3
+**User**
 
-Nuestro enfoque principal para este Sprint ha sido el desarrollo del frontend y backend de la plataforma IceTrack. Hemos estructurado nuestras tareas siguiendo las User Stories y Technical Stories que hemos detallado, asegurando un progreso claro y alineado con los objetivos de negocio y la arquitectura técnica.
+![ReportEndpointsBackendV1](./assets/chapter05/users_0.png)
+![PostReportBackendV1](./assets/chapter05/users1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/users2.png)
 
-Enlace: https://trello.com/invite/b/691a11e1c474e0f0295ac8bf/ATTId41abf32c3a717b7d5e39eba218930f0541704BF/frontshield
+**Authentication**
 
-![Sprint1-Trello.png](assets/chapter05/Sprint3-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 3.
-  </figcaption>
+![ReportEndpointsBackendV1](./assets/chapter05/authentication_0.png)
+![PostReportBackendV1](./assets/chapter05/authentication_1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/authentication_2.png)
 
-<table border="1">
-<tr>
-    <th colspan="3">Sprint 3</th>
-    <th colspan="10">Sprint Backend</th>
-</tr>
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-01</td>
-    <td colspan="2">Registro de usuario</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear endpoint /api/v1/users</td>
-    <td colspan="3">Implementar registro con validación de email único y hash de contraseña.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Julio Guillén</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-01</td>
-    <td colspan="2">Registro de usuario</td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2">Validación de contraseñas</td>
-    <td colspan="3">Verificar longitud, complejidad y confirmación de contraseña.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Julio Guillén/td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-02</td>
-    <td colspan="2">Inicio de sesión</td>
-    <td colspan="1">UT-03</td>
-    <td colspan="2">Crear endpoint /api/v1/auth/login</td>
-    <td colspan="3">Implementar autenticación con JWT y validación de usuario/contraseña.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-03</td>
-    <td colspan="2">Gestionar equipos</td>
-    <td colspan="1">UT-04</td>
-    <td colspan="2">Crear CRUD de equipos</td>
-    <td colspan="3">Endpoints para crear, editar, listar y eliminar equipos.</td>
-    <td colspan="1">8</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-03</td>
-    <td colspan="2">Gestionar equipos</td>
-    <td colspan="1">UT-05</td>
-    <td colspan="2">Validaciones de datos</td>
-    <td colspan="3">Validar modelo, número de serie y estado del equipo.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-08</td>
-    <td colspan="2">Solicitar servicios</td>
-    <td colspan="1">UT-06</td>
-    <td colspan="2">Endpoint POST /api/v1/service-requests</td>
-    <td colspan="3">Crear solicitud con datos del equipo, tipo y descripción del problema.</td>
-    <td colspan="1">7</td>
-    <td colspan="2">Julio Guillén</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-09</td>
-    <td colspan="2">Seguimiento del servicio</td>
-    <td colspan="1">UT-07</td>
-    <td colspan="2">Endpoint GET /api/v1/service-status/{id}</td>
-    <td colspan="3">Devolver estado actual: pendiente, asignado, en progreso, completado.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-10</td>
-    <td colspan="2">Reporte de servicio</td>
-    <td colspan="1">UT-08</td>
-    <td colspan="2">Generar reporte PDF</td>
-    <td colspan="3">Crear documento con resultados, repuestos y observaciones.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Julio Guillén/td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-14</td>
-    <td colspan="2">Registrar técnicos</td>
-    <td colspan="1">UT-09</td>
-    <td colspan="2">CRUD de técnicos</td>
-    <td colspan="3">Registro, edición y asignación de roles (técnico).</td>
-    <td colspan="1">7</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-16</td>
-    <td colspan="2">Asignar técnicos a servicios</td>
-    <td colspan="1">UT-10</td>
-    <td colspan="2">Endpoint asignación técnica</td>
-    <td colspan="3">Asignar un técnico a una solicitud y enviar notificación.</td>
-    <td colspan="1">5</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-21</td>
-    <td colspan="2">Notificaciones de eventos</td>
-    <td colspan="1">UT-11</td>
-    <td colspan="2">Integrar sistema de notificaciones</td>
-    <td colspan="3">Enviar alertas ante cambios de estado o problemas del servicio.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-22</td>
-    <td colspan="2">Evaluar servicio</td>
-    <td colspan="1">UT-12</td>
-    <td colspan="2">Endpoint POST /api/v1/reviews</td>
-    <td colspan="3">Registrar calificación y permitir edición dentro del plazo.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">To Do</td>
-</tr>
-</table>
-
-#### 5.2.3.4. Development Evidence for Sprint Review
-
-En esta sección se presentan los commits realizados en el repositorio de backend y frontend durante el sprint 3.
-
-**Commits realizados en el repositorio de frontend durante el sprint 3:**
-
-A continuación se presenta un registro de los cambios realizados en la interfaz de usuario de nuestra aplicación. Cada commit detalla las modificaciones efectuadas en el diseño, la estructura y la interacción de los elementos visuales durante este Sprint.
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create login UI for monitoring platform</td>
-	    <td colspan="2">Implemented login screen with form validation and error messages.</td>
-	    <td colspan="2">02/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): integrate login API with JWT</td>
-	    <td colspan="2">Connected login form with authentication endpoint, added token handling.</td>
-	    <td colspan="2">01/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(users): add UI for registering admin/owners</td>
-	    <td colspan="2">Created registration form with fields for admin user creation.</td>
-	    <td colspan="2">01/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): create technician registration interface</td>
-	    <td colspan="2">Designed form to add new technicians with validation rules.</td>
-	    <td colspan="2">05/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): implement technicians table with actions</td>
-	    <td colspan="2">Added list view with edit / delete options and dynamic state updates.</td>
-	    <td colspan="2">07/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): create refrigeration equipment list UI</td>
-	    <td colspan="2">Added table view showing equipment name, model, status and installation date.</td>
-	    <td colspan="2">03/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): add new equipment registration form</td>
-	    <td colspan="2">Implemented form for adding refrigeration units with basic validation.</td>
-	    <td colspan="2">07/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(api): connect equipment views to backend</td>
-	    <td colspan="2">Integrated equipment screens with API `/api/v1/equipment` for CRUD operations.</td>
-	    <td colspan="2">08/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(ui): correct login redirection</td>
-	    <td colspan="2">Fixed landing-page navigation to correctly route users to login.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">chore: merge develop into feature/frontend-sprint2</td>
-	    <td colspan="2">Merged all completed frontend features from Sprint 2.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-</table>
-
-**Commits realizados en el repositorio de backend durante el sprint 3:**
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create user registration endpoint</td>
-	    <td colspan="2">Added POST /api/v1/auth/register with DTO, validation, hashing and persistence.</td>
-	    <td colspan="2">12/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(validation): add email & password validation rules</td>
-	    <td colspan="2">Implemented strong password validator and unique email constraint.</td>
-	    <td colspan="2">12/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): implement user registration service & mapper</td>
-	    <td colspan="2">Connected controller → service → repository for user registration flow.</td>
-	    <td colspan="2">11/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): add login endpoint with JWT</td>
-	    <td colspan="2">Created POST /api/v1/auth/login issuing JWT tokens and refresh tokens.</td>
-	    <td colspan="2">11/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(security): configure JWT filters & authentication manager</td>
-	    <td colspan="2">Added token validation, secured routes and role-based access (admin/tech/client).</td>
-	    <td colspan="2">11/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): add technician creation endpoint</td>
-	    <td colspan="2">Implemented POST /api/v1/technicians with entity, repository and service.</td>
-	    <td colspan="2">15/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): add CRUD for technicians</td>
-	    <td colspan="2">Added GET/PUT/DELETE routes for technician management.</td>
-	    <td colspan="2">17/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): list refrigeration equipment</td>
-	    <td colspan="2">Added GET /api/v1/equipment returning filtered & paginated units.</td>
-	    <td colspan="2">13/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): create equipment registration endpoint</td>
-	    <td colspan="2">Implemented POST /api/v1/equipment with validation and repository operations.</td>
-	    <td colspan="2">07/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(api): integrate equipment service with domain layer</td>
-	    <td colspan="2">Connected controllers → services → unit repository for CRUD operations.</td>
-	    <td colspan="2">08/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(auth): correct login redirect & unauthorized handler</td>
-	    <td colspan="2">Fixed unauthorized responses returning 401 and improved error messages.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">Merge branch 'develop' into feature/backend-sprint2</td>
-	    <td colspan="2">Merged backend tasks for Sprint 2 including auth, technicians & equipment modules.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-</table>
-
-A continuación se presenta un registro detallado de los commits realizados en el repositorio, enfocados a la parte de backend. Cada entrada incluye el identificador único del commit (ID), descripciones realizados durante la elaboracion de esta.
-
-#### 5.2.3.5. Execution Evidence for Sprint Review
-
-En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrack, implementando funcionalidades complementarias y esenciales en cada una de las secciones de la aplicación. Así mismo, se implementaron mejoras respectivas a la retroalimentación brindada en el sprint anterior. A continuación, se presentan las evidencias:
-
-**Register:**
-
-![RegisterFrontV2](./assets/chapter05/RegisterFrontV2.png)
-
-<br>
-
-**Login:**
-
-![LoginFrontV2](./assets/chapter05/LoginFrontV2.png)
-
-<br>
-
-**Dashboard:**
-
-![DashboardFrontV2](./assets/chapter05/DashboardFrontV2.png)
-
-<br>
-
-**Sites:**
-
-![SitesFrontV2](./assets/chapter05/SitesFrontV2.png)
-![SitesDetailFrontV2](./assets/chapter05/SitesDetailFrontV2.png)
-
-<br>
-
-**Equipments:**
-
-![EquipmentsFrontV2](./assets/chapter05/EquipmentsFrontV2.png)
-![EquipmentsDetailFrontV2](./assets/chapter05/EquipmentsDetailFrontV2.png)
-
-<br>
-
-**Services:**
-
-![ServicesFrontV2](./assets/chapter05/ServicesFrontV2.png)
-![CreateServiceFrontV2](./assets/chapter05/CreateServiceFrontV2.png)
-
-<br>
-
-**Profile:**
-
-![ProfileFrontV2](./assets/chapter05/ProfileFrontV2.png)
-![SettingsFrontV2](./assets/chapter05/SettingsFrontV2.png)
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+### 5.2.6. RESTful API documentation
 
 **Dashboard**
 
@@ -3453,574 +2298,10 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 | POST		   | /api/v1/authentication/sign-in | Iniciar sesión |
 | POST		   | /api/v1/authentication/sign-up | Registrarse    |
 
----
+### 5.2.7. Team Collaboration Insights
 
-**Dashboard**
-
-![ReportEndpointsBackendV1](./assets/chapter05/dashboard_0.jpeg)
-![PostReportBackendV1](./assets/chapter05/dashboard_1.jpeg)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_2.jpeg)
-![GetReportByIdBackendV1](./assets/chapter05/dashboard_3.jpeg)
-![PostReportBackendV1](./assets/chapter05/dashboard_4.jpeg)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_5.jpeg)
-![GetReportByIdBackendV1](./assets/chapter05/dashboard_6.jpeg)
-![PostReportBackendV1](./assets/chapter05/dashboard_7.jpeg)
-
-**Equipment**
-
-![ReportEndpointsBackendV1](./assets/chapter05/equipment_0.png)
-![PostReportBackendV1](./assets/chapter05/equipment_1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/equipment_2.png)
-![GetReportByIdBackendV1](./assets/chapter05/equipment_3.png)
-
-**Site**
-
-![ReportEndpointsBackendV1](./assets/chapter05/site_0.png)
-![PostReportBackendV1](./assets/chapter05/site_1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/site_2.png)
-![GetReportByIdBackendV1](./assets/chapter05/site_3.png)
-
-**User**
-
-![ReportEndpointsBackendV1](./assets/chapter05/users_0.png)
-![PostReportBackendV1](./assets/chapter05/users1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/users2.png)
-
-**Authentication**
-
-![ReportEndpointsBackendV1](./assets/chapter05/authentication_0.png)
-![PostReportBackendV1](./assets/chapter05/authentication_1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/authentication_2.png)
-
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-Para esta entrega, desplegamos una nueva versión del Frontend, primera versión del backend y además desplegamos nuestra base de datos para que pueda ser conectada en nuestro backend.
-
-**Frontend Deployment**
-![FrontEndDeployment](./assets/chapter05/deploy-frontend-tb2.png)
-
-**Backend Deployment**
-![BackEndDeployment](./assets/chapter05/deploy-backend-tb2.png)
-
-**Database Deployment**
-![DatabaseDeployment](./assets/chapter05/deploy-database-tb2.jpg)
-
-**Swagger desde el deploy de nuestro backend**
-![BACKDEPLOY1.png](assets/chapter05/BACKDEPLOY1.png)
-
-![BACKDEPLOY2.png](assets/chapter05/BACKDEPLOY2.png)
-
-![BACKDEPLOY3.png](assets/chapter05/BACKDEPLOY3.png)
-
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-
-Frontend:
-![Insights-TB2FRONT.png](assets/chapter05/Insights-TB2FRONT.png)
-
-Backend:
-![InsightsTB2BACKEND.png](assets/chapter05/InsightsTB2BACKEND.png)
-
-### 5.2.4. Sprint 4
-
-#### 5.2.4.1. Sprint Planning 4
-
-<table>
-<tr>
-    <th colspan="5">Sprint 4</th>
-    <th colspan="9">Sprint 4</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-10-03</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">6:00 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Via Discord</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Kenyi Ramirezy</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandro Galindo, Julio Guillen, Ivan La Madrid, Pedro Nanfuñay, Kenyi Ramírez</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Review Summary</td>
-    <td colspan="8">Se realizó el despliegue del Frontend y Backend, implementando funcionalidades orientadas al primer y segundo segmento objetivo.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Retrospective Summary</td>
-    <td colspan="8">El equipo acordó encargarse de las tareas asignadas y colaborar con las demás áreas del proyecto del Frontend y Backend para alcanzar nuestro objetivo.</td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 4 Goal</td>
-       <td colspan="8">El objetivo de este sprint es completar la integración principal de IceTrack conectando directamente el frontend con el backend. Esto implica enlazar la página con la aplicación de usuario y establecer la comunicación operativa con el sistema de gestión de datos. Con esta conexión final, los usuarios podrán ingresar y navegar sin problemas desde la página de inicio hasta la aplicación central, mientras que el backend proporcionará el soporte necesario para manejar entidades clave como equipos, solicitudes de servicio, técnicos, reportes y alertas. La integración entre la interfaz y el sistema de datos confirmará que ambos lados de la aplicación funcionan juntos, marcando un paso crucial hacia la finalización de la plataforma.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 4 Velocity</td>
-    <td colspan="8">90</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">90</td>
-</tr>
-</table>
-
-#### 5.2.4.2. Aspect Leaders and Collaborators
-
-Durante este cuarto Sprint, el equipo se enfocó en avanzar y refinar tanto la estructura y el diseño del frontend como la mayor parte de los endpoints del backend, con el objetivo de dejar ambas partes listas para su integración. Además, para organizar de forma más eficiente el trabajo colaborativo, se creó la matriz de Liderazgo y Colaboración (LACX), donde se asignan claramente las responsabilidades de cada miembro en los aspectos centrales del Sprint.
-
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Service Request Management<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Assets Managements and Equipment<br>Leader (L) / Collaborator (C)</strong></td>
-	<td><strong>Dashboard and Analytics<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Despliegue de la aplicación web<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-	<td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-	<td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>C</td>
-    <td>L</td>
-    <td>C</td>
-	<td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>L</td>
-	<td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-	<td>C</td>
-  </tr>
-</table>
-
-#### 5.2.4.3. Sprint Backlog 4
-
-En este Sprint nos enfocamos principalmente en la integración completa entre el frontend y el backend de IceTrack. Todas las funcionalidades desarrolladas en sprints anteriores fueron conectadas, probadas y ajustadas para asegurar que la plataforma funcione de manera coherente y estable. Organizamos el trabajo basándonos en las User Stories correspondientes, garantizando un avance ordenado y alineado con los objetivos técnicos y operativos del proyecto.
-
-Enlace: 
-
-![Sprint1-Trello.png](assets/chapter05/Sprint3-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 4.
-  </figcaption>
-
-<table border="1">
-<tr>
-    <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 4</th>
-</tr>
-
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status</td>
-</tr>
-<tr>
-    <td colspan="1">US-01</td>
-    <td colspan="2">Integración de registro de usuario</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Conectar formulario con API final</td>
-    <td colspan="3">Validar envío al endpoint real y manejar errores de backend (mail duplicado, contraseña inválida).</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Julio Guillén</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-02</td>
-    <td colspan="2">Integración de inicio de sesión</td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2">Sincronizar JWT con frontend</td>
-    <td colspan="3">Guardar token seguro, manejar expiración y redirección correcta al dashboard.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-03</td>
-    <td colspan="2">Gestión de equipos</td>
-    <td colspan="1">UT-03</td>
-    <td colspan="2">Integrar listado de equipos con API</td>
-    <td colspan="3">Conectar tabla con Equipment y mostrar estados reales.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-06</td>
-    <td colspan="2">Control de encendido/apagado</td>
-    <td colspan="1">UT-04</td>
-    <td colspan="2">Integrar botón de encendido con API</td>
-    <td colspan="3">Enviar comando con el Id y actualizar estado visual.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Pedro Nanfuñay</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-07</td>
-    <td colspan="2">Control de temperatura</td>
-    <td colspan="1">UT-05</td>
-    <td colspan="2">Integrar slider con endpoint de temperatura</td>
-    <td colspan="3">Actualizar temperatura en tiempo real llamando el tipo de equipo del usuario.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Pedro Nanfuñay</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-08</td>
-    <td colspan="2">Solicitar mantenimiento</td>
-    <td colspan="1">UT-06</td>
-    <td colspan="2">Integrar formulario con API de servicios</td>
-    <td colspan="3">Enviar solicitudes a endpoints y confirmar recepción.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-09</td>
-    <td colspan="2">Seguimiento del servicio</td>
-    <td colspan="1">UT-07</td>
-    <td colspan="2">Conectar tracking con API</td>
-    <td colspan="3">Actualizar estados (pendiente, en camino, en proceso, finalizado) desde backend.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-12</td>
-    <td colspan="2">Historial de servicios</td>
-    <td colspan="1">UT-08</td>
-    <td colspan="2">Leer servicios desde API</td>
-    <td colspan="3">Mostrar tabla real de pagina desde Site.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-21</td>
-    <td colspan="2">Notificaciones</td>
-    <td colspan="1">UT-09</td>
-    <td colspan="2">Integrar sistema de notificaciones</td>
-    <td colspan="3">Conectar con WebSockets o servicio push y mostrar alertas en frontend.</td>
-    <td colspan="1">5</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">Done</td>
-</tr>
-</table>
-
-#### 5.2.4.4. Development Evidence for Sprint Review
-
-En esta sección se presentan los commits realizados en el repositorio de backend y frontend durante el sprint 4.
-
-**Commits realizados en el repositorio de frontend durante el sprint 4:**
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create login UI for monitoring platform</td>
-	    <td colspan="2">Implemented login screen with form validation and error messages.</td>
-	    <td colspan="2">02/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): integrate login API with JWT</td>
-	    <td colspan="2">Connected login form with authentication endpoint, added token handling.</td>
-	    <td colspan="2">01/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(ui): correct login redirection</td>
-	    <td colspan="2">Fixed landing-page navigation to correctly route users to login.</td>
-	    <td colspan="2">04/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">chore: merge develop into feature/frontend-sprint2</td>
-	    <td colspan="2">Merged all completed frontend features from Sprint 2.</td>
-	    <td colspan="2">03/12/2025</td>
-	</tr>
-</table>
-
-**Commits realizados en el repositorio de backend durante el sprint 4:**
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create user registration endpoint</td>
-	    <td colspan="2">Added POST /api/v1/auth/register with DTO, validation, hashing and persistence.</td>
-	    <td colspan="2">02/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): implement user registration service & mapper</td>
-	    <td colspan="2">Connected controller → service → repository for user registration flow.</td>
-	    <td colspan="2">01/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): add login endpoint with JWT</td>
-	    <td colspan="2">Created POST /api/v1/auth/login issuing JWT tokens and refresh tokens.</td>
-	    <td colspan="2">01/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(auth): correct login redirect & unauthorized handler</td>
-	    <td colspan="2">Fixed unauthorized responses returning 401 and improved error messages.</td>
-	    <td colspan="2">03/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">Merge branch 'develop' into feature/backend-sprint4</td>
-	    <td colspan="2">Merged backend tasks for Sprint 2 including auth, technicians & equipment modules.</td>
-	    <td colspan="2">04/12/2025</td>
-	</tr>
-</table>
-
-#### 5.2.4.5. Execution Evidence for Sprint Review
-
-En el Sprint 4 se desplegó la última versión de la Web Application de IceTrack, implementando mejoras complementarias y esenciales para garantizar la eficiencia de cada una de las secciones de la aplicación. A continuación, se presentan las evidencias:
-
-*Owner View:*
-
-**Register:**
-
-![RegisterFrontVF](assets/chapter05/RegisterFrontVF.png)
-
-**Login:**
-
-![LoginFrontVF](assets/chapter05/LoginFrontVF.png)
-
-**Dashboard:**
-
-![DashboardFrontVF](assets/chapter05/DashboardFrontVF.png)
-
-![DashboardAddCardFrontVF](assets/chapter05/DashboardAddCardFrontVF.png)
-
-![DashboardEditCardFrontVF](assets/chapter05/DashboardEditCardFrontVF.png)
-
-**Sites:**
-
-![SitesFrontVF](assets/chapter05/SitesFrontVF.png)
-![SitesDetailFrontVF](assets/chapter05/SiteDetailFrontVF.png)
-
-**Equipments:**
-
-![EquipmentsFrontVF](assets/chapter05/EquipmentsFrontVF.png)
-![EquipmentsDetailFrontVF](assets/chapter05/EquipmentDetailFrontVF.png)
-
-**Services Requests:**
-
-![ServicesFrontVF](assets/chapter05/ServicesFrontVF.png)
-![AddServicesFrontVF](assets/chapter05/AddServiceRequestFrontVF.png)
-
-<br>
-
-*Service Provider View:*
-
-**Dashboard:**
-
-![DashboardProviderFrontVF](assets/chapter05/ProviderDashboardVF.png)
-
-**Provider Services:**
-
-![ServicesHubFrontVF](assets/chapter05/ServicesHubFrontVF.png)
-![ServicesRequestsFrontVF](assets/chapter05/ProviderServicesFrontVF.png)
-
-**Technician Management:**
-
-![TechnicianManagementFrontVF](assets/chapter05/TechnicianManagementFrontVF.png)
-
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
-**DashboardConfigs**
-
-| Verbo HTTP | Endpoint 		 					                                  | Descripción 				         |
-| :--------: | :------------------------------------------------------- | :--------------------------- |
-| GET		     | /api/v1/dashboard-configs/{id}     		                  | Obtener ID			        	   |
-| PUT		     | /api/v1/dashboard-configs/{id}  	  	                    | Actualizar ID 			         |
-| DELETE   	 | /api/v1/dashboard-configs/{id}			                      | Eliminar ID 				         |
-| GET 		   | /api/v1/dashboard-configs/user/{userId}                  | Obtener configuracion por ID |
-| POST 		   | /api/v1/dashboard-configs				                      	| Crea configuracion		       |
-| POST 		   | /api/v1/dashboard-configs/{id}/cards 	                 	| Añade cartas				         |
-| GET 		   | /api/v1/dashboard-configs/available-cards                | Obtener cartas disponible	   |
-| PATCH		   | /api/v1/dashboard-configs/{id}/cards/{cardId}/visibility | Actualizar visibilidad	     |
-
-**Equipment**
-
-| Verbo HTTP | Endpoint 		  	      | Descripción	 			      |
-| :--------: | :--------------------- | :---------------------- |
-| POST		   | /api/v1/equipment	    | Crear equipo 			      |
-| GET		     | /api/v1/equipment 	    | Tener todos los equipos |
-| GET		     | /api/v1/equipment/{id} | Tener equipo por ID     |
-
-**Site**
-
-| Verbo HTTP | Endpoint 	       | Descripción	 		      |
-| :--------: | :---------------- | :--------------------- |
-| POST	  	 | /api/v1/site	  	 | Crear site 			      |
-| GET		     | /api/v1/site 	   | Tener todos los sitios |
-| GET		     | /api/v1/site/{id} | Tener sitio por ID     |
-| DELETE		 | /api/v1/site/{id} | Eliminar sitio por ID  |
-
-**User**
-
-| Verbo HTTP | Endpoint      	           | Descripción	          |
-| :--------: | :------------------------ | :--------------------- |
-| GET		     | /api/v1/report/{id}       | Tener user por ID      |
-| GET		     | /api/v1/users 	           | Tener usuarios         |
-| GET		     | /api/v1/users/role/{role} | Tener usuarios por rol |
-
-**Authentication**
-
-| Verbo HTTP | Endpoint 		  			          | Descripción	   |
-| :--------: | :----------------------------- | :------------- |
-| POST		   | /api/v1/authentication/sign-in | Iniciar sesión |
-| POST		   | /api/v1/authentication/sign-up | Registrarse    |
-
-**Reviews**
-
-| Verbo HTTP | Endpoint 	       | Descripción	 		       |
-| :--------: | :---------------- | :---------------------- |
-| POST		   | /api/v1/reviews	 | Crear reseña 			     |
-| GET		     | /api/v1/reviews 	 | Tener todas los reseñas |
-| GET		     | /api/v1/site/{id} | Tener reseña por ID     |
-
-**ServiceRequests**
-
-| Verbo HTTP | Endpoint 	                                                   | Descripción	 		                 |
-| :--------: | :------------------------------------------------------------ | :-------------------------------- |
-| POST		   | /api/v1/service-requests	  	                                 | Crear request 			               |
-| GET		     | /api/v1/service-requests/{serviceRequestId}		               | Tener todos los requests          |
-| GET		     | /api/v1/service-requests/requester/{requesterId}              | Tener request por requester ID    |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/accept            | aceptar request por requester ID  |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/reject            | Denegar request por requester ID  |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/cancel            | cancelar request por requester ID |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/assign-technician | asignar tecnico a request         |
-
-**Interventions**
-
-| Verbo HTTP | Endpoint 	                            | Descripción	 		            |
-| :--------: | :------------------------------------- | :-------------------------- |
-| POST		   | /api/v1/interventions	  	            | Crear intervencion 			    |
-| GET		     | /api/v1/interventions/{interventionId} | Tener intervenciones por Id |
-
-
-**Technicians**
-
-| Verbo HTTP | Endpoint 		       | Descripción 										              |
-| :--------: | :------------------ | :------------------------------------------- |
-| POST		   | /api/v1/reports     | Crear un nuevo tecnico 						          |
-| GET		     | /api/v1/reports 	   | Obtener un tecnico por el ID de un proveedor |
-| GET 		   | /api/v1/report/{id} | Obtener un tecnico por su ID 					      |
-| PUT		     | /api/v1/report/{id} | Actualizar un tecnico por su ID 						  |
-| DELETE 		 | /api/v1/report/{id} | Eliminar un tecnico por su ID 	              |
-
-
-**Technicians**
-![technicians-swagger](./assets/chapter05/technicians-swagger.png)
-
-**Interventions**
-![interventions-swagger](./assets/chapter05/interventions-swagger.png)
-
-**ServiceRequests**
-![Service-requests-swagger](./assets/chapter05/service-request-swagger.png)
-
-**Authentication**
-![autentication-swagger](./assets/chapter05/autentication-swagger.png)
-
-**Users**
-![users-swagger](./assets/chapter05/users-swagger.png)
-
-**Reviews**
-![review-swagger](./assets/chapter05/review-swagger.png)
-
-**DashboardConfigs**
-![dashboard-configs-swagger](./assets/chapter05/dashboard-configs-swagger.png)
-
-**Equipment**
-![equipment-swagger](./assets/chapter05/equipment-swagger.png)
-
-**Site**
-![site-swagger](./assets/chapter05/site-swagger.png)
-
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
-
-Para esta entrega, desplegamos una nueva versión del Frontend, segunda versión del backend y además desplegamos una nueva base de datos para que pueda ser conectada en nuestro backend.
-
-**Frontend Deployment**
-![FrontEndDeployment](./assets/chapter05/deploy-frontend-tf.png)
-
-**Backend Deployment**
-![BackEndDeployment](./assets/chapter05/deploy-backend-tf.png)
-
-**Database Deployment**
-![DatabaseDeployment](./assets/chapter05/deploy-database-tf.png)
-
-#### 5.2.4.8. Team Collaboration Insights during Sprint
+Landing Page:
+![insights-frontend.png](assets/chapter05/insights-frontend.png)
 
 Frontend:
 ![Insights-TB2FRONT.png](assets/chapter05/Insights-TFFRONT.png)
@@ -4028,35 +2309,7 @@ Frontend:
 Backend:
 ![InsightsTB2BACKEND.png](assets/chapter05/InsightsTFBACKEND.png)
 
-## 5.3. Acuerdo de Servicio - SaaS 
-
-El presente documento establece los términos legales que rigen el uso de la plataforma **IceTrack**, operada por **FrostShield.** Este acuerdo garantiza la transparencia y define las responsabilidades entre el proveedor del software y el cliente final (Dueños de negocios y Proveedores de servicios).
-
-#### 1. Definiciones Clave
-* **Servicio SaaS:** El acceso a la plataforma en la nube IceTrack, incluyendo monitoreo, alertas y gestión de mantenimiento.
-* **Usuario:** Cualquier persona autorizada por el Cliente para utilizar los módulos de la plataforma (Administradores, Técnicos u Operadores).
-* **Datos del Cliente:** Información técnica recolectada de los equipos de refrigeración (temperatura, energía, logs de falla).
-
-#### 2. Alcance de la Licencia
-FrostShield otorga una licencia de uso bajo suscripción, no exclusiva y limitada. El Cliente acepta que el software se proporciona "tal cual" y se compromete a no realizar ingeniería inversa ni intentar vulnerar la seguridad del backend desarrollado para la gestión de la cadena de frío.
-
-#### 3. Niveles de Servicio (SLA)
-FrostShield garantiza un **Uptime del 90%**. El soporte técnico responderá a incidencias críticas en un tiempo no mayor a 4 horas laborales. Los periodos de mantenimiento programado se notificarán con 48 horas de antelación a través del Dashboard principal.
-
-#### 4. Responsabilidades del Usuario
-* **Hardware y Conectividad:** El Cliente es responsable de asegurar que sus controladores locales sean compatibles con los protocolos de comunicación de IceTrack.
-* **Seguridad de Cuenta:** El usuario debe proteger sus credenciales de acceso, siendo responsable de cualquier acción realizada bajo su perfil.
-
-#### 5. Propiedad Intelectual y Datos
-Todos los derechos sobre la arquitectura de software, diseños (Mockups) y algoritmos de monitoreo pertenecen a FrostShield. El Cliente mantiene la propiedad de sus datos históricos, aunque FrostShield podrá utilizar métricas anonimizadas para optimizar los modelos predictivos de la plataforma.
-
-#### 6. Política de Pagos y Suspensión
-El servicio se factura de forma mensual según el plan elegido. El impago de la suscripción tras 15 días del vencimiento facultará a FrostShield a suspender el acceso a los módulos de alertas y reportes históricos hasta la regularización del pago.
-
-#### 7. Protección de Datos y Privacidad
-En cumplimiento con la normativa de protección de datos, FrostShield asegura que la información técnica y personal se almacena bajo estándares de cifrado SSL/TLS, garantizando que no será compartida con terceros sin consentimiento explícito.
-
-## 5.4. Video About-the-Product
+## 5.3. Video About-the-Product
 
 En esta parte, el equipo ofrece una síntesis de los puntos más importantes de IceTrack. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de los sistemas de refrigeración, ya sea en entornos domésticos o comerciales.
 
