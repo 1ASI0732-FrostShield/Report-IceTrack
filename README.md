@@ -223,11 +223,8 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
   - [8.2. Experiment Design](#82-experiment-design)
     - [8.2.1. Hypotheses.](#821-hypotheses)
     - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
-    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics-1)
     - [8.2.3. Measures.](#823-measures)
-    - [8.2.3. Measures](#823-measures-1)
     - [8.2.4. Conditions.](#824-conditions)
-    - [8.2.4. Conditions](#824-conditions-1)
     - [8.2.5. Scale Calculations and Decisions.](#825-scale-calculations-and-decisions)
     - [8.2.6. Methods Selection.](#826-methods-selection)
     - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.](#827-data-analytics-goals-kpis-and-metrics-selection)
@@ -2991,70 +2988,88 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 * Las encuestas de satisfacción automatizadas aumentarán la cantidad de retroalimentación recopilada después de cada intervención.
 
 ### 8.1.3. Experiment-Ready Questions. 
-| Question | Confidence | Risk | Impact | Interest | Total Score |
-|-----------|------------|------|--------|----------|------------|
-| ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? | 8 - Los sistemas de gestión de activos suelen beneficiarse de la visualización geográfica, aunque no se ha validado con los usuarios actuales. | 5 - Requiere integración con servicios de mapas y gestión de ubicaciones geográficas. | 9 - Puede mejorar significativamente la supervisión y gestión de activos distribuidos en múltiples ubicaciones. | 8 - Los dueños podrían encontrar más intuitiva la gestión visual de sus sitios y equipos. | 30 |
-| ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? | 7 - La generación de reportes es una necesidad común en aplicaciones empresariales. | 3 - La implementación técnica es relativamente sencilla y de bajo riesgo. | 8 - Facilita la distribución y presentación de información a terceros. | 7 - Los usuarios pueden estar interesados en compartir información fuera de la plataforma. | 25 |
-| ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? | 8 - Los recordatorios suelen mejorar el cumplimiento de tareas programadas. | 4 - Requiere mecanismos de programación y envío de notificaciones confiables. | 10 - Puede contribuir directamente a mejorar el mantenimiento de los equipos y reducir incidencias. | 9 - Los usuarios suelen valorar las herramientas que les ayudan a evitar olvidos. | 31 |
-| ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? | 7 - Es una funcionalidad ampliamente adoptada en aplicaciones modernas. | 2 - Bajo riesgo técnico debido a que existen patrones de implementación consolidados. | 6 - Mejora la comodidad visual, aunque no afecta directamente los procesos de negocio. | 6 - Interés moderado, especialmente entre usuarios frecuentes. | 21 |
-| ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? | 6 - Las encuestas automatizadas suelen incrementar la recolección de feedback, pero dependen de la participación del usuario. | 3 - Implementación relativamente sencilla dentro del flujo existente. | 7 - Permite obtener información valiosa para evaluar y mejorar la calidad del servicio. | 8 - Los usuarios pueden mostrar interés en expresar su nivel de satisfacción cuando el proceso es breve. | 24 |
-### 8.1.4. Question Backlog. 
 
-| Prioridad (1,2,3,5,8) | Pregunta |
-|------------|-----------|
-| 1 | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
-| 2 | Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
-| 3 | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?  |
-| 5 | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
-| 8 | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+Para recopilar conocimiento en áreas donde actualmente el equipo carece de información y genera confusión. Usamos la tecnica de los Cinco W, para generar estas preguntas:
+
+* **Who (Quién):** ¿Quién es el responsable principal de autorizar y dar seguimiento a los mantenimientos preventivos dentro de los negocios de refrigeración comercial?
+* **What (Qué):** ¿Qué formato, métricas o nivel de detalle consideran indispensable los dueños al momento de descargar o compartir el historial técnico de un equipo con terceros?
+* **Where (Dónde):** ¿Dónde (o en qué tipo de dispositivo y condiciones de iluminación) prefieren los usuarios visualizar la información de sus equipos mientras realizan la supervisión diaria?
+* **When (Cuándo):** ¿Cuándo es el momento exacto y más efectivo para enviar una encuesta de satisfacción al cliente tras una intervención técnica para asegurar una alta tasa de respuesta?
+* **Why (Por qué):** ¿Por qué los dueños de negocios enfrentan olvidos, dificultades o retrasos continuos al programar y ejecutar sus mantenimientos preventivos?
+* **How (Cómo):** ¿Cómo supervisan y localizan actualmente los dueños sus activos cuando estos se encuentran distribuidos en múltiples sitios geográficos?
+
+Partiendo de las dudas y afirmaciones del equipo, buscamos probar la viabilidad e impacto de funcionalidades específicas usando las siguientes preguntas:
+
+* ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?
+* ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?
+* ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?
+* ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?
+* ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?
+
+
+### 8.1.4. Question Backlog.
+
+Esta sección presenta el backlog como una lista priorizada de preguntas para la investigación.
+
+| Prioridad | Pregunta de Investigación | El "Por qué" | C | R | I | I | Total Score |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **1** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento de los equipos de refrigeración. Si los usuarios olvidan realizar mantenimientos programados, aumenta el riesgo de fallas y costos de reparación. Un sistema de alertas automáticas podría ayudar a gestionar mejor estas actividades. | 8 | 4 | 10 | 9 | **31** |
+| **2** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos. Una vista geográfica podría facilitar la supervisión de equipos distribuidos y mejorar la identificación de sitios que requieren atención. | 8 | 5 | 9 | 8 | **30** |
+| **3** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios, mantenimientos e intervenciones. La posibilidad de generar reportes descargables podría facilitar esta tarea y aumentar el valor percibido de la plataforma. | 7 | 3 | 8 | 7 | **25** |
+| **4** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? | La retroalimentación permite evaluar la calidad de los servicios e identificar mejoras. Automatizar la recolección de opiniones puede incrementar la participación de los usuarios y proporcionar información más consistente para la toma de decisiones. | 6 | 3 | 7 | 8 | **24** |
+| **5** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? | La personalización visual permite adaptar la interfaz a preferencias y condiciones de trabajo. Esto puede mejorar la comodidad durante el uso prolongado y aumentar la satisfacción general con la experiencia de usuario. | 7 | 2 | 6 | 6 | **21** |
+
+*(Nota: C = Confianza, R = Riesgo, I = Impacto, I = Interés)*
 
 ### 8.1.5. Experiment Cards. 
+##### Tarjeta de Experimento 1: Alertas Automáticas
 
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
-| **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento de los equipos de refrigeración. Si los usuarios olvidan realizar mantenimientos programados, aumenta el riesgo de fallas y costos de reparación. Un sistema de alertas automáticas podría ayudar a los dueños a gestionar mejor sus actividades de mantenimiento y reducir los descuidos. |
-| **What** | Implementar un sistema de alertas automáticas que notifique a los dueños cuando se acerque la fecha de mantenimiento de sus equipos mediante notificaciones dentro de la plataforma y correo electrónico. |
-| **Hypothesis** | Se espera que, al implementar alertas automáticas, al menos el 70% de los usuarios realice sus mantenimientos preventivos dentro de las fechas programadas y que los retrasos en mantenimientos disminuyan en un 30%. |
-
----
-
-
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? |
-| **Why** | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos. Una vista geográfica podría facilitar la supervisión de equipos distribuidos y mejorar la identificación de sitios que requieren atención. |
-| **What** | Incorporar una vista geográfica interactiva que muestre los sitios registrados mediante marcadores geolocalizados e indicadores visuales relacionados con el estado de los equipos. |
-| **Hypothesis** | Se espera que, al incorporar una vista geográfica, al menos el 65% de los usuarios considere más sencilla la gestión de sus sitios y que el tiempo necesario para localizar información sobre equipos se reduzca en un 25%. |
+| Question | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+|----------|-------------------------------------------------------------------------------------------------------------------------|
+| **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento. Si los usuarios olvidan realizarlos, aumenta el riesgo de fallas. Un sistema de alertas podría ayudar a gestionar mejor estas actividades y reducir descuidos. |
+| **What** | Implementar un sistema de alertas automáticas que notifique a los dueños mediante la plataforma cuando se acerque la fecha de mantenimiento. |
+| **Hypothesis** | Se espera el aumentó en un 6% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada. |
 
 ---
 
+##### Tarjeta de Experimento 2: Vista Geográfica Interactiva
 
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? |
-| **Why** | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios realizados, mantenimientos e intervenciones con otras personas. La posibilidad de generar reportes descargables podría facilitar esta tarea y aumentar el valor percibido de la plataforma. |
-| **What** | Implementar una funcionalidad que permita generar y descargar reportes en formato PDF con información sobre historial de servicios, intervenciones técnicas y estado de los equipos. |
-| **Hypothesis** | Se espera que, al habilitar la exportación de reportes en PDF, al menos el 60% de los usuarios utilice la funcionalidad durante el primer mes y que el valor percibido de la plataforma aumente en un 20%. |
-
----
-
-
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
-| **Why** | La retroalimentación de los usuarios permite evaluar la calidad de los servicios realizados e identificar oportunidades de mejora. Automatizar el proceso de recolección de opiniones puede incrementar la participación de los usuarios y proporcionar información más consistente para la toma de decisiones. |
-| **What** | Incorporar un módulo de encuestas de satisfacción que se active automáticamente al finalizar una intervención, permitiendo registrar calificaciones y comentarios de los dueños. |
-| **Hypothesis** | Se espera que, al automatizar las encuestas, al menos el 50% de los usuarios complete la evaluación después de una intervención y que la cantidad de retroalimentación recopilada aumente en un 40%. |
+| Question | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? |
+|----------|----------------------------------------------------------------------------------------------------------------------|
+| **Why** | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos para mejorar la identificación de sitios que requieren atención. |
+| **What** | Incorporar una vista geográfica interactiva que muestre los sitios registrados mediante marcadores geolocalizados. |
+| **Hypothesis** | Se espera que gracia a la vista geográfica interactiva, se incrementé el puntaje de usabilidad en al menos un 5%. |
 
 ---
 
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
-| **Why** | La personalización visual permite que los usuarios adapten la interfaz a sus preferencias y condiciones de trabajo. Esto puede mejorar la comodidad durante el uso prolongado de la plataforma y aumentar la satisfacción general con la experiencia de usuario. |
-| **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración de la plataforma. |
-| **Hypothesis** | Se espera que, al incorporar opciones de personalización visual, al menos el 60% de los usuarios manifieste una mejora en su experiencia de uso y que la satisfacción general aumente en un 15%. |
+##### Tarjeta de Experimento 3: Exportación de Reportes en PDF
+
+| Question | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? |
+|----------|-----------------------------------------------------------------------------------------------------|
+| **Why** | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios e intervenciones con otras personas. Generar reportes descargables facilita esta tarea. |
+| **What** | Implementar la opción de exportar reportes técnicos en formato PDF con información sobre historial de servicios y estado de equipos. |
+| **Hypothesis** | Se espera que al menos el 20% de los usuarios activos utilizará la funcionalidad de exportación de reportes durante el período de evaluación. |
+
+---
+
+##### Tarjeta de Experimento 4: Encuestas de Satisfacción Automatizadas
+
+| Question | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Why** | La retroalimentación permite evaluar la calidad de los servicios. Automatizar este proceso puede incrementar la participación de los usuarios y proporcionar información más consistente. |
+| **What** | Incorporar un módulo de encuestas de satisfacción que se envíe automáticamente tras finalizar una intervención técnica. |
+| **Hypothesis** | Se espera que la implementación de encuestas automatizadas incrementará en un 10% la participación de los usuarios en procesos de retroalimentación. |
+
+---
+
+##### Tarjeta de Experimento 5: Personalización Visual 
+
+| Question | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+|----------|----------------------------------------------------------------------------------------------------------------------------|
+| **Why** | La personalización visual permite adaptar la interfaz a preferencias y condiciones de trabajo, mejorando la comodidad durante el uso prolongado. |
+| **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración. |
+| **Hypothesis** | Se espera que las opciones de personalización aumentarán en un 8% la satisfacción de los usuarios y mantendrán un puntaje medio de SEO en Lighthouse igual o superior a 80. |
+
 
 ## 8.2. Experiment Design 
 
@@ -3106,9 +3121,7 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios ni una adopción relevante de las opciones de personalización.                 |
 
 
-### 8.2.2. Domain Business Metrics 
-
-## 8.2.2. Domain Business Metrics
+### 8.2.2. Domain Business Metrics
 
 Con el objetivo de asegurar que los experimentos realizados en IceTrack generen evidencia objetiva y alineada con los objetivos del negocio, se definieron las siguientes métricas de dominio. Estas métricas serán utilizadas para evaluar el impacto de cada experimento y servirán como base para la toma de decisiones durante el proceso de validación.
 
@@ -3124,9 +3137,8 @@ Con el objetivo de asegurar que los experimentos realizados en IceTrack generen 
 Las métricas descritas constituyen la referencia oficial para la evaluación de los experimentos planteados en IceTrack. Todas las hipótesis, medidas y condiciones definidas posteriormente deberán estar asociadas a una o más de estas métricas para garantizar consistencia y trazabilidad en el proceso de experimentación.
 
 
-### 8.2.3. Measures. 
 
-## 8.2.3. Measures
+### 8.2.3. Measures. 
 
 + Measure 1
 
@@ -3173,8 +3185,6 @@ Las métricas descritas constituyen la referencia oficial para la evaluación de
 
 
 ### 8.2.4. Conditions. 
-
-## 8.2.4. Conditions
 
 + Condition 1
 
@@ -3239,9 +3249,6 @@ Para evaluar las hipótesis planteadas en IceTrack, se utilizará una escala de 
 | Creemos que la incorporación de opciones de personalización visual aumentará la satisfacción general de los usuarios y será adoptada por parte de ellos. Sabremos que esto es cierto cuando el nivel de satisfacción de los usuarios CSAT aumente en un 8% y la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. | Implementar opciones visuales como modo oscuro y temas de color dentro de la configuración de la plataforma. |  |  | X |  |
 
 A partir de esta escala, las funcionalidades que alcancen los niveles **Ideal** o **Excelente** serán consideradas satisfactorias para el avance del proyecto. Las que se ubiquen en el nivel **Aceptable** deberán ser ajustadas antes de una nueva evaluación. Finalmente, los resultados **Desfavorables** indicarán la necesidad de replantear la funcionalidad, mejorar su diseño o revisar su implementación técnica.
-
-
-
 
 
 ### 8.2.6. Methods Selection.
