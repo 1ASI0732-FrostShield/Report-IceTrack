@@ -3341,6 +3341,28 @@ El seguimiento continuo se enfocará en:
 | US-TB-08 | Persistencia de idioma seleccionado en la interfaz | **Como** usuario, **quiero** que el idioma (ES/EN) elegido se mantenga al recargar o volver a iniciar sesión, **para** no tener que cambiarlo cada vez. | Escenario 1: **Dado que** selecciono EN, **Cuando** cierro y vuelvo a abrir la app, **Entonces** la interfaz sigue en inglés. <br><br> Escenario 2: **Dado que** cambio de dispositivo, **Cuando** inicio sesión, **Entonces** se aplica el último idioma guardado en mi perfil. | EP-01 |
 
 ### 8.3.2. To-Be Product Backlog.
+
+| Orden | User Story ID | Título | Story Points (1/2/3/5/8) | 
+|--|--|--|--|
+| 1 | US-TB-05 | Notificación de nueva solicitud al proveedor | 8 |
+| 2 | US-TB-03 | Dashboard con gráfico de servicios por estado | 8 |
+| 3 | US-TB-01 | Selección rápida de equipo en nueva solicitud | 5 |
+| 4 | US-TB-02 | Sugerencia automática de tipo de solicitud | 5 |
+| 5 | US-TB-08 | Persistencia de idioma seleccionado en la interfaz | 5 |
+| 6 | US-TB-07 | Edición y eliminación de técnicos | 3 |
+| 7 | US-TB-04 | Validación en tiempo real del serial del equipo | 3 |
+| 8 | US-TB-06 | Validación de teléfono de técnico | 2 |
+
+**Interpretación de los Story Points**
+
+**8 puntos:** historias de alta complejidad técnica con impacto transversal entre frontend y backend, que requieren integración en tiempo real o lógica de agregación de datos. Ejemplos: Notificación de nueva solicitud (requiere sistema de eventos/push y manejo de estados), Dashboard con gráfico de servicios (requiere agregación de datos desde múltiples entidades, cálculo de proporciones y manejo de estado vacío).
+
+**5 puntos:** funcionalidades de complejidad media-alta que implican lógica de negocio condicional y mejoras de experiencia de usuario, concentradas principalmente en frontend con dependencia de datos del backend. Ejemplos: Selección de equipo filtrada por sitio, sugerencia automática de tipo de solicitud (requiere lógica de detección de patrones/historial), persistencia de idioma (requiere guardado en perfil de usuario y sincronización entre sesiones).
+
+**3 puntos:** tareas de complejidad media-baja, generalmente acotadas a un único módulo o componente, con dependencia mínima de otras funciones. Ejemplos: edición/eliminación de técnicos (CRUD con validación de reglas de negocio), validación en tiempo real del serial (lógica de validación de formato y unicidad).
+
+**2 puntos:** tareas de bajo riesgo y baja complejidad, principalmente validaciones de formulario en frontend sin lógica de negocio compleja. Ejemplo: validación de teléfono de técnico (regla simple de formato numérico de 9 dígitos).
+
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle 
 #### 8.3.3.1. To-Be Sprint Backlogs 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence 
