@@ -9,7 +9,7 @@
   <h2>NRC: 12316</h2>
   <h2>Profesor: Julio Manuel Noriega Melendez</h2>
 <br>
- <h1>Informe del Trabajo Parcial</h1>
+ <h1>Informe del Avance 2</h1>
   <h2>Startup: Frostshield </h2>
   <h2>Producto: IceTrack </h2>
 <br>
@@ -93,20 +93,20 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 
 ## Contenido
 
-- [Capítulo I: Introducción](#c1)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problematica)
+- [Capitulo 1: Introducción](#capitulo-1-introducción)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y Problematica](#121-antecedentes-y-problematica)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumption)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivos)
+      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumption](#1222-lean-ux-assumption)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivos](#13-segmentos-objetivos)
 
-- [Capítulo II: Requirements Elicitation & Analysis](#c2)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -116,18 +116,18 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
 
-- [Capítulo III: Requirements Specification](#c3)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
+  - [3.2. User Stories.](#32-user-stories)
+  - [3.3. Impact Mapping.](#33-impact-mapping)
+  - [3.4. Product Backlog.](#34-product-backlog)
 
-- [Capítulo IV: Product Design](#c4)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -145,7 +145,6 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
     - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
@@ -153,95 +152,102 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
     - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
+    - [4.8.1. Relational/Non-Relational Database Diagram](#481-relational-non-relational-database-diagram)
 
-- [Capítulo V: Product Implementation, Validation & Deployment](#c5)
-	- [5.1. Software Configuration Management](#51-software-configuration-management)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    - [5.2.4. Sprint 4](#524-sprint-4)
-      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-  - [5.3. Acuerdo de Servicio - SaaS](#53-acuerdo-de-servicio---saas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product-)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Acuerdo de Servicio SaaS](#524-acuerdo-de-servicio-saas)
+    - [5.2.5. Implemented RESTful API and Serverless Backend Evidence](#525-implemented-restful-api-and-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.3. Video About-the-Product](#53-video-about-the-product)
 
-- [Capítulo VI: Product Verification & Validation](#c6)
-  - [6.1 Testing Suites & Validation](#61-testing-suites--validation)
+- [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+  - [6.1 Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1 Core Entities Unit Tests](#611-core-entities-unit-tests)
-	  - [6.1.2 Core Integration Tests](#612-core-integration-tests)
-	  - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
-	  - [6.1.4 Core System Tests](#614-core-system-tests)
-  - [6.2 Static testing & Verification](#62-static-testing--verification)
-	  - [6.2.1 Static Code Analysis](#621-static-code-analysis)
-	    - [6.2.1.1 Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)
-	    - [6.2.1.2 Code Quality & Code Security](#6212-code-quality--code-security)
-	  - [6.2.2 Reviews](#622-reviews)
+    - [6.1.2 Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4 Core System Tests](#614-core-system-tests)
+  - [6.2 Static testing \& Verification](#62-static-testing--verification)
+    - [6.2.1 Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1 Coding Standard \& Code Conventions](#6211-coding-standard--code-conventions)
+      - [6.2.1.2 Code Quality \& Code Security](#6212-code-quality--code-security)
+    - [6.2.2 Reviews](#622-reviews)
   - [6.3 Validation Interviews](#63-validation-interviews)
-	  - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
-	  - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
-	  - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-      
-- [Capítulo VII: DevOps Practices](#c7)
-	- [7.1 Continuous Integration](#71-continuous-integration)
-	  - [7.1.1 Tools and Practices](#711-tools-and-practices)
-	  - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1 Continuous Integration](#71-continuous-integration)
+    - [7.1.1 Tools and Practices](#711-tools-and-practices)
+    - [7.1.2 Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2 Continuous Delivery](#72-continuous-delivery)
-	  - [7.2.1 Tools and Practices](#721-tools-and-practices)
-	  - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+    - [7.2.1 Tools and Practices](#721-tools-and-practices)
+    - [7.2.2 Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
   - [7.3 Continuous deployment](#73-continuous-deployment)
-	  - [7.3.1 Tools and Practices](#731-tools-and-practices)
-	  - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+    - [7.3.1 Tools and Practices](#731-tools-and-practices)
+    - [7.3.2 Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
   - [7.4 Continuous Monitoring](#74-continuous-monitoring)
-	  - [7.4.1 Tools and Practices](#741-tools-and-practices)
-	  - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-	  - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
-	  - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
+    - [7.4.1 Tools and Practices](#741-tools-and-practices)
+    - [7.4.2 Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+    - [7.4.3 Alerting Pipeline Components](#743-alerting-pipeline-components)
+    - [7.4.4 Notification Pipeline Components](#744-notification-pipeline-components)
+
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary.](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+    - [8.1.3. Experiment-Ready Questions.](#813-experiment-ready-questions)
+    - [8.1.4. Question Backlog.](#814-question-backlog)
+    - [8.1.5. Experiment Cards.](#815-experiment-cards)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses.](#821-hypotheses)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics-1)
+    - [8.2.3. Measures.](#823-measures)
+    - [8.2.3. Measures](#823-measures-1)
+    - [8.2.4. Conditions.](#824-conditions)
+    - [8.2.4. Conditions](#824-conditions-1)
+    - [8.2.5. Scale Calculations and Decisions.](#825-scale-calculations-and-decisions)
+    - [8.2.6. Methods Selection.](#826-methods-selection)
+    - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.](#827-data-analytics-goals-kpis-and-metrics-selection)
+    - [8.2.8. Web and Mobile Tracking Plan.](#828-web-and-mobile-tracking-plan)
+  - [8.3. Experimentation](#83-experimentation)
+    - [8.3.1. To-Be User Stories.](#831-to-be-user-stories)
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+      - [8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8334-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+      - [8.3.3.5. Team Collaboration Insights](#8335-team-collaboration-insights)
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+  - [8.4. Experiment Aftermath \& Analysis](#84-experiment-aftermath--analysis)
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+  - [8.5. Continuous Learning](#85-continuous-learning)
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+    - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+
 - [Conclusiones](#conclusiones)
-	- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-	- [Video App Validation](#video-app-validation)
-	- [Video About the Team](#video-about-the-team)
-- [Conclusiones](#conclusiones-1)
-  	- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
+  - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-  	- [Recursos y enlaces del proyecto](#recursos-y-enlaces-del-proyecto)
+  - [Recursos y enlaces del proyecto](#recursos-y-enlaces-del-proyecto)
 
 ## Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -1651,58 +1657,92 @@ URL: https://www.figma.com/proto/ssl7G9KRip9XbC0tBXqUnc/Untitled?node-id=1-2&p=f
 <img width="1297" height="591" alt="4 6 2  Software Architecture Context Diagram" src="assets/chapter05/context-diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Context Diagram.
-  </figcaption>
+</figcaption>
 
 ### 4.6.3. Software Architecture Container Diagrams
 <img width="1170" height="579" alt="4 6 3  Software Architecture Container Diagrams" src="assets/chapter05/containers-diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Container Diagrams.
-  </figcaption>
+</figcaption>
 
 ### 4.6.4. Software Architecture Components Diagrams
 <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/apirest-diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> API REST Component Diagrams.
-  </figcaption>
+</figcaption>
 
   <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/assetsmanagement-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 2:</strong> Assets Management BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
   <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/dashboard-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 3:</strong> Dashboard BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
    <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/monitoring-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 4:</strong> Monitoring BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
   <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/reporting-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 5:</strong> Reporting BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
    <img width="1614" height="1354" alt="4 6 4  Software Architecture Components Diagrams" src="assets/chapter05/services-component.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 6:</strong> Services BC Component Diagrams.
-  </figcaption>
+</figcaption>
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 <img width="2669" height="1621" alt="Diagrama de Clases" src="https://github.com/user-attachments/assets/96c0cbb8-7cf3-4527-98c7-6384ad68307e" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Class Diagram.
-  </figcaption>
+</figcaption>
+
+### 4.7.2. Class Dictionary
+
+El modelo de base de datos propuesto tiene como finalidad gestionar y monitorear equipos industriales mediante un sistema de mantenimiento predictivo y administración de activos. La estructura permite almacenar información relacionada con organizaciones, usuarios, sitios y equipos. Todas estas entidades se encuentran relacionadas entre sí para garantizar un control eficiente de los activos y facilitar la detección temprana de incidencias dentro de la plataforma.
+
+### User
+
+La entidad **User** almacena la información de los usuarios que acceden al sistema. Entre los datos registrados se encuentran el correo electrónico, nombre completo, contraseña cifrada, estado de la cuenta y fecha de creación. El atributo **id** funciona como llave primaria (PK), permitiendo identificar de manera única a cada usuario dentro de la plataforma.
+
+### Organization
+
+La entidad **Organization** representa las empresas o entidades que utilizan el sistema para gestionar sus activos y operaciones de mantenimiento. Dentro de sus atributos se encuentran el nombre de la organización y la fecha de creación. El campo **id** corresponde a la llave primaria (PK).
+
+### Site
+
+La entidad **Site** almacena la información de las ubicaciones físicas pertenecientes a una organización. Cada sitio cuenta con datos como nombre, dirección y fecha de creación. El atributo **id** representa la llave primaria (PK), mientras que **org_id** funciona como llave foránea (FK) que vincula el sitio con la organización propietaria.
+
+### Equipment
+
+La tabla **Equipment** registra los equipos o activos monitoreados dentro de cada sitio. Entre sus atributos se incluyen nombre, estado operativo, temperatura mínima permitida, temperatura máxima permitida y fecha de creación. La llave primaria es **id**, mientras que **org_id** y **site_id** permiten relacionar el equipo con una organización y un sitio específico.
+
+### WorkOrder
+
+La entidad **WorkOrder** representa las órdenes de trabajo generadas para atender incidencias detectadas en los equipos. Dentro de sus atributos se incluyen estado de la orden, prioridad, título, descripción, fecha de programación, fecha de inicio, fecha de finalización y fecha de creación. El atributo **id** funciona como llave primaria (PK), mientras que **org_id**, **site_id**, **equipment_id**, **created_by** y **assigned_to** permiten relacionar la orden con la organización, ubicación, equipo y usuarios involucrados.
+
+## Relaciones del Modelo
+
+. **Organización**: Una organización puede poseer múltiples sitios, mientras que cada sitio pertenece únicamente a una organización.
+
+. **Sitio**: Un sitio puede albergar múltiples equipos, mientras que cada equipo se encuentra asociado a un único sitio.
+
+. **Equipo**: Un equipo puede tener varios sensores instalados para monitorear diferentes variables operativas. Cada sensor pertenece únicamente a un equipo.
+
+. **Usuario**: Los usuarios pueden crear y ser asignados a órdenes de trabajo. Esto facilita la gestión de responsabilidades y el seguimiento de las actividades de mantenimiento.
 
 ## 4.8. Database Design
-### 4.8.1. Database Diagrams
+### 4.8.1. Relational Non-Relational Database Diagram
 <img width="1800" height="850" alt="base de datos diseño" src="assets/chapter04/Database diagram.png" />
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Database Diagram.
-  </figcaption>
+</figcaption>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -1929,572 +1969,8 @@ URL de la Landing Page desplegada en Github Pages:
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1
+### 5.2.1. Sprint Backlogs
 
-#### 5.2.1.1. Sprint Planning 1
-
-<table border="1">
-<tr>
-    <th colspan="5">Sprint 1</th>
-    <th colspan="9">Sprint 1</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-10-6</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">1:00 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Presencial (Universidad Peruana de Ciencias Aplicadas sede San Miguel)</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Kenyi Ramirez</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandro Galindo, Julio Guillen, Ivan La Madrid, Pedro Nanfuñay</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Review Summary</td>
-    <td colspan="8"></td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Retrospective Summary</td>
-    <td colspan="8">Durante este sprint, todos los integrantes compartieron sus ideas respecto a la plataforma web, tales como el rubro, los segmentos objetivos, beneficios, funcionalidades. Tuvimos tareas bien organizadas y realizadas, que se puede verificar en los avances del informe y del Landing Page</td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Goal</td>
-       <td colspan="8">Nuestro enfoque está en implementar la landing page de nuestra plataforma, asegurando su adaptabilidad a diferentes dispositivos, coherencia visual y funcionalidad multilingüe. Creemos que esto ofrece una experiencia de navegación más clara, atractiva y accesible a los usuarios potenciales de nuestra solución. Esto se confirmará cuando los usuarios puedan cambiar el idioma fácilmente desde la interfaz, navegar la página sin errores visuales desde cualquier dispositivo, y se valide que imágenes y textos estén correctamente integrados y espaciados. </td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Velocity</td>
-    <td colspan="8">15</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">10</td>
-</tr>
-</table>
-
-#### 5.2.1.2. Aspect Leaders and Collaborators
-
-##### 5.2.1.2. Aspect Leaders and Collaborators
-
-Durante este primer Sprint, el equipo se enfocó principalmente en el desarrollo, la mejora estructural y visual de la Landing Page, asegurando su visualización en distintos dispositivos (diseño responsive), la integración armoniosa de imágenes y textos, y la implementación de un cambio de idioma dinámico mediante un botón.
-Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint.
-
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Diseño visual y maquetación web (Landing Page)<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Responsividad y pruebas en distintos dispositivos<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Implementación técnica del cambio de idioma (Multilenguaje funcional)<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>C</td>
-    <td>L</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-</table>
-
-#### 5.2.1.3. Sprint Backlog 1
-
-El objetivo principal de este Sprint es elaborar la Landing Page de nuestra plataforma. Para ello, dividimos el desarrollo de esta según las User Stories pertenecientes a la Epic enfocada en Landing Page. La plataforma elegida para ser la herramienta de control de tareas fue Trello, el cuál se presenta una captura de pantalla de nuestro tablero y su enlace público.
-
-Enlace: https://trello.com/b/sUPp1a6b/sprints
-
-![Sprint1-Trello.png](assets/chapter05/Sprint1-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 1.
-  </figcaption>
-
----
-<table border="1">
-<tr>
-    <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 1</th>
-</tr>
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status (To do/ In-Process/ To-Review/ Done)</td>
-</tr>
-<tr>
-    <td colspan="1">US-23</td>
-    <td colspan="2">Visualizar propuesta de valor principal</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección 'Hero'</td>
-    <td colspan="3">Añadir la sección donde se muestra nuestra propuesta de valor principal</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-24</td>
-    <td colspan="2">Explorar soluciones específicas para mi rubro</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección 'Beneficios'</td>
-    <td colspan="3">Añadir la sección donde se visualizan las soluciones específicas al segmento Dueño de negocio </td>
-    <td colspan="1">1</td>
-    <td colspan="2">Ivan La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-24</td>
-    <td colspan="2">Explorar soluciones específicas para mi rubro</td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2">Crear la sección 'Beneficios'</td>
-    <td colspan="3">Añadir la sección donde se visualizan las soluciones específicas al segmento Proveedor de Servicios </td>
-    <td colspan="1">1</td>
-    <td colspan="2">Ivan La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-28</td>
-    <td colspan="2">Acceder a la plataforma web (Call to Action)</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear el elemento Call to Action</td>
-    <td colspan="3">Añadir el elemento que redirecciona a la página de la aplicación web</td>
-    <td colspan="1">0.5</td>
-    <td colspan="2">Kenyi Ramírez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-27</td>
-    <td colspan="2">Contactar con el equipo de ventas</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección "Contacto"</td>
-    <td colspan="3">Agregar un formulario para contactar con los responsables de la plataforma</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Julio Guillen</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-26</td>
-    <td colspan="2">Conocer misión y visión</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear la sección 'Nosotros'</td>
-    <td colspan="3">Añadir la sección donde se visualiza la misión y visión de nuestra startup</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-00</td>
-    <td colspan="2">-</td>
-    <td colspan="1">UT-01/td>
-    <td colspan="2">Implementar cambio de idioma</td>
-    <td colspan="3">Implementar la funcionalidad de cambio de idioma en la landing page</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-00</td>
-    <td colspan="2">-</td>
-    <td colspan="1">UT-02/td>
-    <td colspan="2">Añadir la sección de testimonios</td>
-    <td colspan="3">Crear la sección "Testimonios" y asignar los comentarios más favorables respecto a nuestra plataforma</td>
-    <td colspan="1">1</td>
-    <td colspan="2">Pedro Nanfuñay</td>
-    <td colspan="1">Done</td>
-</tr>
-
-</table>
-
-##### 5.2.1.4. Development Evidence for Sprint Review
-
-En este primer Sprint hemos realizado la implementación de nuestra Landing Page, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados.
-
-<table>
-    <tr>
-        <th colspan="2">Repository</th>
-        <th colspan="2">Branch</th>
-        <th colspan="2">Commit Id</th>
-        <th colspan="2">Commit Message</th>
-        <th colspan="2">Commit Message Body</th>
-        <th colspan="2">Committed on (Date)</th>
-    </tr>
-        <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge pull request #2 from 1ASI0730-2520-7452-G1-FrostShield/develop</td>
-        <td colspan="2">Merge pull request #2 from 1ASI0730-2520-7452-G1-FrostShield/develop</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-        <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add images</td>
-        <td colspan="2">add images</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-        <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add testimonials section</td>
-        <td colspan="2">add testimonials section</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Update script.js</td>
-        <td colspan="2">Update script.js</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Update style.css</td>
-        <td colspan="2">Update style.css</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Update index.html</td>
-        <td colspan="2">Update index.html</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: update script to about us section</td>
-        <td colspan="2">update script to about us section</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge pull request #1 from 1ASI0730-2520-7452-G1-FrostShield/feature/benefits</td>
-        <td colspan="2">Merge pull request #1 from 1ASI0730-2520-7452-G1-FrostShield/feature/benefits</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge branch 'develop' into feature/benefits</td>
-        <td colspan="2">Merge branch 'develop' into feature/benefits</td>
-        <td colspan="2">21/09/2025</td>
-    </tr>
-   <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">update index.html</td>
-        <td colspan="2">update index.html</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(landing-page): add styles for benefits section</td>
-        <td colspan="2">add styles for benefits section</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(landing-page): add benefits section</td>
-        <td colspan="2">add benefits section</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Add about us section in style.css</td>
-        <td colspan="2">Add about us section in style.css</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Add about us section in HTML</td>
-        <td colspan="2">Add about us section in HTML</td>
-        <td colspan="2">20/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">style: add color palette and responsive layout for landing page</td>
-        <td colspan="2">add color palette and responsive layout for landing page</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add language switching functionality and translations for ES/EN</td>
-        <td colspan="2">add language switching functionality and translations for ES/EN</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: add JavaScript for mobile menu toggle, smooth scroll, and CTA button functionality</td>
-        <td colspan="2">add JavaScript for mobile menu toggle, smooth scroll, and CTA button functionality</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: added Header, Hero and Footer Section Structure</td>
-        <td colspan="2">added Header, Hero and Footer Section Structure</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Landing-Page</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat: initialize basic landing page structure with HTML</td>
-        <td colspan="2">initialize basic landing page structure with HTML</td>
-        <td colspan="2">19/09/2025</td>
-    </tr>
-</table>
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-**Inicio**
-Muestra el logo de la marca, una navegación clara y un botón de "Registrarse" en un color llamativo para guiar al usuario.
-Presenta la propuesta de valor principal con una imagen atractiva y un texto impactante, capturando la atención del visitante de inmediato
-
-![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
----
-
-**Beneficios**
-Detalla las principales ventajas que los usuarios obtienen al usar el producto, mostrando cómo resuelve sus problemas de manera efectiva.
-
-![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
----
-
-**Sobre Nosotros**
-Explica la misión y visión de la empresa, compartiendo los valores y la historia para generar confianza.
-
-![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
----
-
-**Testimonios**
-Muestra opiniones de clientes satisfechos, actuando como prueba social para validar la calidad del producto o servicio.
-
-![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
----
-
-**Contacto**
-Ofrece un medio para que los usuarios se comuniquen, ya sea para pedir más información o para agendar una demostración.
-
-![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-A continuación, se presenta las  secciones principales de la Landing Page desplegada en GitHub Pages:
-
-**Inicio**
-
-![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
----
-**Beneficios**
-
-![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
----
-
-**Sobre Nosotros**
-
-![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
----
-**Testimonios**
-
-![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
----
-**Contacto**
-
-![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
----
-
-URL del Landing Page desplegado: https://1asi0730-2520-7452-g1-frostshield.github.io/IceTrack---Landing-Page/
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-![Insights-LP.png](assets/chapter05/Insights-LP.png)
----
-
-![Contributors.png](assets/chapter05/Contributors.png)
-
-### 5.2.2. Sprint 2
-
-#### 5.2.2.1. Sprint Planning 2
-
-<table>
-<tr>
-    <th colspan="5">Sprint 2</th>
-    <th colspan="9">Sprint 2</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-09-27</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">15:00 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Via Discord</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Kenyi Ramirez</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandro Galindo, Julio Guillen, Ivan Lozano, Pedro Nanfuñay, Pedro Jesús</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8">En este sprint, nos enfocamos en desarrollar el front-end y en realizar la implementación inicial de la plataforma IceTrack. Completamos las funciones principales de la página, ofreciendo a los usuarios una primera experiencia de navegación y exploración del servicio de refrigeración. El equipo cumplió con los objetivos de entrega dentro del plazo previsto, estableciendo además los cimientos de la interfaz gráfica para futuras iteraciones.
-</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8">Durante el sprint, a pesar de estar enfocado en el desarrollo técnico, permitió identificar oportunidades para mejorar nuestra dinámica de trabajo en equipo. En la retrospectiva, se destacó la necesidad de ajustar la duración de las reuniones diarias, redistribuir las tareas de acuerdo con las especialidades del equipo e incorporar una planificación individual con hitos verificables. Estas medidas tienen como objetivo incrementar la eficiencia en las próximas iteraciones.
- </td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Goal</td>
-       <td colspan="8">Nuestro enfoque de desarrollo se centra en la creación e implementación de la interfaz front-end de IceTrack, con el objetivo de proporcionar una experiencia de navegación fluida e intuitiva, mostrar las principales funcionalidades de la plataforma y disponer de una página de inicio funcional que comunique de manera efectiva el valor diferencial del servicio.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Velocity</td>
-    <td colspan="8">35</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">30</td>
-</tr>
-</table>
-
-#### 5.2.2.2. Aspect Leaders and Collaborators
-
-Durante este segundo sprint, el equipo se enfocó principalmente en el desarrollo, mejora estructural y visual de las aplicaciones del Frontend, asegurando su correcto funcionamiento en distintos dispositivos (diseño responsive), la integración coherente de componentes visuales e interactivos, así como la implementación de funcionalidades dinámicas que mejoran la experiencia del usuario.
-
-Con el objetivo de optimizar la organización y la colaboración del equipo, se elaboró la matriz de Liderazgo y Colaboración (LACX), la cual asigna responsabilidades y roles específicos a cada miembro del equipo en relación con los aspectos clave abordados durante el Sprint.
-
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Implementacion de la gestión de equipos de refrigeracion (Frontend Applications)<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Responsividad y pruebas en distintos dispositivos<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Despliegue de la aplicación web<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>C</td>
-    <td>L</td>
-    <td>L</td>
-  </tr>
-</table>
-
-#### 5.2.2.3. Sprint Backlog 2
 El objetivo principal de este Sprint es elaborar el Frontend de nuestra plataforma. Para ello, dividimos el desarrollo de esta según las User Stories pertenecientes a la Epic enfocada en la aplicacion web. La plataforma elegida para ser la herramienta de control de tareas fue Trello, el cuál se presenta una captura de pantalla de nuestro tablero y su enlace público.
 
 Enlace: https://trello.com/b/mLKlTDIY/frontend
@@ -2646,120 +2122,45 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
 </tr>
 </table>
 
-#### 5.2.2.4. Development Evidence for Sprint Review
+### 5.2.2. Implemented Landing Page Evidence
 
-En este segundo Sprint hemos realizado la implementación de nuestra Frontend, donde todo el equipo ha aportado en varias tareas. En la siguiente tabla se muestran los commits realizados.
+**Inicio**
+Muestra el logo de la marca, una navegación clara y un botón de "Registrarse" en un color llamativo para guiar al usuario.
+Presenta la propuesta de valor principal con una imagen atractiva y un texto impactante, capturando la atención del visitante de inmediato
 
-<table>
-    <tr>
-        <th colspan="2">Repository</th>
-        <th colspan="2">Branch</th>
-        <th colspan="2">Commit Id</th>
-        <th colspan="2">Commit Message</th>
-        <th colspan="2">Commit Message Body</th>
-        <th colspan="2">Committed on (Date)</th>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(auth): add user registration form</td>
-        <td colspan="2">Implemented registration form with fields: name and confirmation.</td>
-        <td colspan="2">02/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(validation): add email and password validation</td>
-        <td colspan="2">Added real-time validation for password strength.</td>
-        <td colspan="2">02/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(api): integrate user registration API</td>
-        <td colspan="2">Linked registration form to frontend endpoint.</td>
-        <td colspan="2">01/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(ui): design login screen</td>
-        <td colspan="2">Created login view with inputs for name and password link.</td>
-        <td colspan="2">01/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(auth): integrate login API with JWT</td>
-        <td colspan="2">Implemented user authentication, managing tokens and session storage.</td>
-        <td colspan="2">01/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(technicians): add technician registration view</td>
-        <td colspan="2">Developed form for registering new technicians.</td>
-        <td colspan="2">05/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(technicians): add technicians table with edit/delete options</td>
-        <td colspan="2">Implemented dynamic table for managing technicians.</td>
-        <td colspan="2">07/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(equipment): list registered refrigeration units</td>
-        <td colspan="2">Created view displaying equipment data: name, model, state and installation date.</td>
-        <td colspan="2">03/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(equipment): add form for new equipment registration</td>
-        <td colspan="2">Implemented new equipment registration form for refrigeration systems.</td>
-        <td colspan="2">07/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">feat(api): integrate equipment API</td>
-        <td colspan="2">Connected frontend views with `/api/v1/` for operations.</td>
-        <td colspan="2">08/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">fix(ui): fix login redirection from landing page</td>
-        <td colspan="2">Linked “Iniciar sesión” button correctly to the web portal login page.</td>
-        <td colspan="2">09/10/2025</td>
-    </tr>
-    <tr>
-        <td colspan="2">1ASI0730-2520-7452-G1-FrostShield/IceTrack---Frontend</td>
-        <td colspan="2">develop</td>
-        <td colspan="2">N/A</td>
-        <td colspan="2">Merge branch 'develop' into feature/frontend-sprint2</td>
-        <td colspan="2">Final merge after completing Sprint 2 frontend tasks.</td>
-        <td colspan="2">09/10/2025</td>
-    </tr>
-</table>
+![LPEvidenceInicio.png](assets/chapter05/LPEvidenceInicio.png)
+---
 
-#### 5.2.2.5. Execution Evidence for Sprint Review
+**Beneficios**
+Detalla las principales ventajas que los usuarios obtienen al usar el producto, mostrando cómo resuelve sus problemas de manera efectiva.
 
-En el Sprint 2 se desplegó la primera versión de la Web Application de IceTrack, implementando funcionalidades esenciales como el dashboard del usuario, lugares, equipos que posee el usuario, las solicitudes de servicio de mantenimiento, las alertas y los reportes generados. Estas funcionalidades permiten a los usuarios hacer uso de herramientas que permitan mejorar la gestión de equipos de refrigeración para su posterior mantenimiento y seguimiento. A continuación, se presentan las evidencias:
+![LPEvidenceBeneficios.png](assets/chapter05/LPEvidenceBeneficios.png)
+---
+
+**Sobre Nosotros**
+Explica la misión y visión de la empresa, compartiendo los valores y la historia para generar confianza.
+
+![LPEvidenceSobreNosotros.png](assets/chapter05/LPEvidenceSobreNosotros.png)
+---
+
+**Testimonios**
+Muestra opiniones de clientes satisfechos, actuando como prueba social para validar la calidad del producto o servicio.
+
+![LPEvidenceTestimonios.png](assets/chapter05/LPEvidenceTestimonios.png)
+---
+
+**Contacto**
+Ofrece un medio para que los usuarios se comuniquen, ya sea para pedir más información o para agendar una demostración.
+
+![LPEvidenceContacto.png](assets/chapter05/LPEvidenceContacto.png)
+
+### 5.2.3. Implemented Frontend Web Application Evidence
+
+**Login:**
+
+![LoginFrontV2](./assets/chapter05/LoginFrontV2.png)
+
+<br>
 
 **Dashboard:**
 
@@ -2788,538 +2189,74 @@ En el Sprint 2 se desplegó la primera versión de la Web Application de IceTrac
 
 ![NewServiceRequestFrontv1](./assets/chapter05/NewServiceRequestFrontv1.png)
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+### 5.2.4. Acuerdo de Servicio SaaS 
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+El presente documento establece los términos legales que rigen el uso de la plataforma **IceTrack**, operada por **FrostShield.** Este acuerdo garantiza la transparencia y define las responsabilidades entre el proveedor del software y el cliente final (Dueños de negocios y Proveedores de servicios).
 
-Para el presente sprint, se realizó el proceso de despliegue para la primera versión del Web Application, así como la Fake API. A continuación, se presentan las evidencias del despliegue:
+#### 1. Definiciones Clave
+* **Servicio SaaS:** El acceso a la plataforma en la nube IceTrack, incluyendo monitoreo, alertas y gestión de mantenimiento.
+* **Usuario:** Cualquier persona autorizada por el Cliente para utilizar los módulos de la plataforma (Administradores, Técnicos u Operadores).
+* **Datos del Cliente:** Información técnica recolectada de los equipos de refrigeración (temperatura, energía, logs de falla).
 
-**Fake API:** Para el despliegue del Fake API, se creó un nuevo repositorio que contiene el db.json para su posterior despliegue en Render.
+#### 2. Alcance de la Licencia
+FrostShield otorga una licencia de uso bajo suscripción, no exclusiva y limitada. El Cliente acepta que el software se proporciona "tal cual" y se compromete a no realizar ingeniería inversa ni intentar vulnerar la seguridad del backend desarrollado para la gestión de la cadena de frío.
 
-![EvidenceDeployFakeAPI](./assets/chapter05/EvidenceDeployFakeAPI.png)
+#### 3. Niveles de Servicio (SLA)
+FrostShield garantiza un **Uptime del 90%**. El soporte técnico responderá a incidencias críticas en un tiempo no mayor a 4 horas laborales. Los periodos de mantenimiento programado se notificarán con 48 horas de antelación a través del Dashboard principal.
 
-**Web Application:** Para el despliegue del Web Application se hizo el despliegue en Vercel a partir del repositorio creado en la organización.
+#### 4. Responsabilidades del Usuario
+* **Hardware y Conectividad:** El Cliente es responsable de asegurar que sus controladores locales sean compatibles con los protocolos de comunicación de IceTrack.
+* **Seguridad de Cuenta:** El usuario debe proteger sus credenciales de acceso, siendo responsable de cualquier acción realizada bajo su perfil.
 
-![EvidenceDeployFrontend](./assets/chapter05/EvidenceDeployFrontend.jpg)
+#### 5. Propiedad Intelectual y Datos
+Todos los derechos sobre la arquitectura de software, diseños (Mockups) y algoritmos de monitoreo pertenecen a FrostShield. El Cliente mantiene la propiedad de sus datos históricos, aunque FrostShield podrá utilizar métricas anonimizadas para optimizar los modelos predictivos de la plataforma.
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+#### 6. Política de Pagos y Suspensión
+El servicio se factura de forma mensual según el plan elegido. El impago de la suscripción tras 15 días del vencimiento facultará a FrostShield a suspender el acceso a los módulos de alertas y reportes históricos hasta la regularización del pago.
 
-![insights-frontend.png](assets/chapter05/insights-frontend.png)
+#### 7. Protección de Datos y Privacidad
+En cumplimiento con la normativa de protección de datos, FrostShield asegura que la información técnica y personal se almacena bajo estándares de cifrado SSL/TLS, garantizando que no será compartida con terceros sin consentimiento explícito.
 
-![insights2-landingpage.png](assets/chapter05/insights2-landingpage.png)
+### 5.2.5. Implemented RESTful API and Serverless Backend Evidence
 
-### 5.2.3. Sprint 3
+**Dashboard**
 
-#### 5.2.3.1. Sprint Planning 3
+![ReportEndpointsBackendV1](./assets/chapter05/dashboard_0.jpeg)
+![PostReportBackendV1](./assets/chapter05/dashboard_1.jpeg)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_2.jpeg)
+![GetReportByIdBackendV1](./assets/chapter05/dashboard_3.jpeg)
+![PostReportBackendV1](./assets/chapter05/dashboard_4.jpeg)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_5.jpeg)
+![GetReportByIdBackendV1](./assets/chapter05/dashboard_6.jpeg)
+![PostReportBackendV1](./assets/chapter05/dashboard_7.jpeg)
 
-<table>
-<tr>
-    <th colspan="5">Sprint 3</th>
-    <th colspan="9">Sprint 3</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-11-02</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">2:30 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Via Discord</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Pedro Nanfuñay</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandr Galindo, Julio Guillen, Ivan La Madrid, Kenyi Ramírez</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8">Se realizó el primer despliegue de la web application, implementando funcionalidades orientadas al primer segmento objetivo.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8">El equipo se comprometió a cumplir sus partes asignadas, así también como colaborar con otras secciones del trabajo para cumplir nuestro objetivo.</td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Goal</td>
-       <td colspan="8">El enfoque para este sprint es establecer el núcleo integrado de la plataforma IceTrack. Esto implica conectar la página de inicio pública con la aplicación de usuario funcional (frontend) y un sistema de gestión de datos fundamental (backend). Se espera que esta unificación asegure un punto de entrada sencillo para los usuarios a nuestra aplicación y posibilite la gestión de información esencial, elevando la calidad de la experiencia inicial del usuario y proveyendo al equipo de un cimiento estable para el desarrollo futuro. El resultado exitoso se verificará cuando los usuarios puedan entrar y navegar por la aplicación web central sin obstáculos desde la página de aterrizaje; el sistema de gestión de datos respalde las operaciones para entidades críticas como equipos, solicitudes de servicio, técnicos, reportes y alertas; y la interfaz de usuario logre comunicarse con el sistema de gestión de datos para presentar y manejar dichas entidades principales, probando una conexión operativa entre todos los niveles del sistema.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8">100</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">97</td>
-</tr>
-</table>
+**Equipment**
 
-#### 5.2.3.2. Aspect Leaders and Collaborators
+![ReportEndpointsBackendV1](./assets/chapter05/equipment_0.png)
+![PostReportBackendV1](./assets/chapter05/equipment_1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/equipment_2.png)
+![GetReportByIdBackendV1](./assets/chapter05/equipment_3.png)
 
-Durante este tercer Sprint, el equipo se enfocó principalmente en el desarrollo, la mejora estructural y visual del frontend y en más de l% de los endpoints asociados al alcance de nuestro proyecto en el backend asegurando la integración entre ellas.
-Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint.
+**Site**
 
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Implementacion de la gestión de equipos de refrigeracion (Frontend Applications)<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Responsividad y pruebas en distintos dispositivos<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Despliegue de la aplicación web<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>C</td>
-    <td>L</td>
-    <td>L</td>
-  </tr>
-</table>
+![ReportEndpointsBackendV1](./assets/chapter05/site_0.png)
+![PostReportBackendV1](./assets/chapter05/site_1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/site_2.png)
+![GetReportByIdBackendV1](./assets/chapter05/site_3.png)
 
-#### 5.2.3.3. Sprint Backlog 3
+**User**
 
-Nuestro enfoque principal para este Sprint ha sido el desarrollo del frontend y backend de la plataforma IceTrack. Hemos estructurado nuestras tareas siguiendo las User Stories y Technical Stories que hemos detallado, asegurando un progreso claro y alineado con los objetivos de negocio y la arquitectura técnica.
+![ReportEndpointsBackendV1](./assets/chapter05/users_0.png)
+![PostReportBackendV1](./assets/chapter05/users1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/users2.png)
 
-Enlace: https://trello.com/invite/b/691a11e1c474e0f0295ac8bf/ATTId41abf32c3a717b7d5e39eba218930f0541704BF/frontshield
+**Authentication**
 
-![Sprint1-Trello.png](assets/chapter05/Sprint3-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 3.
-  </figcaption>
+![ReportEndpointsBackendV1](./assets/chapter05/authentication_0.png)
+![PostReportBackendV1](./assets/chapter05/authentication_1.png)
+![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/authentication_2.png)
 
-<table border="1">
-<tr>
-    <th colspan="3">Sprint 3</th>
-    <th colspan="10">Sprint Backend</th>
-</tr>
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-01</td>
-    <td colspan="2">Registro de usuario</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Crear endpoint /api/v1/users</td>
-    <td colspan="3">Implementar registro con validación de email único y hash de contraseña.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Julio Guillén</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-01</td>
-    <td colspan="2">Registro de usuario</td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2">Validación de contraseñas</td>
-    <td colspan="3">Verificar longitud, complejidad y confirmación de contraseña.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Julio Guillén/td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-02</td>
-    <td colspan="2">Inicio de sesión</td>
-    <td colspan="1">UT-03</td>
-    <td colspan="2">Crear endpoint /api/v1/auth/login</td>
-    <td colspan="3">Implementar autenticación con JWT y validación de usuario/contraseña.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-03</td>
-    <td colspan="2">Gestionar equipos</td>
-    <td colspan="1">UT-04</td>
-    <td colspan="2">Crear CRUD de equipos</td>
-    <td colspan="3">Endpoints para crear, editar, listar y eliminar equipos.</td>
-    <td colspan="1">8</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-03</td>
-    <td colspan="2">Gestionar equipos</td>
-    <td colspan="1">UT-05</td>
-    <td colspan="2">Validaciones de datos</td>
-    <td colspan="3">Validar modelo, número de serie y estado del equipo.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-08</td>
-    <td colspan="2">Solicitar servicios</td>
-    <td colspan="1">UT-06</td>
-    <td colspan="2">Endpoint POST /api/v1/service-requests</td>
-    <td colspan="3">Crear solicitud con datos del equipo, tipo y descripción del problema.</td>
-    <td colspan="1">7</td>
-    <td colspan="2">Julio Guillén</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-09</td>
-    <td colspan="2">Seguimiento del servicio</td>
-    <td colspan="1">UT-07</td>
-    <td colspan="2">Endpoint GET /api/v1/service-status/{id}</td>
-    <td colspan="3">Devolver estado actual: pendiente, asignado, en progreso, completado.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-10</td>
-    <td colspan="2">Reporte de servicio</td>
-    <td colspan="1">UT-08</td>
-    <td colspan="2">Generar reporte PDF</td>
-    <td colspan="3">Crear documento con resultados, repuestos y observaciones.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Julio Guillén/td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-14</td>
-    <td colspan="2">Registrar técnicos</td>
-    <td colspan="1">UT-09</td>
-    <td colspan="2">CRUD de técnicos</td>
-    <td colspan="3">Registro, edición y asignación de roles (técnico).</td>
-    <td colspan="1">7</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-16</td>
-    <td colspan="2">Asignar técnicos a servicios</td>
-    <td colspan="1">UT-10</td>
-    <td colspan="2">Endpoint asignación técnica</td>
-    <td colspan="3">Asignar un técnico a una solicitud y enviar notificación.</td>
-    <td colspan="1">5</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-21</td>
-    <td colspan="2">Notificaciones de eventos</td>
-    <td colspan="1">UT-11</td>
-    <td colspan="2">Integrar sistema de notificaciones</td>
-    <td colspan="3">Enviar alertas ante cambios de estado o problemas del servicio.</td>
-    <td colspan="1">6</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">To Do</td>
-</tr>
-
-<tr>
-    <td colspan="1">US-22</td>
-    <td colspan="2">Evaluar servicio</td>
-    <td colspan="1">UT-12</td>
-    <td colspan="2">Endpoint POST /api/v1/reviews</td>
-    <td colspan="3">Registrar calificación y permitir edición dentro del plazo.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">To Do</td>
-</tr>
-</table>
-
-#### 5.2.3.4. Development Evidence for Sprint Review
-
-En esta sección se presentan los commits realizados en el repositorio de backend y frontend durante el sprint 3.
-
-**Commits realizados en el repositorio de frontend durante el sprint 3:**
-
-A continuación se presenta un registro de los cambios realizados en la interfaz de usuario de nuestra aplicación. Cada commit detalla las modificaciones efectuadas en el diseño, la estructura y la interacción de los elementos visuales durante este Sprint.
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create login UI for monitoring platform</td>
-	    <td colspan="2">Implemented login screen with form validation and error messages.</td>
-	    <td colspan="2">02/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): integrate login API with JWT</td>
-	    <td colspan="2">Connected login form with authentication endpoint, added token handling.</td>
-	    <td colspan="2">01/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(users): add UI for registering admin/owners</td>
-	    <td colspan="2">Created registration form with fields for admin user creation.</td>
-	    <td colspan="2">01/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): create technician registration interface</td>
-	    <td colspan="2">Designed form to add new technicians with validation rules.</td>
-	    <td colspan="2">05/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): implement technicians table with actions</td>
-	    <td colspan="2">Added list view with edit / delete options and dynamic state updates.</td>
-	    <td colspan="2">07/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): create refrigeration equipment list UI</td>
-	    <td colspan="2">Added table view showing equipment name, model, status and installation date.</td>
-	    <td colspan="2">03/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): add new equipment registration form</td>
-	    <td colspan="2">Implemented form for adding refrigeration units with basic validation.</td>
-	    <td colspan="2">07/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(api): connect equipment views to backend</td>
-	    <td colspan="2">Integrated equipment screens with API `/api/v1/equipment` for CRUD operations.</td>
-	    <td colspan="2">08/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(ui): correct login redirection</td>
-	    <td colspan="2">Fixed landing-page navigation to correctly route users to login.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">chore: merge develop into feature/frontend-sprint2</td>
-	    <td colspan="2">Merged all completed frontend features from Sprint 2.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-</table>
-
-**Commits realizados en el repositorio de backend durante el sprint 3:**
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create user registration endpoint</td>
-	    <td colspan="2">Added POST /api/v1/auth/register with DTO, validation, hashing and persistence.</td>
-	    <td colspan="2">12/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(validation): add email & password validation rules</td>
-	    <td colspan="2">Implemented strong password validator and unique email constraint.</td>
-	    <td colspan="2">12/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): implement user registration service & mapper</td>
-	    <td colspan="2">Connected controller → service → repository for user registration flow.</td>
-	    <td colspan="2">11/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): add login endpoint with JWT</td>
-	    <td colspan="2">Created POST /api/v1/auth/login issuing JWT tokens and refresh tokens.</td>
-	    <td colspan="2">11/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(security): configure JWT filters & authentication manager</td>
-	    <td colspan="2">Added token validation, secured routes and role-based access (admin/tech/client).</td>
-	    <td colspan="2">11/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): add technician creation endpoint</td>
-	    <td colspan="2">Implemented POST /api/v1/technicians with entity, repository and service.</td>
-	    <td colspan="2">15/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(technicians): add CRUD for technicians</td>
-	    <td colspan="2">Added GET/PUT/DELETE routes for technician management.</td>
-	    <td colspan="2">17/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): list refrigeration equipment</td>
-	    <td colspan="2">Added GET /api/v1/equipment returning filtered & paginated units.</td>
-	    <td colspan="2">13/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(equipment): create equipment registration endpoint</td>
-	    <td colspan="2">Implemented POST /api/v1/equipment with validation and repository operations.</td>
-	    <td colspan="2">07/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(api): integrate equipment service with domain layer</td>
-	    <td colspan="2">Connected controllers → services → unit repository for CRUD operations.</td>
-	    <td colspan="2">08/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(auth): correct login redirect & unauthorized handler</td>
-	    <td colspan="2">Fixed unauthorized responses returning 401 and improved error messages.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">Merge branch 'develop' into feature/backend-sprint2</td>
-	    <td colspan="2">Merged backend tasks for Sprint 2 including auth, technicians & equipment modules.</td>
-	    <td colspan="2">09/11/2025</td>
-	</tr>
-</table>
-
-A continuación se presenta un registro detallado de los commits realizados en el repositorio, enfocados a la parte de backend. Cada entrada incluye el identificador único del commit (ID), descripciones realizados durante la elaboracion de esta.
-
-#### 5.2.3.5. Execution Evidence for Sprint Review
-
-En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrack, implementando funcionalidades complementarias y esenciales en cada una de las secciones de la aplicación. Así mismo, se implementaron mejoras respectivas a la retroalimentación brindada en el sprint anterior. A continuación, se presentan las evidencias:
-
-**Register:**
-
-![RegisterFrontV2](./assets/chapter05/RegisterFrontV2.png)
-
-<br>
-
-**Login:**
-
-![LoginFrontV2](./assets/chapter05/LoginFrontV2.png)
-
-<br>
-
-**Dashboard:**
-
-![DashboardFrontV2](./assets/chapter05/DashboardFrontV2.png)
-
-<br>
-
-**Sites:**
-
-![SitesFrontV2](./assets/chapter05/SitesFrontV2.png)
-![SitesDetailFrontV2](./assets/chapter05/SitesDetailFrontV2.png)
-
-<br>
-
-**Equipments:**
-
-![EquipmentsFrontV2](./assets/chapter05/EquipmentsFrontV2.png)
-![EquipmentsDetailFrontV2](./assets/chapter05/EquipmentsDetailFrontV2.png)
-
-<br>
-
-**Services:**
-
-![ServicesFrontV2](./assets/chapter05/ServicesFrontV2.png)
-![CreateServiceFrontV2](./assets/chapter05/CreateServiceFrontV2.png)
-
-<br>
-
-**Profile:**
-
-![ProfileFrontV2](./assets/chapter05/ProfileFrontV2.png)
-![SettingsFrontV2](./assets/chapter05/SettingsFrontV2.png)
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+### 5.2.6. RESTful API documentation
 
 **Dashboard**
 
@@ -3361,574 +2298,10 @@ En el Sprint 3 se desplegó la segunda versión de la Web Application de IceTrac
 | POST		   | /api/v1/authentication/sign-in | Iniciar sesión |
 | POST		   | /api/v1/authentication/sign-up | Registrarse    |
 
----
+### 5.2.7. Team Collaboration Insights
 
-**Dashboard**
-
-![ReportEndpointsBackendV1](./assets/chapter05/dashboard_0.jpeg)
-![PostReportBackendV1](./assets/chapter05/dashboard_1.jpeg)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_2.jpeg)
-![GetReportByIdBackendV1](./assets/chapter05/dashboard_3.jpeg)
-![PostReportBackendV1](./assets/chapter05/dashboard_4.jpeg)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/dashboard_5.jpeg)
-![GetReportByIdBackendV1](./assets/chapter05/dashboard_6.jpeg)
-![PostReportBackendV1](./assets/chapter05/dashboard_7.jpeg)
-
-**Equipment**
-
-![ReportEndpointsBackendV1](./assets/chapter05/equipment_0.png)
-![PostReportBackendV1](./assets/chapter05/equipment_1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/equipment_2.png)
-![GetReportByIdBackendV1](./assets/chapter05/equipment_3.png)
-
-**Site**
-
-![ReportEndpointsBackendV1](./assets/chapter05/site_0.png)
-![PostReportBackendV1](./assets/chapter05/site_1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/site_2.png)
-![GetReportByIdBackendV1](./assets/chapter05/site_3.png)
-
-**User**
-
-![ReportEndpointsBackendV1](./assets/chapter05/users_0.png)
-![PostReportBackendV1](./assets/chapter05/users1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/users2.png)
-
-**Authentication**
-
-![ReportEndpointsBackendV1](./assets/chapter05/authentication_0.png)
-![PostReportBackendV1](./assets/chapter05/authentication_1.png)
-![GetReportByEquipmentOrTenantIdBackendV1](./assets/chapter05/authentication_2.png)
-
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-Para esta entrega, desplegamos una nueva versión del Frontend, primera versión del backend y además desplegamos nuestra base de datos para que pueda ser conectada en nuestro backend.
-
-**Frontend Deployment**
-![FrontEndDeployment](./assets/chapter05/deploy-frontend-tb2.png)
-
-**Backend Deployment**
-![BackEndDeployment](./assets/chapter05/deploy-backend-tb2.png)
-
-**Database Deployment**
-![DatabaseDeployment](./assets/chapter05/deploy-database-tb2.jpg)
-
-**Swagger desde el deploy de nuestro backend**
-![BACKDEPLOY1.png](assets/chapter05/BACKDEPLOY1.png)
-
-![BACKDEPLOY2.png](assets/chapter05/BACKDEPLOY2.png)
-
-![BACKDEPLOY3.png](assets/chapter05/BACKDEPLOY3.png)
-
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-
-Frontend:
-![Insights-TB2FRONT.png](assets/chapter05/Insights-TB2FRONT.png)
-
-Backend:
-![InsightsTB2BACKEND.png](assets/chapter05/InsightsTB2BACKEND.png)
-
-### 5.2.4. Sprint 4
-
-#### 5.2.4.1. Sprint Planning 4
-
-<table>
-<tr>
-    <th colspan="5">Sprint 4</th>
-    <th colspan="9">Sprint 4</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-10-03</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">6:00 PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Via Discord</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Kenyi Ramirezy</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Alejandro Galindo, Julio Guillen, Ivan La Madrid, Pedro Nanfuñay, Kenyi Ramírez</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Review Summary</td>
-    <td colspan="8">Se realizó el despliegue del Frontend y Backend, implementando funcionalidades orientadas al primer y segundo segmento objetivo.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 3 Retrospective Summary</td>
-    <td colspan="8">El equipo acordó encargarse de las tareas asignadas y colaborar con las demás áreas del proyecto del Frontend y Backend para alcanzar nuestro objetivo.</td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 4 Goal</td>
-       <td colspan="8">El objetivo de este sprint es completar la integración principal de IceTrack conectando directamente el frontend con el backend. Esto implica enlazar la página con la aplicación de usuario y establecer la comunicación operativa con el sistema de gestión de datos. Con esta conexión final, los usuarios podrán ingresar y navegar sin problemas desde la página de inicio hasta la aplicación central, mientras que el backend proporcionará el soporte necesario para manejar entidades clave como equipos, solicitudes de servicio, técnicos, reportes y alertas. La integración entre la interfaz y el sistema de datos confirmará que ambos lados de la aplicación funcionan juntos, marcando un paso crucial hacia la finalización de la plataforma.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 4 Velocity</td>
-    <td colspan="8">90</td>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">90</td>
-</tr>
-</table>
-
-#### 5.2.4.2. Aspect Leaders and Collaborators
-
-Durante este cuarto Sprint, el equipo se enfocó en avanzar y refinar tanto la estructura y el diseño del frontend como la mayor parte de los endpoints del backend, con el objetivo de dejar ambas partes listas para su integración. Además, para organizar de forma más eficiente el trabajo colaborativo, se creó la matriz de Liderazgo y Colaboración (LACX), donde se asignan claramente las responsabilidades de cada miembro en los aspectos centrales del Sprint.
-
-<table border="1">
-  <tr>
-    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
-    <td><strong>GitHub Username</strong></td>
-    <td><strong>Service Request Management<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Assets Managements and Equipment<br>Leader (L) / Collaborator (C)</strong></td>
-	<td><strong>Dashboard and Analytics<br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong>Despliegue de la aplicación web<br>Leader (L) / Collaborator (C)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2">Ramírez Cabrera, Kenyi Efrain</td>
-    <td>Kenyi15upc</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-	<td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Galindo Montero, Alejandro Manuel </td>
-    <td>AlejandroG12970</td>
-    <td>C</td>
-    <td>C</td>
-    <td>C</td>
-	<td>L</td>
-  </tr>
-  <tr>
-    <td colspan="2"> Guillen Galindo, Julio Adolfo </td>
-    <td>julio645</td>
-    <td>C</td>
-    <td>L</td>
-    <td>C</td>
-	<td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">La Madrid Lozano, Ivan Jeanpierre</td>
-    <td>ivanlamadrid</td>
-    <td>C</td>
-    <td>C</td>
-    <td>L</td>
-	<td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">Nanfuñay Liza, Pedro Jesus</td>
-    <td>PedroJ18</td>
-    <td>L</td>
-    <td>C</td>
-    <td>C</td>
-	<td>C</td>
-  </tr>
-</table>
-
-#### 5.2.4.3. Sprint Backlog 4
-
-En este Sprint nos enfocamos principalmente en la integración completa entre el frontend y el backend de IceTrack. Todas las funcionalidades desarrolladas en sprints anteriores fueron conectadas, probadas y ajustadas para asegurar que la plataforma funcione de manera coherente y estable. Organizamos el trabajo basándonos en las User Stories correspondientes, garantizando un avance ordenado y alineado con los objetivos técnicos y operativos del proyecto.
-
-Enlace: 
-
-![Sprint1-Trello.png](assets/chapter05/Sprint3-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 4.
-  </figcaption>
-
-<table border="1">
-<tr>
-    <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 4</th>
-</tr>
-
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status</td>
-</tr>
-<tr>
-    <td colspan="1">US-01</td>
-    <td colspan="2">Integración de registro de usuario</td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2">Conectar formulario con API final</td>
-    <td colspan="3">Validar envío al endpoint real y manejar errores de backend (mail duplicado, contraseña inválida).</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Julio Guillén</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-02</td>
-    <td colspan="2">Integración de inicio de sesión</td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2">Sincronizar JWT con frontend</td>
-    <td colspan="3">Guardar token seguro, manejar expiración y redirección correcta al dashboard.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-03</td>
-    <td colspan="2">Gestión de equipos</td>
-    <td colspan="1">UT-03</td>
-    <td colspan="2">Integrar listado de equipos con API</td>
-    <td colspan="3">Conectar tabla con Equipment y mostrar estados reales.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Kenyi Ramirez</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-06</td>
-    <td colspan="2">Control de encendido/apagado</td>
-    <td colspan="1">UT-04</td>
-    <td colspan="2">Integrar botón de encendido con API</td>
-    <td colspan="3">Enviar comando con el Id y actualizar estado visual.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Pedro Nanfuñay</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-07</td>
-    <td colspan="2">Control de temperatura</td>
-    <td colspan="1">UT-05</td>
-    <td colspan="2">Integrar slider con endpoint de temperatura</td>
-    <td colspan="3">Actualizar temperatura en tiempo real llamando el tipo de equipo del usuario.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Pedro Nanfuñay</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-08</td>
-    <td colspan="2">Solicitar mantenimiento</td>
-    <td colspan="1">UT-06</td>
-    <td colspan="2">Integrar formulario con API de servicios</td>
-    <td colspan="3">Enviar solicitudes a endpoints y confirmar recepción.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-09</td>
-    <td colspan="2">Seguimiento del servicio</td>
-    <td colspan="1">UT-07</td>
-    <td colspan="2">Conectar tracking con API</td>
-    <td colspan="3">Actualizar estados (pendiente, en camino, en proceso, finalizado) desde backend.</td>
-    <td colspan="1">4</td>
-    <td colspan="2">Iván La Madrid</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-12</td>
-    <td colspan="2">Historial de servicios</td>
-    <td colspan="1">UT-08</td>
-    <td colspan="2">Leer servicios desde API</td>
-    <td colspan="3">Mostrar tabla real de pagina desde Site.</td>
-    <td colspan="1">3</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-21</td>
-    <td colspan="2">Notificaciones</td>
-    <td colspan="1">UT-09</td>
-    <td colspan="2">Integrar sistema de notificaciones</td>
-    <td colspan="3">Conectar con WebSockets o servicio push y mostrar alertas en frontend.</td>
-    <td colspan="1">5</td>
-    <td colspan="2">Alejandro Galindo</td>
-    <td colspan="1">Done</td>
-</tr>
-</table>
-
-#### 5.2.4.4. Development Evidence for Sprint Review
-
-En esta sección se presentan los commits realizados en el repositorio de backend y frontend durante el sprint 4.
-
-**Commits realizados en el repositorio de frontend durante el sprint 4:**
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create login UI for monitoring platform</td>
-	    <td colspan="2">Implemented login screen with form validation and error messages.</td>
-	    <td colspan="2">02/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): integrate login API with JWT</td>
-	    <td colspan="2">Connected login form with authentication endpoint, added token handling.</td>
-	    <td colspan="2">01/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(ui): correct login redirection</td>
-	    <td colspan="2">Fixed landing-page navigation to correctly route users to login.</td>
-	    <td colspan="2">04/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Frontend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">chore: merge develop into feature/frontend-sprint2</td>
-	    <td colspan="2">Merged all completed frontend features from Sprint 2.</td>
-	    <td colspan="2">03/12/2025</td>
-	</tr>
-</table>
-
-**Commits realizados en el repositorio de backend durante el sprint 4:**
-
-<table>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): create user registration endpoint</td>
-	    <td colspan="2">Added POST /api/v1/auth/register with DTO, validation, hashing and persistence.</td>
-	    <td colspan="2">02/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): implement user registration service & mapper</td>
-	    <td colspan="2">Connected controller → service → repository for user registration flow.</td>
-	    <td colspan="2">01/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">feat(auth): add login endpoint with JWT</td>
-	    <td colspan="2">Created POST /api/v1/auth/login issuing JWT tokens and refresh tokens.</td>
-	    <td colspan="2">01/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">fix(auth): correct login redirect & unauthorized handler</td>
-	    <td colspan="2">Fixed unauthorized responses returning 401 and improved error messages.</td>
-	    <td colspan="2">03/12/2025</td>
-	</tr>
-	<tr>
-	    <td colspan="2">FrostShield/IceTrack---Backend</td>
-	    <td colspan="2">develop</td>
-	    <td colspan="2">N/A</td>
-	    <td colspan="2">Merge branch 'develop' into feature/backend-sprint4</td>
-	    <td colspan="2">Merged backend tasks for Sprint 2 including auth, technicians & equipment modules.</td>
-	    <td colspan="2">04/12/2025</td>
-	</tr>
-</table>
-
-#### 5.2.4.5. Execution Evidence for Sprint Review
-
-En el Sprint 4 se desplegó la última versión de la Web Application de IceTrack, implementando mejoras complementarias y esenciales para garantizar la eficiencia de cada una de las secciones de la aplicación. A continuación, se presentan las evidencias:
-
-*Owner View:*
-
-**Register:**
-
-![RegisterFrontVF](assets/chapter05/RegisterFrontVF.png)
-
-**Login:**
-
-![LoginFrontVF](assets/chapter05/LoginFrontVF.png)
-
-**Dashboard:**
-
-![DashboardFrontVF](assets/chapter05/DashboardFrontVF.png)
-
-![DashboardAddCardFrontVF](assets/chapter05/DashboardAddCardFrontVF.png)
-
-![DashboardEditCardFrontVF](assets/chapter05/DashboardEditCardFrontVF.png)
-
-**Sites:**
-
-![SitesFrontVF](assets/chapter05/SitesFrontVF.png)
-![SitesDetailFrontVF](assets/chapter05/SiteDetailFrontVF.png)
-
-**Equipments:**
-
-![EquipmentsFrontVF](assets/chapter05/EquipmentsFrontVF.png)
-![EquipmentsDetailFrontVF](assets/chapter05/EquipmentDetailFrontVF.png)
-
-**Services Requests:**
-
-![ServicesFrontVF](assets/chapter05/ServicesFrontVF.png)
-![AddServicesFrontVF](assets/chapter05/AddServiceRequestFrontVF.png)
-
-<br>
-
-*Service Provider View:*
-
-**Dashboard:**
-
-![DashboardProviderFrontVF](assets/chapter05/ProviderDashboardVF.png)
-
-**Provider Services:**
-
-![ServicesHubFrontVF](assets/chapter05/ServicesHubFrontVF.png)
-![ServicesRequestsFrontVF](assets/chapter05/ProviderServicesFrontVF.png)
-
-**Technician Management:**
-
-![TechnicianManagementFrontVF](assets/chapter05/TechnicianManagementFrontVF.png)
-
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
-**DashboardConfigs**
-
-| Verbo HTTP | Endpoint 		 					                                  | Descripción 				         |
-| :--------: | :------------------------------------------------------- | :--------------------------- |
-| GET		     | /api/v1/dashboard-configs/{id}     		                  | Obtener ID			        	   |
-| PUT		     | /api/v1/dashboard-configs/{id}  	  	                    | Actualizar ID 			         |
-| DELETE   	 | /api/v1/dashboard-configs/{id}			                      | Eliminar ID 				         |
-| GET 		   | /api/v1/dashboard-configs/user/{userId}                  | Obtener configuracion por ID |
-| POST 		   | /api/v1/dashboard-configs				                      	| Crea configuracion		       |
-| POST 		   | /api/v1/dashboard-configs/{id}/cards 	                 	| Añade cartas				         |
-| GET 		   | /api/v1/dashboard-configs/available-cards                | Obtener cartas disponible	   |
-| PATCH		   | /api/v1/dashboard-configs/{id}/cards/{cardId}/visibility | Actualizar visibilidad	     |
-
-**Equipment**
-
-| Verbo HTTP | Endpoint 		  	      | Descripción	 			      |
-| :--------: | :--------------------- | :---------------------- |
-| POST		   | /api/v1/equipment	    | Crear equipo 			      |
-| GET		     | /api/v1/equipment 	    | Tener todos los equipos |
-| GET		     | /api/v1/equipment/{id} | Tener equipo por ID     |
-
-**Site**
-
-| Verbo HTTP | Endpoint 	       | Descripción	 		      |
-| :--------: | :---------------- | :--------------------- |
-| POST	  	 | /api/v1/site	  	 | Crear site 			      |
-| GET		     | /api/v1/site 	   | Tener todos los sitios |
-| GET		     | /api/v1/site/{id} | Tener sitio por ID     |
-| DELETE		 | /api/v1/site/{id} | Eliminar sitio por ID  |
-
-**User**
-
-| Verbo HTTP | Endpoint      	           | Descripción	          |
-| :--------: | :------------------------ | :--------------------- |
-| GET		     | /api/v1/report/{id}       | Tener user por ID      |
-| GET		     | /api/v1/users 	           | Tener usuarios         |
-| GET		     | /api/v1/users/role/{role} | Tener usuarios por rol |
-
-**Authentication**
-
-| Verbo HTTP | Endpoint 		  			          | Descripción	   |
-| :--------: | :----------------------------- | :------------- |
-| POST		   | /api/v1/authentication/sign-in | Iniciar sesión |
-| POST		   | /api/v1/authentication/sign-up | Registrarse    |
-
-**Reviews**
-
-| Verbo HTTP | Endpoint 	       | Descripción	 		       |
-| :--------: | :---------------- | :---------------------- |
-| POST		   | /api/v1/reviews	 | Crear reseña 			     |
-| GET		     | /api/v1/reviews 	 | Tener todas los reseñas |
-| GET		     | /api/v1/site/{id} | Tener reseña por ID     |
-
-**ServiceRequests**
-
-| Verbo HTTP | Endpoint 	                                                   | Descripción	 		                 |
-| :--------: | :------------------------------------------------------------ | :-------------------------------- |
-| POST		   | /api/v1/service-requests	  	                                 | Crear request 			               |
-| GET		     | /api/v1/service-requests/{serviceRequestId}		               | Tener todos los requests          |
-| GET		     | /api/v1/service-requests/requester/{requesterId}              | Tener request por requester ID    |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/accept            | aceptar request por requester ID  |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/reject            | Denegar request por requester ID  |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/cancel            | cancelar request por requester ID |
-| PATCH		   | /api/v1/service-requests/{serviceRequestId}/assign-technician | asignar tecnico a request         |
-
-**Interventions**
-
-| Verbo HTTP | Endpoint 	                            | Descripción	 		            |
-| :--------: | :------------------------------------- | :-------------------------- |
-| POST		   | /api/v1/interventions	  	            | Crear intervencion 			    |
-| GET		     | /api/v1/interventions/{interventionId} | Tener intervenciones por Id |
-
-
-**Technicians**
-
-| Verbo HTTP | Endpoint 		       | Descripción 										              |
-| :--------: | :------------------ | :------------------------------------------- |
-| POST		   | /api/v1/reports     | Crear un nuevo tecnico 						          |
-| GET		     | /api/v1/reports 	   | Obtener un tecnico por el ID de un proveedor |
-| GET 		   | /api/v1/report/{id} | Obtener un tecnico por su ID 					      |
-| PUT		     | /api/v1/report/{id} | Actualizar un tecnico por su ID 						  |
-| DELETE 		 | /api/v1/report/{id} | Eliminar un tecnico por su ID 	              |
-
-
-**Technicians**
-![technicians-swagger](./assets/chapter05/technicians-swagger.png)
-
-**Interventions**
-![interventions-swagger](./assets/chapter05/interventions-swagger.png)
-
-**ServiceRequests**
-![Service-requests-swagger](./assets/chapter05/service-request-swagger.png)
-
-**Authentication**
-![autentication-swagger](./assets/chapter05/autentication-swagger.png)
-
-**Users**
-![users-swagger](./assets/chapter05/users-swagger.png)
-
-**Reviews**
-![review-swagger](./assets/chapter05/review-swagger.png)
-
-**DashboardConfigs**
-![dashboard-configs-swagger](./assets/chapter05/dashboard-configs-swagger.png)
-
-**Equipment**
-![equipment-swagger](./assets/chapter05/equipment-swagger.png)
-
-**Site**
-![site-swagger](./assets/chapter05/site-swagger.png)
-
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
-
-Para esta entrega, desplegamos una nueva versión del Frontend, segunda versión del backend y además desplegamos una nueva base de datos para que pueda ser conectada en nuestro backend.
-
-**Frontend Deployment**
-![FrontEndDeployment](./assets/chapter05/deploy-frontend-tf.png)
-
-**Backend Deployment**
-![BackEndDeployment](./assets/chapter05/deploy-backend-tf.png)
-
-**Database Deployment**
-![DatabaseDeployment](./assets/chapter05/deploy-database-tf.png)
-
-#### 5.2.4.8. Team Collaboration Insights during Sprint
+Landing Page:
+![insights-frontend.png](assets/chapter05/insights-frontend.png)
 
 Frontend:
 ![Insights-TB2FRONT.png](assets/chapter05/Insights-TFFRONT.png)
@@ -3936,35 +2309,7 @@ Frontend:
 Backend:
 ![InsightsTB2BACKEND.png](assets/chapter05/InsightsTFBACKEND.png)
 
-## 5.3. Acuerdo de Servicio - SaaS 
-
-El presente documento establece los términos legales que rigen el uso de la plataforma **IceTrack**, operada por **FrostShield.** Este acuerdo garantiza la transparencia y define las responsabilidades entre el proveedor del software y el cliente final (Dueños de negocios y Proveedores de servicios).
-
-#### 1. Definiciones Clave
-* **Servicio SaaS:** El acceso a la plataforma en la nube IceTrack, incluyendo monitoreo, alertas y gestión de mantenimiento.
-* **Usuario:** Cualquier persona autorizada por el Cliente para utilizar los módulos de la plataforma (Administradores, Técnicos u Operadores).
-* **Datos del Cliente:** Información técnica recolectada de los equipos de refrigeración (temperatura, energía, logs de falla).
-
-#### 2. Alcance de la Licencia
-FrostShield otorga una licencia de uso bajo suscripción, no exclusiva y limitada. El Cliente acepta que el software se proporciona "tal cual" y se compromete a no realizar ingeniería inversa ni intentar vulnerar la seguridad del backend desarrollado para la gestión de la cadena de frío.
-
-#### 3. Niveles de Servicio (SLA)
-FrostShield garantiza un **Uptime del 90%**. El soporte técnico responderá a incidencias críticas en un tiempo no mayor a 4 horas laborales. Los periodos de mantenimiento programado se notificarán con 48 horas de antelación a través del Dashboard principal.
-
-#### 4. Responsabilidades del Usuario
-* **Hardware y Conectividad:** El Cliente es responsable de asegurar que sus controladores locales sean compatibles con los protocolos de comunicación de IceTrack.
-* **Seguridad de Cuenta:** El usuario debe proteger sus credenciales de acceso, siendo responsable de cualquier acción realizada bajo su perfil.
-
-#### 5. Propiedad Intelectual y Datos
-Todos los derechos sobre la arquitectura de software, diseños (Mockups) y algoritmos de monitoreo pertenecen a FrostShield. El Cliente mantiene la propiedad de sus datos históricos, aunque FrostShield podrá utilizar métricas anonimizadas para optimizar los modelos predictivos de la plataforma.
-
-#### 6. Política de Pagos y Suspensión
-El servicio se factura de forma mensual según el plan elegido. El impago de la suscripción tras 15 días del vencimiento facultará a FrostShield a suspender el acceso a los módulos de alertas y reportes históricos hasta la regularización del pago.
-
-#### 7. Protección de Datos y Privacidad
-En cumplimiento con la normativa de protección de datos, FrostShield asegura que la información técnica y personal se almacena bajo estándares de cifrado SSL/TLS, garantizando que no será compartida con terceros sin consentimiento explícito.
-
-## 5.4. Video About-the-Product
+## 5.3. Video About-the-Product
 
 En esta parte, el equipo ofrece una síntesis de los puntos más importantes de IceTrack. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de los sistemas de refrigeración, ya sea en entornos domésticos o comerciales.
 
@@ -4580,6 +2925,460 @@ El pipeline de notificaciones permitió mantener informado al equipo sobre el es
 GitHub fue de gran ayuda pues facilitó la notificación de cambios mediante commits, pull requests y actualizaciones del repositorio, permitiendo la colaboración continua entre los integrantes del equipo.
 
 ![GithubIceTrack.png](assets/chapter07/Github_IceTrack.png)
+
+
+
+# Capítulo VIII: Experiment-Driven Development 
+## 8.1. Experiment Planning 
+
+### 8.1.1. As-Is Summary. 
+
+La aplicación actual se centra en ofrecer una plataforma para la gestión de sitios y equipos de refrigeración, proporcionando funcionalidades básicas como la creación y seguimiento de solicitudes de servicio, el registro de intervenciones técnicas, la gestión de técnicos, la calificación de servicios mediante reviews y la visualización de dashboards con KPIs. Sin embargo, la plataforma carece de ciertas capacidades que limitan su valor percibido y la experiencia del usuario. La interfaz no ofrece opciones de personalización visual, y las funcionalidades de visualización geográfica y generación de documentos no están presentes, lo que restringe su utilidad en escenarios de campo y toma de decisiones.
+
+**Problemas identificados:**
+- **Visualización geográfica limitada:** La aplicación no cuenta con un mapa interactivo que permita a los usuarios ubicar geográficamente sus sitios y equipos registrados, dificultando la gestión visual de activos distribuidos en múltiples ubicaciones.
+- **Ausencia de exportación de reportes:** No es posible generar documentación descargable en formatos como PDF del historial de servicios e intervenciones, lo que limita la capacidad de los dueños de compartir informes.
+- **Falta de alertas de mantenimiento preventivo:** La plataforma no cuenta con un sistema de recordatorios automáticos programados que notifique a los dueños cuando un equipo se aproxima a su fecha de mantenimiento, dependiendo completamente de la acción manual del usuario.
+- **Personalización visual insuficiente:** La interfaz carece de un modo oscuro y opciones de personalización de temas, lo que afecta la comodidad visual de los usuarios que trabajan en entornos con diferentes condiciones de luz.
+- **Retroalimentación post-servicio no estructurada:** No existe un módulo automatizado de encuestas de satisfacción que se active al completar un servicio, perdiendo la oportunidad de recolectar retroalimentación sistemática y medible de los dueños.
+
+**Objetivos de mejora:**
+Para abordar los problemas identificados y mejorar la aplicación, se establecen los siguientes objetivos:
+
+- **Implementación de mapa interactivo:** Integrar una vista geográfica con  que permita visualizar todos los sitios y equipos registrados en un mapa.
+- **Exportación de reportes a PDF:** Desarrollar un módulo de generación de reportes descargables que incluya el historial de servicios, intervenciones y estado de equipos por sitio.
+- **Sistema de alertas de mantenimiento preventivo:** Implementar un mecanismo de notificaciones automáticas programadas que recuerde a los dueños las fechas próximas de mantenimiento de sus equipos.
+- **Personalización visual:** Agregar un modo oscuro y opciones de personalización de tema (colores) que permitan al usuario adaptar la interfaz a sus preferencias visuales y condiciones de entorno.
+- **Módulo de encuestas de satisfacción post-servicio:** Incorporar un cuestionario automatizado que se active al completar una intervención, permitiendo recolectar calificaciones y comentarios estructurados de los dueños para medir la calidad del servicio.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims. 
+
+**Assumptions:**
+* Se asume que los dueños de equipos de refrigeración se beneficiarían de una vista geográfica para gestionar sitios y equipos distribuidos en múltiples ubicaciones.
+* Se asume que la posibilidad de exportar reportes en formato PDF aporta valor a los dueños al facilitar el intercambio de información con otros stakeholders.
+* Se asume que una parte significativa de los dueños puede olvidar las fechas de mantenimiento preventivo cuando no dispone de recordatorios automáticos.
+* Se asume que la incorporación de un modo oscuro mejoraría la experiencia de uso para usuarios que utilizan la plataforma durante períodos prolongados o en entornos con poca iluminación.
+* Se asume que los dueños estarían dispuestos a proporcionar retroalimentación después de una intervención si el proceso de evaluación es simple y rápido.
+
+**Knowledge Gaps:**
+* Se desconoce si los dueños prefieren una vista geográfica, una vista de lista o una combinación de ambas para gestionar sitios y equipos.
+* Se desconoce qué tan importante es para los dueños la exportación de reportes en PDF en comparación con la consulta directa de información dentro de la plataforma.
+* Se desconoce con qué frecuencia los dueños programan mantenimientos preventivos y qué dificultades encuentran para realizar su seguimiento.
+* Se desconoce si la ausencia de un modo oscuro representa una necesidad relevante para los usuarios de la plataforma.
+* Se desconoce qué porcentaje de usuarios estaría dispuesto a responder encuestas post-servicio y cuál es la longitud de encuesta que consideran aceptable.
+
+**Ideas:**
+* Incorporar una vista geográfica interactiva que permita visualizar los sitios registrados mediante marcadores geolocalizados y representar el estado de los equipos utilizando indicadores visuales.
+* Implementar una funcionalidad de exportación de reportes en formato PDF que incluya información sobre servicios realizados, intervenciones técnicas y estado de equipos.
+* Desarrollar un sistema de alertas de mantenimiento preventivo que notifique automáticamente a los dueños antes de las fechas programadas de mantenimiento.
+* Agregar opciones de personalización visual, incluyendo modo oscuro y configuración de temas de color.
+* Incorporar un módulo de encuestas de satisfacción automatizadas que se active al finalizar una intervención y permita recopilar calificaciones y comentarios de los dueños.
+
+**Claims:**
+* Una vista geográfica interactiva permitirá a los dueños localizar y supervisar sus sitios y equipos de manera más eficiente que utilizando únicamente listas tradicionales.
+* La disponibilidad de reportes descargables en formato PDF facilitará la distribución y presentación de información relacionada con los servicios e intervenciones realizadas.
+* Las alertas automáticas de mantenimiento preventivo contribuirán a que los usuarios realicen mantenimientos programados con mayor regularidad.
+* La incorporación de opciones de personalización visual mejorará la experiencia de uso y la satisfacción de los usuarios.
+* Las encuestas de satisfacción automatizadas aumentarán la cantidad de retroalimentación recopilada después de cada intervención.
+
+### 8.1.3. Experiment-Ready Questions. 
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|-----------|------------|------|--------|----------|------------|
+| ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? | 8 - Los sistemas de gestión de activos suelen beneficiarse de la visualización geográfica, aunque no se ha validado con los usuarios actuales. | 5 - Requiere integración con servicios de mapas y gestión de ubicaciones geográficas. | 9 - Puede mejorar significativamente la supervisión y gestión de activos distribuidos en múltiples ubicaciones. | 8 - Los dueños podrían encontrar más intuitiva la gestión visual de sus sitios y equipos. | 30 |
+| ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? | 7 - La generación de reportes es una necesidad común en aplicaciones empresariales. | 3 - La implementación técnica es relativamente sencilla y de bajo riesgo. | 8 - Facilita la distribución y presentación de información a terceros. | 7 - Los usuarios pueden estar interesados en compartir información fuera de la plataforma. | 25 |
+| ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? | 8 - Los recordatorios suelen mejorar el cumplimiento de tareas programadas. | 4 - Requiere mecanismos de programación y envío de notificaciones confiables. | 10 - Puede contribuir directamente a mejorar el mantenimiento de los equipos y reducir incidencias. | 9 - Los usuarios suelen valorar las herramientas que les ayudan a evitar olvidos. | 31 |
+| ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? | 7 - Es una funcionalidad ampliamente adoptada en aplicaciones modernas. | 2 - Bajo riesgo técnico debido a que existen patrones de implementación consolidados. | 6 - Mejora la comodidad visual, aunque no afecta directamente los procesos de negocio. | 6 - Interés moderado, especialmente entre usuarios frecuentes. | 21 |
+| ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? | 6 - Las encuestas automatizadas suelen incrementar la recolección de feedback, pero dependen de la participación del usuario. | 3 - Implementación relativamente sencilla dentro del flujo existente. | 7 - Permite obtener información valiosa para evaluar y mejorar la calidad del servicio. | 8 - Los usuarios pueden mostrar interés en expresar su nivel de satisfacción cuando el proceso es breve. | 24 |
+### 8.1.4. Question Backlog. 
+
+| Prioridad (1,2,3,5,8) | Pregunta |
+|------------|-----------|
+| 1 | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+| 2 | Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+| 3 | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?  |
+| 5 | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+| 8 | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+
+### 8.1.5. Experiment Cards. 
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+| **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento de los equipos de refrigeración. Si los usuarios olvidan realizar mantenimientos programados, aumenta el riesgo de fallas y costos de reparación. Un sistema de alertas automáticas podría ayudar a los dueños a gestionar mejor sus actividades de mantenimiento y reducir los descuidos. |
+| **What** | Implementar un sistema de alertas automáticas que notifique a los dueños cuando se acerque la fecha de mantenimiento de sus equipos mediante notificaciones dentro de la plataforma y correo electrónico. |
+| **Hypothesis** | Se espera que, al implementar alertas automáticas, al menos el 70% de los usuarios realice sus mantenimientos preventivos dentro de las fechas programadas y que los retrasos en mantenimientos disminuyan en un 30%. |
+
+---
+
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? |
+| **Why** | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos. Una vista geográfica podría facilitar la supervisión de equipos distribuidos y mejorar la identificación de sitios que requieren atención. |
+| **What** | Incorporar una vista geográfica interactiva que muestre los sitios registrados mediante marcadores geolocalizados e indicadores visuales relacionados con el estado de los equipos. |
+| **Hypothesis** | Se espera que, al incorporar una vista geográfica, al menos el 65% de los usuarios considere más sencilla la gestión de sus sitios y que el tiempo necesario para localizar información sobre equipos se reduzca en un 25%. |
+
+---
+
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? |
+| **Why** | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios realizados, mantenimientos e intervenciones con otras personas. La posibilidad de generar reportes descargables podría facilitar esta tarea y aumentar el valor percibido de la plataforma. |
+| **What** | Implementar una funcionalidad que permita generar y descargar reportes en formato PDF con información sobre historial de servicios, intervenciones técnicas y estado de los equipos. |
+| **Hypothesis** | Se espera que, al habilitar la exportación de reportes en PDF, al menos el 60% de los usuarios utilice la funcionalidad durante el primer mes y que el valor percibido de la plataforma aumente en un 20%. |
+
+---
+
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+| **Why** | La retroalimentación de los usuarios permite evaluar la calidad de los servicios realizados e identificar oportunidades de mejora. Automatizar el proceso de recolección de opiniones puede incrementar la participación de los usuarios y proporcionar información más consistente para la toma de decisiones. |
+| **What** | Incorporar un módulo de encuestas de satisfacción que se active automáticamente al finalizar una intervención, permitiendo registrar calificaciones y comentarios de los dueños. |
+| **Hypothesis** | Se espera que, al automatizar las encuestas, al menos el 50% de los usuarios complete la evaluación después de una intervención y que la cantidad de retroalimentación recopilada aumente en un 40%. |
+
+---
+
+| Campo | Descripción |
+|---------|---------|
+| **Question** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+| **Why** | La personalización visual permite que los usuarios adapten la interfaz a sus preferencias y condiciones de trabajo. Esto puede mejorar la comodidad durante el uso prolongado de la plataforma y aumentar la satisfacción general con la experiencia de usuario. |
+| **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración de la plataforma. |
+| **Hypothesis** | Se espera que, al incorporar opciones de personalización visual, al menos el 60% de los usuarios manifieste una mejora en su experiencia de uso y que la satisfacción general aumente en un 15%. |
+
+## 8.2. Experiment Design 
+
+### 8.2.1. Hypotheses. 
+
++ Hypothesis 1
+
+| Field | Description |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?                                                                                                                     |
+| **Belief**          | Los usuarios suelen olvidar o postergar actividades de mantenimiento preventivo debido a la falta de recordatorios oportunos. La implementación de alertas automáticas permitirá una mejor planificación y seguimiento de estas actividades. |
+| **Hypothesis**      | La implementación de alertas automáticas aumentará en un 10% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en un 8%.                                                            |
+| **Null Hypothesis** | La implementación de alertas automáticas no generará un aumento significativo en los mantenimientos realizados dentro de la fecha programada ni reducirá los retrasos en los mantenimientos preventivos.                                     |
+
++ Hypothesis 2
+
+| Field | Description  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                                        |
+| **Belief**          | Una representación visual de los sitios y equipos permitirá a los usuarios identificar rápidamente la ubicación de sus activos y facilitará la supervisión de múltiples instalaciones.                        |
+| **Hypothesis**      | La incorporación de una vista geográfica interactiva reducirá en un 10% el tiempo necesario para localizar información sobre equipos y aumentará en un 8% la percepción de facilidad de uso de la plataforma. |
+| **Null Hypothesis** | La incorporación de una vista geográfica interactiva no reducirá significativamente el tiempo necesario para localizar información ni mejorará la percepción de facilidad de uso de la plataforma.            |
+
++ Hypothesis 3
+
+| Field | Description |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                                                                                                 |
+| **Belief**          | La posibilidad de descargar y compartir reportes facilitará la gestión de la información relacionada con mantenimientos e intervenciones, generando una mayor percepción de utilidad de la plataforma.                |
+| **Hypothesis**      | La incorporación de la exportación de reportes en PDF aumentará en un 10% la percepción de utilidad de la plataforma y al menos el 20% de los usuarios utilizará esta funcionalidad durante el período de evaluación. |
+| **Null Hypothesis** | La incorporación de la exportación de reportes en PDF no generará un aumento significativo en la percepción de utilidad de la plataforma ni una adopción relevante de la funcionalidad.                               |
+
++ Hypothesis 4
+
+| Field | Description |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?                                                |
+| **Belief**          | Automatizar la recolección de opiniones facilitará la participación de los usuarios y permitirá obtener información más consistente sobre la calidad del servicio brindado.                     |
+| **Hypothesis**      | La implementación de encuestas automatizadas incrementará en un 10% la participación de los usuarios en procesos de retroalimentación y aumentará en un 8% la cantidad de respuestas recibidas. |
+| **Null Hypothesis** | La implementación de encuestas automatizadas no generará un incremento significativo en la participación de los usuarios ni en la cantidad de respuestas obtenidas.                             |
+
++ Hypothesis 5
+
+| Field | Description |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                              |
+| **Belief**          | Permitir que los usuarios adapten la apariencia de la plataforma a sus preferencias personales mejorará la comodidad de uso y la satisfacción general durante sesiones prolongadas de trabajo.             |
+| **Hypothesis**      | La incorporación de opciones de personalización visual aumentará en un 8% la satisfacción general de los usuarios y al menos el 15% de los usuarios utilizará alguna opción de personalización disponible. |
+| **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios ni una adopción relevante de las opciones de personalización.                 |
+
+
+### 8.2.2. Domain Business Metrics 
+
+## 8.2.2. Domain Business Metrics
+
+Con el objetivo de asegurar que los experimentos realizados en IceTrack generen evidencia objetiva y alineada con los objetivos del negocio, se definieron las siguientes métricas de dominio. Estas métricas serán utilizadas para evaluar el impacto de cada experimento y servirán como base para la toma de decisiones durante el proceso de validación.
+
+| Métrica | Descripción | Fórmula | Técnica de Recolección | Meta |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------ |
+| **Maintenance Compliance Rate (MCR)**  | Mide el porcentaje de mantenimientos preventivos realizados dentro de la fecha programada.               | (Mantenimientos realizados a tiempo / Mantenimientos programados) × 100           | Registros de mantenimiento almacenados en la plataforma.          | Incrementar en 10%.                        |
+| **System Usability Score (SUS)**       | Evalúa la facilidad de uso percibida por los usuarios al interactuar con la plataforma.                  | Puntaje SUS obtenido en encuesta estandarizada (0-100).                           | Encuesta SUS aplicada después del uso de la funcionalidad.        | Incrementar en 5%.                         |
+| **Feature Adoption Rate (FAR)**        | Mide el porcentaje de usuarios activos que utilizan una nueva funcionalidad implementada.                | (Usuarios que utilizan la funcionalidad / Usuarios activos) × 100                 | Registros de actividad y eventos del sistema.                     | Alcanzar al menos 20%.                     |
+| **Survey Participation Rate (SPR)**    | Mide el porcentaje de usuarios que completan una encuesta de satisfacción después de una intervención.   | (Encuestas respondidas / Encuestas enviadas) × 100                                | Registros de encuestas y respuestas almacenadas.                  | Incrementar en 10%.                        |
+| **Customer Satisfaction Score (CSAT)** | Mide el nivel de satisfacción general de los usuarios respecto a la experiencia de uso de la plataforma. | Promedio de las puntuaciones obtenidas en encuestas de satisfacción (escala 1-5). | Encuestas de satisfacción aplicadas a los usuarios.               | Incrementar en 8%.                         |
+| **Lighthouse Performance Score (LPS)** | Evalúa el rendimiento técnico de la aplicación web mediante auditorías Lighthouse.                       | Puntaje obtenido en Lighthouse Performance.                                       | Auditorías realizadas con Google Lighthouse y PageSpeed Insights. | Mantener un puntaje igual o superior a 95. |
+
+Las métricas descritas constituyen la referencia oficial para la evaluación de los experimentos planteados en IceTrack. Todas las hipótesis, medidas y condiciones definidas posteriormente deberán estar asociadas a una o más de estas métricas para garantizar consistencia y trazabilidad en el proceso de experimentación.
+
+
+### 8.2.3. Measures. 
+
+## 8.2.3. Measures
+
++ Measure 1
+
+| Field  | Description |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?  |
+| **Measure**  | Medir la tasa de cumplimiento de mantenimiento preventivo antes y después de implementar las alertas automáticas. Se analizarán los registros de mantenimientos programados y completados para determinar si los usuarios realizan las actividades dentro de las fechas establecidas. |
+
+<br>
+
++ Measure 2
+
+| Field | Description |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                                                                                                                              |
+| **Measure**  | Aplicar la encuesta System Usability Scale (SUS) a los usuarios después de utilizar la vista geográfica interactiva y comparar los resultados con los obtenidos antes de la implementación. Esto permitirá evaluar si la nueva funcionalidad mejora la facilidad de uso percibida de la plataforma. |
+
+<br>
+
++ Measure 3
+
+| Field  | Description  |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Question** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                                                                                                                            |
+| **Measure**  | Analizar la cantidad de usuarios que utilizan la funcionalidad de exportación de reportes en PDF durante el período de evaluación. Se utilizarán registros de actividad del sistema para calcular la tasa de adopción de la nueva funcionalidad. |
+
+<br>
+
++ Measure 4
+
+| Field  | Description |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?                                                                                                                             |
+| **Measure**  | Medir el porcentaje de usuarios que completan las encuestas de satisfacción enviadas automáticamente después de una intervención. Además, se analizará la cantidad de respuestas recibidas para determinar si la automatización incrementa la participación de los usuarios. |
+
+<br>
+
++ Measure 5
+
+| Field | Description|
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+| **Measure**  | Evaluar la satisfacción de los usuarios mediante encuestas CSAT después de utilizar las opciones de personalización visual. Como medida complementaria, se verificará que la funcionalidad mantenga niveles adecuados de rendimiento y accesibilidad mediante auditorías Lighthouse realizadas sobre la aplicación web. |
+
+
+### 8.2.4. Conditions. 
+
+## 8.2.4. Conditions
+
++ Condition 1
+
+| Field | Description |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?                                                                                                          |
+| **Condición Experimental** | Se espera que la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y que los usuarios realicen más actividades de mantenimiento dentro de las fechas programadas. |
+| **Condición de Control**   | No habrá un incremento significativo en la tasa de cumplimiento de mantenimiento preventivo después de implementar las alertas automáticas.                                                                                       |
+
+<br>
+
++ Condition 2
+
+| Field | Description |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Question**               | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                     |
+| **Condición Experimental** | Se espera que el puntaje de usabilidad (SUS) aumente en al menos un 5% y que los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. |
+| **Condición de Control**   | No habrá una mejora significativa en el puntaje de usabilidad ni en la percepción de facilidad de uso después de implementar la vista geográfica interactiva.                              |
+
+<br>
+
++ Condition 3
+
+| Field | Description |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                              |
+| **Condición Experimental** | Se espera que al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. |
+| **Condición de Control**   | La funcionalidad de exportación de reportes en PDF no alcanzará una adopción significativa por parte de los usuarios activos.                      |
+
+<br>
+
++ Condition 4
+
+| Field  | Description |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?          |
+| **Condición Experimental** | Se espera que la tasa de participación en encuestas aumente en un 10% después de implementar el sistema automatizado de recolección de retroalimentación. |
+| **Condición de Control**   | No habrá un incremento significativo en la cantidad de usuarios que completen las encuestas de satisfacción.                                              |
+
+<br>
+
++ Condition 5
+
+| Field | Description |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                             |
+| **Condición Experimental** | Se espera que el nivel de satisfacción de los usuarios (CSAT) aumente en un 8% y que la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. |
+| **Condición de Control**   | No habrá una mejora significativa en la satisfacción de los usuarios ni cambios relevantes en los indicadores evaluados mediante Lighthouse.                                                              |
+
+
+### 8.2.5. Scale Calculations and Decisions.
+
+Para evaluar las hipótesis planteadas en IceTrack, se utilizará una escala de decisión sencilla que permita interpretar los resultados obtenidos durante las pruebas y validaciones del proyecto.
+
+
+| Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| Creemos que la implementación de alertas automáticas aumentará la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en los mantenimientos. Sabremos que esto es cierto cuando la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y los usuarios realicen más actividades dentro de las fechas programadas. | Implementar alertas automáticas de mantenimiento preventivo que notifiquen oportunamente a los usuarios antes de las fechas programadas. |  |  | X |  |
+| Creemos que la incorporación de una vista geográfica interactiva reducirá el tiempo necesario para localizar información sobre equipos y aumentará la percepción de facilidad de uso de la plataforma. Sabremos que esto es cierto cuando el puntaje de usabilidad SUS aumente en al menos un 5% y los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. | Implementar una vista geográfica interactiva que permita ubicar sitios, equipos y activos dentro de la plataforma. |  |  | X |  |
+| Creemos que la incorporación de la exportación de reportes en PDF aumentará la percepción de utilidad de la plataforma y será utilizada por los usuarios durante el período de evaluación. Sabremos que esto es cierto cuando al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. | Implementar la opción de exportar reportes técnicos en formato PDF para compartir información sobre servicios, equipos e intervenciones. |  |  | X |  |
+| Creemos que la implementación de encuestas automatizadas incrementará la participación de los usuarios en procesos de retroalimentación y aumentará la cantidad de respuestas recibidas. Sabremos que esto es cierto cuando la participación de los usuarios en las encuestas aumente en un 10% y la cantidad de respuestas recibidas se incremente en un 8% después de automatizar el envío de encuestas de satisfacción. | Incorporar encuestas automáticas de satisfacción después de cada intervención técnica realizada. |  |  | X |  |
+| Creemos que la incorporación de opciones de personalización visual aumentará la satisfacción general de los usuarios y será adoptada por parte de ellos. Sabremos que esto es cierto cuando el nivel de satisfacción de los usuarios CSAT aumente en un 8% y la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. | Implementar opciones visuales como modo oscuro y temas de color dentro de la configuración de la plataforma. |  |  | X |  |
+
+A partir de esta escala, las funcionalidades que alcancen los niveles **Ideal** o **Excelente** serán consideradas satisfactorias para el avance del proyecto. Las que se ubiquen en el nivel **Aceptable** deberán ser ajustadas antes de una nueva evaluación. Finalmente, los resultados **Desfavorables** indicarán la necesidad de replantear la funcionalidad, mejorar su diseño o revisar su implementación técnica.
+
+
+
+
+
+### 8.2.6. Methods Selection.
+
+Para seleccionar la herramienta más adecuada para la evaluación de IceTrack, se compararon cuatro alternativas orientadas al análisis de rendimiento, monitoreo y experiencia de usuario: Google Analytics, Catchpoint, RedLine13 y Lighthouse.
+
+| Herramienta | Google Analytics | Catchpoint | RedLine13 | Lighthouse |
+| :--- | :--- | :--- | :--- | :--- |
+| **Precio** | Cuenta con un plan gratuito suficiente para analizar tráfico, sesiones y comportamiento general de usuarios. | Basado principalmente en suscripción, orientado a empresas con necesidades avanzadas de monitoreo. | Cuenta con opciones gratuitas o de bajo costo, aunque algunas funciones avanzadas pueden requerir pago. | Gratuito y disponible desde Chrome DevTools, PageSpeed Insights o ejecución local. |
+| **Capacidad de análisis** | Permite analizar usuarios, sesiones, eventos, rutas de navegación y conversiones. | Permite monitorear rendimiento y experiencia de usuario desde múltiples ubicaciones y dispositivos. | Está orientado a pruebas de carga, estrés y rendimiento bajo concurrencia. | Evalúa rendimiento, accesibilidad, buenas prácticas y SEO de aplicaciones web. |
+| **Sencillez** | Requiere configuración inicial y definición de eventos para obtener resultados útiles. | Tiene una interfaz más avanzada, por lo que requiere mayor curva de aprendizaje. | Requiere conocimientos técnicos sobre pruebas de carga y configuración de escenarios. | Es sencillo de ejecutar y ofrece resultados visuales fáciles de interpretar. |
+| **Ventajas** | Útil para analizar comportamiento real de usuarios y evolución del tráfico. | Adecuado para monitoreo empresarial continuo y análisis desde diferentes regiones. | Permite simular múltiples usuarios y analizar el comportamiento del sistema bajo carga. | Entrega reportes claros con puntajes y recomendaciones concretas para mejorar la aplicación. |
+| **Limitaciones** | No evalúa directamente aspectos técnicos como accesibilidad o buenas prácticas del frontend. | Puede ser excesivo para un proyecto universitario por su orientación empresarial. | Su enfoque en carga puede no ser prioritario para el alcance actual del proyecto. | No mide comportamiento real de usuarios, sino resultados de auditoría técnica. |
+| **Aplicación en IceTrack** | Podría utilizarse en una fase posterior para medir usuarios activos y navegación. | No se considera necesario para el alcance actual del proyecto. | Podría ser útil si se desea evaluar carga en backend, pero no será la prioridad. | Se utilizará como herramienta principal para evaluar rendimiento, accesibilidad, buenas prácticas y SEO. |
+
+Después de comparar las herramientas, se decide utilizar **Lighthouse** como herramienta principal de evaluación. Esta decisión se justifica porque IceTrack requiere una herramienta gratuita, accesible, sencilla de ejecutar y capaz de entregar resultados claros sobre la calidad técnica del frontend.
+
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
+
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse. A continuación, se mostrarán ejemplos del uso de IceTrack en ambos segmentos objetivos:
+
+Vista inicial:
+![LightHousepng](assets/chapter08/LightHouse.png)
+
+Vista de registro:
+![LightHouseRegisterpng](assets/chapter08/LightHouseRegister.png)
+
+Vista de login:
+![LightHouseLoginpng](assets/chapter08/LightHouseLogin.png)
+
+Vista de dashboard:
+![LightHouseDashboardpng](assets/chapter08/LightHouseDashboard.png)
+
+Vista de equipos:
+![LightHouseEquipmentpng](assets/chapter08/LightHouseEquipment.png)
+
+Vista de sitios:
+![LightHouseSitespng](assets/chapter08/LightHouseSites.png)
+
+Vista de servicios completados:
+![LightHouseServicesCompeltedpng](assets/chapter08/LightHouseServicesCompleted.png)
+
+Para la organización y distribución de estas pruebas, se utilizó Jira:
+![LightHouseJira](assets/chapter08/PruebasJira.png)
+
+Luego se realizó un análiiss en base a las pruebas con los resultados obtenidos en cada una de ellas:
+![LightHouseExcelpng](assets/chapter08/LightHouseExcel.png)
+
+Con estos datos, pudimos graficar las tendencias del rendimiento, accesibilidad, recomendaciones y SEO de la plataforma:
+
+![LightHouseRendimientopng](assets/chapter08/RendimientoExcel.png)
+
+![LightHouseAccesibilidadpng](assets/chapter08/AccesibilidadExcel.png)
+
+![LightHouseRecomendacionespng](assets/chapter08/RecomendacionesExcel.png)
+
+![LightHouseSEOpng](/assets/chapter08/SEOExcel.png)
+
+
+
+### 8.2.8. Web and Mobile Tracking Plan. 
+Para IceTrack, el plan de seguimiento web y móvil tiene como finalidad monitorear el comportamiento general de la aplicación y evaluar el impacto de las mejoras implementadas durante el desarrollo del proyecto. Este seguimiento permitirá obtener información útil sobre el rendimiento, la accesibilidad, la experiencia de usuario y la estabilidad de las funcionalidades principales.
+
+A diferencia de un monitoreo centrado únicamente en métricas generales, en IceTrack se priorizará el seguimiento de las vistas y flujos más importantes para los dos segmentos objetivo del proyecto. De esta manera, el análisis permitirá observar si la plataforma responde adecuadamente a las necesidades de ambos perfiles.
+
+El monitoreo se desarrollará en dos etapas principales: Implementación Inicial y Seguimiento Continuo.
+
+#### 1. Implementación Inicial
+
+Durante esta primera fase, se realizará la evaluación inicial de las vistas principales de IceTrack. El objetivo será obtener una línea base que permita conocer el estado actual de la aplicación antes de aplicar mejoras o ajustes finales.
+
+En esta etapa se recopilarán datos relacionados con:
+
+- Rendimiento de carga de las principales vistas web.
+- Accesibilidad de la interfaz.
+- Buenas prácticas de desarrollo frontend.
+- SEO básico de las páginas evaluadas.
+- Observaciones visuales sobre navegación, estructura y consistencia de la interfaz.
+- Claridad de la información presentada en dashboards, reportes y módulos de equipos.
+
+#### 2. Seguimiento Continuo
+
+Después de la evaluación inicial, se realizará un seguimiento continuo durante el avance del proyecto. Esta etapa permitirá comparar los resultados obtenidos después de aplicar cambios o mejoras en la aplicación.
+
+El seguimiento continuo se enfocará en:
+
+- Comparar los puntajes iniciales y finales de Lighthouse.
+- Revisar si las optimizaciones aplicadas mejoran el rendimiento de las vistas.
+- Identificar si los cambios visuales afectan la accesibilidad.
+- Verificar que las buenas prácticas y el SEO no disminuyan después de nuevas modificaciones.
+- Registrar observaciones sobre errores, lentitud o problemas visuales detectados durante las pruebas.
+- Analizar si las vistas críticas mantienen una experiencia consistente después de cada cambio.
+
+## 8.3. Experimentation 
+### 8.3.1. To-Be User Stories.
+
+|User Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (EpicID)|
+|--|--|--|--|--|
+| US-TB-01 | Selección rápida de equipo en nueva solicitud | **Como** cliente, **quiero** que el campo Equipment se filtre automáticamente según el sitio elegido, **para** no buscar entre equipos que no me corresponden. | Escenario 1: **Dado que** selecciono un Site,<br> **Cuando** abro el dropdown de Equipment,<br> **Entonces** solo veo los equipos registrados en ese sitio. <br><br> Escenario 2: **Dado que** no he seleccionado un Site, <br> **Cuando** intento abrir Equipment, <br> **Entonces** el campo aparece deshabilitado con un mensaje "Selecciona un sitio primero". | EP-03 |
+| US-TB-02 | Sugerencia automática de tipo de solicitud | **Como** cliente, **quiero** que el sistema sugiera el "Request Type" según el equipo y su historial, **para** agilizar el llenado del formulario. | Escenario 1: **Dado que** selecciono un equipo con alertas activas, **Cuando** el sistema detecta el patrón, **Entonces** autocompleta el Request Type sugerido (ej. "Correctivo"). <br><br> Escenario 2: **Dado que** el equipo no tiene historial, **Cuando** lo selecciono, **Entonces** el campo queda vacío para ingreso manual. | EP-03 |
+| US-TB-03 | Dashboard con gráfico de servicios por estado | **Como** propietario, **quiero** ver el dashboard con el donut de "Service Requests" poblado con datos reales, **para** identificar de un vistazo la proporción de servicios pendientes, en progreso y completados. | Escenario 1: **Dado que** existen servicios registrados, **Cuando** cargo el Dashboard, **Entonces** el gráfico muestra los porcentajes segmentados por estado con leyenda. Escenario 2: **Dado que** no hay servicios registrados, **Cuando** cargo el Dashboard, **Entonces** se muestra un estado vacío amigable en lugar del donut en blanco. | EP-04 |
+| US-TB-04 | Validación en tiempo real del serial del equipo | **Como** cliente, **quiero** que el campo Serial valide formato y longitud mientras escribo, **para** corregir errores antes de enviar el formulario. | Escenario 1: **Dado que** escribo menos de 8 caracteres, **Cuando** salgo del campo, **Entonces** se muestra un mensaje de error indicando el rango válido (8-12). <br><br> Escenario 2: **Dado que** ingreso un serial ya registrado, **Cuando** intento guardar, **Entonces** el sistema muestra "Este serial ya existe" antes de enviar el formulario. | EP-02 |
+| US-TB-05 | Notificación de nueva solicitud al proveedor | **Como** proveedor, **quiero** recibir una notificación cuando llega una nueva solicitud, **para** atenderla sin tener que revisar el dashboard constantemente. | Escenario 1: **Dado que** un cliente crea una solicitud asignada a mi servicio, **Cuando** se guarda la solicitud, **Entonces** recibo una notificación con el resumen. <br><br> Escenario 2: **Dado que** tengo notificaciones desactivadas, **Cuando** llega una solicitud, **Entonces** solo se refleja en el contador "New Requests" del dashboard. | EP-03 |
+| US-TB-06 | Validación de teléfono de técnico | **Como** proveedor, **quiero** que el campo Phone valide automáticamente que sean 9 dígitos numéricos, **para** evitar registros con datos incorrectos. | Escenario 1: **Dado que** ingreso menos o más de 9 dígitos, **Cuando** intento presionar "Register", **Entonces** el botón permanece deshabilitado y se muestra el requisito.  <br><br> Escenario 2: **Dado que** ingreso letras o símbolos, **Cuando** escribo en el campo, **Entonces** el sistema bloquea caracteres no numéricos.  | EP-01 |
+| US-TB-07 | Edición y eliminación de técnicos | **Como** proveedor, **quiero** editar o eliminar un técnico desde la columna "Actions" de "My Technicians", **para** mantener actualizado mi equipo de trabajo. | Escenario 1: **Dado que** selecciono "Editar" en un técnico, **Cuando** modifico sus datos y guardo, **Entonces** la tabla refleja los cambios inmediatamente.  <br><br> Escenario 2: **Dado que** un técnico tiene servicios activos asignados, **Cuando** intento eliminarlo, **Entonces** el sistema bloquea la acción y muestra una advertencia. | EP-01 |
+| US-TB-08 | Persistencia de idioma seleccionado en la interfaz | **Como** usuario, **quiero** que el idioma (ES/EN) elegido se mantenga al recargar o volver a iniciar sesión, **para** no tener que cambiarlo cada vez. | Escenario 1: **Dado que** selecciono EN, **Cuando** cierro y vuelvo a abrir la app, **Entonces** la interfaz sigue en inglés. <br><br> Escenario 2: **Dado que** cambio de dispositivo, **Cuando** inicio sesión, **Entonces** se aplica el último idioma guardado en mi perfil. | EP-01 |
+
+### 8.3.2. To-Be Product Backlog.
+
+| Orden | User Story ID | Título | Story Points (1/2/3/5/8) | 
+|--|--|--|--|
+| 1 | US-TB-05 | Notificación de nueva solicitud al proveedor | 8 |
+| 2 | US-TB-03 | Dashboard con gráfico de servicios por estado | 8 |
+| 3 | US-TB-01 | Selección rápida de equipo en nueva solicitud | 5 |
+| 4 | US-TB-02 | Sugerencia automática de tipo de solicitud | 5 |
+| 5 | US-TB-08 | Persistencia de idioma seleccionado en la interfaz | 5 |
+| 6 | US-TB-07 | Edición y eliminación de técnicos | 3 |
+| 7 | US-TB-04 | Validación en tiempo real del serial del equipo | 3 |
+| 8 | US-TB-06 | Validación de teléfono de técnico | 2 |
+
+**Interpretación de los Story Points**
+
+**8 puntos:** historias de alta complejidad técnica con impacto transversal entre frontend y backend, que requieren integración en tiempo real o lógica de agregación de datos. Ejemplos: Notificación de nueva solicitud (requiere sistema de eventos/push y manejo de estados), Dashboard con gráfico de servicios (requiere agregación de datos desde múltiples entidades, cálculo de proporciones y manejo de estado vacío).
+
+**5 puntos:** funcionalidades de complejidad media-alta que implican lógica de negocio condicional y mejoras de experiencia de usuario, concentradas principalmente en frontend con dependencia de datos del backend. Ejemplos: Selección de equipo filtrada por sitio, sugerencia automática de tipo de solicitud (requiere lógica de detección de patrones/historial), persistencia de idioma (requiere guardado en perfil de usuario y sincronización entre sesiones).
+
+**3 puntos:** tareas de complejidad media-baja, generalmente acotadas a un único módulo o componente, con dependencia mínima de otras funciones. Ejemplos: edición/eliminación de técnicos (CRUD con validación de reglas de negocio), validación en tiempo real del serial (lógica de validación de formato y unicidad).
+
+**2 puntos:** tareas de bajo riesgo y baja complejidad, principalmente validaciones de formulario en frontend sin lógica de negocio compleja. Ejemplo: validación de teléfono de técnico (regla simple de formato numérico de 9 dígitos).
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle 
+#### 8.3.3.1. To-Be Sprint Backlogs 
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence 
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence 
+#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence 
+#### 8.3.3.5. Team Collaboration Insights
+### 8.3.4. To-Be Validation Interviews
+#### 8.3.4.1. Diseño de Entrevistas
+#### 8.3.4.2. Registro de Entrevistas
+## 8.4. Experiment Aftermath & Analysis 
+### 8.4.1. Analysis and Interpretation of Results 
+### 8.4.2. Re-scored and Re-prioritized Question Backlog 
+## 8.5. Continuous Learning 
+### 8.5.1. Shareback Session Artifacts: Learning Workflow 
+## 8.6. To-Be Software Platform Pre-launch 
+### 8.6.1. About-the-Product Intro Video
 
 # Conclusiones
 
