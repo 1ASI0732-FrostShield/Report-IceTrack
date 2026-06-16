@@ -9,7 +9,7 @@
   <h2>NRC: 12316</h2>
   <h2>Profesor: Julio Manuel Noriega Melendez</h2>
 <br>
- <h1>Informe del Trabajo Parcial</h1>
+ <h1>Informe del Avance 2</h1>
   <h2>Startup: Frostshield </h2>
   <h2>Producto: IceTrack </h2>
 <br>
