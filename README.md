@@ -3028,7 +3028,7 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 |----------|-------------------------------------------------------------------------------------------------------------------------|
 | **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento. Si los usuarios olvidan realizarlos, aumenta el riesgo de fallas. Un sistema de alertas podría ayudar a gestionar mejor estas actividades y reducir descuidos. |
 | **What** | Implementar un sistema de alertas automáticas que notifique a los dueños mediante la plataforma cuando se acerque la fecha de mantenimiento. |
-| **Hypothesis** | Se espera el aumentó en un 6% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada. |
+| **Hypothesis** | Se espera el aumentó en un 10% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada. |
 
 ---
 
@@ -3068,7 +3068,7 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 |----------|----------------------------------------------------------------------------------------------------------------------------|
 | **Why** | La personalización visual permite adaptar la interfaz a preferencias y condiciones de trabajo, mejorando la comodidad durante el uso prolongado. |
 | **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración. |
-| **Hypothesis** | Se espera que las opciones de personalización aumentarán en un 8% la satisfacción de los usuarios y mantendrán un puntaje medio de SEO en Lighthouse igual o superior a 80. |
+| **Hypothesis** | Se espera que las opciones de personalización aumentarán en un 8% la satisfacción de los usuarios y mantendrán un puntaje medio de SEO en Lighthouse superior a 80. |
 
 
 ## 8.2. Experiment Design 
@@ -3121,7 +3121,7 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 | **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios ni una adopción relevante de las opciones de personalización.                 |
 
 
-### 8.2.2. Domain Business Metrics
+###   Domain Business Metrics
 
 Con el objetivo de asegurar que los experimentos realizados en IceTrack generen evidencia objetiva y alineada con los objetivos del negocio, se definieron las siguientes métricas de dominio. Estas métricas serán utilizadas para evaluar el impacto de cada experimento y servirán como base para la toma de decisiones durante el proceso de validación.
 
@@ -3132,10 +3132,9 @@ Con el objetivo de asegurar que los experimentos realizados en IceTrack generen 
 | **Feature Adoption Rate (FAR)**        | Mide el porcentaje de usuarios activos que utilizan una nueva funcionalidad implementada.                | (Usuarios que utilizan la funcionalidad / Usuarios activos) × 100                 | Registros de actividad y eventos del sistema.                     | Alcanzar al menos 20%.                     |
 | **Survey Participation Rate (SPR)**    | Mide el porcentaje de usuarios que completan una encuesta de satisfacción después de una intervención.   | (Encuestas respondidas / Encuestas enviadas) × 100                                | Registros de encuestas y respuestas almacenadas.                  | Incrementar en 10%.                        |
 | **Customer Satisfaction Score (CSAT)** | Mide el nivel de satisfacción general de los usuarios respecto a la experiencia de uso de la plataforma. | Promedio de las puntuaciones obtenidas en encuestas de satisfacción (escala 1-5). | Encuestas de satisfacción aplicadas a los usuarios.               | Incrementar en 8%.                         |
-| **Lighthouse Performance Score (LPS)** | Evalúa el rendimiento técnico de la aplicación web mediante auditorías Lighthouse.                       | Puntaje obtenido en Lighthouse Performance.                                       | Auditorías realizadas con Google Lighthouse y PageSpeed Insights. | Mantener un puntaje igual o superior a 95. |
+| Lighthouse SEO Score (LSS) | Evalúa el nivel de optimización SEO de la aplicación web mediante auditorías Lighthouse. | Puntaje obtenido en la categoría SEO de Lighthouse. | Auditorías realizadas con Google Lighthouse y PageSpeed Insights. | Mantener un puntaje superior a 80. |
 
 Las métricas descritas constituyen la referencia oficial para la evaluación de los experimentos planteados en IceTrack. Todas las hipótesis, medidas y condiciones definidas posteriormente deberán estar asociadas a una o más de estas métricas para garantizar consistencia y trazabilidad en el proceso de experimentación.
-
 
 
 ### 8.2.3. Measures. 
@@ -3231,7 +3230,7 @@ Las métricas descritas constituyen la referencia oficial para la evaluación de
 | Field | Description |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**               | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                             |
-| **Condición Experimental** | Se espera que el nivel de satisfacción de los usuarios (CSAT) aumente en un 8% y que la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. |
+| **Condición Experimental** | Se espera que el nivel de satisfacción de los usuarios (CSAT) aumente en un 8% y que la aplicación incremente su puntaje Lighthouse SEO mayor a 80.|
 | **Condición de Control**   | No habrá una mejora significativa en la satisfacción de los usuarios ni cambios relevantes en los indicadores evaluados mediante Lighthouse.                                                              |
 
 
@@ -3242,11 +3241,11 @@ Para evaluar las hipótesis planteadas en IceTrack, se utilizará una escala de 
 
 | Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| Creemos que la implementación de alertas automáticas aumentará la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en los mantenimientos. Sabremos que esto es cierto cuando la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y los usuarios realicen más actividades dentro de las fechas programadas. | Implementar alertas automáticas de mantenimiento preventivo que notifiquen oportunamente a los usuarios antes de las fechas programadas. |  |  | X |  |
-| Creemos que la incorporación de una vista geográfica interactiva reducirá el tiempo necesario para localizar información sobre equipos y aumentará la percepción de facilidad de uso de la plataforma. Sabremos que esto es cierto cuando el puntaje de usabilidad SUS aumente en al menos un 5% y los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. | Implementar una vista geográfica interactiva que permita ubicar sitios, equipos y activos dentro de la plataforma. |  |  | X |  |
-| Creemos que la incorporación de la exportación de reportes en PDF aumentará la percepción de utilidad de la plataforma y será utilizada por los usuarios durante el período de evaluación. Sabremos que esto es cierto cuando al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. | Implementar la opción de exportar reportes técnicos en formato PDF para compartir información sobre servicios, equipos e intervenciones. |  |  | X |  |
+| Creemos que la implementación de alertas automáticas aumentará la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en los mantenimientos. Sabremos que esto es cierto cuando la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y los usuarios realicen más actividades dentro de las fechas programadas. | Implementar alertas automáticas de mantenimiento preventivo que notifiquen oportunamente a los usuarios antes de las fechas programadas. |  |  |  | X |
+| Creemos que la incorporación de una vista geográfica interactiva reducirá el tiempo necesario para localizar información sobre equipos y aumentará la percepción de facilidad de uso de la plataforma. Sabremos que esto es cierto cuando el puntaje de usabilidad SUS aumente en al menos un 5% y los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. | Implementar una vista geográfica interactiva que permita ubicar sitios, equipos y activos dentro de la plataforma. |  | X |  |  |
+| Creemos que la incorporación de la exportación de reportes en PDF aumentará la percepción de utilidad de la plataforma y será utilizada por los usuarios durante el período de evaluación. Sabremos que esto es cierto cuando al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. | Implementar la opción de exportar reportes técnicos en formato PDF para compartir información sobre servicios, equipos e intervenciones. |  |  |  | X |
 | Creemos que la implementación de encuestas automatizadas incrementará la participación de los usuarios en procesos de retroalimentación y aumentará la cantidad de respuestas recibidas. Sabremos que esto es cierto cuando la participación de los usuarios en las encuestas aumente en un 10% y la cantidad de respuestas recibidas se incremente en un 8% después de automatizar el envío de encuestas de satisfacción. | Incorporar encuestas automáticas de satisfacción después de cada intervención técnica realizada. |  |  | X |  |
-| Creemos que la incorporación de opciones de personalización visual aumentará la satisfacción general de los usuarios y será adoptada por parte de ellos. Sabremos que esto es cierto cuando el nivel de satisfacción de los usuarios CSAT aumente en un 8% y la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. | Implementar opciones visuales como modo oscuro y temas de color dentro de la configuración de la plataforma. |  |  | X |  |
+| Creemos que la incorporación de opciones de personalización visual aumentará la satisfacción general de los usuarios y será adoptada por parte de ellos. Sabremos que esto es cierto cuando el nivel de satisfacción de los usuarios CSAT aumente en un 8% y la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. | Implementar opciones visuales como modo oscuro y temas de color dentro de la configuración de la plataforma. |  | X  |  |  |
 
 A partir de esta escala, las funcionalidades que alcancen los niveles **Ideal** o **Excelente** serán consideradas satisfactorias para el avance del proyecto. Las que se ubiquen en el nivel **Aceptable** deberán ser ajustadas antes de una nueva evaluación. Finalmente, los resultados **Desfavorables** indicarán la necesidad de replantear la funcionalidad, mejorar su diseño o revisar su implementación técnica.
 
@@ -3308,7 +3307,6 @@ Con estos datos, pudimos graficar las tendencias del rendimiento, accesibilidad,
 ![LightHouseSEOpng](/assets/chapter08/SEOExcel.png)
 
 
-
 ### 8.2.8. Web and Mobile Tracking Plan. 
 Para IceTrack, el plan de seguimiento web y móvil tiene como finalidad monitorear el comportamiento general de la aplicación y evaluar el impacto de las mejoras implementadas durante el desarrollo del proyecto. Este seguimiento permitirá obtener información útil sobre el rendimiento, la accesibilidad, la experiencia de usuario y la estabilidad de las funcionalidades principales.
 
@@ -3345,39 +3343,34 @@ El seguimiento continuo se enfocará en:
 ## 8.3. Experimentation 
 ### 8.3.1. To-Be User Stories.
 
-|User Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (EpicID)|
-|--|--|--|--|--|
-| US-TB-01 | Selección rápida de equipo en nueva solicitud | **Como** cliente, **quiero** que el campo Equipment se filtre automáticamente según el sitio elegido, **para** no buscar entre equipos que no me corresponden. | Escenario 1: **Dado que** selecciono un Site,<br> **Cuando** abro el dropdown de Equipment,<br> **Entonces** solo veo los equipos registrados en ese sitio. <br><br> Escenario 2: **Dado que** no he seleccionado un Site, <br> **Cuando** intento abrir Equipment, <br> **Entonces** el campo aparece deshabilitado con un mensaje "Selecciona un sitio primero". | EP-03 |
-| US-TB-02 | Sugerencia automática de tipo de solicitud | **Como** cliente, **quiero** que el sistema sugiera el "Request Type" según el equipo y su historial, **para** agilizar el llenado del formulario. | Escenario 1: **Dado que** selecciono un equipo con alertas activas, **Cuando** el sistema detecta el patrón, **Entonces** autocompleta el Request Type sugerido (ej. "Correctivo"). <br><br> Escenario 2: **Dado que** el equipo no tiene historial, **Cuando** lo selecciono, **Entonces** el campo queda vacío para ingreso manual. | EP-03 |
-| US-TB-03 | Dashboard con gráfico de servicios por estado | **Como** propietario, **quiero** ver el dashboard con el donut de "Service Requests" poblado con datos reales, **para** identificar de un vistazo la proporción de servicios pendientes, en progreso y completados. | Escenario 1: **Dado que** existen servicios registrados, **Cuando** cargo el Dashboard, **Entonces** el gráfico muestra los porcentajes segmentados por estado con leyenda. Escenario 2: **Dado que** no hay servicios registrados, **Cuando** cargo el Dashboard, **Entonces** se muestra un estado vacío amigable en lugar del donut en blanco. | EP-04 |
-| US-TB-04 | Validación en tiempo real del serial del equipo | **Como** cliente, **quiero** que el campo Serial valide formato y longitud mientras escribo, **para** corregir errores antes de enviar el formulario. | Escenario 1: **Dado que** escribo menos de 8 caracteres, **Cuando** salgo del campo, **Entonces** se muestra un mensaje de error indicando el rango válido (8-12). <br><br> Escenario 2: **Dado que** ingreso un serial ya registrado, **Cuando** intento guardar, **Entonces** el sistema muestra "Este serial ya existe" antes de enviar el formulario. | EP-02 |
-| US-TB-05 | Notificación de nueva solicitud al proveedor | **Como** proveedor, **quiero** recibir una notificación cuando llega una nueva solicitud, **para** atenderla sin tener que revisar el dashboard constantemente. | Escenario 1: **Dado que** un cliente crea una solicitud asignada a mi servicio, **Cuando** se guarda la solicitud, **Entonces** recibo una notificación con el resumen. <br><br> Escenario 2: **Dado que** tengo notificaciones desactivadas, **Cuando** llega una solicitud, **Entonces** solo se refleja en el contador "New Requests" del dashboard. | EP-03 |
-| US-TB-06 | Validación de teléfono de técnico | **Como** proveedor, **quiero** que el campo Phone valide automáticamente que sean 9 dígitos numéricos, **para** evitar registros con datos incorrectos. | Escenario 1: **Dado que** ingreso menos o más de 9 dígitos, **Cuando** intento presionar "Register", **Entonces** el botón permanece deshabilitado y se muestra el requisito.  <br><br> Escenario 2: **Dado que** ingreso letras o símbolos, **Cuando** escribo en el campo, **Entonces** el sistema bloquea caracteres no numéricos.  | EP-01 |
-| US-TB-07 | Edición y eliminación de técnicos | **Como** proveedor, **quiero** editar o eliminar un técnico desde la columna "Actions" de "My Technicians", **para** mantener actualizado mi equipo de trabajo. | Escenario 1: **Dado que** selecciono "Editar" en un técnico, **Cuando** modifico sus datos y guardo, **Entonces** la tabla refleja los cambios inmediatamente.  <br><br> Escenario 2: **Dado que** un técnico tiene servicios activos asignados, **Cuando** intento eliminarlo, **Entonces** el sistema bloquea la acción y muestra una advertencia. | EP-01 |
-| US-TB-08 | Persistencia de idioma seleccionado en la interfaz | **Como** usuario, **quiero** que el idioma (ES/EN) elegido se mantenga al recargar o volver a iniciar sesión, **para** no tener que cambiarlo cada vez. | Escenario 1: **Dado que** selecciono EN, **Cuando** cierro y vuelvo a abrir la app, **Entonces** la interfaz sigue en inglés. <br><br> Escenario 2: **Dado que** cambio de dispositivo, **Cuando** inicio sesión, **Entonces** se aplica el último idioma guardado en mi perfil. | EP-01 |
+| User Story ID | Título                                           | Descripción                                                                                                                                                          | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                    | Relacionado con (EpicID) |
+| ------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| US-TB-01      | Alertas automáticas de mantenimiento preventivo  | **Como** propietario, **quiero** recibir alertas automáticas antes de la fecha programada de mantenimiento, **para** evitar retrasos y olvidos.                      | Escenario 1: **Dado que** un mantenimiento está próximo a vencer, **Cuando** faltan 7 días para la fecha programada, **Entonces** el sistema envía una notificación al usuario. <br><br> Escenario 2: **Dado que** el mantenimiento ya fue realizado, **Cuando** se registra la intervención, **Entonces** la alerta pendiente desaparece automáticamente. | EP-03                    |
+| US-TB-02      | Vista geográfica interactiva de sitios y equipos | **Como** propietario, **quiero** visualizar mis sitios y equipos en un mapa interactivo, **para** localizar rápidamente mis activos.                                 | Escenario 1: **Dado que** existen sitios registrados, **Cuando** ingreso al módulo de mapa, **Entonces** visualizo marcadores con la ubicación de cada sitio. <br><br> Escenario 2: **Dado que** selecciono un marcador, **Cuando** hago clic sobre él, **Entonces** se muestran los equipos asociados a dicho sitio.                                      | EP-04                    |
+| US-TB-03      | Exportación de reportes en PDF                   | **Como** propietario, **quiero** exportar reportes en formato PDF, **para** compartir y almacenar información de mantenimiento.                                      | Escenario 1: **Dado que** visualizo un reporte, **Cuando** presiono "Export PDF", **Entonces** se descarga un archivo PDF correctamente generado. <br><br> Escenario 2: **Dado que** el reporte contiene múltiples registros, **Cuando** genero el PDF, **Entonces** toda la información aparece correctamente estructurada.                               | EP-04                    |
+| US-TB-04      | Encuestas automáticas de satisfacción            | **Como** cliente, **quiero** recibir automáticamente una encuesta después de cada servicio realizado, **para** brindar retroalimentación sobre la atención recibida. | Escenario 1: **Dado que** una solicitud cambia a estado completado, **Cuando** finaliza la intervención, **Entonces** el sistema envía automáticamente una encuesta. <br><br> Escenario 2: **Dado que** el usuario responde la encuesta, **Cuando** envía sus respuestas, **Entonces** estas quedan registradas en la plataforma.                          | EP-03                    |
+| US-TB-05      | Personalización visual de la interfaz            | **Como** usuario, **quiero** activar modo oscuro y seleccionar temas de color, **para** adaptar la apariencia de la plataforma a mis preferencias.                   | Escenario 1: **Dado que** activo el modo oscuro, **Cuando** navego por la aplicación, **Entonces** toda la interfaz utiliza la configuración seleccionada. <br><br> Escenario 2: **Dado que** selecciono un tema de color, **Cuando** vuelvo a iniciar sesión, **Entonces** la preferencia permanece guardada.                                             | EP-01                    |
 
 ### 8.3.2. To-Be Product Backlog.
 
-| Orden | User Story ID | Título | Story Points (1/2/3/5/8) | 
-|--|--|--|--|
-| 1 | US-TB-05 | Notificación de nueva solicitud al proveedor | 8 |
-| 2 | US-TB-03 | Dashboard con gráfico de servicios por estado | 8 |
-| 3 | US-TB-01 | Selección rápida de equipo en nueva solicitud | 5 |
-| 4 | US-TB-02 | Sugerencia automática de tipo de solicitud | 5 |
-| 5 | US-TB-08 | Persistencia de idioma seleccionado en la interfaz | 5 |
-| 6 | US-TB-07 | Edición y eliminación de técnicos | 3 |
-| 7 | US-TB-04 | Validación en tiempo real del serial del equipo | 3 |
-| 8 | US-TB-06 | Validación de teléfono de técnico | 2 |
+| Orden | User Story ID | Título                                           | Story Points (1/2/3/5/8) |
+| ----- | ------------- | ------------------------------------------------ | ------------------------ |
+| 1     | US-TB-02      | Vista geográfica interactiva de sitios y equipos | 8                        |
+| 2     | US-TB-04      | Encuestas automáticas de satisfacción            | 8                        |
+| 3     | US-TB-01      | Alertas automáticas de mantenimiento preventivo  | 5                        |
+| 4     | US-TB-03      | Exportación de reportes en PDF                   | 5                        |
+| 5     | US-TB-05      | Personalización visual de la interfaz            | 3                        |
 
 **Interpretación de los Story Points**
 
-**8 puntos:** historias de alta complejidad técnica con impacto transversal entre frontend y backend, que requieren integración en tiempo real o lógica de agregación de datos. Ejemplos: Notificación de nueva solicitud (requiere sistema de eventos/push y manejo de estados), Dashboard con gráfico de servicios (requiere agregación de datos desde múltiples entidades, cálculo de proporciones y manejo de estado vacío).
+**8 puntos:** historias de alta complejidad técnica que requieren integración de múltiples componentes y manejo de información dinámica. Ejemplos: Vista geográfica interactiva (integración con mapas, geolocalización y asociación de activos) y encuestas automáticas (automatización de envíos, almacenamiento de respuestas y seguimiento de participación).
 
-**5 puntos:** funcionalidades de complejidad media-alta que implican lógica de negocio condicional y mejoras de experiencia de usuario, concentradas principalmente en frontend con dependencia de datos del backend. Ejemplos: Selección de equipo filtrada por sitio, sugerencia automática de tipo de solicitud (requiere lógica de detección de patrones/historial), persistencia de idioma (requiere guardado en perfil de usuario y sincronización entre sesiones).
+**5 puntos:** funcionalidades de complejidad media-alta que implican lógica de negocio específica y mejoras significativas para el usuario. Ejemplos: alertas automáticas de mantenimiento preventivo (programación y gestión de notificaciones), exportación de reportes PDF (generación dinámica de documentos) y personalización visual (persistencia de preferencias y adaptación de la interfaz).
 
-**3 puntos:** tareas de complejidad media-baja, generalmente acotadas a un único módulo o componente, con dependencia mínima de otras funciones. Ejemplos: edición/eliminación de técnicos (CRUD con validación de reglas de negocio), validación en tiempo real del serial (lógica de validación de formato y unicidad).
+**3 puntos:** tareas de complejidad media-baja asociadas a validaciones, configuraciones o funcionalidades limitadas a un módulo específico.
 
-**2 puntos:** tareas de bajo riesgo y baja complejidad, principalmente validaciones de formulario en frontend sin lógica de negocio compleja. Ejemplo: validación de teléfono de técnico (regla simple de formato numérico de 9 dígitos).
+**2 puntos:** tareas de baja complejidad centradas principalmente en validaciones simples o ajustes menores de interfaz.
+
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle 
 #### 8.3.3.1. To-Be Sprint Backlogs 
