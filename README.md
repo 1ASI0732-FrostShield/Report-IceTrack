@@ -45,6 +45,7 @@
 | 2.1     | 04/05/2026 | Julio Guillen     | Revision de los Capitulos III al V                     |
 | 2.2     | 05/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VI                              |
 | 2.2     | 12/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VII                             |
+| 3.1     | 12/05/2026 | Jeremy Quijada    | Desarollo del Capitulo VIII                             |
 
 </div>
 
@@ -90,6 +91,14 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 ![InsightsTP](assets/chapter01/Pulse-TP.png)
 
 ![NetworkGraphTP](assets/chapter01/Network-TP.png)
+
+**Avance 2:** Las tareas asignadas a la TB2 han sido finalizadas y se encuentran correctamente documentadas en el repositorio de GitHub:
+- Se redactaron y crearon los contenidos asignados a cada miembro utilizando formato Markdown, y se realizaron "Conventional Commits" para documentar el avance en el repositorio.
+- Se generaron los recursos necesarios y se añadieron las imágenes al repositorio en la carpeta "assets" correspondiente a cada rama del informe.
+
+![InsightsAV2](assets/chapter01/Av-pulse.png)
+
+![NetworkGraphAV2](assets/chapter01/Network-av2.png)
 
 ## Contenido
 
@@ -214,11 +223,8 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
   - [8.2. Experiment Design](#82-experiment-design)
     - [8.2.1. Hypotheses.](#821-hypotheses)
     - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
-    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics-1)
     - [8.2.3. Measures.](#823-measures)
-    - [8.2.3. Measures](#823-measures-1)
     - [8.2.4. Conditions.](#824-conditions)
-    - [8.2.4. Conditions](#824-conditions-1)
     - [8.2.5. Scale Calculations and Decisions.](#825-scale-calculations-and-decisions)
     - [8.2.6. Methods Selection.](#826-methods-selection)
     - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.](#827-data-analytics-goals-kpis-and-metrics-selection)
@@ -260,8 +266,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :------------------ | :------------------ | :----------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas.</li></ul> | <ul> **Avance 1:** El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada integrante, logrando la integración exitosa del proyecto y asegurando calidad tanto en pruebas como en automatización. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas.</ul> |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas.</li></ul>  | <ul> **Avance 1:** Se estableció un flujo de trabajo ágil y colaborativo que permitió cumplir con el 100% de los objetivos planteados para el avance inicial, integrando prácticas de validación y automatización en cada etapa. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas.</ul> |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas. **Avance 2:** Realizo el proceso del experiment planning para esta entrega. </li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend. **Avance 2:** Se enfoco en el deploy de los ambientes de exprimentacion y final. </li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua. **Avance 2:** Se enfoco en el desarrollo del expriment design, con enfoque en las hipotesis. </li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario. **Avance 2:** Se enfoco en el desarrollo de las pruebas en lighthouse para la plataforma y su documentacion. </li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.  **Avance 2:** Se enfoco en el desarrollo de las user stories para los nuevos cambios enfocados en nuestros usuarios. </li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas. **Avance 2:** Se enfoco en el desarrollo de product backlog para las user stories.</li></ul>  | <ul> **Avance 1:** El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada integrante, logrando la integración exitosa del proyecto y asegurando calidad tanto en pruebas como en automatización. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas. **Avance 2:** El equipo distribuyó el capitulo VIII para el desarollo del experiment planing en esta entrega: por un lado se documento todos apartados del capitulo, por otro se realizaron las pruebas para obtener la informacion necesaria.</ul> |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas. **Avance 2:** Realizo el proceso del experiment planning para esta entrega. </li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend. **Avance 2:** Se enfoco en el deploy de los ambientes de exprimentacion y final. </li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua. **Avance 2:** Se enfoco en el desarrollo del expriment design, con enfoque en las hipotesis. </li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario. **Avance 2:** Se enfoco en el desarrollo de las pruebas en lighthouse para la plataforma y su documentacion. </li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.  **Avance 2:** Se enfoco en el desarrollo de las user stories para los nuevos cambios enfocados en nuestros usuarios. </li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas. **Avance 2:** Se enfoco en el desarrollo de product backlog para las user stories.</li></ul>  | <ul> **Avance 1:** El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada integrante, logrando la integración exitosa del proyecto y asegurando calidad tanto en pruebas como en automatización. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas. **Avance 2:** El equipo distribuyó el capitulo VIII para el desarollo del experiment planing en esta entrega: por un lado se documento todos apartados del capitulo, por otro se realizaron las pruebas para obtener la informacion necesaria.</ul> |
 
 # Capitulo 1: Introducción
 
@@ -339,13 +345,13 @@ Visión: Ser la empresa líder en la gestión y el mantenimiento de equipos de r
 
 | **5W & 2H**                                                 | **Descripcion**                                                                 |
 | :---------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| **What: ¿Cuál es el problema?**                 			      | Los negocios que dependen de la refrigeración se enfrentan a una vulnerabilidad operativa significativa. La falta de control en sus equipos de congelación lleva a fallas inesperadas, alto consumo energético y falta de un mantenimiento proactivo. Como resultado, sufren grandes pérdidas económicas, tanto por productos dañados como por la interrupción de su servicio. 	   	                                                 |
-| **When: ¿Cuándo sucede este problema?**         			      | Este problema es una amenaza constante, especialmente durante la operación continua de los negocios. Se vuelve más crítico cuando no hay técnicos disponibles para una revisión inmediata o cuando se ha descuidado el seguimiento regular del estado de los equipos.																										   		   	                                                                           |
-| **Where: ¿Dónde se produce este suceso?**      			        | El problema está presente en todo el país, afectando a negocios en diversas ciudades. Sin embargo, su impacto es particularmente notable en Lima, donde la cadena de frío es vital para sectores como la alimentación y la medicina. Las empresas de servicios que atienden a estos clientes también se ven afectadas al no tener una forma centralizada de gestionar sus operaciones.                                                       |
-| **Who: ¿Quiénes están involucrados?**          			        | Este problema afecta a una amplia gama de actores. Por un lado, están los dueños y administradores de negocios que sufren las consecuencias directas de las fallas. Por otro, los técnicos y empresas de servicio que se ven obligados a responder a emergencias sin las herramientas adecuadas. 																					   	                                                                                        |
-| **Why: ¿Cuál es la causa del problema?**        			      | La causa principal es la fragmentación de datos técnicos en sistemas aislados. La información crítica está atrapada en controladores que no se comunican entre sí, lo que impide una visión centralizada y obliga a los negocios a operar bajo una gestión reactiva e ineficiente, actuando solo cuando la falla ya ocurrió.									   				                                                                           |
-| **How: ¿Qué llevó a la persona a llegar a esta situación?** | La situación actual es el resultado de la gestión reactiva y la falta de digitalización. Los negocios han dependido de una estrategia de "apagar incendios", esperando a que ocurra un problema crítico para actuar. Esta mentalidad ha generado un ciclo de costos elevados, tiempos de respuesta lentos y un desgaste operativo que se podría haber evitado con una planificación adecuada.                                            |
-| **How Much: ¿Cuánto es el impacto financiero?** 			      | El impacto económico es devastador y multidimensional. En el mercado peruano, una falla no detectada a tiempo en una cámara de frío puede generar pérdidas de inventario de entre S/ 5,000 y S/ 50,000 en una sola noche, dependiendo del sector. A esto se suman los costos de las reparaciones de emergencia y el daño a largo plazo en la reputación y la confianza del cliente, lo que hace que el costo total sea mucho mayor. |
+| **What: ¿Cuál es el problema?**                 			      | Los negocios que dependen de la cadena de frío enfrentan vulnerabilidades operativas críticas debido a la falta de telemetría y control en tiempo real. Esta carencia provoca fallas mecánicas inesperadas, incrementos dramáticos en el consumo eléctrico —la refrigeración puede representar entre el 30% y el 60% del gasto energético total en plantas de procesamiento (Dawsongroup, 2024)— y un mantenimiento puramente reactivo. A nivel nacional, el deficiente manejo de la cadena de frío es responsable de la pérdida de más del 33% de los alimentos producidos (FAO, citado en Agraria, 2019), causando un severo impacto financiero. 	   	            |
+| **When: ¿Cuándo sucede este problema?**         			      | Es una amenaza constante durante la operación 24/7 de las cámaras térmicas. El riesgo se agudiza en horarios no laborables, durante picos de producción estacional, o frente a anomalías climáticas como las olas de calor advertidas por entidades como Osinergmin, que elevan la exigencia térmica. La situación se torna crítica ante la ausencia de un monitoreo automatizado que notifique desviaciones de temperatura (ej. quiebres de los -18°C en congelación) antes de que el deterioro químico y biológico del producto sea irreversible (Zabarburu, 2026).					                 |
+| **Where: ¿Dónde se produce este suceso?**      			        | El problema tiene alcance nacional en el Perú, impactando a supermercados, laboratorios y plantas agroindustriales. No obstante, el impacto es crítico en Lima, el principal nodo logístico del país. La limitada infraestructura refrigerada y las brechas logísticas en estas zonas incrementan el riesgo en la cadena de suministro alimentaria y médica (Agroperú, 2026). Además, afecta directamente a las empresas contratistas de mantenimiento que operan en diversas sedes sin capacidad de gestión centralizada de los equipos.           |
+| **Who: ¿Quiénes están involucrados?**          			        | Involucra principalmente a dos actores: Los dueños y operadores comerciales (retail, agroexportación, clínicas) que asumen directamente los costos de mermas, sobrecostos energéticos y daños reputacionales. Las empresas de servicio técnico, que operan en desventaja al tener que atender emergencias sin datos de diagnóstico preventivo, lo que reduce su eficiencia operativa y aumenta los tiempos de respuesta (Seguas, 2024). 	  |
+| **Why: ¿Cuál es la causa del problema?**        			      | La causa raíz es la falta de digitalización y la fragmentación de datos técnicos en "silos de información". Los parámetros vitales operan atrapados en controladores electrónicos aislados que no transmiten información a un sistema en la nube. Esta falta de visibilidad en línea impide detectar ineficiencias tempranas —como aislamientos defectuosos o desgaste de compresores— obligando a una gestión reactiva que actúa solo cuando el componente ya falló o el producto se dañó (Dawsongroup, 2024).  |
+| **How: ¿Qué llevó a la persona a llegar a esta situación?** | La situación actual deriva de una histórica falta de inversión tecnológica y dependencia de esquemas de mantenimiento correctivo ("apagar incendios"). En lugar de adoptar plataformas IoT para el monitoreo, las organizaciones han operado a ciegas, esperando que el problema se manifieste físicamente. Este enfoque ha prolongado un ciclo de ineficiencias, elevados Costos Totales de Propiedad (TCO) y un desgaste acelerado de infraestructura que una estrategia de mantenimiento predictivo habría evitado.    |
+| **How Much: ¿Cuánto es el impacto financiero?** 			      | El impacto económico es devastador y cuantificable. A nivel nacional, las deficiencias y fallas en la gestión de la cadena de frío provocan que el Perú pierda más del 33% de los alimentos que produce anualmente (Agraria.pe, 2019). Además, en sectores críticos como el de la salud, una sola interrupción no detectada en los sistemas de refrigeración ha generado pérdidas de hasta S/ 14 millones por lotes malogrados debido a la ruptura térmica (La Noticia Perú, 2023). A estos valores directos se suma el sobreconsumo eléctrico constante y los altos costos del mantenimiento correctivo de emergencia. |
 
 ### 1.2.2 Lean UX Process
 
@@ -1097,11 +1103,11 @@ Para facilitar la planificación, el seguimiento y la priorización de las tarea
 
 | **Epic / Story ID** | **Título**                                                    | **Descripción**          | **Criterios de Aceptación**               | **Relacionado con (Epic ID)** |
 | :-----------------: | :------------------------------------------------------------ | :----------------------- | :---------------------------------------- | :---------------------------- |
-| US-01               | Registro de usuario                                           | Como nuevo usuario, quiero registrarme para acceder a la plataforma y sus funcionalidades según mi perfil                                                                                | **Escenario 1: Crear cuenta exitosamente**<br/>Como nuevo usuario, quiero crear una cuenta indicando mi rol mediante un nombre de usuario y contraseña, para acceder a la plataforma y sus funcionalidades según mi perfil.<br/><br/>**Escenario 2: Intento de registro con nombre de usuario ya existente**<br/>Dado que el usuario intenta registrarse con un nombre de usuario que ya está registrado en el sistema,<br/>Cuando envía el formulario,<br/>Entonces el sistema muestra un mensaje de error indicando que el nombre de usuario no está disponible.<br/><br/>**Escenario 3: Validación de formato de contraseña**<br/>Dado que el usuario ingresa una contraseña que no cumple con las políticas de seguridad requeridas,<br/>Cuando intenta registrarse,<br/>Entonces el sistema muestra un mensaje de advertencia indicando los requisitos mínimos.           | EP-01       |
+| US-01               | Registro de usuario                                           | Como nuevo usuario, quiero registrarme para acceder a la plataforma y sus funcionalidades según mi perfil                                                                                | **Escenario 1: Crear cuenta exitosamente**<br/>Dado que el nuevo usuario accede al formulario de registro,<br/>Cuando ingresa un nombre de usuario, una contraseña y selecciona su rol,<br/>Entonces el sistema crea la cuenta exitosamente y redirige al usuario a la plataforma.<br/><br/>**Escenario 2: Intento de registro con nombre de usuario ya existente**<br/>Dado que el usuario intenta registrarse con un nombre de usuario que ya está registrado en el sistema,<br/>Cuando envía el formulario,<br/>Entonces el sistema muestra un mensaje de error indicando que el nombre de usuario no está disponible.<br/><br/>**Escenario 3: Validación de formato de contraseña**<br/>Dado que el usuario ingresa una contraseña que no cumple con las políticas de seguridad requeridas,<br/>Cuando intenta registrarse,<br/>Entonces el sistema muestra un mensaje de advertencia indicando los requisitos mínimos.           | EP-01       |
 | US-02               | Inicio de sesión                                              | Como usuario, quiero acceder a mi cuenta en la plataforma para utilizar sus funcionalidades.                                                                      | **Escenario 1: Iniciar sesión correctamente** <br/> Dado que el usuario tiene una cuenta activa,<br/> Cuando ingresa sus datos correctamente,<br/> Entonces accede a su panel de control.<br/> **Escenario 2: Intento de iniciar sesión con datos incorrectos**<br/> Dado que el usuario ingresa datos incorrectos,<br/> Cuando intenta iniciar sesión,<br/> Entonces el sistema muestra un mensaje de error.                         | EP-01       |
 | US-03               | Gestionar equipos de refrigeración                            | Como cliente, quiero gestionar mis equipos de refrigeración en la plataforma para mantener un registro y control detallado de cada uno.                                                                             | **Escenario 1: Registro de un nuevo equipo**<br/> Dado que el cliente tiene los detalles de un nuevo equipo,<br/> Cuando los ingresa,<br/> Entonces el equipo se registra correctamente.<br/><br/>**Escenario 2: Actualización de la información de un equipo**<br/> Dado que el cliente desea modificar los datos de un equipo ya registrado,<br/> Cuando realiza los cambios,<br/> Entonces la información del equipo se actualiza.     | EP-02       |
 | US-04               | Solicitar y gestionar servicios de mantenimiento y reparación | Como cliente, quiero solicitar servicios de mantenimiento (preventivo) y reparación (correctivo) para mis equipos, para asegurar su óptimo funcionamiento y recibir confirmación de mi solicitud.             | **Escenario 1: Solicitud de servicio exitosa** <br/>Dado que el cliente requiere un servicio para uno de sus equipos, <br/>Cuando el sistema le permite seleccionar el tipo de servicio y detallar la solicitud, <br/>Entonces la solicitud se registra en el sistema y se le notifica al cliente.<br/><br/> **Escenario 2: Recepción de confirmación**<br/>Dado que la solicitud del cliente ha sido enviada, <br/>Cuando el sistema procesa la solicitud, <br/>Entonces el cliente recibe una confirmación de la recepción de su solicitud con un resumen de los detalles.                                                                         | EP-03       |
-| US-05               | Dar seguimiento al progreso del servicio                      | Como cliente, quiero seguir el avance de mi servicio solicitado para saber en qué etapa se encuentra y cuándo estará completado.                                                                           | **Escenario 1: Visualización del estado del servicio** <br/> Dado que el cliente tiene una solicitud de servicio activa, <br/>Cuando accede a su información de servicios, <br/>Entonces se le presenta el estado actualizado de su solicitud.<br/><br/> **Escenario 2: Actualización de estado del servicio**<br/> Dado que una solicitud de servicio está en curso, cuando su estado cambia (por ejemplo, de "En espera" a "En progreso"), entonces el sistema refleja el nuevo estado para el cliente.                                                                              | EP-03       |
+| US-05               | Dar seguimiento al progreso del servicio                      | Como cliente, quiero seguir el avance de mi servicio solicitado para saber en qué etapa se encuentra y cuándo estará completado.                                                                           | **Escenario 1: Visualización del estado del servicio** <br/> Dado que el cliente tiene una solicitud de servicio activa, <br/>Cuando accede a su información de servicios, <br/>Entonces se le presenta el estado actualizado de su solicitud.<br/><br/> **Escenario 2: Actualización de estado del servicio**<br/> Dado que una solicitud de servicio está en curso,<br/> Cuando su estado cambia (por ejemplo, de "En espera" a "En progreso"),<br/> Entonces el sistema refleja el nuevo estado para el cliente.                                                                              | EP-03       |
 | US-06               | Realizar seguimiento a solicitudes de servicio                | Como empresario, quiero realizar un seguimiento detallado a las solicitudes de servicio de mis técnicos, para saber cómo van.                                                                                  | **Escenario 1: Ver estado de la solicitud de servicio**<br/> Dado que el empresario tiene acceso a solicitudes<br/> Cuando ingresa al sistema,<br/> Entonces puede ver el estado actualizado de cada solicitud de servicio. <br/>**Escenario 2: Actualización del estado de la solicitud**<br/>Dado que el empresario quiere seguir el progreso,<br/> Cuando un técnico actualiza el estado de la solicitud,<br/> Entonces el sistema muestra el estado en tiempo real. | EP-03       |
 | US-07               | Registrar y gestionar técnicos                                | Como empresario, quiero registrar técnicos en la plataforma para incluirlos en mi equipo de trabajo y gestionar sus perfiles.                                                                             | **Escenario 1: Registro exitoso de un técnico**<br/> Dado que el empresario completa todos los datos requeridos de un técnico,<br/> Cuando guarda la información,<br/> Entonces el técnico queda registrado exitosamente.<br/><br/>**Escenario 2: Intento de registro con datos faltantes**<br/> Dado que el empresario intenta registrar un técnico sin completar todos los campos obligatorios,<br/> Cuando intenta guardar el registro,<br/> Entonces no se permite la operación hasta que se completen los campos requeridos.                                                                           | EP-01       |
 | US-08               | Consultar el perfil de un técnico                             | Como empresario, quiero ver el perfil de cada técnico, incluyendo sus datos y métricas de rendimiento, para poder evaluar su desempeño.                                                                            | **Escenario 1: Acceso a la información completa de un técnico**<br/> Dado que el empresario selecciona un técnico,<br/> Cuando accede a su perfil,<br/> Entonces puede visualizar sus datos personales, historial de servicios y calificaciones.<br/><br/>**Escenario 2: Visualización de perfil sin evaluaciones**<br/> Dado que un técnico no ha recibido evaluaciones,<br/> Cuando se consulta su perfil,<br/> Entonces las métricas de desempeño no son visibles. | EP-01       |
@@ -1114,18 +1120,18 @@ Para facilitar la planificación, el seguimiento y la priorización de las tarea
 | US-15               | Comprender las funcionalidades clave                          | Como visitante, quiero entender las funcionalidades principales de la plataforma para evaluar si se adaptan a mi operación.                                                                            | **Escenario 1: Acceso a funcionalidades principales**<br/> Dado que un visitante consulta las características de la plataforma,<br/> Cuando revisa la lista de funcionalidades,<br/> Entonces puede identificar opciones clave como monitoreo en tiempo real, automatización de alertas y gestión remota.<br/><br/>**Escenario 2: Descripciones orientadas al valor**<br/> Dado que un visitante lee las descripciones de las funcionalidades,<br/> Cuando evalúa cada una,<br/> Entonces comprende el beneficio que aporta para su operación de refrigeración o mantenimiento.                                                                        | EP-06       |
 | US-16               | Conocer la misión y visión                                    | Como visitante, quiero conocer la misión y visión de la empresa para entender su enfoque y propuesta de valor.                                                                                | **Escenario 1: Acceso a la misión de la empresa**<br/> Dado que un visitante accede a la información institucional,<br/> Cuando revisa el contenido corporativo,<br/> Entonces encuentra una descripción clara de la misión.<br/><br/>**Escenario 2: Acceso a la visión de la empresa**<br/> Dado que un visitante accede a la información institucional,<br/> Cuando revisa el contenido estratégico,<br/> Entonces encuentra una descripción clara de la visión a futuro. | EP-06       |
 | US-17               | Acceder a la plataforma web (Call to Action)                  | Como usuario registrado, quiero acceder fácilmente a la plataforma web desde la página de inicio para gestionar mis operaciones y equipos.                                                                | **Escenario 1: Visibilidad del acceso a la plataforma**<br/> Dado que un usuario registrado visita la página principal,<br/> Cuando busca cómo ingresar a su cuenta,<br/> Entonces encuentra una opción clara para acceder a la plataforma.<br/><br/>**Escenario 2: Redirección a la plataforma web**<br/> Dado que el usuario selecciona la opción para acceder a la plataforma,<br/> Cuando es redirigido,<br/> Entonces llega a la página de inicio de sesión de la plataforma web. | EP-06       |
-| US-18               | Consultar equipos registrados                                 | Como usuario operador, quiero visualizar los equipos registrados para monitorear su estado operativo.                                                                            | **Escenario 1: Listado de equipos**<br/>Dado que el usuario accede al módulo Equipments,<br/>Cuando carga la pantalla,<br/>Entonces visualiza modelo, tipo, serial y estado de cada equipo.<br/><br/>**Escenario 2: Ver detalle**<br/>Dado que existe un equipo registrado,<br/>Cuando selecciona "Equipment Detail",<br/>Entonces el sistema muestra la información detallada del equipo.                                          | EP-06       |
+| US-18               | Consultar equipos registrados                                 | Como usuario operador, quiero visualizar los equipos registrados para monitorear su estado operativo.                                                                            | **Escenario 1: Listado de equipos**<br/>Dado que el usuario accede al módulo Equipments,<br/>Cuando carga la pantalla,<br/>Entonces visualiza modelo, tipo, serial y estado de cada equipo.<br/><br/>**Escenario 2: Ver detalle**<br/>Dado que existe un equipo registrado,<br/>Cuando selecciona "Equipment Detail",<br/>Entonces el sistema muestra la información detallada del equipo.                                          | EP-02       |
 | US-19               | Visualizar dashboard principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                              | **Escenario 1: Visualización de métricas**<br/>Dado que el usuario ingresa al dashboard,<br/>Cuando carga la pantalla principal,<br/>Entonces visualiza la cantidad de equipos monitoreados, alertas abiertas, temperatura promedio y reportes recientes.<br/><br/>**Escenario 2: Actualización de datos**<br/>Dado que el usuario necesita información reciente,<br/>Cuando selecciona el botón "Refresh Dashboard",<br/>Entonces el sistema actualiza los indicadores mostrados. | EP-04       |
 | US-20               | Registrar nuevos sitios                                       | Como usuario, quiero registrar nuevos sitios para organizar las ubicaciones donde operan los equipos.                                                                              | **Escenario 1: Registro de sitio**<br/>Dado que el administrador desea crear una nueva sede,<br/>Cuando selecciona "Register New Site" e ingresa los datos requeridos,<br/>Entonces el sistema registra el sitio exitosamente.<br/><br/>**Escenario 2: Visualización de sitios**<br/>Dado que existen sitios registrados,<br/>Cuando accede al módulo Sites,<br/>Entonces visualiza nombre, dirección, contacto y teléfono.          | EP-02       |
 | US-21               | Crear solicitudes de servicio                                 | Como cliente, quiero registrar solicitudes de servicio técnico para reportar incidencias o mantenimientos.                                                                       | **Escenario 1: Nueva solicitud**<br/>Dado que el usuario necesita soporte técnico,<br/>Cuando selecciona "New Request" e ingresa la información requerida,<br/>Entonces el sistema registra la solicitud correctamente.<br/><br/>**Escenario 2: Visualización de solicitudes**<br/>Dado que existen solicitudes registradas,<br/>Cuando accede al módulo Services,<br/>Entonces visualiza número de orden, fecha, equipo, sede, proveedor, tipo y estado. | EP-03       |
-| US-22               | Buscar reportes por filtros                                   | Como administrador, quiero buscar reportes por nombre, tipo o estado para localizar información rápidamente.                                                                          | **Escenario 1: Buscar por nombre**<br/>Dado que existen múltiples reportes,<br/>Cuando escribe un nombre en el buscador,<br/>Entonces el sistema muestra coincidencias relacionadas.<br/><br/>**Escenario 2: Filtrar por tipo o estado**<br/>Dado que el usuario necesita segmentar información,<br/>Cuando selecciona filtros de tipo o estado,<br/>Entonces se actualiza el listado con los resultados correctos.                   | EP-01       |
+| US-22               | Buscar reportes por filtros                                   | Como administrador, quiero buscar reportes por nombre, tipo o estado para localizar información rápidamente.                                                                          | **Escenario 1: Buscar por nombre**<br/>Dado que existen múltiples reportes,<br/>Cuando escribe un nombre en el buscador,<br/>Entonces el sistema muestra coincidencias relacionadas.<br/><br/>**Escenario 2: Filtrar por tipo o estado**<br/>Dado que el usuario necesita segmentar información,<br/>Cuando selecciona filtros de tipo o estado,<br/>Entonces se actualiza el listado con los resultados correctos.                   | EP-04       |
 | US-23               | Cambiar idioma del sistema                                    | Como usuario internacional, quiero cambiar el idioma del sistema para usar la plataforma en mi idioma preferido.                                                                            | **Escenario 1: Cambio a español**<br/>Dado que el usuario selecciona ES,<br/>Cuando confirma la acción,<br/>Entonces la interfaz se muestra en español.<br/><br/>**Escenario 2: Cambio a inglés**<br/>Dado que el usuario selecciona EN,<br/>Cuando confirma la acción,<br/>Entonces la interfaz se muestra en inglés.                                                                               | EP-01       |
-| US-24               | Ver reporte de servicio realizado                             | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.                                                                               | **Escenario 1: Generación del reporte de servicio**<br/> Dado que el servicio ha sido completado,<br/> Cuando el técnico termina,<br/> Entonces el sistema genera un reporte detallado. <br/>**Escenario 2: Enviar reporte al cliente por correo** Dado que el reporte ha sido generado,<br/> Cuando se ha finalizado el servicio,<br/> Entonces el sistema envía el reporte al cliente			                                  | EP-04       |
+| US-24               | Ver reporte de servicio realizado                             | Como cliente, quiero ver el reporte de servicio detallado para saber qué reparaciones se hicieron en mi equipo.                                                                               | **Escenario 1: Generación del reporte de servicio**<br/> Dado que el servicio ha sido completado,<br/> Cuando el técnico termina,<br/> Entonces el sistema genera un reporte detallado. <br/>**Escenario 2: Enviar reporte al cliente por correo**<br/> Dado que el reporte ha sido generado,<br/> Cuando se ha finalizado el servicio,<br/> Entonces el sistema envía el reporte al cliente			                                  | EP-04       |
 | US-25               | Visualizar dashboard principal                                | Como usuario propietario del sistema, quiero visualizar un dashboard con métricas resumidas para conocer rápidamente el estado general de la operación.                                                              | **Escenario 1: Visualización de métricas**<br/>Dado que el usuario ingresa al dashboard,<br/>Cuando carga la pantalla principal,<br/>Entonces visualiza la cantidad de sitios, equipos monitoreados y servicios recientes.<br/><br/>**Escenario 2: Actualización de datos**<br/>Dado que el usuario necesita información reciente,<br/>Cuando selecciona el botón "Refresh Dashboard",<br/>Entonces el sistema actualiza los indicadores mostrados. | EP-04       |     
 | TS-01               | Creación de solicitudes de mantenimiento (API)                | Como desarrollador, quiero implementar una API que me permita crear solicitudes de mantenimiento para que los negocios reporten necesidades de soporte técnico.                                              | **Escenario 1: Creación exitosa de solicitud**<br/> Dado que se envía una solicitud POST a `/api/v1/service-requests` con los datos del equipo y la descripción del problema, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 201 y se guarda la solicitud en el sistema.<br/><br/>**Escenario 2: Datos incompletos en la solicitud**<br/> Dado que se envía una solicitud a `/api/v1/service-requests` sin un campo obligatorio, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 400 con el mensaje "Invalid data".                                                                       | EP-03       |
 | TS-02               | Registro de intervenciones técnicas por API RESTful           | Como desarrollador, quiero registrar las intervenciones técnicas realizadas a través de la API para llevar un seguimiento detallado del mantenimiento.                                                          | **Escenario 1: Registro exitoso** <br/> Dado que se envía una solicitud POST a `/api/v1/interventions` con los datos del técnico y equipo, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 201 y el registro se almacena.<br/><br/>Escenario 2: Registro con técnico no existente<br/> Dado que el ID del técnico no existe, <br/> Cuando se realiza la solicitud POST a `/api/v1/interventions`, <br/> Entonces se recibe una respuesta 404 con el mensaje "Technician not found".                                                                               | EP-03       |
 | TS-03               | Gestión de evaluaciones de servicio vía API                   | Como desarrollador, mi objetivo es implementar un endpoint que permita a los clientes registrar y actualizar una evaluación de servicio para reflejar su experiencia.                                                | **Escenario 1: Evaluación inicial del servicio**<br/> Dado que el cliente ha recibido un servicio, <br/> Cuando se envía una solicitud POST a `/api/v1/reviews` con la puntuación (1-5), <br/> Entonces se recibe una respuesta 201 y se almacena la evaluación asociada al servicio.<br/><br/>**Escenario 2: Edición dentro del plazo permitido**<br/> Dado que el cliente ya evaluó un servicio y han pasado menos de 48 horas, <br/> Cuando realiza una solicitud PUT a `/api/v1/reviews/{id}` con una nueva puntuación, <br/> Entonces se recibe una respuesta 200 y la evaluación anterior se actualiza.                                  | EP-05       |
-| TS-04               | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso seguro de nuevos usuarios.     | **Escenario 1: Registro exitoso**<br/>Dado que el endpoint `/api/v1/users` está disponible, cuando se envía una solicitud POST con datos válidos (nombre, email único, contraseña válida), entonces el sistema responde con 201 y devuelve el usuario registrado.<br/>**Escenario 2: Registro con email existente**<br/>Dado un correo ya registrado, <br/> Cuando se intenta registrar nuevamente, <br/> Entonces se devuelve un 400 con mensaje "Email already registered". | EP-01       |
+| TS-04               | Registrar nuevo usuario a través de API RESTful               | Como desarrollador, quiero exponer un endpoint para registrar nuevos usuarios en la plataforma, validando datos como correo único y formato de contraseña, para permitir el acceso seguro de nuevos usuarios.     | **Escenario 1: Registro exitoso**<br/>Dado que el endpoint `/api/v1/users` está disponible,<br/>Cuando se envía una solicitud POST con datos válidos (nombre, email único, contraseña válida),<br/>Entonces el sistema responde con 201 y devuelve el usuario registrado.<br/>**Escenario 2: Registro con email existente**<br/>Dado un correo ya registrado, <br/> Cuando se intenta registrar nuevamente, <br/> Entonces se devuelve un 400 con mensaje "Email already registered". | EP-01       |
 | TS-05               | Consulta de estado de servicios por API                       | Como desarrollador, mi objetivo es crear un endpoint para que clientes y empresarios puedan consultar el estado de una solicitud de servicio en tiempo real.                                                 | **Escenario 1: Consulta exitosa del estado**<br/> Dado que se envía una solicitud GET a `/api/v1/requests/{id}` con un ID válido, <br/> Cuando la solicitud es procesada, <br/> Entonces se recibe una respuesta 200 y se devuelve el estado actual de la solicitud.<br/><br/>**Escenario 2: Consulta con ID existente**<br/> Dado que el ID de la solicitud no existe,<br/> Cuando se realiza la consulta, <br/> Entonces se recibe una respuesta 404 con el mensaje "Request not found".                                                                               | EP-03       |
 | EP-01               | Gestión de Cuentas de Usuario                                 | Esta epic se centra en todo lo necesario para que los usuarios puedan crear, acceder y administrar sus perfiles de forma segura en la plataforma.                                                              | |
 | EP-02               | Gestión y Monitoreo de Equipos                                | Esta epic abarca la funcionalidad para que los clientes agreguen, editen y monitoreen sus equipos de refrigeración, facilitando su control.                                                               | |
@@ -1965,7 +1971,7 @@ Además, nuestra solución incluye un archivo llamado languages.js, que contiene
 
 **Github Pages:**
 
-URL de la Landing Page desplegada en Github Pages: 
+URL de la Landing Page desplegada en Github Pages: https://1asi0732-frostshield.github.io/Landing-Page-IceTrack/
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -2007,7 +2013,7 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
     <td colspan="2">Crear formulario de registro</td>
     <td colspan="3">Implementar formulario con campos: nombre, username, contraseña, role y confirmación.</td>
     <td colspan="1">4</td>
-    <td colspan="2">Kenyi Ramírez</td>
+    <td colspan="2">Marcia Melgarejo</td>
     <td colspan="1">Done</td>
 </tr>
 
@@ -2018,7 +2024,7 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
     <td colspan="2">Validar formato de contraseñas</td>
     <td colspan="3">Añadir validaciones visuales en tiempo real (contraseña ≥ 8 caracteres).</td>
     <td colspan="1">3</td>
-    <td colspan="2">Kenyi Ramírez</td>
+    <td colspan="2">Jeremy Quijada</td>
     <td colspan="1">Done</td>
 </tr>
 
@@ -2040,7 +2046,7 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
     <td colspan="2">Diseñar pantalla de login</td>
     <td colspan="3">Crear vista con campos de email y contraseña, y enlace a “Olvidé mi contraseña”.</td>
     <td colspan="1">3</td>
-    <td colspan="2">Alejandro Galindo</td>
+    <td colspan="2">Gabriel Gordon</td>
     <td colspan="1">Done</td>
 </tr>
 
@@ -2056,24 +2062,24 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
 </tr>
 
 <tr>
-    <td colspan="1">US-14</td>
+    <td colspan="1">US-07</td>
     <td colspan="2">Registrar y gestionar técnicos</td>
     <td colspan="1">UT-06</td>
     <td colspan="2">Crear vista de registro de técnicos</td>
     <td colspan="3">Implementar formulario con campos requeridos (nombre, correo, especialidad).</td>
     <td colspan="1">3</td>
-    <td colspan="2">Iván La Madrid</td>
+    <td colspan="2">Gianmarco Jiménez</td>
     <td colspan="1">Done</td>
 </tr>
 
 <tr>
-    <td colspan="1">US-14</td>
+    <td colspan="1">US-07</td>
     <td colspan="2">Registrar y gestionar técnicos</td>
     <td colspan="1">UT-07</td>
     <td colspan="2">Tabla dinámica de técnicos</td>
     <td colspan="3">Mostrar lista de técnicos con opciones de editar y eliminar registros.</td>
     <td colspan="1">4</td>
-    <td colspan="2">Iván La Madrid</td>
+    <td colspan="2">Gianmarco Jiménez</td>
     <td colspan="1">Done</td>
 </tr>
 
@@ -2084,7 +2090,7 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
     <td colspan="2">Crear vista de listado de equipos</td>
     <td colspan="3">Mostrar tabla con equipos registrados (nombre, modelo, estado, fecha de instalación).</td>
     <td colspan="1">4</td>
-    <td colspan="2">Pedro Nanfuñay</td>
+    <td colspan="2">Javier Gonzales</td>
     <td colspan="1">Done</td>
 </tr>
 
@@ -2095,7 +2101,7 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
     <td colspan="2">Crear formulario para nuevo equipo</td>
     <td colspan="3">Diseñar formulario para registrar un nuevo equipo de refrigeración.</td>
     <td colspan="1">3</td>
-    <td colspan="2">Pedro Nanfuñay</td>
+    <td colspan="2">Javier Gonzales</td>
     <td colspan="1">Done</td>
 </tr>
 
@@ -2106,18 +2112,18 @@ Enlace: https://trello.com/b/mLKlTDIY/frontend
     <td colspan="2">Integrar API de equipos</td>
     <td colspan="3">Conectar la vista con el endpoint `/api/v1/equipos` para registrar y listar equipos.</td>
     <td colspan="1">3</td>
-    <td colspan="2">Pedro Nanfuñay</td>
+    <td colspan="2">Gabriel Gordon</td>
     <td colspan="1">Done</td>
 </tr>
 
 <tr>
-    <td colspan="1">US-28</td>
+    <td colspan="1">US-17</td>
     <td colspan="2">Acceder a la plataforma web (Call to Action)</td>
     <td colspan="1">UT-11</td>
-    <td colspan="2">Vincular botón “Iniciar sesión” con la app web</td>
+    <td colspan="2">Vincular botón "Iniciar sesión" con la app web</td>
     <td colspan="3">Asegurar que el botón de la landing page redirija correctamente al login del portal.</td>
     <td colspan="1">1</td>
-    <td colspan="2">Kenyi Ramírez</td>
+    <td colspan="2">Jeremy Quijada</td>
     <td colspan="1">Done</td>
 </tr>
 </table>
@@ -2333,7 +2339,48 @@ URL de la Versión Publicada
 
 ### 6.1.1 Core Entities Unit Tests
 
-En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del backend del sistema IceTrack Platform. Estas pruebas fueron desarrolladas utilizando xUnit en .NET 9 y tienen como objetivo validar el correcto funcionamiento de la lógica interna de los agregados y modelos del dominio de manera aislada, sin depender de la base de datos ni de servicios externos. Se evaluaron escenarios relacionados con la creación de entidades, actualización de estados, validación de atributos y ejecución de métodos principales, garantizando así la estabilidad y confiabilidad de los componentes críticos del sistema.
+En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del backend del sistema IceTrack Platform. Estas pruebas fueron desarrolladas utilizando **MSTest** y **Moq** en .NET 9 y tienen como objetivo validar el correcto funcionamiento de la lógica interna de los agregados y modelos del dominio de manera aislada, sin depender de la base de datos ni de servicios externos. Se evaluaron escenarios relacionados con la creación de entidades, actualización de estados, validación de atributos y ejecución de métodos principales, garantizando así la estabilidad y confiabilidad de los componentes críticos del sistema.
+
+Se ejecutaron un total de **70 pruebas unitarias**, distribuidas en 12 archivos de prueba que cubren los 6 bounded contexts del sistema. A continuación se presentan los resultados obtenidos:
+
+**Resultados de ejecución:**
+
+| Total | Passed | Failed | Skipped | Duration |
+|:---:|:---:|:---:|:---:|:---:|
+| 70 | 70 | 0 | 0 | 184 ms |
+
+**Pruebas por componente:**
+
+| Componente | Archivo de prueba | Pruebas | Resultado |
+|:---|---|:---:|:---:|
+| IAM (User) | `Aggregates/IAM.cs` | 6 |  6/6 |
+| Monitoring (Equipment) | `Aggregates/Monitoring.cs` | 9 |  9/9 |
+| Monitoring Pipeline (Controller) | `MonitoringPipelineTests.cs` | 5 |  5/5 |
+| WebApplicationBuilder Extensions | `WebApplicationBuilderExtensionsTests.cs` | 2 |  2/2 |
+| Dashboard (DashboardConfig + Commands) | `Aggregates/Dashboard.cs` | 20 |  20/20 |
+| ServiceRequest | `Aggregates/ServiceRequest.cs` | 8 |  8/8 |
+| Intervention | `Aggregates/Intervention.cs` | 4 |  4/4 |
+| Technician | `Aggregates/Technician.cs` | 4 |  4/4 |
+| Notification | `Aggregates/Notification.cs` | 4 |  4/4 |
+| Review | `Aggregates/Review.cs` | 3 |  3/3 |
+| Site | `Aggregates/Site.cs` | 6 |  6/6 |
+
+**Análisis de Cobertura de Código:**
+
+Se realizó un análisis de cobertura de código utilizando `dotnet-coverage`, obteniendo los siguientes resultados por bounded context:
+
+| Bounded Context | Block Coverage | Funciones Cubiertas |
+|:---|---|:---:|
+| IAM | 100% | 4/4 |
+| Monitoring | 80% | 4/5 |
+| ServiceRequests | 100% | 11/11 |
+| Dashboard | 100% | 15/15 |
+| Technicians | 100% | 4/4 |
+| Notifications | 100% | 4/4 |
+| Feedback | 100% | 2/2 |
+| Assets Management | 71% | 5/7 |
+
+Las imágenes a continuación muestran los resultados visuales de las pruebas unitarias ejecutadas en el entorno de desarrollo:
 
 + IAM Service Test
 
@@ -2359,7 +2406,29 @@ En esta sección se presentan las pruebas unitarias realizadas sobre las entidad
     <img src="assets/chapter06/Test Diseño/Dashboard Test.png" alt="dashboard-test-image" width="900px"/>
 </p>
 
-<br>
++ Technicians Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Tecnician Test.png" alt="tecnician-test-image" width="900px"/>
+</p>
+
++ Notifications Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Notification Test.png" alt="notificaciones-test-image" width="900px"/>
+</p>
+
++ Feedback Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Feedback Test.png" alt="feedback-test-image" width="900px"/>
+</p>
+
++ Assets Management Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Assets Test.png" alt="assets-test-image" width="900px"/>
+</p>
 
 ### 6.1.2 Core Integration Tests
 
@@ -2624,7 +2693,7 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 ![Entevista1](assets/chapter06/Entrevista.jpeg)
 
-**Enlace de entrevista:** <a href="https://1drv.ms/v/c/e3ea863cec5de463/IQAZva0qO9J9Ro5XI4Crb4pnAT_L58E45u4_zQsSNuyMjU4?e=y3aUOh">Link</a>
+**Enlace de entrevista:** https://1drv.ms/v/c/e3ea863cec5de463/IQAZva0qO9J9Ro5XI4Crb4pnAT_L58E45u4_zQsSNuyMjU4?e=y3aUOh
 
 **Resumen de la entrevista:**
 
@@ -2744,18 +2813,46 @@ Algunas de las herramientas principales que utilizamos son:
 
 ### 7.1.2 Build & Test Suite Pipeline Components
 
-En esta parte colocamos cómo he estructuramos y automatizado los componentes, asegurando que cada etapa del flujo de integración continua se ejecute de manera confiable y trazable.
+El pipeline de integración continua se diseñó para automatizar la construcción, las pruebas y el análisis del código en cada push o pull request, asegurando que solo el código que cumpla con los criterios de calidad avance en el flujo. A continuación, se presenta el diagrama del pipeline y la descripción de cada componente.
 
-Nos enfocamos en dos aspectos principales:
+#### Diagrama del Pipeline de Build & Test
 
-**Pruebas (Test Suite):** Integro pruebas unitarias, de integración y de aceptación, verificando tanto el comportamiento interno de las clases como la interacción entre servicios.
+```mermaid
+flowchart LR
+    A[Code Push / PR] --> B[Build & Compile]
+    B --> C[Unit Tests<br/>MSTest + Mockito]
+    C --> D[Integration Tests<br/>MSTest]
+    D --> E[BDD Tests<br/>Cucumber]
+    E --> F[Static Analysis<br/>SonarQube]
+    F --> G[Generate Test Reports]
+    G --> H[Package Artifact]
+    H --> I[Deploy to Staging]
+```
 
-**Pipeline Components:** Organizo los pasos en secuencia modular (compilación, ejecución de tests, generación de reportes, despliegue en entornos de prueba), lo que me permite detectar fallos tempranos y mantener la calidad del software.
+#### Componentes del Pipeline
 
+| Componente | Herramienta | Descripción | Propósito | Orden |
+|:-----------|:------------|:------------|:----------|:-----:|
+| **Code Checkout** | GitHub Actions | Obtener el código fuente automáticamente al realizar un push o abrir un pull request. | Iniciar el pipeline ante cualquier cambio en el repositorio. | 1 |
+| **Build** | .NET SDK | Compilar la solución completa del backend. | Verificar que el código compile sin errores ni advertencias. | 2 |
+| **Unit Tests** | MSTest + Mockito | Ejecutar pruebas unitarias sobre las clases del backend de forma aislada, utilizando Mockito para simular dependencias. | Validar que cada unidad de código funcione correctamente por sí misma. | 3 |
+| **Integration Tests** | MSTest | Ejecutar pruebas de integración que verifican la interacción entre servicios, repositorios y controladores. | Asegurar que los componentes del sistema se comuniquen correctamente. | 4 |
+| **BDD Tests** | Cucumber + Selenium | Ejecutar pruebas de aceptación escritas en lenguaje Gherkin, automatizando escenarios de la interfaz web. | Validar que el sistema cumple con los criterios de aceptación definidos en las User Stories. | 5 |
+| **Static Analysis** | SonarQube | Analizar el código fuente en busca de malas prácticas, vulnerabilidades y deuda técnica. | Garantizar la calidad, seguridad y mantenibilidad del código. | 6 |
+| **Test Reports** | ReportGenerator / GitHub Actions | Generar reportes detallados con los resultados de las pruebas ejecutadas. | Documentar la trazabilidad y permitir la revisión de fallos. | 7 |
+| **Artifact** | .NET Build Output | Empaquetar la aplicación compilada como artefacto. | Preparar el binario para su despliegue en el entorno de staging. | 8 |
+
+#### Flujo de Ejecución
+
+El pipeline se activa automáticamente con cada push a una rama de desarrollo o al abrir un pull request. La secuencia comienza con la compilación del proyecto; si esta falla, el pipeline se detiene y notifica al equipo. Superada la compilación, se ejecutan las pruebas unitarias y de integración. A continuación, se ejecutan las pruebas BDD con Cucumber para validar el comportamiento funcional. Posteriormente, SonarQube realiza un análisis estático del código. Finalmente, se generan los reportes de prueba y se empaqueta el artefacto listo para desplegar en staging. Esta estructura modular permite detectar fallos en etapas tempranas y mantener la calidad del software.
+
+
+**Units Test y Integration Test:**
 <p align="center">
     <img src="assets/chapter06/Test Diseño/IAM Test.png" alt="iam-test-image" width="900px"/>
 </p>
 
+**Selenium:**
 ![US23-Selenium.png](assets/chapter06/US%2023%20-%20Selenium.png)
 
 
@@ -2982,70 +3079,103 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 * Las encuestas de satisfacción automatizadas aumentarán la cantidad de retroalimentación recopilada después de cada intervención.
 
 ### 8.1.3. Experiment-Ready Questions. 
-| Question | Confidence | Risk | Impact | Interest | Total Score |
-|-----------|------------|------|--------|----------|------------|
-| ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? | 8 - Los sistemas de gestión de activos suelen beneficiarse de la visualización geográfica, aunque no se ha validado con los usuarios actuales. | 5 - Requiere integración con servicios de mapas y gestión de ubicaciones geográficas. | 9 - Puede mejorar significativamente la supervisión y gestión de activos distribuidos en múltiples ubicaciones. | 8 - Los dueños podrían encontrar más intuitiva la gestión visual de sus sitios y equipos. | 30 |
-| ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? | 7 - La generación de reportes es una necesidad común en aplicaciones empresariales. | 3 - La implementación técnica es relativamente sencilla y de bajo riesgo. | 8 - Facilita la distribución y presentación de información a terceros. | 7 - Los usuarios pueden estar interesados en compartir información fuera de la plataforma. | 25 |
-| ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? | 8 - Los recordatorios suelen mejorar el cumplimiento de tareas programadas. | 4 - Requiere mecanismos de programación y envío de notificaciones confiables. | 10 - Puede contribuir directamente a mejorar el mantenimiento de los equipos y reducir incidencias. | 9 - Los usuarios suelen valorar las herramientas que les ayudan a evitar olvidos. | 31 |
-| ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? | 7 - Es una funcionalidad ampliamente adoptada en aplicaciones modernas. | 2 - Bajo riesgo técnico debido a que existen patrones de implementación consolidados. | 6 - Mejora la comodidad visual, aunque no afecta directamente los procesos de negocio. | 6 - Interés moderado, especialmente entre usuarios frecuentes. | 21 |
-| ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? | 6 - Las encuestas automatizadas suelen incrementar la recolección de feedback, pero dependen de la participación del usuario. | 3 - Implementación relativamente sencilla dentro del flujo existente. | 7 - Permite obtener información valiosa para evaluar y mejorar la calidad del servicio. | 8 - Los usuarios pueden mostrar interés en expresar su nivel de satisfacción cuando el proceso es breve. | 24 |
-### 8.1.4. Question Backlog. 
 
-| Prioridad (1,2,3,5,8) | Pregunta |
-|------------|-----------|
-| 1 | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
-| 2 | Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
-| 3 | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?  |
-| 5 | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
-| 8 | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+Para recopilar conocimiento en áreas donde actualmente el equipo carece de información y genera confusión. Usamos la tecnica de los Cinco W, para generar estas preguntas:
+
+* **Who (Quién):** ¿Quién es el responsable principal de autorizar y dar seguimiento a los mantenimientos preventivos dentro de los negocios de refrigeración comercial?
+* **What (Qué):** ¿Qué formato, métricas o nivel de detalle consideran indispensable los dueños al momento de descargar o compartir el historial técnico de un equipo con terceros?
+* **Where (Dónde):** ¿Dónde (o en qué tipo de dispositivo y condiciones de iluminación) prefieren los usuarios visualizar la información de sus equipos mientras realizan la supervisión diaria?
+* **When (Cuándo):** ¿Cuándo es el momento exacto y más efectivo para enviar una encuesta de satisfacción al cliente tras una intervención técnica para asegurar una alta tasa de respuesta?
+* **Why (Por qué):** ¿Por qué los dueños de negocios enfrentan olvidos, dificultades o retrasos continuos al programar y ejecutar sus mantenimientos preventivos?
+* **How (Cómo):** ¿Cómo supervisan y localizan actualmente los dueños sus activos cuando estos se encuentran distribuidos en múltiples sitios geográficos?
+
+Partiendo de las dudas y afirmaciones del equipo, buscamos probar la viabilidad e impacto de funcionalidades específicas usando las siguientes preguntas:
+
+* ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?
+* ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?
+* ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?
+* ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención?
+* ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?
+
+
+### 8.1.4. Question Backlog.
+
+Esta sección presenta el backlog como una lista priorizada de preguntas para la investigación.
+
+| Prioridad | Pregunta de Investigación | El "Por qué" | C | R | I | I | Total Score |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **1** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento de los equipos de refrigeración. Si los usuarios olvidan realizar mantenimientos programados, aumenta el riesgo de fallas y costos de reparación. Un sistema de alertas automáticas podría ayudar a gestionar mejor estas actividades. | 8 | 4 | 10 | 9 | **31** |
+| **2** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos. Una vista geográfica podría facilitar la supervisión de equipos distribuidos y mejorar la identificación de sitios que requieren atención. | 8 | 5 | 9 | 8 | **30** |
+| **3** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios, mantenimientos e intervenciones. La posibilidad de generar reportes descargables podría facilitar esta tarea y aumentar el valor percibido de la plataforma. | 7 | 3 | 8 | 7 | **25** |
+| **4** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? | La retroalimentación permite evaluar la calidad de los servicios e identificar mejoras. Automatizar la recolección de opiniones puede incrementar la participación de los usuarios y proporcionar información más consistente para la toma de decisiones. | 6 | 3 | 7 | 8 | **24** |
+| **5** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? | La personalización visual permite adaptar la interfaz a preferencias y condiciones de trabajo. Esto puede mejorar la comodidad durante el uso prolongado y aumentar la satisfacción general con la experiencia de usuario. | 7 | 2 | 6 | 6 | **21** |
+
+*(Nota: C = Confianza, R = Riesgo, I = Impacto, I = Interés)*
 
 ### 8.1.5. Experiment Cards. 
+##### Tarjeta de Experimento 1: Alertas Automáticas
 
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
-| **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento de los equipos de refrigeración. Si los usuarios olvidan realizar mantenimientos programados, aumenta el riesgo de fallas y costos de reparación. Un sistema de alertas automáticas podría ayudar a los dueños a gestionar mejor sus actividades de mantenimiento y reducir los descuidos. |
-| **What** | Implementar un sistema de alertas automáticas que notifique a los dueños cuando se acerque la fecha de mantenimiento de sus equipos mediante notificaciones dentro de la plataforma y correo electrónico. |
-| **Hypothesis** | Se espera que, al implementar alertas automáticas, al menos el 70% de los usuarios realice sus mantenimientos preventivos dentro de las fechas programadas y que los retrasos en mantenimientos disminuyan en un 30%. |
-
----
-
-
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? |
-| **Why** | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos. Una vista geográfica podría facilitar la supervisión de equipos distribuidos y mejorar la identificación de sitios que requieren atención. |
-| **What** | Incorporar una vista geográfica interactiva que muestre los sitios registrados mediante marcadores geolocalizados e indicadores visuales relacionados con el estado de los equipos. |
-| **Hypothesis** | Se espera que, al incorporar una vista geográfica, al menos el 65% de los usuarios considere más sencilla la gestión de sus sitios y que el tiempo necesario para localizar información sobre equipos se reduzca en un 25%. |
+| Question | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+|----------|-------------------------------------------------------------------------------------------------------------------------|
+| **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento. Si los usuarios olvidan realizarlos, aumenta el riesgo de fallas. Un sistema de alertas podría ayudar a gestionar mejor estas actividades y reducir descuidos. |
+| **What** | Implementar un sistema de alertas automáticas que notifique a los dueños mediante la plataforma cuando se acerque la fecha de mantenimiento. |
+| **Hypothesis** | Se espera que la implementación de alertas automáticas aumente en un 10% la tasa de cumplimiento de mantenimiento preventivo realizado dentro de la fecha programada. |
+| **Measures** | Medir la **tasa de cumplimiento de mantenimiento preventivo (MCR)** antes y después de implementar las alertas, analizando los registros de mantenimientos programados y completados. |
+| **Conditions** | **Experimental:** Los usuarios reciben notificaciones automáticas antes de la fecha de mantenimiento. **Control:** Los usuarios no reciben notificaciones y gestionan los mantenimientos de forma manual. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Excelente** si el incremento observado supera el MDE de 44 p.p., **Aceptable** si se aproxima al MDE, y **Desfavorable** si está por debajo del MDE. |
 
 ---
 
+##### Tarjeta de Experimento 2: Vista Geográfica Interactiva
 
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? |
-| **Why** | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios realizados, mantenimientos e intervenciones con otras personas. La posibilidad de generar reportes descargables podría facilitar esta tarea y aumentar el valor percibido de la plataforma. |
-| **What** | Implementar una funcionalidad que permita generar y descargar reportes en formato PDF con información sobre historial de servicios, intervenciones técnicas y estado de los equipos. |
-| **Hypothesis** | Se espera que, al habilitar la exportación de reportes en PDF, al menos el 60% de los usuarios utilice la funcionalidad durante el primer mes y que el valor percibido de la plataforma aumente en un 20%. |
-
----
-
-
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
-| **Why** | La retroalimentación de los usuarios permite evaluar la calidad de los servicios realizados e identificar oportunidades de mejora. Automatizar el proceso de recolección de opiniones puede incrementar la participación de los usuarios y proporcionar información más consistente para la toma de decisiones. |
-| **What** | Incorporar un módulo de encuestas de satisfacción que se active automáticamente al finalizar una intervención, permitiendo registrar calificaciones y comentarios de los dueños. |
-| **Hypothesis** | Se espera que, al automatizar las encuestas, al menos el 50% de los usuarios complete la evaluación después de una intervención y que la cantidad de retroalimentación recopilada aumente en un 40%. |
+| Question | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? |
+|----------|----------------------------------------------------------------------------------------------------------------------|
+| **Why** | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos para mejorar la identificación de sitios que requieren atención. |
+| **What** | Incorporar una vista geográfica interactiva que muestre los sitios registrados mediante marcadores geolocalizados. |
+| **Hypothesis** | Se espera que la incorporación de una vista geográfica interactiva incremente el puntaje de usabilidad (SUS) en al menos un 5%. |
+| **Measures** | Aplicar la encuesta **System Usability Scale (SUS)** a los usuarios después de utilizar la vista geográfica y comparar los resultados con la línea base obtenida antes de la implementación. |
+| **Conditions** | **Experimental:** Los usuarios acceden a la vista geográfica interactiva para gestionar sitios y equipos. **Control:** Los usuarios gestionan sitios y equipos mediante la vista de lista tradicional. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Aceptable** si el incremento observado se aproxima al MDE de 13.3 pts, **Ideal** si lo iguala o supera, y **Desfavorable** si está por debajo del MDE. |
 
 ---
 
-| Campo | Descripción |
-|---------|---------|
-| **Question** | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
-| **Why** | La personalización visual permite que los usuarios adapten la interfaz a sus preferencias y condiciones de trabajo. Esto puede mejorar la comodidad durante el uso prolongado de la plataforma y aumentar la satisfacción general con la experiencia de usuario. |
-| **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración de la plataforma. |
-| **Hypothesis** | Se espera que, al incorporar opciones de personalización visual, al menos el 60% de los usuarios manifieste una mejora en su experiencia de uso y que la satisfacción general aumente en un 15%. |
+##### Tarjeta de Experimento 3: Exportación de Reportes en PDF
+
+| Question | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? |
+|----------|-----------------------------------------------------------------------------------------------------|
+| **Why** | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios e intervenciones con otras personas. Generar reportes descargables facilita esta tarea. |
+| **What** | Implementar la opción de exportar reportes técnicos en formato PDF con información sobre historial de servicios y estado de equipos. |
+| **Hypothesis** | Se espera que al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. |
+| **Measures** | Medir la **tasa de adopción de la funcionalidad (FAR)** analizando los registros de actividad del sistema para calcular el porcentaje de usuarios activos que utilizan la exportación de reportes en PDF. |
+| **Conditions** | **Experimental:** Los usuarios tienen disponible la opción de exportar reportes en PDF desde las secciones de equipos y servicios. **Control:** Los usuarios no disponen de la funcionalidad de exportación y solo pueden visualizar la información en pantalla. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Excelente** si la adopción observada supera el MDE de 25 p.p., **Aceptable** si se aproxima al MDE, y **Desfavorable** si está por debajo del MDE. |
+
+---
+
+##### Tarjeta de Experimento 4: Encuestas de Satisfacción Automatizadas
+
+| Question | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Why** | La retroalimentación permite evaluar la calidad de los servicios. Automatizar este proceso puede incrementar la participación de los usuarios y proporcionar información más consistente. |
+| **What** | Incorporar un módulo de encuestas de satisfacción que se envíe automáticamente tras finalizar una intervención técnica. |
+| **Hypothesis** | Se espera que la implementación de encuestas automatizadas incremente en un 10% la participación de los usuarios (SPR) y en un 8% la cantidad de respuestas recibidas. |
+| **Measures** | Medir la **tasa de participación en encuestas (SPR)** calculando el porcentaje de encuestas respondidas frente a las enviadas, y analizar la cantidad de respuestas recibidas antes y después de la automatización. |
+| **Conditions** | **Experimental:** Las encuestas de satisfacción se envían automáticamente al finalizar cada intervención técnica. **Control:** Las encuestas se aplican de forma manual o no están disponibles. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Ideal** si el incremento observado iguala o supera el MDE de 44 p.p., **Aceptable** si se aproxima al MDE, y **Desfavorable** si está por debajo del MDE. |
+
+---
+
+##### Tarjeta de Experimento 5: Personalización Visual 
+
+| Question | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+|----------|----------------------------------------------------------------------------------------------------------------------------|
+| **Why** | La personalización visual permite adaptar la interfaz a preferencias y condiciones de trabajo, mejorando la comodidad durante el uso prolongado. |
+| **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración. |
+| **Hypothesis** | Se espera que las opciones de personalización visual aumenten en un 8% la satisfacción de los usuarios (CSAT) y mantengan un puntaje medio de SEO en Lighthouse superior a 80. |
+| **Measures** | Evaluar la satisfacción de los usuarios mediante encuestas **CSAT** después de utilizar las opciones de personalización. Como medida complementaria, se verificará que la funcionalidad mantenga un puntaje **Lighthouse SEO** superior a 80. |
+| **Conditions** | **Experimental:** Los usuarios tienen acceso a opciones de personalización visual (modo oscuro, temas de color). **Control:** Los usuarios utilizan la plataforma con la apariencia predeterminada sin opciones de personalización. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Aceptable** si el incremento en CSAT se aproxima al MDE de 0.89 pts, **Ideal** si lo iguala o supera, y **Desfavorable** si está por debajo del MDE. Para Lighthouse SEO se evalúa si el puntaje se mantiene sobre 80. |
+
 
 ## 8.2. Experiment Design 
 
@@ -3057,8 +3187,8 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?                                                                                                                     |
 | **Belief**          | Los usuarios suelen olvidar o postergar actividades de mantenimiento preventivo debido a la falta de recordatorios oportunos. La implementación de alertas automáticas permitirá una mejor planificación y seguimiento de estas actividades. |
-| **Hypothesis**      | La implementación de alertas automáticas aumentará en un 10% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en un 8%.                                                            |
-| **Null Hypothesis** | La implementación de alertas automáticas no generará un aumento significativo en los mantenimientos realizados dentro de la fecha programada ni reducirá los retrasos en los mantenimientos preventivos.                                     |
+| **Hypothesis**      | La implementación de alertas automáticas aumentará en un 10% la tasa de cumplimiento de mantenimiento preventivo realizado dentro de la fecha programada.                                                                                  |
+| **Null Hypothesis** | La implementación de alertas automáticas no generará un aumento significativo en la tasa de cumplimiento de mantenimiento preventivo dentro de la fecha programada.                                                                         |
 
 + Hypothesis 2
 
@@ -3066,8 +3196,8 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                                        |
 | **Belief**          | Una representación visual de los sitios y equipos permitirá a los usuarios identificar rápidamente la ubicación de sus activos y facilitará la supervisión de múltiples instalaciones.                        |
-| **Hypothesis**      | La incorporación de una vista geográfica interactiva reducirá en un 10% el tiempo necesario para localizar información sobre equipos y aumentará en un 8% la percepción de facilidad de uso de la plataforma. |
-| **Null Hypothesis** | La incorporación de una vista geográfica interactiva no reducirá significativamente el tiempo necesario para localizar información ni mejorará la percepción de facilidad de uso de la plataforma.            |
+| **Hypothesis**      | La incorporación de una vista geográfica interactiva incrementará en al menos un 5% el puntaje de usabilidad (SUS) de la plataforma.                                                                         |
+| **Null Hypothesis** | La incorporación de una vista geográfica interactiva no generará un incremento significativo en el puntaje de usabilidad (SUS) de la plataforma.                                                              |
 
 + Hypothesis 3
 
@@ -3075,8 +3205,8 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                                                                                                 |
 | **Belief**          | La posibilidad de descargar y compartir reportes facilitará la gestión de la información relacionada con mantenimientos e intervenciones, generando una mayor percepción de utilidad de la plataforma.                |
-| **Hypothesis**      | La incorporación de la exportación de reportes en PDF aumentará en un 10% la percepción de utilidad de la plataforma y al menos el 20% de los usuarios utilizará esta funcionalidad durante el período de evaluación. |
-| **Null Hypothesis** | La incorporación de la exportación de reportes en PDF no generará un aumento significativo en la percepción de utilidad de la plataforma ni una adopción relevante de la funcionalidad.                               |
+| **Hypothesis**      | Al menos el 20% de los usuarios activos utilizará la funcionalidad de exportación de reportes en PDF durante el período de evaluación.                                                                                 |
+| **Null Hypothesis** | La incorporación de la exportación de reportes en PDF no alcanzará una adopción relevante (menos del 20% de los usuarios activos) durante el período de evaluación.                                                     |
 
 + Hypothesis 4
 
@@ -3093,13 +3223,11 @@ Para abordar los problemas identificados y mejorar la aplicación, se establecen
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                              |
 | **Belief**          | Permitir que los usuarios adapten la apariencia de la plataforma a sus preferencias personales mejorará la comodidad de uso y la satisfacción general durante sesiones prolongadas de trabajo.             |
-| **Hypothesis**      | La incorporación de opciones de personalización visual aumentará en un 8% la satisfacción general de los usuarios y al menos el 15% de los usuarios utilizará alguna opción de personalización disponible. |
-| **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios ni una adopción relevante de las opciones de personalización.                 |
+| **Hypothesis**      | La incorporación de opciones de personalización visual aumentará en un 8% la satisfacción de los usuarios (CSAT) y mantendrá un puntaje medio de SEO en Lighthouse superior a 80.                           |
+| **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios (CSAT) ni degradará el puntaje medio de SEO en Lighthouse por debajo de 80.  |
 
 
-### 8.2.2. Domain Business Metrics 
-
-## 8.2.2. Domain Business Metrics
+###   Domain Business Metrics
 
 Con el objetivo de asegurar que los experimentos realizados en IceTrack generen evidencia objetiva y alineada con los objetivos del negocio, se definieron las siguientes métricas de dominio. Estas métricas serán utilizadas para evaluar el impacto de cada experimento y servirán como base para la toma de decisiones durante el proceso de validación.
 
@@ -3110,14 +3238,12 @@ Con el objetivo de asegurar que los experimentos realizados en IceTrack generen 
 | **Feature Adoption Rate (FAR)**        | Mide el porcentaje de usuarios activos que utilizan una nueva funcionalidad implementada.                | (Usuarios que utilizan la funcionalidad / Usuarios activos) × 100                 | Registros de actividad y eventos del sistema.                     | Alcanzar al menos 20%.                     |
 | **Survey Participation Rate (SPR)**    | Mide el porcentaje de usuarios que completan una encuesta de satisfacción después de una intervención.   | (Encuestas respondidas / Encuestas enviadas) × 100                                | Registros de encuestas y respuestas almacenadas.                  | Incrementar en 10%.                        |
 | **Customer Satisfaction Score (CSAT)** | Mide el nivel de satisfacción general de los usuarios respecto a la experiencia de uso de la plataforma. | Promedio de las puntuaciones obtenidas en encuestas de satisfacción (escala 1-5). | Encuestas de satisfacción aplicadas a los usuarios.               | Incrementar en 8%.                         |
-| **Lighthouse Performance Score (LPS)** | Evalúa el rendimiento técnico de la aplicación web mediante auditorías Lighthouse.                       | Puntaje obtenido en Lighthouse Performance.                                       | Auditorías realizadas con Google Lighthouse y PageSpeed Insights. | Mantener un puntaje igual o superior a 95. |
+| Lighthouse SEO Score (LSS) | Evalúa el nivel de optimización SEO de la aplicación web mediante auditorías Lighthouse. | Puntaje obtenido en la categoría SEO de Lighthouse. | Auditorías realizadas con Google Lighthouse y PageSpeed Insights. | Mantener un puntaje superior a 80. |
 
 Las métricas descritas constituyen la referencia oficial para la evaluación de los experimentos planteados en IceTrack. Todas las hipótesis, medidas y condiciones definidas posteriormente deberán estar asociadas a una o más de estas métricas para garantizar consistencia y trazabilidad en el proceso de experimentación.
 
 
 ### 8.2.3. Measures. 
-
-## 8.2.3. Measures
 
 + Measure 1
 
@@ -3165,8 +3291,6 @@ Las métricas descritas constituyen la referencia oficial para la evaluación de
 
 ### 8.2.4. Conditions. 
 
-## 8.2.4. Conditions
-
 + Condition 1
 
 | Field | Description |
@@ -3212,27 +3336,42 @@ Las métricas descritas constituyen la referencia oficial para la evaluación de
 | Field | Description |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**               | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                             |
-| **Condición Experimental** | Se espera que el nivel de satisfacción de los usuarios (CSAT) aumente en un 8% y que la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. |
+| **Condición Experimental** | Se espera que el nivel de satisfacción de los usuarios (CSAT) aumente en un 8% y que la aplicación incremente su puntaje Lighthouse SEO mayor a 80.|
 | **Condición de Control**   | No habrá una mejora significativa en la satisfacción de los usuarios ni cambios relevantes en los indicadores evaluados mediante Lighthouse.                                                              |
 
 
 ### 8.2.5. Scale Calculations and Decisions.
 
-Para evaluar las hipótesis planteadas en IceTrack, se utilizará una escala de decisión sencilla que permita interpretar los resultados obtenidos durante las pruebas y validaciones del proyecto.
+Para evaluar las hipótesis planteadas en IceTrack, se definió un tamaño de muestra de **n = 20** participantes por experimento, considerando la disponibilidad de usuarios en los segmentos objetivo del proyecto. Sobre esta base, se calcularon los parámetros estadísticos que permiten determinar la cantidad mínima de evidencia necesaria para tomar decisiones confiables.
 
+#### Parámetros Estadísticos
 
-| Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| Creemos que la implementación de alertas automáticas aumentará la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en los mantenimientos. Sabremos que esto es cierto cuando la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y los usuarios realicen más actividades dentro de las fechas programadas. | Implementar alertas automáticas de mantenimiento preventivo que notifiquen oportunamente a los usuarios antes de las fechas programadas. |  |  | X |  |
-| Creemos que la incorporación de una vista geográfica interactiva reducirá el tiempo necesario para localizar información sobre equipos y aumentará la percepción de facilidad de uso de la plataforma. Sabremos que esto es cierto cuando el puntaje de usabilidad SUS aumente en al menos un 5% y los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. | Implementar una vista geográfica interactiva que permita ubicar sitios, equipos y activos dentro de la plataforma. |  |  | X |  |
-| Creemos que la incorporación de la exportación de reportes en PDF aumentará la percepción de utilidad de la plataforma y será utilizada por los usuarios durante el período de evaluación. Sabremos que esto es cierto cuando al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. | Implementar la opción de exportar reportes técnicos en formato PDF para compartir información sobre servicios, equipos e intervenciones. |  |  | X |  |
-| Creemos que la implementación de encuestas automatizadas incrementará la participación de los usuarios en procesos de retroalimentación y aumentará la cantidad de respuestas recibidas. Sabremos que esto es cierto cuando la participación de los usuarios en las encuestas aumente en un 10% y la cantidad de respuestas recibidas se incremente en un 8% después de automatizar el envío de encuestas de satisfacción. | Incorporar encuestas automáticas de satisfacción después de cada intervención técnica realizada. |  |  | X |  |
-| Creemos que la incorporación de opciones de personalización visual aumentará la satisfacción general de los usuarios y será adoptada por parte de ellos. Sabremos que esto es cierto cuando el nivel de satisfacción de los usuarios CSAT aumente en un 8% y la aplicación mantenga un puntaje Lighthouse igual o superior a 95 en las auditorías de rendimiento y accesibilidad. | Implementar opciones visuales como modo oscuro y temas de color dentro de la configuración de la plataforma. |  |  | X |  |
+| Parámetro | Valor | Justificación |
+|:----------|:-----:|:--------------|
+| Nivel de significancia (α) | 0.05 | Convención estándar en experimentos de ingeniería de software (5% de probabilidad de falso positivo). |
+| Poder estadístico (1-β) | 0.80 | Convención estándar (80% de probabilidad de detectar un efecto real si existe). |
+| Tamaño de muestra (n) | 20 | Definido según la disponibilidad de participantes en los segmentos objetivo del proyecto. |
 
-A partir de esta escala, las funcionalidades que alcancen los niveles **Ideal** o **Excelente** serán consideradas satisfactorias para el avance del proyecto. Las que se ubiquen en el nivel **Aceptable** deberán ser ajustadas antes de una nueva evaluación. Finalmente, los resultados **Desfavorables** indicarán la necesidad de replantear la funcionalidad, mejorar su diseño o revisar su implementación técnica.
+#### Cálculo de Escala por Experimento
 
+| Experimento | Hipótesis / Decisión | n | α | Poder (1-β) | MDE | Desf. | Acept. | Ideal | Excel. |
+|:------------|:---------------------|:-:|:-:|:-----------:|:---:|:-----:|:------:|:-----:|:------:|
+| **E1:** Alertas automáticas de mantenimiento preventivo | Aumentar la tasa de cumplimiento de mantenimiento preventivo en un 10% (de ~40% a ~50%). Implementar alertas automáticas que notifiquen antes de las fechas programadas. | 20 | 0.05 | 0.80 | 44 p.p. |  |  |  | X |
+| **E2:** Vista geográfica interactiva | Aumentar el puntaje de usabilidad SUS en al menos un 5% (≈5 puntos, σ≈15). Implementar mapa interactivo para ubicar sitios y equipos. | 20 | 0.05 | 0.80 | 13.3 pts |  | X |  |  |
+| **E3:** Exportación de reportes en PDF | Alcanzar al menos un 20% de usuarios activos que utilicen la funcionalidad de exportación. Implementar opción de exportar reportes técnicos en PDF. | 20 | 0.05 | 0.80 | 25 p.p. |  |  |  | X |
+| **E4:** Encuestas automatizadas de satisfacción | Aumentar la participación en encuestas en un 10% (de ~30% a ~40%) y las respuestas recibidas en un 8%. Incorporar encuestas automáticas post-intervención. | 20 | 0.05 | 0.80 | 44 p.p. |  |  | X |  |
+| **E5:** Personalización visual (modo oscuro / temas) | Aumentar el puntaje CSAT en un 8% (≈0.4 pts en escala Likert 1-5, σ≈1.0) y mantener Lighthouse > 80. Implementar opciones visuales en configuración. | 20 | 0.05 | 0.80 | 0.89 pts |  | X |  |  |
 
+**Nota sobre el MDE:** El Efecto Mínimo Detectable (MDE) se calculó con la fórmula para dos grupos independientes considerando n=20, α=0.05 y poder=0.80. Para proporciones (E1, E3, E4) se utilizó `MDE = (Z_α/2 + Z_β) × √(p₁(1-p₁)/n + p₂(1-p₂)/n)`. Para medias (E2, E5) se utilizó `MDE = (Z_α/2 + Z_β) × σ × √(1/n + 1/n)`. Los niveles de la escala se asignaron según la proximidad del resultado observado al MDE calculado.
 
+#### Escala de Decisión
+
+| Nivel | Criterio |
+|:------|:---------|
+| **Desfavorable** | El resultado observado está por debajo del MDE calculado y no alcanza la meta establecida. |
+| **Aceptable** | El resultado observado se aproxima al MDE calculado, pero no supera la meta. Requiere ajustes. |
+| **Ideal** | El resultado observado iguala o supera el MDE calculado, alcanzando la meta establecida. |
+| **Excelente** | El resultado observado supera significativamente el MDE calculado y la meta establecida. |
 
 
 ### 8.2.6. Methods Selection.
@@ -3292,7 +3431,6 @@ Con estos datos, pudimos graficar las tendencias del rendimiento, accesibilidad,
 ![LightHouseSEOpng](/assets/chapter08/SEOExcel.png)
 
 
-
 ### 8.2.8. Web and Mobile Tracking Plan. 
 Para IceTrack, el plan de seguimiento web y móvil tiene como finalidad monitorear el comportamiento general de la aplicación y evaluar el impacto de las mejoras implementadas durante el desarrollo del proyecto. Este seguimiento permitirá obtener información útil sobre el rendimiento, la accesibilidad, la experiencia de usuario y la estabilidad de las funcionalidades principales.
 
@@ -3329,39 +3467,34 @@ El seguimiento continuo se enfocará en:
 ## 8.3. Experimentation 
 ### 8.3.1. To-Be User Stories.
 
-|User Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (EpicID)|
-|--|--|--|--|--|
-| US-TB-01 | Selección rápida de equipo en nueva solicitud | **Como** cliente, **quiero** que el campo Equipment se filtre automáticamente según el sitio elegido, **para** no buscar entre equipos que no me corresponden. | Escenario 1: **Dado que** selecciono un Site,<br> **Cuando** abro el dropdown de Equipment,<br> **Entonces** solo veo los equipos registrados en ese sitio. <br><br> Escenario 2: **Dado que** no he seleccionado un Site, <br> **Cuando** intento abrir Equipment, <br> **Entonces** el campo aparece deshabilitado con un mensaje "Selecciona un sitio primero". | EP-03 |
-| US-TB-02 | Sugerencia automática de tipo de solicitud | **Como** cliente, **quiero** que el sistema sugiera el "Request Type" según el equipo y su historial, **para** agilizar el llenado del formulario. | Escenario 1: **Dado que** selecciono un equipo con alertas activas, **Cuando** el sistema detecta el patrón, **Entonces** autocompleta el Request Type sugerido (ej. "Correctivo"). <br><br> Escenario 2: **Dado que** el equipo no tiene historial, **Cuando** lo selecciono, **Entonces** el campo queda vacío para ingreso manual. | EP-03 |
-| US-TB-03 | Dashboard con gráfico de servicios por estado | **Como** propietario, **quiero** ver el dashboard con el donut de "Service Requests" poblado con datos reales, **para** identificar de un vistazo la proporción de servicios pendientes, en progreso y completados. | Escenario 1: **Dado que** existen servicios registrados, **Cuando** cargo el Dashboard, **Entonces** el gráfico muestra los porcentajes segmentados por estado con leyenda. Escenario 2: **Dado que** no hay servicios registrados, **Cuando** cargo el Dashboard, **Entonces** se muestra un estado vacío amigable en lugar del donut en blanco. | EP-04 |
-| US-TB-04 | Validación en tiempo real del serial del equipo | **Como** cliente, **quiero** que el campo Serial valide formato y longitud mientras escribo, **para** corregir errores antes de enviar el formulario. | Escenario 1: **Dado que** escribo menos de 8 caracteres, **Cuando** salgo del campo, **Entonces** se muestra un mensaje de error indicando el rango válido (8-12). <br><br> Escenario 2: **Dado que** ingreso un serial ya registrado, **Cuando** intento guardar, **Entonces** el sistema muestra "Este serial ya existe" antes de enviar el formulario. | EP-02 |
-| US-TB-05 | Notificación de nueva solicitud al proveedor | **Como** proveedor, **quiero** recibir una notificación cuando llega una nueva solicitud, **para** atenderla sin tener que revisar el dashboard constantemente. | Escenario 1: **Dado que** un cliente crea una solicitud asignada a mi servicio, **Cuando** se guarda la solicitud, **Entonces** recibo una notificación con el resumen. <br><br> Escenario 2: **Dado que** tengo notificaciones desactivadas, **Cuando** llega una solicitud, **Entonces** solo se refleja en el contador "New Requests" del dashboard. | EP-03 |
-| US-TB-06 | Validación de teléfono de técnico | **Como** proveedor, **quiero** que el campo Phone valide automáticamente que sean 9 dígitos numéricos, **para** evitar registros con datos incorrectos. | Escenario 1: **Dado que** ingreso menos o más de 9 dígitos, **Cuando** intento presionar "Register", **Entonces** el botón permanece deshabilitado y se muestra el requisito.  <br><br> Escenario 2: **Dado que** ingreso letras o símbolos, **Cuando** escribo en el campo, **Entonces** el sistema bloquea caracteres no numéricos.  | EP-01 |
-| US-TB-07 | Edición y eliminación de técnicos | **Como** proveedor, **quiero** editar o eliminar un técnico desde la columna "Actions" de "My Technicians", **para** mantener actualizado mi equipo de trabajo. | Escenario 1: **Dado que** selecciono "Editar" en un técnico, **Cuando** modifico sus datos y guardo, **Entonces** la tabla refleja los cambios inmediatamente.  <br><br> Escenario 2: **Dado que** un técnico tiene servicios activos asignados, **Cuando** intento eliminarlo, **Entonces** el sistema bloquea la acción y muestra una advertencia. | EP-01 |
-| US-TB-08 | Persistencia de idioma seleccionado en la interfaz | **Como** usuario, **quiero** que el idioma (ES/EN) elegido se mantenga al recargar o volver a iniciar sesión, **para** no tener que cambiarlo cada vez. | Escenario 1: **Dado que** selecciono EN, **Cuando** cierro y vuelvo a abrir la app, **Entonces** la interfaz sigue en inglés. <br><br> Escenario 2: **Dado que** cambio de dispositivo, **Cuando** inicio sesión, **Entonces** se aplica el último idioma guardado en mi perfil. | EP-01 |
+| User Story ID | Título                                           | Descripción                                                                                                                                                          | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                    | Relacionado con (EpicID) |
+| ------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| US-TB-01      | Alertas automáticas de mantenimiento preventivo  | **Como** propietario, **quiero** recibir alertas automáticas antes de la fecha programada de mantenimiento, **para** evitar retrasos y olvidos.                      | Escenario 1: **Dado que** un mantenimiento está próximo a vencer, **Cuando** faltan 7 días para la fecha programada, **Entonces** el sistema envía una notificación al usuario. <br><br> Escenario 2: **Dado que** el mantenimiento ya fue realizado, **Cuando** se registra la intervención, **Entonces** la alerta pendiente desaparece automáticamente. | EP-03                    |
+| US-TB-02      | Vista geográfica interactiva de sitios y equipos | **Como** propietario, **quiero** visualizar mis sitios y equipos en un mapa interactivo, **para** localizar rápidamente mis activos.                                 | Escenario 1: **Dado que** existen sitios registrados, **Cuando** ingreso al módulo de mapa, **Entonces** visualizo marcadores con la ubicación de cada sitio. <br><br> Escenario 2: **Dado que** selecciono un marcador, **Cuando** hago clic sobre él, **Entonces** se muestran los equipos asociados a dicho sitio.                                      | EP-04                    |
+| US-TB-03      | Exportación de reportes en PDF                   | **Como** propietario, **quiero** exportar reportes en formato PDF, **para** compartir y almacenar información de mantenimiento.                                      | Escenario 1: **Dado que** visualizo un reporte, **Cuando** presiono "Export PDF", **Entonces** se descarga un archivo PDF correctamente generado. <br><br> Escenario 2: **Dado que** el reporte contiene múltiples registros, **Cuando** genero el PDF, **Entonces** toda la información aparece correctamente estructurada.                               | EP-04                    |
+| US-TB-04      | Encuestas automáticas de satisfacción            | **Como** cliente, **quiero** recibir automáticamente una encuesta después de cada servicio realizado, **para** brindar retroalimentación sobre la atención recibida. | Escenario 1: **Dado que** una solicitud cambia a estado completado, **Cuando** finaliza la intervención, **Entonces** el sistema envía automáticamente una encuesta. <br><br> Escenario 2: **Dado que** el usuario responde la encuesta, **Cuando** envía sus respuestas, **Entonces** estas quedan registradas en la plataforma.                          | EP-03                    |
+| US-TB-05      | Personalización visual de la interfaz            | **Como** usuario, **quiero** activar modo oscuro y seleccionar temas de color, **para** adaptar la apariencia de la plataforma a mis preferencias.                   | Escenario 1: **Dado que** activo el modo oscuro, **Cuando** navego por la aplicación, **Entonces** toda la interfaz utiliza la configuración seleccionada. <br><br> Escenario 2: **Dado que** selecciono un tema de color, **Cuando** vuelvo a iniciar sesión, **Entonces** la preferencia permanece guardada.                                             | EP-01                    |
 
 ### 8.3.2. To-Be Product Backlog.
 
-| Orden | User Story ID | Título | Story Points (1/2/3/5/8) | 
-|--|--|--|--|
-| 1 | US-TB-05 | Notificación de nueva solicitud al proveedor | 8 |
-| 2 | US-TB-03 | Dashboard con gráfico de servicios por estado | 8 |
-| 3 | US-TB-01 | Selección rápida de equipo en nueva solicitud | 5 |
-| 4 | US-TB-02 | Sugerencia automática de tipo de solicitud | 5 |
-| 5 | US-TB-08 | Persistencia de idioma seleccionado en la interfaz | 5 |
-| 6 | US-TB-07 | Edición y eliminación de técnicos | 3 |
-| 7 | US-TB-04 | Validación en tiempo real del serial del equipo | 3 |
-| 8 | US-TB-06 | Validación de teléfono de técnico | 2 |
+| Orden | User Story ID | Título                                           | Story Points (1/2/3/5/8) |
+| ----- | ------------- | ------------------------------------------------ | ------------------------ |
+| 1     | US-TB-02      | Vista geográfica interactiva de sitios y equipos | 8                        |
+| 2     | US-TB-04      | Encuestas automáticas de satisfacción            | 8                        |
+| 3     | US-TB-01      | Alertas automáticas de mantenimiento preventivo  | 5                        |
+| 4     | US-TB-03      | Exportación de reportes en PDF                   | 5                        |
+| 5     | US-TB-05      | Personalización visual de la interfaz            | 3                        |
 
 **Interpretación de los Story Points**
 
-**8 puntos:** historias de alta complejidad técnica con impacto transversal entre frontend y backend, que requieren integración en tiempo real o lógica de agregación de datos. Ejemplos: Notificación de nueva solicitud (requiere sistema de eventos/push y manejo de estados), Dashboard con gráfico de servicios (requiere agregación de datos desde múltiples entidades, cálculo de proporciones y manejo de estado vacío).
+**8 puntos:** historias de alta complejidad técnica que requieren integración de múltiples componentes y manejo de información dinámica. Ejemplos: Vista geográfica interactiva (integración con mapas, geolocalización y asociación de activos) y encuestas automáticas (automatización de envíos, almacenamiento de respuestas y seguimiento de participación).
 
-**5 puntos:** funcionalidades de complejidad media-alta que implican lógica de negocio condicional y mejoras de experiencia de usuario, concentradas principalmente en frontend con dependencia de datos del backend. Ejemplos: Selección de equipo filtrada por sitio, sugerencia automática de tipo de solicitud (requiere lógica de detección de patrones/historial), persistencia de idioma (requiere guardado en perfil de usuario y sincronización entre sesiones).
+**5 puntos:** funcionalidades de complejidad media-alta que implican lógica de negocio específica y mejoras significativas para el usuario. Ejemplos: alertas automáticas de mantenimiento preventivo (programación y gestión de notificaciones), exportación de reportes PDF (generación dinámica de documentos) y personalización visual (persistencia de preferencias y adaptación de la interfaz).
 
-**3 puntos:** tareas de complejidad media-baja, generalmente acotadas a un único módulo o componente, con dependencia mínima de otras funciones. Ejemplos: edición/eliminación de técnicos (CRUD con validación de reglas de negocio), validación en tiempo real del serial (lógica de validación de formato y unicidad).
+**3 puntos:** tareas de complejidad media-baja asociadas a validaciones, configuraciones o funcionalidades limitadas a un módulo específico.
 
-**2 puntos:** tareas de bajo riesgo y baja complejidad, principalmente validaciones de formulario en frontend sin lógica de negocio compleja. Ejemplo: validación de teléfono de técnico (regla simple de formato numérico de 9 dígitos).
+**2 puntos:** tareas de baja complejidad centradas principalmente en validaciones simples o ajustes menores de interfaz.
+
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle 
 #### 8.3.3.1. To-Be Sprint Backlogs 
@@ -3397,9 +3530,15 @@ El seguimiento continuo se enfocará en:
 
 # Bibliografía
 
+- Agraria.pe. (2 de julio de 2019). *Perú pierde más del 33% de los alimentos que produce por mal uso de la cadena de frío*. Agencia Agraria de Noticias. https://www.agraria.pe/noticias/peru-pierde-mas-del-33-de-los-alimentos-que-produce-por-mal--19324
+
+- Agroperú Informa. (2 de julio de 2026). *Eficiencia en la cadena de frío reduce el desperdicio de alimentos y fortalece el abastecimiento*. Agroperú. https://www.agroperu.pe/eficiencia-en-la-cadena-de-frio-reduce-el-desperdicio-de-alimentos-y-fortalece-el-abastecimiento/
+
 - Axios. (s.f.). *Axios: Promise based HTTP client for the browser and node.js*. https://axios-http.com/docs/intro
 
 - Conventional Commits. (s.f.). *Conventional commits*. https://www.conventionalcommits.org/
+
+- Dawsongroup TCS. (2024). *Eficiencia energética en refrigeración industrial: cómo reducir el consumo sin comprometer la calidad*. Dawsongroup Ibérica. https://dawsongrouptcs.com/iberica/proyectos/eficiencia-energetica-en-refrigeracion-industrial-como-reducir-el-consumo-sin-comprometer-la-calidad/
 
 - Google. (s.f.). *Google HTML/CSS style guide*. https://google.github.io/styleguide/htmlcssguide.html
 
@@ -3409,7 +3548,13 @@ El seguimiento continuo se enfocará en:
 
 - RESTfulAPI.net. (s.f.). *REST API tutorial*. https://restfulapi.net
 
+- Seguas. (2024). *La importancia del frío industrial en la industria alimentaria*. Seguas - Refrigeración Industrial. https://www.seguas.com/importancia-frio-industria-alimentaria/
+
 - W3Schools. (s.f.). *HTML style guide and coding conventions*. https://www.w3schools.com/html/html5_syntax.asp
+
+- Zabarburu. (4 de marzo de 2026). *Guía básica sobre cadena de frío y su continuidad térmica*. Zabarburu Soluciones. https://zabarburu.com.pe/recursos/guias/sobre-cadena-de-frio/
+
+- La Noticia Perú. (29 de septiembre de 2023). *Se malograron 345 mil vacunas y las pérdidas ascienden a S/14 millones.* La Noticia. https://lanoticia.com.pe/se-malograron-345-mil-vacunas-y-las-perdidas-ascienden-a-s-14-millones/
 
 # Anexos
 
