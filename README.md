@@ -3428,7 +3428,7 @@ Con estos datos, pudimos graficar las tendencias del rendimiento, accesibilidad,
 
 ![LightHouseRecomendacionespng](assets/chapter08/RecomendacionesExcel.png)
 
-![LightHouseSEOpng](/assets/chapter08/SEOExcel.png)
+![LightHouseSEOpng](assets/chapter08/SEOExcel.png)
 
 
 ### 8.2.8. Web and Mobile Tracking Plan. 
@@ -3514,41 +3514,41 @@ El seguimiento continuo se enfocará en:
 
 ### **Alertas automáticas de mantenimiento preventivo**
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-1.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-1.png)
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-2.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-2.png)
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-3.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-3.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence 
 
 ### **Alertas automáticas de mantenimiento preventivo**
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-1.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-1.png)
 
 ### **Vista geográfica interactiva de sitios y equipos**
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-2.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-2.png)
 
 ### **Exportación de reportes en PDF**
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-3.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-3.png)
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-4.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-4.png)
 
 ### **Encuestas automáticas de satisfacción**
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-5.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-5.png)
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-6.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-6.png)
 
 ### **Personalización visual de la interfaz**
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-7.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-7.png)
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-8.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-8.png)
 
-![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-9.png)
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-9.png)
 
 #### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence 
 
@@ -3556,23 +3556,23 @@ A continuación, se presentará la evidencia de los servicios de Backend ya desp
 
 US-TB-05 Notificación de nueva solicitud al proveedor
 
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor1.png)
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor2.png)
+![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor1.png)
+![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor2.png)
 
 US-TB-01	Selección rápida de equipo en nueva solicitud
 
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/EquipoNuevaSolicitud.png)
+![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/EquipoNuevaSolicitud.png)
 
 US-TB-02	Sugerencia automática de tipo de solicitud
 
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/TipoSolicitud.png)
+![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/TipoSolicitud.png)
 
 
 US-TB-07	Edición y eliminación de técnicos
 
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/EdicionTecnico.png)
+![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/EdicionTecnico.png)
 
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/EliminacionTecnico.png)
+![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/EliminacionTecnico.png)
 
 
 #### 8.3.3.5. Team Collaboration Insights
@@ -3580,13 +3580,14 @@ US-TB-07	Edición y eliminación de técnicos
 A continuación se presentarán las evidencias de colaboración del equipo de desarrollo durante la implementación de la plataforma IceTrack, utilizando herramientas de gestión de proyectos y control de versiones.
 
 Backend
-![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsBackend.png)
+![Team Collaboration](assets/chapter08/TeamCollaborationInsightsBackend.png)
 
 Frontend
-![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsFrontend.png)
+![Team Collaboration](assets/chapter08/TeamCollaborationInsightsFrontend.png)
 
 Landing Page
-![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsLandingPage.png)
+![Team Collaboration](assets/chapter08/TeamCollaborationInsightsLandingPage.png)
+
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
 
@@ -3656,7 +3657,7 @@ A continuación, se documenta la evidencia y los resultados consolidados de las 
 
 - Evidencia de recolección:  
 
-![survey-evidence](/assets/chapter08/Evidencia_encuesta.png)
+![survey-evidence](assets/chapter08/Evidencia_encuesta.png)
 
 - Enlace del instrumento: [Link al Formulario de Propietarios](https://docs.google.com/forms/d/e/1FAIpQLSeUD0TQ8NXOnzDZvfQfn2hn1xKij6g4cAjkvjitD-i5f0-qSg/viewform?usp=header)
 
@@ -3670,7 +3671,7 @@ A continuación, se documenta la evidencia y los resultados consolidados de las 
 
 - Evidencia de recolección:  
 
-![survey-evidence-2](/assets/chapter08/encuesta_evidencia2.png)
+![survey-evidence-2](assets/chapter08/encuesta_evidencia2.png)
 
 - Enlace del instrumento: [Link al Formulario de Técnicos](https://docs.google.com/forms/d/e/1FAIpQLSfj7lcgKincisytbKF618w5puB5CCEmkoTXS93ZCFbDvuVskQ/viewform)
 
@@ -3692,12 +3693,12 @@ Como evidencia de este proceso se presentan los siguientes artefactos:
 
 Link Encuesta Segmento Técnicos en Mantenimiento: 'https://docs.google.com/forms/d/e/1FAIpQLSfj7lcgKincisytbKF618w5puB5CCEmkoTXS93ZCFbDvuVskQ/viewform'
 
-![Shareback-evidence-3](/assets/chapter08/shareback-evidence3.png)
+![Shareback-evidence-3](assets/chapter08/shareback-evidence3.png)
 
 
 Link Encuesta Segmento Propietarios de equipos de refrigeración: 'https://docs.google.com/forms/d/e/1FAIpQLSeUD0TQ8NXOnzDZvfQfn2hn1xKij6g4cAjkvjitD-i5f0-qSg/viewform'
 
-![Shareback-evidence-2](/assets/chapter08/shareback-evidence2.png)
+![Shareback-evidence-2](assets/chapter08/shareback-evidence2.png)
 
 
 + Figma (Prototipo): Se utilizó un prototipo interactivo desarrollado en Figma para representar las interfaces y funcionalidades de la aplicación, permitiendo visualizar las mejoras propuestas en la experiencia de usuario antes de su implementación. Este prototipo facilitó la validación de los cambios con los usuarios, la identificación de oportunidades de mejora y la iteración del diseño a partir de la retroalimentación obtenida durante el proceso de desarrollo.
@@ -3705,7 +3706,7 @@ Link Encuesta Segmento Propietarios de equipos de refrigeración: 'https://docs.
   'https://www.figma.com/proto/ssl7G9KRip9XbC0tBXqUnc/Untitled?node-id=1-2&p=f&t=Kj4CziPHI6VX6P3M-1&scaling=contain&content-scaling=responsive&page-id=0%3A1'
 
 
-![Shareback-evidence-1](/assets/chapter08/shareback-evidence1.png)
+![Shareback-evidence-1](assets/chapter08/shareback-evidence1.png)
 
 
 + Repositorio del proyecto: Se utilizó el repositorio del proyecto para gestionar y registrar las modificaciones realizadas durante el Sprint. En él se documentaron los cambios acordados a partir de la sesión de Shareback, permitiendo dar seguimiento a su implementación, mantener el control de versiones y evidenciar la evolución continua de la solución desarrollada.
@@ -3718,7 +3719,7 @@ Link de la organización: 'https://github.com/1ASI0732-FrostShield'
 
 El siguiente video, publicado en YouTube, tiene como objetivo presentar IceTrack, la solución desarrollada por FrostShield para optimizar la gestión y el mantenimiento de equipos de refrigeración. A través de este contenido se muestran las principales funcionalidades de la plataforma, como la administración de equipos, la gestión de solicitudes de mantenimiento, la asignación de técnicos y el seguimiento de intervenciones, destacando cómo IceTrack contribuye a mejorar la eficiencia operativa, reducir los tiempos de respuesta y facilitar la toma de decisiones en empresas que dependen de sistemas de refrigeración.
 
-![Video-about-the-product](/assets/chapter08/video-about-the-product.png)
+![Video-about-the-product](assets/chapter08/video-about-the-product.png)
 
 Link del video: 
 'https://1drv.ms/v/c/805e82708c420c17/IQC-ThGcer1ES7eS0JZ0QkPIAaqJ-MovclgJdBZke4kadYM?e=xO3Wvl'
