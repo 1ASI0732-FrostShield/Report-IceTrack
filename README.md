@@ -3371,14 +3371,141 @@ El seguimiento continuo se enfocará en:
 #### 8.3.3.5. Team Collaboration Insights
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
+
+A continuación, se presentan las preguntas diseñadas para la validación de las nuevas funcionalidades implementadas en IceTrack. El instrumento se dividió en dos fases: un análisis de la situación base (As-Is) para confirmar la existencia de fricciones, y una evaluación de la utilidad de los cambios propuestos (To-Be). Las preguntas están adaptadas para aplicarse a nuestros dos segmentos objetivo.
+
+**Segmento 1: Propietarios de equipos de refrigeración (Owners)**
+
+Análisis de la aplicación base y problemas
+
+- **Pregunta 1:** ¿Qué tan difícil le resulta actualmente localizar la ubicación exacta de sus locales o equipos dentro de la aplicación? 
+
+- **Pregunta 2:** ¿Con qué frecuencia olvida programar o hacer el seguimiento a los mantenimientos de sus equipos? 
+
+- **Pregunta 3:** ¿Siente que actualmente tiene una forma efectiva en el sistema para dejar constancia y evaluar la calidad del servicio técnico que recibe? 
+
+- **Pregunta 4:** ¿Qué tan complicado le resulta actualmente compartir el historial y el estado de sus equipos de forma externa (con socios, proveedores o auditores)? 
+
+- **Pregunta 5:** ¿Ha experimentado cansancio visual o dificultad para leer la información en la aplicación durante periodos prolongados o bajo diferentes condiciones de iluminación? 
+
+Opinión de la utilidad de los cambios 
+
+- **Pregunta 1:** ¿Considera que el nuevo Mapa Interactivo facilita significativamente la gestión y supervisión de sus equipos distribuidos? 
+
+- **Pregunta 2:** ¿Qué tan útiles le parecen las nuevas alertas y recordatorios automáticos para asegurar que se cumplan las fechas de mantenimiento? 
+
+- **Pregunta 3:** ¿Cree que el nuevo sistema de Reviews automatizadas post-servicio le dará mayor confianza sobre la calidad del trabajo técnico recibido? 
+
+- **Pregunta 4:** ¿Qué tan valiosa es para su negocio la nueva funcionalidad de exportar intervenciones y el estado de sus equipos en reportes PDF? 
+
+- **Pregunta 5:** ¿Las opciones de personalización de texto y el modo oscuro mejoran su experiencia y comodidad al usar la plataforma? 
+
+**Segmento 2: Técnicos de Mantenimiento (Technicians)**
+
+Análisis de la aplicación base y problemas 
+
+- **Pregunta 1:** ¿Siente que los clientes carecen de un canal directo dentro de la plataforma para calificar positivamente su trabajo después de un servicio? 
+
+- **Pregunta 2:** ¿Qué tan difícil le resulta actualmente demostrar su buen desempeño o experiencia frente a nuevos clientes al no contar con un historial visible de calificaciones? 
+
+- **Pregunta 3:** Tras finalizar una intervención, ¿qué tan tedioso le resulta generar un sustento formal o un reporte detallado para entregárselo al cliente? 
+
+- **Pregunta 4:** ¿Considera que la forma actual en la que entrega el resumen o la constancia del servicio a sus clientes podría tener un aspecto más profesional? 
+
+- **Pregunta 5:** Dado que suele trabajar en ambientes industriales o de campo, ¿qué tan frecuentemente tiene problemas para visualizar, leer o interactuar con la pantalla de su dispositivo debido a los colores de la aplicación? 
+
+Opinión de la utilidad de los cambios 
+
+- **Pregunta 1:** ¿Considera que recibir reseñas (Reviews) y calificaciones directamente en su perfil le ayudará a fidelizar clientes y conseguir más servicios? (Opciones: 1 - Nada útil a 5 - Muy útil)
+
+- **Pregunta 2:** ¿Cree que el sistema de Reviews motivará a los clientes a darle una retroalimentación más honesta y frecuente sobre sus intervenciones? (Opciones: Totalmente de acuerdo, De acuerdo, Neutral, En desacuerdo)
+
+- **Pregunta 3:** ¿Siente que poder generar al instante un reporte en PDF tras completar un servicio agilizará significativamente su flujo de trabajo? (Opciones: Sí / No / Tal vez)
+
+- **Pregunta 4:** ¿Qué tanto cree que la exportación de reportes a PDF mejorará la imagen de profesionalismo que proyecta hacia los dueños de los equipos? (Opciones: 1 - Nada a 5 - Muchísimo)
+
+- **Pregunta 5:** ¿El nuevo Modo oscuro y el ajuste de colores/texto mejoran su visibilidad y facilidad de uso cuando está operando en terreno con luz variable? (Opciones: Sí / No / Me es indiferente)
+
 #### 8.3.4.2. Registro de Entrevistas
+
+A continuación, se documenta la evidencia y los resultados consolidados de las validaciones realizadas con los usuarios de ambos segmentos.
+
+### Validación 01 - Segmento: Propietarios de equipos (Owners)
+
+- Público objetivo: Dueños de negocios y gestores de equipos de refrigeración.
+
+- Herramienta de recolección: Formulario estructurado.
+
+- Evidencia de recolección:  
+
+![survey-evidence](/assets/chapter08/Evidencia_encuesta.png)
+
+- Enlace del instrumento: [Link al Formulario de Propietarios](https://docs.google.com/forms/d/e/1FAIpQLSeUD0TQ8NXOnzDZvfQfn2hn1xKij6g4cAjkvjitD-i5f0-qSg/viewform?usp=header)
+
+- Resumen de la validación: Los propietarios confirmaron que la falta de recordatorios automáticos era uno de los principales causantes de los mantenimientos atrasados. Respecto a los cambios implementados, el Mapa Interactivo y la exportación de Reportes en PDF fueron calificados como altamente valiosos, ya que reducen el tiempo dedicado a ubicar activos y simplifican la comunicación con terceros. Asimismo, expresaron que el sistema de reseñas aumentará su confianza al contratar servicios técnicos.
+
+### Validación 02 - Segmento: Técnicos de Mantenimiento (Technicians)
+
+- Público objetivo: Proveedores de servicio técnico y profesionales independientes.
+
+- Herramienta de recolección: Formulario estructurado.
+
+- Evidencia de recolección:  
+
+![survey-evidence-2](/assets/chapter08/encuesta_evidencia2.png)
+
+- Enlace del instrumento: [Link al Formulario de Técnicos](https://docs.google.com/forms/d/e/1FAIpQLSfj7lcgKincisytbKF618w5puB5CCEmkoTXS93ZCFbDvuVskQ/viewform)
+
+- Resumen de la validación: Los técnicos destacaron que la generación automática de Reportes en PDF resuelve un punto de fricción importante, aportando inmediatez y un acabado profesional a sus intervenciones. Por otro lado, valoraron positivamente la inclusión de Reviews, considerando que un historial visible les permitirá destacar frente a la competencia. Finalmente, el Modo Oscuro fue recibido como una mejora práctica y necesaria para la comodidad visual en entornos de campo con iluminación variable.
+
 ## 8.4. Experiment Aftermath & Analysis 
 ### 8.4.1. Analysis and Interpretation of Results 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog 
+
+
 ## 8.5. Continuous Learning 
+
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow 
+Una vez finalizada la aplicación de las encuestas de validación, el equipo realizó una sesión de Shareback para compartir los resultados obtenidos y discutir las oportunidades de mejora identificadas. Durante esta sesión, los integrantes revisaron las respuestas recopiladas, contrastaron los resultados con las hipótesis planteadas y definieron las acciones que serían incorporadas al Product Backlog para futuras iteraciones.
+
+Como evidencia de este proceso se presentan los siguientes artefactos:
+
++ Encuesta de Google Forms: Se utilizó una encuesta elaborada en Google Forms para recopilar la opinión de los usuarios sobre las funcionalidades implementadas en la aplicación. Esta herramienta permitió obtener retroalimentación sobre la experiencia de uso, identificar oportunidades de mejora y validar que las funcionalidades desarrolladas respondieran a las necesidades y expectativas de los usuarios.
+
+Link Encuesta Segmento Técnicos en Mantenimiento: 'https://docs.google.com/forms/d/e/1FAIpQLSfj7lcgKincisytbKF618w5puB5CCEmkoTXS93ZCFbDvuVskQ/viewform'
+
+![Shareback-evidence-3](/assets/chapter08/shareback-evidence3.png)
+
+
+Link Encuesta Segmento Propietarios de equipos de refrigeración: 'https://docs.google.com/forms/d/e/1FAIpQLSeUD0TQ8NXOnzDZvfQfn2hn1xKij6g4cAjkvjitD-i5f0-qSg/viewform'
+
+![Shareback-evidence-2](/assets/chapter08/shareback-evidence2.png)
+
+
++ Figma (Prototipo): Se utilizó un prototipo interactivo desarrollado en Figma para representar las interfaces y funcionalidades de la aplicación, permitiendo visualizar las mejoras propuestas en la experiencia de usuario antes de su implementación. Este prototipo facilitó la validación de los cambios con los usuarios, la identificación de oportunidades de mejora y la iteración del diseño a partir de la retroalimentación obtenida durante el proceso de desarrollo.
+
+  'https://www.figma.com/proto/ssl7G9KRip9XbC0tBXqUnc/Untitled?node-id=1-2&p=f&t=Kj4CziPHI6VX6P3M-1&scaling=contain&content-scaling=responsive&page-id=0%3A1'
+
+
+![Shareback-evidence-1](/assets/chapter08/shareback-evidence1.png)
+
+
++ Repositorio del proyecto: Se utilizó el repositorio del proyecto para gestionar y registrar las modificaciones realizadas durante el Sprint. En él se documentaron los cambios acordados a partir de la sesión de Shareback, permitiendo dar seguimiento a su implementación, mantener el control de versiones y evidenciar la evolución continua de la solución desarrollada.
+
+Link de la organización: 'https://github.com/1ASI0732-FrostShield'
+
+
 ## 8.6. To-Be Software Platform Pre-launch 
 ### 8.6.1. About-the-Product Intro Video
+
+El siguiente video, publicado en YouTube, tiene como objetivo presentar IceTrack, la solución desarrollada por FrostShield para optimizar la gestión y el mantenimiento de equipos de refrigeración. A través de este contenido se muestran las principales funcionalidades de la plataforma, como la administración de equipos, la gestión de solicitudes de mantenimiento, la asignación de técnicos y el seguimiento de intervenciones, destacando cómo IceTrack contribuye a mejorar la eficiencia operativa, reducir los tiempos de respuesta y facilitar la toma de decisiones en empresas que dependen de sistemas de refrigeración.
+
+![Video-about-the-product](/assets/chapter08/video-about-the-product.png)
+
+Link del video: 
+'https://1drv.ms/v/c/805e82708c420c17/IQC-ThGcer1ES7eS0JZ0QkPIAaqJ-MovclgJdBZke4kadYM?e=xO3Wvl'
+
+
 
 # Conclusiones
 
