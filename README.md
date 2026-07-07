@@ -3367,43 +3367,8 @@ El seguimiento continuo se enfocará en:
 #### 8.3.3.1. To-Be Sprint Backlogs 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence 
-#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence 
-
-A continuación, se presentará la evidencia de los servicios de Backend ya desplegados para el aplicativo:
-
-US-TB-05 Notificación de nueva solicitud al proveedor
-
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor1.png)
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor2.png)
-
-US-TB-01	Selección rápida de equipo en nueva solicitud
-
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/EquipoNuevaSolicitud.png)
-
-US-TB-02	Sugerencia automática de tipo de solicitud
-
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/TipoSolicitud.png)
-
-
-US-TB-07	Edición y eliminación de técnicos
-
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/EdicionTecnico.png)
-
-![RESTful API SCS](/assets/chapter08/ToBeRestfulAPIevidence/EliminacionTecnico.png)
-
-
+#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.5. Team Collaboration Insights
-
-A continuación se presentarán las evidencias de colaboración del equipo de desarrollo durante la implementación de la plataforma IceTrack, utilizando herramientas de gestión de proyectos y control de versiones.
-
-Backend
-![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsBackend.png)
-
-Frontend
-![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsFrontend.png)
-
-Landing Page
-![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsLandingPage.png)
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
 #### 8.3.4.2. Registro de Entrevistas
