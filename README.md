@@ -3495,11 +3495,61 @@ El seguimiento continuo se enfocará en:
 
 **2 puntos:** tareas de baja complejidad centradas principalmente en validaciones simples o ajustes menores de interfaz.
 
-
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle 
 #### 8.3.3.1. To-Be Sprint Backlogs 
-#### 8.3.3.2. Implemented To-Be Landing Page Evidence 
+
+| Sprint #           | Sprint 4                                                                                     ||||||||
+| ------ | --------- | ------ | --------- | --------------- | ----------------------------- | --------------- | ---------- |---|
+| **User Story**    || **WorkItem/Task**  |                                                                               |||||
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Story Points)** | **Assigned To** | **Status** |
+| UA01   | Alertas automáticas de mantenimiento preventivo | TK1 | Implementar servicio de notificaciones por vencimiento | Crear un proceso automático que detecte mantenimientos próximos a vencer (7 días antes) y envíe una notificación al usuario. | 5 | Gordon Salas, Gabriel Fernando | Done |
+| UA02    | Vista geográfica interactiva de sitios y equipos | TK2 | Mostrar equipos asociados al seleccionar un marcador | Desarrollar la funcionalidad que despliegue la lista de equipos vinculados al hacer clic sobre un marcador del mapa. | 3 | Quijada Magro, Jeremy Alexander | Done |
+| UA03    | Exportación de reportes en PDF | TK3 | Implementar generación de PDF desde el reporte visualizado | Crear la función que convierta el reporte visualizado en un archivo PDF descargable. | 3 | Quijada Magro, Jeremy Alexander | Done |
+| UA04    | Encuestas automáticas de satisfacción | TK4 | Automatizar envío de encuesta al completar solicitud | Implementar el disparador que envíe automáticamente la encuesta al cliente cuando la solicitud cambie a estado completado. | 4 | Guillen Galindo, Julio Adolfo | Done |
+| UA05   | Personalización visual de la interfaz | TK5 | Implementar modo oscuro en la interfaz | Desarrollar el toggle y los estilos correspondientes para activar/desactivar el modo oscuro en toda la aplicación. | 3 | Quijada Magro, Jeremy Alexander | Done |
+| | | TK6 | Guardar preferencia de tema seleccionado | Crear la lógica para persistir la elección de tema/modo oscuro del usuario entre sesiones. | 2 | Guillen Galindo, Julio Adolfo | Done |
+| UA06    | Informacion y guia de a la interfaz | TK6 | Implementar informacion a la aplicacion | Desarrollar informacion relevante de para que es la aplicación para futuros clientes. | 2 | Quijada Magro, Jeremy Alexander | Done |
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+### **Alertas automáticas de mantenimiento preventivo**
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-1.png)
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-2.png)
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeLandingPageEvidence/ImplementedToBeLandingPageEvidence-3.png)
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence 
+
+### **Alertas automáticas de mantenimiento preventivo**
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-1.png)
+
+### **Vista geográfica interactiva de sitios y equipos**
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-2.png)
+
+### **Exportación de reportes en PDF**
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-3.png)
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-4.png)
+
+### **Encuestas automáticas de satisfacción**
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-5.png)
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-6.png)
+
+### **Personalización visual de la interfaz**
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-7.png)
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-8.png)
+
+![RESTful evidence](/assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-9.png)
+
 #### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence 
 
 A continuación, se presentará la evidencia de los servicios de Backend ya desplegados para el aplicativo:
