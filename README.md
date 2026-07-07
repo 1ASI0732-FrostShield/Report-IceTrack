@@ -3533,6 +3533,13 @@ Link de la organización: 'https://github.com/1ASI0732-FrostShield'
 ## 8.6. To-Be Software Platform Pre-launch 
 ### 8.6.1. About-the-Product Intro Video
 
+El siguiente video, publicado en YouTube, tiene como objetivo presentar IceTrack, la solución desarrollada por FrostShield para optimizar la gestión y el mantenimiento de equipos de refrigeración. A través de este contenido se muestran las principales funcionalidades de la plataforma, como la administración de equipos, la gestión de solicitudes de mantenimiento, la asignación de técnicos y el seguimiento de intervenciones, destacando cómo IceTrack contribuye a mejorar la eficiencia operativa, reducir los tiempos de respuesta y facilitar la toma de decisiones en empresas que dependen de sistemas de refrigeración.
+
+![Video-about-the-product](/assets/chapter08/video-about-the-product.png)
+
+Link del video: 
+'https://1drv.ms/v/c/805e82708c420c17/IQC-ThGcer1ES7eS0JZ0QkPIAaqJ-MovclgJdBZke4kadYM?e=xO3Wvl'
+
 
 
 # Conclusiones
