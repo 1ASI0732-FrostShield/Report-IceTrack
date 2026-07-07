@@ -2341,13 +2341,13 @@ URL de la Versión Publicada
 
 En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del backend del sistema IceTrack Platform. Estas pruebas fueron desarrolladas utilizando **MSTest** y **Moq** en .NET 9 y tienen como objetivo validar el correcto funcionamiento de la lógica interna de los agregados y modelos del dominio de manera aislada, sin depender de la base de datos ni de servicios externos. Se evaluaron escenarios relacionados con la creación de entidades, actualización de estados, validación de atributos y ejecución de métodos principales, garantizando así la estabilidad y confiabilidad de los componentes críticos del sistema.
 
-Se ejecutaron un total de **51 pruebas unitarias**, distribuidas en 10 archivos de prueba que cubren los 6 bounded contexts del sistema. A continuación se presentan los resultados obtenidos:
+Se ejecutaron un total de **70 pruebas unitarias**, distribuidas en 12 archivos de prueba que cubren los 6 bounded contexts del sistema. A continuación se presentan los resultados obtenidos:
 
 **Resultados de ejecución:**
 
 | Total | Passed | Failed | Skipped | Duration |
 |:---:|:---:|:---:|:---:|:---:|
-| 51 | 51 | 0 | 0 | 182 ms |
+| 70 | 70 | 0 | 0 | 184 ms |
 
 **Pruebas por componente:**
 
@@ -2357,8 +2357,9 @@ Se ejecutaron un total de **51 pruebas unitarias**, distribuidas en 10 archivos 
 | Monitoring (Equipment) | `Aggregates/Monitoring.cs` | 9 |  9/9 |
 | Monitoring Pipeline (Controller) | `MonitoringPipelineTests.cs` | 5 |  5/5 |
 | WebApplicationBuilder Extensions | `WebApplicationBuilderExtensionsTests.cs` | 2 |  2/2 |
-| Dashboard (DashboardConfig) | `Aggregates/Dashboard.cs` | 7 |  7/7 |
-| ServiceRequest | `Aggregates/ServiceRequest.cs` | 6 |  6/6 |
+| Dashboard (DashboardConfig + Commands) | `Aggregates/Dashboard.cs` | 20 |  20/20 |
+| ServiceRequest | `Aggregates/ServiceRequest.cs` | 8 |  8/8 |
+| Intervention | `Aggregates/Intervention.cs` | 4 |  4/4 |
 | Technician | `Aggregates/Technician.cs` | 4 |  4/4 |
 | Notification | `Aggregates/Notification.cs` | 4 |  4/4 |
 | Review | `Aggregates/Review.cs` | 3 |  3/3 |
@@ -2372,8 +2373,8 @@ Se realizó un análisis de cobertura de código utilizando `dotnet-coverage`, o
 |:---|---|:---:|
 | IAM | 100% | 4/4 |
 | Monitoring | 80% | 4/5 |
-| ServiceRequests | 55% | 6/11 |
-| Dashboard | 45% | 7/15 |
+| ServiceRequests | 100% | 11/11 |
+| Dashboard | 100% | 15/15 |
 | Technicians | 100% | 4/4 |
 | Notifications | 100% | 4/4 |
 | Feedback | 100% | 2/2 |
@@ -2403,6 +2404,30 @@ Las imágenes a continuación muestran los resultados visuales de las pruebas un
 
 <p align="center">
     <img src="assets/chapter06/Test Diseño/Dashboard Test.png" alt="dashboard-test-image" width="900px"/>
+</p>
+
++ Technicians Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Tecnician Test.png" alt="tecnician-test-image" width="900px"/>
+</p>
+
++ Notifications Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Notification Test.png" alt="notificaciones-test-image" width="900px"/>
+</p>
+
++ Feedback Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Feedback Test.png" alt="feedback-test-image" width="900px"/>
+</p>
+
++ Assets Management Service Test
+
+<p align="center">
+    <img src="assets/chapter06/Test Diseño/Assets Test.png" alt="assets-test-image" width="900px"/>
 </p>
 
 ### 6.1.2 Core Integration Tests
@@ -2668,7 +2693,7 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 ![Entevista1](assets/chapter06/Entrevista.jpeg)
 
-**Enlace de entrevista:** <a href="https://1drv.ms/v/c/e3ea863cec5de463/IQAZva0qO9J9Ro5XI4Crb4pnAT_L58E45u4_zQsSNuyMjU4?e=y3aUOh">Link</a>
+**Enlace de entrevista:** https://1drv.ms/v/c/e3ea863cec5de463/IQAZva0qO9J9Ro5XI4Crb4pnAT_L58E45u4_zQsSNuyMjU4?e=y3aUOh
 
 **Resumen de la entrevista:**
 
@@ -3094,7 +3119,10 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 |----------|-------------------------------------------------------------------------------------------------------------------------|
 | **Why** | Los mantenimientos preventivos son fundamentales para garantizar el correcto funcionamiento. Si los usuarios olvidan realizarlos, aumenta el riesgo de fallas. Un sistema de alertas podría ayudar a gestionar mejor estas actividades y reducir descuidos. |
 | **What** | Implementar un sistema de alertas automáticas que notifique a los dueños mediante la plataforma cuando se acerque la fecha de mantenimiento. |
-| **Hypothesis** | Se espera el aumentó en un 10% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada. |
+| **Hypothesis** | Se espera que la implementación de alertas automáticas aumente en un 10% la tasa de cumplimiento de mantenimiento preventivo realizado dentro de la fecha programada. |
+| **Measures** | Medir la **tasa de cumplimiento de mantenimiento preventivo (MCR)** antes y después de implementar las alertas, analizando los registros de mantenimientos programados y completados. |
+| **Conditions** | **Experimental:** Los usuarios reciben notificaciones automáticas antes de la fecha de mantenimiento. **Control:** Los usuarios no reciben notificaciones y gestionan los mantenimientos de forma manual. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Excelente** si el incremento observado supera el MDE de 44 p.p., **Aceptable** si se aproxima al MDE, y **Desfavorable** si está por debajo del MDE. |
 
 ---
 
@@ -3104,7 +3132,10 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 |----------|----------------------------------------------------------------------------------------------------------------------|
 | **Why** | Los usuarios que administran múltiples sitios necesitan una forma rápida e intuitiva de visualizar la ubicación de sus activos para mejorar la identificación de sitios que requieren atención. |
 | **What** | Incorporar una vista geográfica interactiva que muestre los sitios registrados mediante marcadores geolocalizados. |
-| **Hypothesis** | Se espera que gracia a la vista geográfica interactiva, se incrementé el puntaje de usabilidad en al menos un 5%. |
+| **Hypothesis** | Se espera que la incorporación de una vista geográfica interactiva incremente el puntaje de usabilidad (SUS) en al menos un 5%. |
+| **Measures** | Aplicar la encuesta **System Usability Scale (SUS)** a los usuarios después de utilizar la vista geográfica y comparar los resultados con la línea base obtenida antes de la implementación. |
+| **Conditions** | **Experimental:** Los usuarios acceden a la vista geográfica interactiva para gestionar sitios y equipos. **Control:** Los usuarios gestionan sitios y equipos mediante la vista de lista tradicional. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Aceptable** si el incremento observado se aproxima al MDE de 13.3 pts, **Ideal** si lo iguala o supera, y **Desfavorable** si está por debajo del MDE. |
 
 ---
 
@@ -3114,7 +3145,10 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 |----------|-----------------------------------------------------------------------------------------------------|
 | **Why** | Los dueños de equipos frecuentemente necesitan compartir información sobre servicios e intervenciones con otras personas. Generar reportes descargables facilita esta tarea. |
 | **What** | Implementar la opción de exportar reportes técnicos en formato PDF con información sobre historial de servicios y estado de equipos. |
-| **Hypothesis** | Se espera que al menos el 20% de los usuarios activos utilizará la funcionalidad de exportación de reportes durante el período de evaluación. |
+| **Hypothesis** | Se espera que al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. |
+| **Measures** | Medir la **tasa de adopción de la funcionalidad (FAR)** analizando los registros de actividad del sistema para calcular el porcentaje de usuarios activos que utilizan la exportación de reportes en PDF. |
+| **Conditions** | **Experimental:** Los usuarios tienen disponible la opción de exportar reportes en PDF desde las secciones de equipos y servicios. **Control:** Los usuarios no disponen de la funcionalidad de exportación y solo pueden visualizar la información en pantalla. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Excelente** si la adopción observada supera el MDE de 25 p.p., **Aceptable** si se aproxima al MDE, y **Desfavorable** si está por debajo del MDE. |
 
 ---
 
@@ -3124,7 +3158,10 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Why** | La retroalimentación permite evaluar la calidad de los servicios. Automatizar este proceso puede incrementar la participación de los usuarios y proporcionar información más consistente. |
 | **What** | Incorporar un módulo de encuestas de satisfacción que se envíe automáticamente tras finalizar una intervención técnica. |
-| **Hypothesis** | Se espera que la implementación de encuestas automatizadas incrementará en un 10% la participación de los usuarios en procesos de retroalimentación. |
+| **Hypothesis** | Se espera que la implementación de encuestas automatizadas incremente en un 10% la participación de los usuarios (SPR) y en un 8% la cantidad de respuestas recibidas. |
+| **Measures** | Medir la **tasa de participación en encuestas (SPR)** calculando el porcentaje de encuestas respondidas frente a las enviadas, y analizar la cantidad de respuestas recibidas antes y después de la automatización. |
+| **Conditions** | **Experimental:** Las encuestas de satisfacción se envían automáticamente al finalizar cada intervención técnica. **Control:** Las encuestas se aplican de forma manual o no están disponibles. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Ideal** si el incremento observado iguala o supera el MDE de 44 p.p., **Aceptable** si se aproxima al MDE, y **Desfavorable** si está por debajo del MDE. |
 
 ---
 
@@ -3134,7 +3171,10 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 |----------|----------------------------------------------------------------------------------------------------------------------------|
 | **Why** | La personalización visual permite adaptar la interfaz a preferencias y condiciones de trabajo, mejorando la comodidad durante el uso prolongado. |
 | **What** | Implementar un modo oscuro y opciones de personalización de temas de color accesibles desde la configuración. |
-| **Hypothesis** | Se espera que las opciones de personalización aumentarán en un 8% la satisfacción de los usuarios y mantendrán un puntaje medio de SEO en Lighthouse superior a 80. |
+| **Hypothesis** | Se espera que las opciones de personalización visual aumenten en un 8% la satisfacción de los usuarios (CSAT) y mantengan un puntaje medio de SEO en Lighthouse superior a 80. |
+| **Measures** | Evaluar la satisfacción de los usuarios mediante encuestas **CSAT** después de utilizar las opciones de personalización. Como medida complementaria, se verificará que la funcionalidad mantenga un puntaje **Lighthouse SEO** superior a 80. |
+| **Conditions** | **Experimental:** Los usuarios tienen acceso a opciones de personalización visual (modo oscuro, temas de color). **Control:** Los usuarios utilizan la plataforma con la apariencia predeterminada sin opciones de personalización. |
+| **Scale** | Según la tabla de escala del experimento (ver 8.2.5), se considera **Aceptable** si el incremento en CSAT se aproxima al MDE de 0.89 pts, **Ideal** si lo iguala o supera, y **Desfavorable** si está por debajo del MDE. Para Lighthouse SEO se evalúa si el puntaje se mantiene sobre 80. |
 
 
 ## 8.2. Experiment Design 
@@ -3147,8 +3187,8 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados?                                                                                                                     |
 | **Belief**          | Los usuarios suelen olvidar o postergar actividades de mantenimiento preventivo debido a la falta de recordatorios oportunos. La implementación de alertas automáticas permitirá una mejor planificación y seguimiento de estas actividades. |
-| **Hypothesis**      | La implementación de alertas automáticas aumentará en un 10% la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en un 8%.                                                            |
-| **Null Hypothesis** | La implementación de alertas automáticas no generará un aumento significativo en los mantenimientos realizados dentro de la fecha programada ni reducirá los retrasos en los mantenimientos preventivos.                                     |
+| **Hypothesis**      | La implementación de alertas automáticas aumentará en un 10% la tasa de cumplimiento de mantenimiento preventivo realizado dentro de la fecha programada.                                                                                  |
+| **Null Hypothesis** | La implementación de alertas automáticas no generará un aumento significativo en la tasa de cumplimiento de mantenimiento preventivo dentro de la fecha programada.                                                                         |
 
 + Hypothesis 2
 
@@ -3156,8 +3196,8 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma?                                                                                        |
 | **Belief**          | Una representación visual de los sitios y equipos permitirá a los usuarios identificar rápidamente la ubicación de sus activos y facilitará la supervisión de múltiples instalaciones.                        |
-| **Hypothesis**      | La incorporación de una vista geográfica interactiva reducirá en un 10% el tiempo necesario para localizar información sobre equipos y aumentará en un 8% la percepción de facilidad de uso de la plataforma. |
-| **Null Hypothesis** | La incorporación de una vista geográfica interactiva no reducirá significativamente el tiempo necesario para localizar información ni mejorará la percepción de facilidad de uso de la plataforma.            |
+| **Hypothesis**      | La incorporación de una vista geográfica interactiva incrementará en al menos un 5% el puntaje de usabilidad (SUS) de la plataforma.                                                                         |
+| **Null Hypothesis** | La incorporación de una vista geográfica interactiva no generará un incremento significativo en el puntaje de usabilidad (SUS) de la plataforma.                                                              |
 
 + Hypothesis 3
 
@@ -3165,8 +3205,8 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF?                                                                                                                 |
 | **Belief**          | La posibilidad de descargar y compartir reportes facilitará la gestión de la información relacionada con mantenimientos e intervenciones, generando una mayor percepción de utilidad de la plataforma.                |
-| **Hypothesis**      | La incorporación de la exportación de reportes en PDF aumentará en un 10% la percepción de utilidad de la plataforma y al menos el 20% de los usuarios utilizará esta funcionalidad durante el período de evaluación. |
-| **Null Hypothesis** | La incorporación de la exportación de reportes en PDF no generará un aumento significativo en la percepción de utilidad de la plataforma ni una adopción relevante de la funcionalidad.                               |
+| **Hypothesis**      | Al menos el 20% de los usuarios activos utilizará la funcionalidad de exportación de reportes en PDF durante el período de evaluación.                                                                                 |
+| **Null Hypothesis** | La incorporación de la exportación de reportes en PDF no alcanzará una adopción relevante (menos del 20% de los usuarios activos) durante el período de evaluación.                                                     |
 
 + Hypothesis 4
 
@@ -3183,8 +3223,8 @@ Esta sección presenta el backlog como una lista priorizada de preguntas para la
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color?                                                                              |
 | **Belief**          | Permitir que los usuarios adapten la apariencia de la plataforma a sus preferencias personales mejorará la comodidad de uso y la satisfacción general durante sesiones prolongadas de trabajo.             |
-| **Hypothesis**      | La incorporación de opciones de personalización visual aumentará en un 8% la satisfacción general de los usuarios y al menos el 15% de los usuarios utilizará alguna opción de personalización disponible. |
-| **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios ni una adopción relevante de las opciones de personalización.                 |
+| **Hypothesis**      | La incorporación de opciones de personalización visual aumentará en un 8% la satisfacción de los usuarios (CSAT) y mantendrá un puntaje medio de SEO en Lighthouse superior a 80.                           |
+| **Null Hypothesis** | La incorporación de opciones de personalización visual no generará mejoras significativas en la satisfacción de los usuarios (CSAT) ni degradará el puntaje medio de SEO en Lighthouse por debajo de 80.  |
 
 
 ###   Domain Business Metrics
