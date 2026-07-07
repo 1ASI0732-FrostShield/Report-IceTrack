@@ -3406,7 +3406,93 @@ Landing Page
 ![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsLandingPage.png)
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
+
+A continuación, se presentan las preguntas diseñadas para la validación de las nuevas funcionalidades implementadas en IceTrack. El instrumento se dividió en dos fases: un análisis de la situación base (As-Is) para confirmar la existencia de fricciones, y una evaluación de la utilidad de los cambios propuestos (To-Be). Las preguntas están adaptadas para aplicarse a nuestros dos segmentos objetivo.
+
+**Segmento 1: Propietarios de equipos de refrigeración (Owners)**
+
+Análisis de la aplicación base y problemas
+
+- **Pregunta 1:** ¿Qué tan difícil le resulta actualmente localizar la ubicación exacta de sus locales o equipos dentro de la aplicación? 
+
+- **Pregunta 2:** ¿Con qué frecuencia olvida programar o hacer el seguimiento a los mantenimientos de sus equipos? 
+
+- **Pregunta 3:** ¿Siente que actualmente tiene una forma efectiva en el sistema para dejar constancia y evaluar la calidad del servicio técnico que recibe? 
+
+- **Pregunta 4:** ¿Qué tan complicado le resulta actualmente compartir el historial y el estado de sus equipos de forma externa (con socios, proveedores o auditores)? 
+
+- **Pregunta 5:** ¿Ha experimentado cansancio visual o dificultad para leer la información en la aplicación durante periodos prolongados o bajo diferentes condiciones de iluminación? 
+
+Opinión de la utilidad de los cambios 
+
+- **Pregunta 1:** ¿Considera que el nuevo Mapa Interactivo facilita significativamente la gestión y supervisión de sus equipos distribuidos? 
+
+- **Pregunta 2:** ¿Qué tan útiles le parecen las nuevas alertas y recordatorios automáticos para asegurar que se cumplan las fechas de mantenimiento? 
+
+- **Pregunta 3:** ¿Cree que el nuevo sistema de Reviews automatizadas post-servicio le dará mayor confianza sobre la calidad del trabajo técnico recibido? 
+
+- **Pregunta 4:** ¿Qué tan valiosa es para su negocio la nueva funcionalidad de exportar intervenciones y el estado de sus equipos en reportes PDF? 
+
+- **Pregunta 5:** ¿Las opciones de personalización de texto y el modo oscuro mejoran su experiencia y comodidad al usar la plataforma? 
+
+**Segmento 2: Técnicos de Mantenimiento (Technicians)**
+
+Análisis de la aplicación base y problemas 
+
+- **Pregunta 1:** ¿Siente que los clientes carecen de un canal directo dentro de la plataforma para calificar positivamente su trabajo después de un servicio? 
+
+- **Pregunta 2:** ¿Qué tan difícil le resulta actualmente demostrar su buen desempeño o experiencia frente a nuevos clientes al no contar con un historial visible de calificaciones? 
+
+- **Pregunta 3:** Tras finalizar una intervención, ¿qué tan tedioso le resulta generar un sustento formal o un reporte detallado para entregárselo al cliente? 
+
+- **Pregunta 4:** ¿Considera que la forma actual en la que entrega el resumen o la constancia del servicio a sus clientes podría tener un aspecto más profesional? 
+
+- **Pregunta 5:** Dado que suele trabajar en ambientes industriales o de campo, ¿qué tan frecuentemente tiene problemas para visualizar, leer o interactuar con la pantalla de su dispositivo debido a los colores de la aplicación? 
+
+Opinión de la utilidad de los cambios 
+
+- **Pregunta 1:** ¿Considera que recibir reseñas (Reviews) y calificaciones directamente en su perfil le ayudará a fidelizar clientes y conseguir más servicios? (Opciones: 1 - Nada útil a 5 - Muy útil)
+
+- **Pregunta 2:** ¿Cree que el sistema de Reviews motivará a los clientes a darle una retroalimentación más honesta y frecuente sobre sus intervenciones? (Opciones: Totalmente de acuerdo, De acuerdo, Neutral, En desacuerdo)
+
+- **Pregunta 3:** ¿Siente que poder generar al instante un reporte en PDF tras completar un servicio agilizará significativamente su flujo de trabajo? (Opciones: Sí / No / Tal vez)
+
+- **Pregunta 4:** ¿Qué tanto cree que la exportación de reportes a PDF mejorará la imagen de profesionalismo que proyecta hacia los dueños de los equipos? (Opciones: 1 - Nada a 5 - Muchísimo)
+
+- **Pregunta 5:** ¿El nuevo Modo oscuro y el ajuste de colores/texto mejoran su visibilidad y facilidad de uso cuando está operando en terreno con luz variable? (Opciones: Sí / No / Me es indiferente)
+
 #### 8.3.4.2. Registro de Entrevistas
+
+A continuación, se documenta la evidencia y los resultados consolidados de las validaciones realizadas con los usuarios de ambos segmentos.
+
+### Validación 01 - Segmento: Propietarios de equipos (Owners)
+
+- Público objetivo: Dueños de negocios y gestores de equipos de refrigeración.
+
+- Herramienta de recolección: Formulario estructurado.
+
+- Evidencia de recolección:  
+
+![survey-evidence](/assets/chapter08/Evidencia_encuesta.png)
+
+- Enlace del instrumento: [Link al Formulario de Propietarios](https://docs.google.com/forms/d/e/1FAIpQLSeUD0TQ8NXOnzDZvfQfn2hn1xKij6g4cAjkvjitD-i5f0-qSg/viewform?usp=header)
+
+- Resumen de la validación: Los propietarios confirmaron que la falta de recordatorios automáticos era uno de los principales causantes de los mantenimientos atrasados. Respecto a los cambios implementados, el Mapa Interactivo y la exportación de Reportes en PDF fueron calificados como altamente valiosos, ya que reducen el tiempo dedicado a ubicar activos y simplifican la comunicación con terceros. Asimismo, expresaron que el sistema de reseñas aumentará su confianza al contratar servicios técnicos.
+
+### Validación 02 - Segmento: Técnicos de Mantenimiento (Technicians)
+
+- Público objetivo: Proveedores de servicio técnico y profesionales independientes.
+
+- Herramienta de recolección: Formulario estructurado.
+
+- Evidencia de recolección:  
+
+![survey-evidence-2](/assets/chapter08/encuesta_evidencia2.png)
+
+- Enlace del instrumento: [Link al Formulario de Técnicos](https://docs.google.com/forms/d/e/1FAIpQLSfj7lcgKincisytbKF618w5puB5CCEmkoTXS93ZCFbDvuVskQ/viewform)
+
+- Resumen de la validación: Los técnicos destacaron que la generación automática de Reportes en PDF resuelve un punto de fricción importante, aportando inmediatez y un acabado profesional a sus intervenciones. Por otro lado, valoraron positivamente la inclusión de Reviews, considerando que un historial visible les permitirá destacar frente a la competencia. Finalmente, el Modo Oscuro fue recibido como una mejora práctica y necesaria para la comodidad visual en entornos de campo con iluminación variable.
+
 ## 8.4. Experiment Aftermath & Analysis 
 ### 8.4.1. Analysis and Interpretation of Results 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog 
