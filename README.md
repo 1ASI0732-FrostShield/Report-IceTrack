@@ -3500,8 +3500,35 @@ El seguimiento continuo se enfocará en:
 #### 8.3.3.1. To-Be Sprint Backlogs 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence 
-#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence 
+#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+A continuación, se presentará la evidencia de los servicios de Backend ya desplegados para el aplicativo:
+
+![RESTful evidence](/assets/chapter08/ToBeRestfulAPIevidence/Scs1.png)
+
+![RESTful evidence](/assets/chapter08/ToBeRestfulAPIevidence/Scs2.png)
+
+![RESTful evidence](/assets/chapter08/ToBeRestfulAPIevidence/Scs3.png)
+
+![RESTful evidence](/assets/chapter08/ToBeRestfulAPIevidence/Scs4.png)
+
+![RESTful evidence](/assets/chapter08/ToBeRestfulAPIevidence/Scs5.png)
+
+![RESTful evidence](/assets/chapter08/ToBeRestfulAPIevidence/Scs6.png)
+
 #### 8.3.3.5. Team Collaboration Insights
+
+A continuación se presentarán las evidencias de colaboración del equipo de desarrollo durante la implementación de la plataforma IceTrack, utilizando herramientas de gestión de proyectos y control de versiones.
+
+Backend
+![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsBackend.png)
+
+Frontend
+![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsFrontend.png)
+
+Landing Page
+![Team Collaboration](/assets/chapter08/TeamCollaborationInsightsLandingPage.png)
+
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
 #### 8.3.4.2. Registro de Entrevistas
