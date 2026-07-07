@@ -2339,7 +2339,47 @@ URL de la Versión Publicada
 
 ### 6.1.1 Core Entities Unit Tests
 
-En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del backend del sistema IceTrack Platform. Estas pruebas fueron desarrolladas utilizando xUnit en .NET 9 y tienen como objetivo validar el correcto funcionamiento de la lógica interna de los agregados y modelos del dominio de manera aislada, sin depender de la base de datos ni de servicios externos. Se evaluaron escenarios relacionados con la creación de entidades, actualización de estados, validación de atributos y ejecución de métodos principales, garantizando así la estabilidad y confiabilidad de los componentes críticos del sistema.
+En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del backend del sistema IceTrack Platform. Estas pruebas fueron desarrolladas utilizando **MSTest** y **Moq** en .NET 9 y tienen como objetivo validar el correcto funcionamiento de la lógica interna de los agregados y modelos del dominio de manera aislada, sin depender de la base de datos ni de servicios externos. Se evaluaron escenarios relacionados con la creación de entidades, actualización de estados, validación de atributos y ejecución de métodos principales, garantizando así la estabilidad y confiabilidad de los componentes críticos del sistema.
+
+Se ejecutaron un total de **51 pruebas unitarias**, distribuidas en 10 archivos de prueba que cubren los 6 bounded contexts del sistema. A continuación se presentan los resultados obtenidos:
+
+**Resultados de ejecución:**
+
+| Total | Passed | Failed | Skipped | Duration |
+|:---:|:---:|:---:|:---:|:---:|
+| 51 | 51 | 0 | 0 | 182 ms |
+
+**Pruebas por componente:**
+
+| Componente | Archivo de prueba | Pruebas | Resultado |
+|:---|---|:---:|:---:|
+| IAM (User) | `Aggregates/IAM.cs` | 6 |  6/6 |
+| Monitoring (Equipment) | `Aggregates/Monitoring.cs` | 9 |  9/9 |
+| Monitoring Pipeline (Controller) | `MonitoringPipelineTests.cs` | 5 |  5/5 |
+| WebApplicationBuilder Extensions | `WebApplicationBuilderExtensionsTests.cs` | 2 |  2/2 |
+| Dashboard (DashboardConfig) | `Aggregates/Dashboard.cs` | 7 |  7/7 |
+| ServiceRequest | `Aggregates/ServiceRequest.cs` | 6 |  6/6 |
+| Technician | `Aggregates/Technician.cs` | 4 |  4/4 |
+| Notification | `Aggregates/Notification.cs` | 4 |  4/4 |
+| Review | `Aggregates/Review.cs` | 3 |  3/3 |
+| Site | `Aggregates/Site.cs` | 6 |  6/6 |
+
+**Análisis de Cobertura de Código:**
+
+Se realizó un análisis de cobertura de código utilizando `dotnet-coverage`, obteniendo los siguientes resultados por bounded context:
+
+| Bounded Context | Block Coverage | Funciones Cubiertas |
+|:---|---|:---:|
+| IAM | 100% | 4/4 |
+| Monitoring | 80% | 4/5 |
+| ServiceRequests | 55% | 6/11 |
+| Dashboard | 45% | 7/15 |
+| Technicians | 100% | 4/4 |
+| Notifications | 100% | 4/4 |
+| Feedback | 100% | 2/2 |
+| Assets Management | 71% | 5/7 |
+
+Las imágenes a continuación muestran los resultados visuales de las pruebas unitarias ejecutadas en el entorno de desarrollo:
 
 + IAM Service Test
 
@@ -2364,8 +2404,6 @@ En esta sección se presentan las pruebas unitarias realizadas sobre las entidad
 <p align="center">
     <img src="assets/chapter06/Test Diseño/Dashboard Test.png" alt="dashboard-test-image" width="900px"/>
 </p>
-
-<br>
 
 ### 6.1.2 Core Integration Tests
 
@@ -2750,18 +2788,46 @@ Algunas de las herramientas principales que utilizamos son:
 
 ### 7.1.2 Build & Test Suite Pipeline Components
 
-En esta parte colocamos cómo he estructuramos y automatizado los componentes, asegurando que cada etapa del flujo de integración continua se ejecute de manera confiable y trazable.
+El pipeline de integración continua se diseñó para automatizar la construcción, las pruebas y el análisis del código en cada push o pull request, asegurando que solo el código que cumpla con los criterios de calidad avance en el flujo. A continuación, se presenta el diagrama del pipeline y la descripción de cada componente.
 
-Nos enfocamos en dos aspectos principales:
+#### Diagrama del Pipeline de Build & Test
 
-**Pruebas (Test Suite):** Integro pruebas unitarias, de integración y de aceptación, verificando tanto el comportamiento interno de las clases como la interacción entre servicios.
+```mermaid
+flowchart LR
+    A[Code Push / PR] --> B[Build & Compile]
+    B --> C[Unit Tests<br/>MSTest + Mockito]
+    C --> D[Integration Tests<br/>MSTest]
+    D --> E[BDD Tests<br/>Cucumber]
+    E --> F[Static Analysis<br/>SonarQube]
+    F --> G[Generate Test Reports]
+    G --> H[Package Artifact]
+    H --> I[Deploy to Staging]
+```
 
-**Pipeline Components:** Organizo los pasos en secuencia modular (compilación, ejecución de tests, generación de reportes, despliegue en entornos de prueba), lo que me permite detectar fallos tempranos y mantener la calidad del software.
+#### Componentes del Pipeline
 
+| Componente | Herramienta | Descripción | Propósito | Orden |
+|:-----------|:------------|:------------|:----------|:-----:|
+| **Code Checkout** | GitHub Actions | Obtener el código fuente automáticamente al realizar un push o abrir un pull request. | Iniciar el pipeline ante cualquier cambio en el repositorio. | 1 |
+| **Build** | .NET SDK | Compilar la solución completa del backend. | Verificar que el código compile sin errores ni advertencias. | 2 |
+| **Unit Tests** | MSTest + Mockito | Ejecutar pruebas unitarias sobre las clases del backend de forma aislada, utilizando Mockito para simular dependencias. | Validar que cada unidad de código funcione correctamente por sí misma. | 3 |
+| **Integration Tests** | MSTest | Ejecutar pruebas de integración que verifican la interacción entre servicios, repositorios y controladores. | Asegurar que los componentes del sistema se comuniquen correctamente. | 4 |
+| **BDD Tests** | Cucumber + Selenium | Ejecutar pruebas de aceptación escritas en lenguaje Gherkin, automatizando escenarios de la interfaz web. | Validar que el sistema cumple con los criterios de aceptación definidos en las User Stories. | 5 |
+| **Static Analysis** | SonarQube | Analizar el código fuente en busca de malas prácticas, vulnerabilidades y deuda técnica. | Garantizar la calidad, seguridad y mantenibilidad del código. | 6 |
+| **Test Reports** | ReportGenerator / GitHub Actions | Generar reportes detallados con los resultados de las pruebas ejecutadas. | Documentar la trazabilidad y permitir la revisión de fallos. | 7 |
+| **Artifact** | .NET Build Output | Empaquetar la aplicación compilada como artefacto. | Preparar el binario para su despliegue en el entorno de staging. | 8 |
+
+#### Flujo de Ejecución
+
+El pipeline se activa automáticamente con cada push a una rama de desarrollo o al abrir un pull request. La secuencia comienza con la compilación del proyecto; si esta falla, el pipeline se detiene y notifica al equipo. Superada la compilación, se ejecutan las pruebas unitarias y de integración. A continuación, se ejecutan las pruebas BDD con Cucumber para validar el comportamiento funcional. Posteriormente, SonarQube realiza un análisis estático del código. Finalmente, se generan los reportes de prueba y se empaqueta el artefacto listo para desplegar en staging. Esta estructura modular permite detectar fallos en etapas tempranas y mantener la calidad del software.
+
+
+**Units Test y Integration Test:**
 <p align="center">
     <img src="assets/chapter06/Test Diseño/IAM Test.png" alt="iam-test-image" width="900px"/>
 </p>
 
+**Selenium:**
 ![US23-Selenium.png](assets/chapter06/US%2023%20-%20Selenium.png)
 
 
@@ -3236,18 +3302,36 @@ Las métricas descritas constituyen la referencia oficial para la evaluación de
 
 ### 8.2.5. Scale Calculations and Decisions.
 
-Para evaluar las hipótesis planteadas en IceTrack, se utilizará una escala de decisión sencilla que permita interpretar los resultados obtenidos durante las pruebas y validaciones del proyecto.
+Para evaluar las hipótesis planteadas en IceTrack, se definió un tamaño de muestra de **n = 20** participantes por experimento, considerando la disponibilidad de usuarios en los segmentos objetivo del proyecto. Sobre esta base, se calcularon los parámetros estadísticos que permiten determinar la cantidad mínima de evidencia necesaria para tomar decisiones confiables.
 
+#### Parámetros Estadísticos
 
-| Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| Creemos que la implementación de alertas automáticas aumentará la cantidad de mantenimientos preventivos realizados dentro de la fecha programada y reducirá los retrasos en los mantenimientos. Sabremos que esto es cierto cuando la tasa de cumplimiento de mantenimiento preventivo aumente en un 10% después de implementar las alertas automáticas y los usuarios realicen más actividades dentro de las fechas programadas. | Implementar alertas automáticas de mantenimiento preventivo que notifiquen oportunamente a los usuarios antes de las fechas programadas. |  |  |  | X |
-| Creemos que la incorporación de una vista geográfica interactiva reducirá el tiempo necesario para localizar información sobre equipos y aumentará la percepción de facilidad de uso de la plataforma. Sabremos que esto es cierto cuando el puntaje de usabilidad SUS aumente en al menos un 5% y los usuarios perciban una mayor facilidad para localizar y gestionar información relacionada con sus equipos. | Implementar una vista geográfica interactiva que permita ubicar sitios, equipos y activos dentro de la plataforma. |  | X |  |  |
-| Creemos que la incorporación de la exportación de reportes en PDF aumentará la percepción de utilidad de la plataforma y será utilizada por los usuarios durante el período de evaluación. Sabremos que esto es cierto cuando al menos el 20% de los usuarios activos utilice la funcionalidad de exportación de reportes en PDF durante el período de evaluación. | Implementar la opción de exportar reportes técnicos en formato PDF para compartir información sobre servicios, equipos e intervenciones. |  |  |  | X |
-| Creemos que la implementación de encuestas automatizadas incrementará la participación de los usuarios en procesos de retroalimentación y aumentará la cantidad de respuestas recibidas. Sabremos que esto es cierto cuando la participación de los usuarios en las encuestas aumente en un 10% y la cantidad de respuestas recibidas se incremente en un 8% después de automatizar el envío de encuestas de satisfacción. | Incorporar encuestas automáticas de satisfacción después de cada intervención técnica realizada. |  |  | X |  |
-| Creemos que la incorporación de opciones de personalización visual aumentará la satisfacción general de los usuarios y será adoptada por parte de ellos. Sabremos que esto es cierto cuando el nivel de satisfacción de los usuarios CSAT aumente en un 8% y la aplicación mantenga un puntaje Lighthouse superior a 80 . | Implementar opciones visuales como modo oscuro y temas de color dentro de la configuración de la plataforma. |  | X  |  |  |
+| Parámetro | Valor | Justificación |
+|:----------|:-----:|:--------------|
+| Nivel de significancia (α) | 0.05 | Convención estándar en experimentos de ingeniería de software (5% de probabilidad de falso positivo). |
+| Poder estadístico (1-β) | 0.80 | Convención estándar (80% de probabilidad de detectar un efecto real si existe). |
+| Tamaño de muestra (n) | 20 | Definido según la disponibilidad de participantes en los segmentos objetivo del proyecto. |
 
-A partir de esta escala, las funcionalidades que alcancen los niveles **Ideal** o **Excelente** serán consideradas satisfactorias para el avance del proyecto. Las que se ubiquen en el nivel **Aceptable** deberán ser ajustadas antes de una nueva evaluación. Finalmente, los resultados **Desfavorables** indicarán la necesidad de replantear la funcionalidad, mejorar su diseño o revisar su implementación técnica.
+#### Cálculo de Escala por Experimento
+
+| Experimento | Hipótesis / Decisión | n | α | Poder (1-β) | MDE | Desf. | Acept. | Ideal | Excel. |
+|:------------|:---------------------|:-:|:-:|:-----------:|:---:|:-----:|:------:|:-----:|:------:|
+| **E1:** Alertas automáticas de mantenimiento preventivo | Aumentar la tasa de cumplimiento de mantenimiento preventivo en un 10% (de ~40% a ~50%). Implementar alertas automáticas que notifiquen antes de las fechas programadas. | 20 | 0.05 | 0.80 | 44 p.p. |  |  |  | X |
+| **E2:** Vista geográfica interactiva | Aumentar el puntaje de usabilidad SUS en al menos un 5% (≈5 puntos, σ≈15). Implementar mapa interactivo para ubicar sitios y equipos. | 20 | 0.05 | 0.80 | 13.3 pts |  | X |  |  |
+| **E3:** Exportación de reportes en PDF | Alcanzar al menos un 20% de usuarios activos que utilicen la funcionalidad de exportación. Implementar opción de exportar reportes técnicos en PDF. | 20 | 0.05 | 0.80 | 25 p.p. |  |  |  | X |
+| **E4:** Encuestas automatizadas de satisfacción | Aumentar la participación en encuestas en un 10% (de ~30% a ~40%) y las respuestas recibidas en un 8%. Incorporar encuestas automáticas post-intervención. | 20 | 0.05 | 0.80 | 44 p.p. |  |  | X |  |
+| **E5:** Personalización visual (modo oscuro / temas) | Aumentar el puntaje CSAT en un 8% (≈0.4 pts en escala Likert 1-5, σ≈1.0) y mantener Lighthouse > 80. Implementar opciones visuales en configuración. | 20 | 0.05 | 0.80 | 0.89 pts |  | X |  |  |
+
+**Nota sobre el MDE:** El Efecto Mínimo Detectable (MDE) se calculó con la fórmula para dos grupos independientes considerando n=20, α=0.05 y poder=0.80. Para proporciones (E1, E3, E4) se utilizó `MDE = (Z_α/2 + Z_β) × √(p₁(1-p₁)/n + p₂(1-p₂)/n)`. Para medias (E2, E5) se utilizó `MDE = (Z_α/2 + Z_β) × σ × √(1/n + 1/n)`. Los niveles de la escala se asignaron según la proximidad del resultado observado al MDE calculado.
+
+#### Escala de Decisión
+
+| Nivel | Criterio |
+|:------|:---------|
+| **Desfavorable** | El resultado observado está por debajo del MDE calculado y no alcanza la meta establecida. |
+| **Aceptable** | El resultado observado se aproxima al MDE calculado, pero no supera la meta. Requiere ajustes. |
+| **Ideal** | El resultado observado iguala o supera el MDE calculado, alcanzando la meta establecida. |
+| **Excelente** | El resultado observado supera significativamente el MDE calculado y la meta establecida. |
 
 
 ### 8.2.6. Methods Selection.
