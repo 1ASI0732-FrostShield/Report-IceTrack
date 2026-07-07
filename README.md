@@ -3571,21 +3571,21 @@ El seguimiento continuo se enfocará en:
 
 A continuación, se presentará la evidencia de los servicios de Backend ya desplegados para el aplicativo:
 
-US-TB-05 Notificación de nueva solicitud al proveedor
+Notificación de nueva solicitud al proveedor
 
 ![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor1.png)
 ![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/NotificacionProveedor2.png)
 
-US-TB-01	Selección rápida de equipo en nueva solicitud
+Selección rápida de equipo en nueva solicitud
 
 ![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/EquipoNuevaSolicitud.png)
 
-US-TB-02	Sugerencia automática de tipo de solicitud
+Sugerencia automática de tipo de solicitud
 
 ![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/TipoSolicitud.png)
 
 
-US-TB-07	Edición y eliminación de técnicos
+Edición y eliminación de técnicos
 
 ![RESTful API SCS](assets/chapter08/ToBeRestfulAPIevidence/EdicionTecnico.png)
 
