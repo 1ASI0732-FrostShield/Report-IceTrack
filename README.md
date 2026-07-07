@@ -3695,8 +3695,118 @@ A continuación, se documenta la evidencia y los resultados consolidados de las 
 - Resumen de la validación: Los técnicos destacaron que la generación automática de Reportes en PDF resuelve un punto de fricción importante, aportando inmediatez y un acabado profesional a sus intervenciones. Por otro lado, valoraron positivamente la inclusión de Reviews, considerando que un historial visible les permitirá destacar frente a la competencia. Finalmente, el Modo Oscuro fue recibido como una mejora práctica y necesaria para la comodidad visual en entornos de campo con iluminación variable.
 
 ## 8.4. Experiment Aftermath & Analysis 
+
 ### 8.4.1. Analysis and Interpretation of Results 
+
+En el estudio, las preguntas originales planteadas en las entrevistas iniciales fueron reformuladas y estructuradas con el objetivo de tener respuestas optimas para el análisis de la experiencia el usuario con el producto. Este enfoque permitió identificar diferentes preferencias y necesidades d los participantes repecto a las funcionalidades de la aplicación.
+
+**Preguntas Formuladas**
+
+En el estudio se realizaron las siguientes preguntas:
+
+**Segmento 1: Propietarios de equipos de refrigeración (Owners)**
+
+- **Pregunta 1:** ¿Considera que el nuevo Mapa Interactivo facilita significativamente la gestión y supervisión de sus equipos distribuidos?
+
+- **Pregunta 2:** ¿Qué tan útiles le parecen las nuevas alertas y recordatorios automáticos para asegurar que se cumplan las fechas de mantenimiento?
+
+- **Pregunta 3:** ¿Cree que el nuevo sistema de Reviews automatizadas post-servicio le dará mayor confianza sobre la calidad del trabajo técnico recibido?
+
+- **Pregunta 4:** ¿Qué tan valiosa es para su negocio la nueva funcionalidad de exportar intervenciones y el estado de sus equipos en reportes PDF?
+
+- **Pregunta 5:** ¿Las opciones de personalización de texto y el modo oscuro mejoran su experiencia y comodidad al usar la plataforma?
+
+*Evaluación de Características*
+
+- Mapa Interactivo para Gestión de Equipos:
+
+El 52.9% de los encuestados calificó positivamente (con puntuaciones de 4 y 5) que el nuevo mapa facilita significativamente la gestión y supervisión de equipos distribuidos, lo que demuestra que esta herramienta visual es un aporte efectivo para la logística y el control operativo. (Nota: Un 41.2% adicional lo calificó con un nivel neutral de 3).
+
+<img src="assets/chapter08/Propietarios de equipos - pgt 1.png">
+
+- Sistema de Reviews Automatizadas Post-Servicio:
+
+El 64.7% de los participantes (sumando quienes están "De acuerdo" y "Totalmente de acuerdo") considera que el nuevo sistema les dará mayor confianza sobre la calidad del trabajo técnico recibido, este resultado demuestra que la funcionalidad genera credibilidad y es bien valorada por los usuarios para asegurar el estándar del servicio.
+
+<img src="assets/chapter08/Propietarios de equipos - pgt 2.png">
+
+- Exportación de Reportes en PDF:
+
+El 52.9% de los encuestados evaluó como muy valiosa (puntuaciones de 4 y 5) la funcionalidad de exportar intervenciones y estados de equipos a PDF, este resultado indica que facilitar la documentación y el reporte de datos es una característica importante para la gestión administrativa de sus negocios. (Un 47.1% le otorgó un valor moderado de 3).
+
+<img src="assets/chapter08/Propietarios de equipos - pgt 3.png">
+
+- Personalización de Texto y Modo Oscuro:
+
+El 94.1% de los participantes afirmó que estas opciones mejoran su experiencia y comodidad al usar la plataforma, este resultado demuestra que la funcionalidad es excelentemente recibida, confirmando su total relevancia para la ergonomía visual y adaptabilidad del usuario.
+
+<img src="assets/chapter08/Propietarios de equipos - pgt 4.png">
+
+- Alertas y Recordatorios Automáticos:
+
+El 64.7% de los usuarios consideró de alta utilidad (puntuaciones de 4 y 5) las alertas automáticas para cumplir con las fechas de mantenimiento, este resultado confirma que la automatización de notificaciones es una funcionalidad indispensable para la correcta operación y prevención de los equipos.
+
+<img src="assets/chapter08/Propietarios de equipos - pgt 5.png">
+
+<br>
+
+**Segmento 2: Técnicos de Mantenimiento (Technicians)**
+
+- **Pregunta 1:** ¿Considera que recibir reseñas (Reviews) y calificaciones directamente en su perfil le ayudará a fidelizar clientes y conseguir más servicios? (Opciones: 1 - Nada útil a 5 - Muy útil)
+
+- **Pregunta 2:** ¿Cree que el sistema de Reviews motivará a los clientes a darle una retroalimentación más honesta y frecuente sobre sus intervenciones? (Opciones: Totalmente de acuerdo, De acuerdo, Neutral, En desacuerdo)
+
+- **Pregunta 3:** ¿Siente que poder generar al instante un reporte en PDF tras completar un servicio agilizará significativamente su flujo de trabajo? (Opciones: Sí / No / Tal vez)
+
+- **Pregunta 4:** ¿Qué tanto cree que la exportación de reportes a PDF mejorará la imagen de profesionalismo que proyecta hacia los dueños de los equipos? (Opciones: 1 - Nada a 5 - Muchísimo)
+
+- **Pregunta 5:** ¿El nuevo Modo oscuro y el ajuste de colores/texto mejoran su visibilidad y facilidad de uso cuando está operando en terreno con luz variable? (Opciones: Sí / No / Me es indiferente)
+
+*Evaluación de Características*
+
+- Reseñas y Calificaciones para Fidelización:
+
+El 77.8% de los participantes (sumando las puntuaciones altas de 4 y 5) considera que recibir reseñas y calificaciones directamente en su perfil les ayudará a fidelizar clientes y conseguir más servicios, este resultado demuestra que la funcionalidad es percibida como una herramienta altamente estratégica para potenciar la reputación y el crecimiento comercial.
+
+<img src="assets/chapter08/Técnicos - pgt 1.png">
+ 
+-Sistema de Reviews para Retroalimentación:
+
+El 100% de los encuestados (sumando el 55.6% "De acuerdo" y el 44.4% "Totalmente de acuerdo") cree que el sistema motivará a los clientes a dar una retroalimentación más honesta y frecuente sobre sus intervenciones, este resultado demuestra que la funcionalidad es perfecta para fomentar la transparencia y asegurar un canal confiable de mejora continua.
+
+<img src="assets/chapter08/Técnicos - pgt 2.png">
+
+- Modo Oscuro y Visibilidad en Terreno:
+
+El 66.7% de los usuarios afirmó que el modo oscuro y el ajuste de colores mejoran su visibilidad y facilidad de uso cuando operan en terreno con luz variable, este resultado demuestra que la funcionalidad es práctica, efectiva y necesaria para adaptar la plataforma a las condiciones reales e impredecibles del entorno de trabajo.
+
+<img src="assets/chapter08/Técnicos - pgt 3.png">
+
+- Exportación a PDF para Imagen de Profesionalismo:
+
+El 66.7% de los participantes (calificaciones de 4 y 5) indicó que la exportación de reportes a PDF mejorará la imagen de profesionalismo que proyectan hacia los dueños de los equipos, este resultado demuestra que la funcionalidad añade un valor estético y formal que eleva la percepción del servicio brindado.
+
+<img src="assets/chapter08/Técnicos - pgt 4.png">
+
+- Reportes PDF para Agilizar el Flujo de Trabajo:
+
+El 88.9% de los encuestados siente que poder generar un reporte en PDF al instante, tras completar un servicio, agilizará significativamente su flujo de trabajo, este resultado demuestra que la funcionalidad es clave para la eficiencia operativa, eliminando cuellos de botella administrativos y ahorrando tiempo valioso.
+
+<img src="assets/chapter08/Técnicos - pgt 5.png">
+
+Conclusión : 
+
+Las nuevas funcionalidades han sido validadas exitosamente por los usuarios. La plataforma no solo ha mejorado su usabilidad técnica en terreno, sino que ahora proporciona herramientas de gran valor comercial y administrativo que impactan directamente en la rentabilidad, la eficiencia y la imagen profesional de quienes la utilizan.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog 
+
+| Prioridad | Pregunta |
+|-|-|
+| 1 | ¿Aumentará la cantidad y calidad de la retroalimentación recibida mediante encuestas de satisfacción automatizadas después de cada intervención? |
+| 2 | ¿Mejorará la experiencia de usuario la incorporación de opciones de personalización visual como modo oscuro y temas de color? |
+| 3 | ¿Aumentará el valor percibido de la plataforma al permitir la exportación de reportes en formato PDF? |
+| 5 | ¿Reducirán las alertas automáticas de mantenimiento preventivo los olvidos y retrasos en los mantenimientos programados? |
+| 8 | ¿Mejorará la gestión de sitios y equipos la incorporación de una vista geográfica interactiva dentro de la plataforma? |
 
 
 ## 8.5. Continuous Learning 
