@@ -1,38 +1,56 @@
-<div align = "center">
- <h1>Universidad Peruana de Ciencias Aplicadas</h1>
- <img style="height: 200px" src="assets/chapter01/upc.png">
-  <h2>Carrera: Ingeniería de Software</h2>
-  <h2>Periodo: 2026-10</h2>
-<br>
-  <h2>Curso: Diseño de Experimentos de Ingeniería de Software</h2>
-  <h2>Codigo del Curso: 1ASI0732</h2>
-  <h2>NRC: 12316</h2>
-  <h2>Profesor: Julio Manuel Noriega Melendez</h2>
-<br>
- <h1>Informe del Avance 2</h1>
-  <h2>Startup: Frostshield </h2>
-  <h2>Producto: IceTrack </h2>
-<br>
-  <h2>Integrantes</h2>
- 
+ <p align="center">
+  <img style="height: 200px" src="assets/chapter01/upc.png">
+</p>
+
 <div align="center">
- 
-| <div style="width:500px">Alumno</div> | <div style="width:200px">Código</div> |
-| :-----------------------------------: | :-----------------------------------: |
-|  Gonzales Alvarado, Javier Sebastian  |  U202312966                           |
-|  Gordon Salas, Gabriel Fernando       |  U20221E229                           |
-|  Guillen Galindo, Julio Adolfo    	  |  U20241a352                           |
-|  Jiménez Guerra, Gianmarco Fabian     |  U202123843                           |
-|  Melgarejo Gomez, Marcia Victoria     |  U20231C505                           |
-|  Quijada Magro, Jeremy Alexander      |  U202219657                           |
+
+  Universidad Peruana de Ciencias Aplicadas
+
+  Carrera de Ingeniería de Software
+
+  **1ASI0732**
+
+  **Diseño de Experimentos de Ingeniería de Software**
+
+  NRC
+
+  **12316**
+
+
+  **Informe del Trabajo Final**
+
+
+  Docente: 
+
+  **Noriega Melendez, Julio Manuel**
+
+  Equipo:
+
+  **FrostShield**
+
+  Proyecto: 
+
+  **IceTrack**
+
+  <br>
+
+  Integrantes
+  
+  | <div style="width:500px">Alumno</div> | <div style="width:200px">Código</div> |
+  | :-----------------------------------: | :-----------------------------------: |
+  |  Gonzales Alvarado, Javier Sebastian  |  U202312966                           |
+  |  Gordon Salas, Gabriel Fernando       |  U20221E229                           |
+  |  Guillen Galindo, Julio Adolfo    	  |  U20241a352                           |
+  |  Jiménez Guerra, Gianmarco Fabian     |  U202123843                           |
+  |  Melgarejo Gomez, Marcia Victoria     |  U20231C505                           |
+  |  Quijada Magro, Jeremy Alexander      |  U202219657                           |
+
+  <br>
+
+   <p>Julio 2026</p>
 
 </div>
-
-<br>
-
-   <h3>Abril 2026</h3>
-
-</div>
+<div style="page-break-after: always;"></div>
 
 ## Registro de Versiones del Informe
 
@@ -258,17 +276,16 @@ Durante la fase de preparación del informe, se llevaron a cabo las siguientes a
 ## Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 5**
+**ABET – EAC - Student Outcome 4**
 
-**Criterio**: *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+**Criterio**: *La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 4.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :------------------ | :------------------ | :----------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas. **Avance 2:** Realizo el proceso del experiment planning para esta entrega. </li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend. **Avance 2:** Se enfoco en el deploy de los ambientes de exprimentacion y final. </li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua. **Avance 2:** Se enfoco en el desarrollo del expriment design, con enfoque en las hipotesis. </li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario. **Avance 2:** Se enfoco en el desarrollo de las pruebas en lighthouse para la plataforma y su documentacion. </li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.  **Avance 2:** Se enfoco en el desarrollo de las user stories para los nuevos cambios enfocados en nuestros usuarios. </li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas. **Avance 2:** Se enfoco en el desarrollo de product backlog para las user stories.</li></ul>  | <ul> **Avance 1:** El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada integrante, logrando la integración exitosa del proyecto y asegurando calidad tanto en pruebas como en automatización. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas. **Avance 2:** El equipo distribuyó el capitulo VIII para el desarollo del experiment planing en esta entrega: por un lado se documento todos apartados del capitulo, por otro se realizaron las pruebas para obtener la informacion necesaria.</ul> |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Lideró la arquitectura del sistema y la fase de QA, asegurando que las variables de monitoreo estuvieran correctamente validadas y que el prototipo tuviera trazabilidad técnica. **TP:** Actuó como analista QA, diseñando y ejecutando pruebas de validación sobre los componentes críticos, garantizando la calidad del pipeline de integración y pruebas. **Avance 2:** Realizo el proceso del experiment planning para esta entrega. </li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Lideró el desarrollo del Backend API y la gestión de la base de datos distribuida, asegurando consistencia en la lógica de negocio. **TP:** Se encargó del análisis estático de código y la implementación de seguridad JWT, aportando prácticas de integración continua y control de calidad para robustecer el backend. **Avance 2:** Se enfoco en el deploy de los ambientes de exprimentacion y final. </li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Lideró el diseño de la Landing Page y la estrategia de comunicación del producto. **TP:** Elaboró documentación técnica y coordinó revisiones de código, asegurando que la comunicación del producto estuviera alineada con las prácticas de entrega continua. **Avance 2:** Se enfoco en el desarrollo del expriment design, con enfoque en las hipotesis. </li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Lideró el análisis de requerimientos y la validación de escenarios de usuario. **TP:** Diseñó y registró entrevistas de validación, además de definir métricas de monitoreo y alertas para garantizar la trazabilidad de la experiencia del usuario. **Avance 2:** Se enfoco en el desarrollo de las pruebas en lighthouse para la plataforma y su documentacion. </li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Lideró el diseño visual (UI) y la creación de prototipos de alta fidelidad. **TP:** Realizó evaluaciones heurísticas de accesibilidad y usabilidad, validando la interfaz en entornos de despliegue continuo.  **Avance 2:** Se enfoco en el desarrollo de las user stories para los nuevos cambios enfocados en nuestros usuarios. </li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Lideró la planificación de Sprints y la organización del equipo mediante el Lean UX Canvas. **TP:** Coordinó revisiones y validaciones, gestionando el backlog y supervisando el pipeline de despliegue por etapas. **Avance 2:** Se enfoco en el desarrollo de product backlog para las user stories.</li></ul>  | <ul> **Avance 1:** El equipo distribuyó el liderazgo de forma equitativa según la especialidad de cada integrante, logrando la integración exitosa del proyecto y asegurando calidad tanto en pruebas como en automatización. **TP:** Los capítulos de Testing/Validación y DevOps/Automatización resumen el esfuerzo del equipo en dos frentes complementarios: por un lado, se aseguraron la calidad y confiabilidad del sistema mediante pruebas unitarias, análisis estático, entrevistas de validación y evaluaciones heurísticas; y por otro, se implementaron prácticas de integración y despliegue continuo, pipelines de construcción y pruebas, automatización de entregas y monitoreo con alertas. **Avance 2:** El equipo distribuyó el capitulo VIII para el desarollo del experiment planing en esta entrega: por un lado se documento todos apartados del capitulo, por otro se realizaron las pruebas para obtener la informacion necesaria.</ul> |
-
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Diseñó la arquitectura del sistema priorizando la confiabilidad del monitoreo de la cadena de frío y la correcta gestión de datos críticos. **TP:** Definió y ejecutó pruebas de calidad para verificar el correcto funcionamiento de los componentes antes de su despliegue, promoviendo buenas prácticas de aseguramiento de la calidad. **Avance 2:** Estableció criterios objetivos durante el Experiment Planning para validar las hipótesis de manera responsable y basada en evidencia.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Implementó el Backend API asegurando la integridad y consistencia de la información procesada por la plataforma. **TP:** Incorporó autenticación mediante JWT y realizó análisis estático del código para proteger la información de los usuarios y reducir vulnerabilidades de seguridad. **Avance 2:** Supervisó el despliegue de los ambientes verificando configuraciones consistentes antes de la experimentación.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Diseñó la Landing Page comunicando de forma transparente los objetivos y beneficios de FrostShield - IceTrack para los usuarios. **TP:** Elaboró la documentación técnica asegurando la trazabilidad entre los requerimientos, el diseño y la solución implementada. **Avance 2:** Desarrolló el Experiment Design definiendo hipótesis medibles y criterios de validación sustentados en evidencia.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Analizó los requerimientos considerando las necesidades reales de los usuarios para desarrollar una solución confiable. **TP:** Diseñó entrevistas y métricas de validación para verificar que la plataforma respondiera adecuadamente a las expectativas de los usuarios. **Avance 2:** Ejecutó pruebas con Lighthouse documentando objetivamente los resultados obtenidos.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Diseñó interfaces centradas en el usuario aplicando criterios de accesibilidad y facilidad de uso. **TP:** Realizó evaluaciones heurísticas para identificar problemas de usabilidad y proponer mejoras que favorecieran una experiencia inclusiva. **Avance 2:** Actualizó las User Stories incorporando el feedback obtenido durante las validaciones con usuarios.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Priorizó funcionalidades considerando las necesidades identificadas en la investigación con usuarios. **TP:** Gestionó el Product Backlog garantizando que las actividades del equipo respondieran a los objetivos definidos y a los resultados de las validaciones. **Avance 2:** Coordinó la planificación de las nuevas funcionalidades considerando la evidencia obtenida durante la experimentación.</li></ul> | <ul><li><b>Avance 1:</b> El equipo asumió la responsabilidad profesional desarrollando una solución orientada a la confiabilidad del monitoreo y a las necesidades reales de los usuarios.</li><li><b>TP:</b> La implementación de mecanismos de seguridad, pruebas, validaciones y documentación permitió garantizar una plataforma confiable, segura y desarrollada bajo buenas prácticas de ingeniería de software.</li><li><b>Avance 2:</b> La experimentación fortaleció el compromiso ético del equipo al sustentar las decisiones de mejora mediante evidencia objetiva.</li></ul> |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales. | <ul><li><b>Quijada Magro, Jeremy Alexander:</b> **Avance 1:** Evaluó el impacto de una arquitectura confiable en la reducción de errores durante el monitoreo de productos refrigerados. **TP:** Analizó los resultados obtenidos en las pruebas para sustentar decisiones de mejora orientadas a la confiabilidad del sistema. **Avance 2:** Participó en la interpretación de los resultados experimentales para validar las hipótesis planteadas.</li><li><b>Guillen Galindo, Julio Adolfo:</b> **Avance 1:** Analizó cómo una gestión segura y consistente de la información contribuye a incrementar la confianza de los usuarios en la plataforma. **TP:** Evaluó el impacto de los mecanismos de seguridad implementados sobre la protección de los datos y la calidad del servicio. **Avance 2:** Comparó el comportamiento del sistema en los ambientes de experimentación para respaldar decisiones de despliegue.</li><li><b>Gonzales Alvarado, Javier:</b> **Avance 1:** Analizó cómo la comunicación clara del producto favorece la adopción de la solución por parte de empresas y usuarios. **TP:** Formuló hipótesis relacionadas con la propuesta de valor y evaluó sus resultados mediante el Experiment Design. **Avance 2:** Interpretó la información obtenida durante la experimentación para sustentar mejoras funcionales.</li><li><b>Jiménez Guerra, Gianmarco:</b> **Avance 1:** Recopiló información de los usuarios para comprender el impacto de la solución sobre sus procesos de monitoreo. **TP:** Analizó las respuestas de las entrevistas y métricas de experiencia de usuario para priorizar mejoras sustentadas en evidencia. **Avance 2:** Evaluó los indicadores obtenidos con Lighthouse para determinar oportunidades de optimización de la plataforma.</li><li><b>Melgarejo Gomez, Marcia Victoria:</b> **Avance 1:** Evaluó el impacto de la interfaz sobre la experiencia de los usuarios mediante prototipos y validaciones. **TP:** Analizó los resultados de las evaluaciones heurísticas para priorizar mejoras de accesibilidad y usabilidad. **Avance 2:** Refinó las User Stories considerando la evidencia obtenida durante el proceso experimental.</li><li><b>Gordon Salas, Gabriel Fernando:</b> **Avance 1:** Priorizó las funcionalidades considerando el valor que aportaban a los usuarios y al negocio. **TP:** Analizó el avance del Product Backlog utilizando los resultados de las validaciones para reorganizar prioridades. **Avance 2:** Coordinó la incorporación de mejoras sustentadas en la evidencia obtenida durante la experimentación.</li></ul> | <ul><li><b>Avance 1:</b> El equipo evaluó el impacto de FrostShield - IceTrack en la reducción de pérdidas de productos refrigerados, la mejora de la trazabilidad y la optimización del monitoreo de la cadena de frío.</li><li><b>TP:</b> Las entrevistas, pruebas de usuario, evaluaciones heurísticas y métricas técnicas permitieron emitir juicios fundamentados sobre el impacto económico, social y técnico de la solución antes de implementar nuevas mejoras.</li><li><b>Avance 2:</b> Los resultados experimentales respaldaron la toma de decisiones basada en datos, permitiendo evolucionar la plataforma de forma responsable y orientada a generar mayor valor para los usuarios.</li></ul> |
 # Capitulo 1: Introducción
 
 ## 1.1 Startup Profile
