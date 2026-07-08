@@ -3904,8 +3904,22 @@ Link del video:
 'https://1drv.ms/v/c/805e82708c420c17/IQC-ThGcer1ES7eS0JZ0QkPIAaqJ-MovclgJdBZke4kadYM?e=xO3Wvl'
 
 
-
 # Conclusiones
+
+## About The Team
+Cada integrante cuenta su experiencia dentro del proyecto, explicando qué tareas asumió, qué dificultades aparecieron durante el proceso y de qué manera las superó. También se destacan los principales avances logrados, como la creación de una interfaz fácil de usar, la colaboración con distintos refugios y la incorporación de funciones esenciales para fomentar una adopción responsable.
+
+El video cierra con una reflexión grupal sobre todo lo aprendido, resaltando tanto el crecimiento técnico como el fortalecimiento de las habilidades sociales. Finalmente, el equipo expresa su agradecimiento y comenta de forma breve cuál fue su aporte personal al proyecto.
+
+Link:  https://www.youtube.com/watch?v=Au_UI13KXkM
+
+## App Validation
+
+Se le envio a nuestro usuarios el link de la aplicacion deplegada en la plataforma de desarrollo, donde se pueden ver las funcionalidades de la aplicación, así como las características de las herramientas utilizadas para la validación.
+
+![Shareback-evidence-1](assets/chapter08/shareback-evidence1.png)
+
+Link: https://www.youtube.com/watch?v=Au_UI13KXkM
 
 ## Conclusiones y Recomendaciones
 
