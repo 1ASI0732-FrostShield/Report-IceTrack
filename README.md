@@ -2652,16 +2652,39 @@ Se aplican las convenciones oficiales de Microsoft:
 La calidad del código y la seguridad son pilares esenciales para garantizar un software confiable y mantenible.  
 
 - **Calidad del Código (Backend y Frontend):**  
-  En el backend desarrollado en C# con Rider, utilizamos SonarQube Cloud para medir métricas clave como complejidad ciclomática, duplicación y mantenibilidad. El análisis continuo nos permite detectar problemas de fiabilidad y mantener un estándar de calidad alto. En el frontend construido en Vue.js, aplicamos ESLint junto con SonarQube para validar estilo, buenas prácticas y consistencia en el código, asegurando que cada commit cumpla con las reglas establecidas.  
+  En el backend desarrollado en C# con Rider, utilizamos SonarQube Cloud para medir métricas clave como complejidad ciclomática, duplicación y mantenibilidad. El análisis continuo nos permite detectar problemas de fiabilidad y mantener un estándar de calidad alto. En el frontend construido en Vue.js, aplicamos ESLint junto con SonarQube para validar estilo, buenas prácticas y consistencia en el código, identificando incumplimientos para su corrección durante el desarrollo.
 
 - **Seguridad del Código:**  
   SonarQube también nos ayuda a identificar vulnerabilidades comunes como inyecciones SQL y Cross-Site Scripting (XSS). Además, se revisan los *security hotspots* para mitigar riesgos en etapas tempranas del desarrollo. En el frontend, ESLint contribuye a reducir errores que podrían derivar en fallos de seguridad, complementando la revisión manual y las prácticas de codificación segura.  
 
-###### Prueba de SonarQube Cloud:
-![SonarQ](assets/chapter06/SonarQ-Back.png)
 
-###### Prueba de ESLint:
-![EsLint](assets/chapter06/EsLint-Front.png)
+<summary><b>Frontend — ESLint</b></summary>
+
+###### Diagnóstico Inicial:
+![EsLint-Diagnostico](assets/chapter06/EsLint-Front.png)
+*Ejecución inicial de ESLint: se detectaron 11 errores correspondientes a componentes y variables no utilizadas en archivos como site-detail.vue, login.vue y register.vue.*
+
+**Correcciones Aplicadas:**  
+Se eliminaron las importaciones de componentes no utilizados y las variables declaradas pero no referenciadas en los archivos identificados, alineando el código con las reglas de ESLint configuradas para el proyecto.
+
+###### Validación Final:
+![EsLint-Limpio](assets/chapter06/Eslint-Mejora.png)
+*Ejecución final posterior a las correcciones: 0 problemas detectados, confirmando la conformidad con los estándares de codificación establecidos.*
+
+<summary><b>Backend — SonarQube Cloud</b></summary>
+
+###### Diagnóstico Inicial:
+![SonarQ-Diagnostico](assets/chapter06/SonarQ-Back.png)
+*Análisis inicial de SonarQube Cloud: se identificaron security hotspots que requerían revisión para mitigar riesgos potenciales.*
+
+**Correcciones Aplicadas:**  
+Se revisaron y resolvieron los security hotspots reportados, aplicando las prácticas de codificación segura recomendadas por la herramienta.
+
+###### Validación Final:
+![SonarQ-Limpio](assets/chapter06/SonarQ-Back-Clean.png)
+*Análisis final posterior a las correcciones: los security hotspots fueron mitigados, mejorando la postura de seguridad del backend.*
+
+</details>
 
 ### 6.2.2 Reviews
 
@@ -3932,6 +3955,13 @@ Link del video:
 - **URL del Frontend desplegado:** 
   https://ice-track-frontend.vercel.app/
   <br>
+- **URL del Backend experimental desplegado:** 
+  https://platform-icetrack.onrender.com/swagger/index.html
+  <br>
+- **URL del Frontend experimental desplegado:** 
+  https://frontend-ice-track.vercel.app/auth/login
+  <br>
+
 - **URL del Backend desplegado:** 
   https://icetrack-platform.onrender.com
   <br>
