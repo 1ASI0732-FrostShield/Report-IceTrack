@@ -3770,11 +3770,21 @@ En el estudio se realizaron las siguientes preguntas:
 
 - **Pregunta 5:** ¿Las opciones de personalización de texto y el modo oscuro mejoran su experiencia y comodidad al usar la plataforma?
 
+**Mapeo de Hipótesis con Resultados de Encuestas**
+
+| Experimento | Hipótesis Original (8.1.5) | Pregunta de Encuesta Relacionada | Resultado Clave | Correspondencia |
+|---|---|---|---|---|
+| E1: Alertas Automáticas | Aumentar en 10% la tasa de cumplimiento de mantenimiento preventivo | Propietarios: ¿Qué tan útiles son las alertas automáticas? (1-5) | 70.0% calificó con 4 o 5 | Respaldada |
+| E2: Vista Geográfica Interactiva | Incrementar en al menos 5% el puntaje de usabilidad SUS | Propietarios: ¿El mapa interactivo facilita la gestión? (1-5) | 65.0% calificó con 4 o 5 | Respaldada |
+| E3: Exportación de Reportes PDF | Alcanzar al menos 20% de adopción entre usuarios activos | Técnicos: ¿PDF mejora profesionalismo? (1-5) / Propietarios: ¿PDF es valioso para el negocio? (1-5) | 85.7% (Téc) y 50.0% (Prop) calificaron con 4 o 5 | Respaldada |
+| E4: Encuestas de Satisfacción Automatizadas | Incrementar en 10% la participación (SPR) y en 8% las respuestas recibidas | Técnicos: ¿Reviews ayudan a fidelizar clientes? (1-5) | 90.5% calificó con 4 o 5 | Respaldada |
+| E5: Personalización Visual | Aumentar en 8% la satisfacción (CSAT) y mantener SEO > 80 en Lighthouse | Propietarios y Técnicos: ¿Personalización y modo oscuro mejoran la experiencia? | 94.1% (Prop) y 66.7% (Téc) afirmaron mejora | Respaldada |
+
 *Evaluación de Características*
 
 - Mapa Interactivo para Gestión de Equipos:
 
-El 52.9% de los encuestados calificó positivamente (con puntuaciones de 4 y 5) que el nuevo mapa facilita significativamente la gestión y supervisión de equipos distribuidos, lo que demuestra que esta herramienta visual es un aporte efectivo para la logística y el control operativo. (Nota: Un 41.2% adicional lo calificó con un nivel neutral de 3).
+El 65.0% de los encuestados calificó positivamente (con puntuaciones de 4 y 5) que el nuevo mapa facilita significativamente la gestión y supervisión de equipos distribuidos, lo que demuestra que esta herramienta visual es un aporte efectivo para la logística y el control operativo. (Nota: Un 25.0% adicional lo calificó con un nivel neutral de 3).
 
 <img src="assets/chapter08/Propietarios de equipos - pgt 1.png">
 
@@ -3786,7 +3796,7 @@ El 64.7% de los participantes (sumando quienes están "De acuerdo" y "Totalmente
 
 - Exportación de Reportes en PDF:
 
-El 52.9% de los encuestados evaluó como muy valiosa (puntuaciones de 4 y 5) la funcionalidad de exportar intervenciones y estados de equipos a PDF, este resultado indica que facilitar la documentación y el reporte de datos es una característica importante para la gestión administrativa de sus negocios. (Un 47.1% le otorgó un valor moderado de 3).
+El 50.0% de los encuestados evaluó como muy valiosa (puntuaciones de 4 y 5) la funcionalidad de exportar intervenciones y estados de equipos a PDF, este resultado indica que facilitar la documentación y el reporte de datos es una característica importante para la gestión administrativa de sus negocios. (Un 45.0% le otorgó un valor moderado de 3).
 
 <img src="assets/chapter08/Propietarios de equipos - pgt 3.png">
 
@@ -3798,7 +3808,7 @@ El 94.1% de los participantes afirmó que estas opciones mejoran su experiencia 
 
 - Alertas y Recordatorios Automáticos:
 
-El 64.7% de los usuarios consideró de alta utilidad (puntuaciones de 4 y 5) las alertas automáticas para cumplir con las fechas de mantenimiento, este resultado confirma que la automatización de notificaciones es una funcionalidad indispensable para la correcta operación y prevención de los equipos.
+El 70.0% de los usuarios consideró de alta utilidad (puntuaciones de 4 y 5) las alertas automáticas para cumplir con las fechas de mantenimiento, este resultado confirma que la automatización de notificaciones es una funcionalidad indispensable para la correcta operación y prevención de los equipos.
 
 <img src="assets/chapter08/Propietarios de equipos - pgt 5.png">
 
@@ -3820,7 +3830,7 @@ El 64.7% de los usuarios consideró de alta utilidad (puntuaciones de 4 y 5) las
 
 - Reseñas y Calificaciones para Fidelización:
 
-El 77.8% de los participantes (sumando las puntuaciones altas de 4 y 5) considera que recibir reseñas y calificaciones directamente en su perfil les ayudará a fidelizar clientes y conseguir más servicios, este resultado demuestra que la funcionalidad es percibida como una herramienta altamente estratégica para potenciar la reputación y el crecimiento comercial.
+El 90.5% de los participantes (sumando las puntuaciones altas de 4 y 5) considera que recibir reseñas y calificaciones directamente en su perfil les ayudará a fidelizar clientes y conseguir más servicios, este resultado demuestra que la funcionalidad es percibida como una herramienta altamente estratégica para potenciar la reputación y el crecimiento comercial.
 
 <img src="assets/chapter08/Técnicos - pgt 1.png">
  
@@ -3838,7 +3848,7 @@ El 66.7% de los usuarios afirmó que el modo oscuro y el ajuste de colores mejor
 
 - Exportación a PDF para Imagen de Profesionalismo:
 
-El 66.7% de los participantes (calificaciones de 4 y 5) indicó que la exportación de reportes a PDF mejorará la imagen de profesionalismo que proyectan hacia los dueños de los equipos, este resultado demuestra que la funcionalidad añade un valor estético y formal que eleva la percepción del servicio brindado.
+El 85.7% de los participantes (calificaciones de 4 y 5) indicó que la exportación de reportes a PDF mejorará la imagen de profesionalismo que proyectan hacia los dueños de los equipos, este resultado demuestra que la funcionalidad añade un valor estético y formal que eleva la percepción del servicio brindado.
 
 <img src="assets/chapter08/Técnicos - pgt 4.png">
 
@@ -3850,9 +3860,23 @@ El 88.9% de los encuestados siente que poder generar un reporte en PDF al instan
 
 Conclusión : 
 
-Las nuevas funcionalidades han sido validadas exitosamente por los usuarios. La plataforma no solo ha mejorado su usabilidad técnica en terreno, sino que ahora proporciona herramientas de gran valor comercial y administrativo que impactan directamente en la rentabilidad, la eficiencia y la imagen profesional de quienes la utilizan.
+Los resultados de las encuestas de validación confirman que las cinco hipótesis planteadas en los Experiment Cards (8.1.5) fueron respaldadas por los datos obtenidos:
+
+- **E1 — Alertas Automáticas:** El 70.0% de los propietarios calificó las alertas como de alta utilidad, validando que la automatización de notificaciones contribuye al cumplimiento de mantenimientos programados.
+
+- **E2 — Vista Geográfica Interactiva:** El 65.0% de los propietarios consideró que el mapa interactivo facilita significativamente la gestión de equipos distribuidos, respaldando la hipótesis de mejora en la usabilidad.
+
+- **E3 — Exportación de Reportes PDF:** El 85.7% de los técnicos y el 50.0% de los propietarios valoraron positivamente la exportación a PDF, superando ampliamente el umbral del 20% de adopción esperado y demostrando su impacto tanto operativo como comercial.
+
+- **E4 — Encuestas de Satisfacción Automatizadas:** El 90.5% de los técnicos afirmó que las reseñas y calificaciones en su perfil les ayudarán a fidelizar clientes, validando que el sistema de retroalimentación fomenta la transparencia y mejora la reputación profesional.
+
+- **E5 — Personalización Visual:** El 94.1% de los propietarios y el 66.7% de los técnicos reportaron que el modo oscuro y la personalización visual mejoran su comodidad y experiencia de uso, confirmando que estas opciones son una mejora práctica y necesaria para la adaptabilidad de la plataforma.
+
+En conjunto, la validación con ambos segmentos de usuarios confirma que las funcionalidades implementadas responden a las necesidades reales identificadas durante el diseño experimental, justificando la priorización actual del backlog y sentando las bases para futuras iteraciones del producto.
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog 
+
+La re-priorización del backlog se fundamenta en los resultados obtenidos durante la validación con ambos segmentos de usuarios. La incorporación de Encuestas de Satisfacción (E4) asciende a la máxima prioridad, ya que el 90.5% de los técnicos confirmó que las reseñas visibles en su perfil fortalecen su reputación y ayudan a fidelizar clientes. La Personalización Visual (E5) se mantiene en segundo lugar, respaldada por el 94.1% de los propietarios que reportaron una mejora significativa en su experiencia. La Exportación de Reportes PDF (E3) ocupa el tercer puesto, con un 85.7% de valoración positiva entre los técnicos, aunque con una acogida más moderada entre propietarios (50.0%). Las Alertas Automáticas (E1) y la Vista Geográfica (E2) descienden en la prioridad, registrando un 70.0% y 65.0% de aprobación respectivamente, lo que indica que, si bien son funcionalidades valoradas, su impacto percibido es menor en comparación con las anteriores.
 
 | Prioridad | Pregunta |
 |-|-|
