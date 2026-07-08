@@ -3593,6 +3593,8 @@ El seguimiento continuo se enfocará en:
 
 ### **Alertas automáticas de mantenimiento preventivo**
 
+![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-0.png)
+
 ![RESTful evidence](assets/chapter08/ImplementedToBeFrontendWebApplicationEvidence/ImplementedToBeFrontendWebApplicationEvidence-1.png)
 
 ### **Vista geográfica interactiva de sitios y equipos**
