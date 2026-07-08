@@ -2681,7 +2681,7 @@ Se eliminaron las importaciones de componentes no utilizados y las variables dec
 Se revisaron y resolvieron los security hotspots reportados, aplicando las prácticas de codificación segura recomendadas por la herramienta.
 
 ###### Validación Final:
-![SonarQ-Limpio](assets/chapter06/SonarQ-Back-Clean.png)
+![SonarQ-Limpio](assets/chapter06/SonarQ-Mejora.png)
 *Análisis final posterior a las correcciones: los security hotspots fueron mitigados, mejorando la postura de seguridad del backend.*
 
 </details>
@@ -2748,10 +2748,28 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 **Resumen de la entrevista:**
 
-Hector, nos comentó que no tuvo dificultades para regresar a pantallas anteriores o cancelar una
-acción en curso, como cuando editaba información sobre sus recursos y activos dentro de la aplicación. También destacó que la estructura es sumamente limpia, lo que evita la sobrecarga cognitiva y permite que un técnico se enfoque en las tareas prioritarias, como las solicitudes pendientes. 
+Hector, nos comentó que no tuvo dificultades para regresar a pantallas anteriores o cancelar una acción en curso, como cuando editaba información sobre sus recursos y activos dentro de la aplicación. También destacó que la estructura es sumamente limpia, lo que evita la sobrecarga cognitiva y permite que un técnico se enfoque en las tareas prioritarias, como las solicitudes pendientes. 
 
 El entrevistado concluyó que IceTrack presenta una arquitectura de información sólida y un diseño minimalista que facilita la operatividad diaria. Calificó la herramienta como práctica y eficiente con las necesidades reales de un proveedor de servicios técnicos.
+
+**Segmento objetivo: Negocios con equipos de refrigeración**
+
+**Entrevista 01**
+
+- **Nombres:** Mauricio
+- **Apellidos:** Mego
+- **Edad:** 21 años
+- **Distrito:** Lima
+
+**Evidencia de la reunión:**
+
+![Entrevista-2-segmento1.png](assets/chapter02/entrevista-2-segmento1.png)
+
+- **Enlace de entrevista:**  [`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/EceJ9blY8XxCtV5UevVH-7sBMvCyM6BVY5_L9s-novpIcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wwa7i3`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/EceJ9blY8XxCtV5UevVH-7sBMvCyM6BVY5_L9s-novpIcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wwa7i3)
+- **Resumen:** 
+Mauricio administra un negocio dedicado al almacenamiento de carnes, pescados y alimentos que requieren refrigeración. Al revisar la página de la aplicación IceTrack, comentó que le gustó lo que vio y considera que la propuesta responde a sus necesidades de control y mantenimiento de equipos. Sin embargo, señaló que le gustaría contar con mejores opciones de personalización visual, como ajustes de colores o tamaños de letras, para que la experiencia sea más cómoda y atractiva.
+
+En conclusión, Mauricio muestra interés en adquirir una aplicación como IceTrack, ya que le brinda confianza en la gestión de sus equipos de refrigeración, y con algunos ajustes en la presentación visual podría sentirse aún más satisfecho con la solución.
 
 ### 6.3.3 Evaluaciones según heurísticas
 
